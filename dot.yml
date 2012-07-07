@@ -231,6 +231,10 @@ recipes:
     path: symfony
     tags: kemet,must_have
 
+  - name: clivern/kemet/cheat
+    path: cheat
+    tags: kemet,must_have
+
   # Hashicorp products
   - name: clivern/kemet/consul
     path: consul
@@ -408,4 +412,5 @@ run:
   - name: clivern/kemet/rhino
   - name: clivern/kemet/bazel
   - name: clivern/kemet/symfony
+  - name: clivern/kemet/cheat
   - name: clivern/kemet/configs
