@@ -119,6 +119,12 @@ $ export OPENAI_API_KEY="$(op secret get clivern/ai/openai_api_key -o json | jq 
 $ source ~/.secrets
 ```
 
+11. To list all recipes
+
+```
+$ op recipe list -o json | jq '.[].name'
+```
+
 
 ### License
 
