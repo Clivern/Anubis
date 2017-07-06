@@ -2,6 +2,11 @@
 
 # Define a list of commands
 commands=(
+    "make hosts"
+    "make config"
+    "make recipes"
+    "make run"
+    "pet search"
     "opswork recipe list -o json | jq '.[].name'"
     "opswork recipe run clivern/kemet/update -h localhost"
     "opswork recipe run clivern/kemet/upgrade -h localhost"
