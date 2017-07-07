@@ -139,6 +139,10 @@ recipes:
     path: httpie
     tags: kemet,must_have
 
+  - name: clivern/kemet/pet
+    path: pet
+    tags: kemet,must_have
+
   - name: clivern/kemet/screen
     path: screen
     tags: kemet,must_have
@@ -361,6 +365,7 @@ run:
   - name: clivern/kemet/kubectl
   - name: clivern/kemet/k6
   - name: clivern/kemet/httpie
+  - name: clivern/kemet/pet
   - name: clivern/kemet/screen
   - name: clivern/kemet/tfswitch
   - name: clivern/kemet/watch

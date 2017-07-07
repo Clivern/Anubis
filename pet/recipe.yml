@@ -19,3 +19,24 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
+
+tasks:
+  - name: download pet
+    unarchive:
+      src: https://github.com/knqyf263/pet/releases/download/v0.5.0/pet_0.5.0_darwin_amd64.tar.gz
+      dest: /tmp
+      remote_src: yes
+
+  - name: copy pet
+    copy:
+      src: /tmp/pet
+      dest: ~/bin/pet
+      mode: a+x
+      force: true
+
+  - name: get version
+    command: pet version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"
