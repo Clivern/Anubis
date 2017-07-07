@@ -20,4 +20,11 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+
 tasks:
+  - name: installing symfony-cli package
+    homebrew:
+      name: "{{ item }}"
+      state: present
+    with_items:
+      - symfony-cli/tap/symfony-cli
