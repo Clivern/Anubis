@@ -107,6 +107,10 @@ recipes:
     path: postgresql
     tags: kemet,must_have,db
 
+  - name: clivern/kemet/sq
+    path: sq
+    tags: kemet,must_have,db
+
   # Networking
   - name: clivern/kemet/nmap
     path: nmap
@@ -361,6 +365,7 @@ run:
   - name: clivern/kemet/netcat
   - name: clivern/kemet/mysql
   - name: clivern/kemet/postgresql
+  - name: clivern/kemet/sq
   - name: clivern/kemet/kubectx
   - name: clivern/kemet/kubectl
   - name: clivern/kemet/k6

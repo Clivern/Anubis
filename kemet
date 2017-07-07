@@ -81,6 +81,7 @@ commands=(
     "opswork recipe run clivern/linux/upgrade -h localhost"
     "opswork recipe run clivern/linux/vault -h localhost"
     "opswork recipe run clivern/linux/cmd -h localhost"
+    "opswork recipe run clivern/kemet/sq -h localhost"
 )
 
 # Use fzf to select a command from the list
