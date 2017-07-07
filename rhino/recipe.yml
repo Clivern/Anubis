@@ -19,3 +19,24 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
+
+tasks:
+  - name: download rhino
+    unarchive:
+      src: https://github.com/Clivern/Rhino/releases/download/v1.7.0/rhino_Darwin_x86_64.tar.gz
+      dest: /tmp
+      remote_src: yes
+
+  - name: copy rhino
+    copy:
+      src: /tmp/rhino
+      dest: ~/bin/rhino
+      mode: a+x
+      force: true
+
+  - name: get version
+    command: rhino version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"

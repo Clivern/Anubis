@@ -211,6 +211,10 @@ recipes:
     path: hurl
     tags: kemet,must_have,rust_pkgs
 
+  - name: clivern/kemet/rhino
+    path: rhino
+    tags: kemet,must_have
+
   # Hashicorp products
   - name: clivern/kemet/consul
     path: consul
@@ -383,5 +387,6 @@ run:
   - name: clivern/kemet/zoxide
   - name: clivern/kemet/hyperfine
   - name: clivern/kemet/hurl
+  - name: clivern/kemet/rhino
   - name: clivern/kemet/configs
 
