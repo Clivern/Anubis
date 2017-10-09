@@ -9,7 +9,7 @@
             <img src="https://img.shields.io/badge/Built_with-OpsWork-blue"/>
         </a>
         <a href="https://github.com/Clivern/Kemet/releases">
-            <img src="https://img.shields.io/badge/Version-3.1.2-1abc9c.svg">
+            <img src="https://img.shields.io/badge/Version-3.1.3-1abc9c.svg">
         </a>
         <a href="https://github.com/Clivern/Kemet/blob/master/LICENSE">
             <img src="https://img.shields.io/badge/LICENSE-MIT-blue.svg">
