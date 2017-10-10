@@ -36,6 +36,7 @@ $ git clone git@github.com:Clivern/Kemet.git ~/space/kemet
 
 ```zsh
 $ brew install yq
+$ brew install jq
 
 $ pip install ansible
 $ pip install opswork
