@@ -137,10 +137,6 @@ export PATH="$PATH:$NPM_PACKAGES/bin"
 # Otherwise, fall back to `manpath` so we can inherit from `/etc/manpath`.
 export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 
-# Dynamic environmental variables
-export OPENAI_API_KEY="$(op secret get clivern/ai/openai_api_key -o json | jq '.[0].value')"
-export GOOGLE_API_KEY="$(op secret get clivern/ai/google_palm_api_key -o json | jq '.[0].value')"
-
 source $HOME/.cargo/env
 
 eval "$(rbenv init - zsh)"

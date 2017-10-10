@@ -49,6 +49,7 @@ templates:
   zshrc.j2: zshrc.j2
   config_global.json.j2: config_global.json.j2
   kemet.j2: kemet.j2
+  secrets.j2: secrets.j2
 
 tasks:
   - name: ensures ~/.dolt dir exists
@@ -91,6 +92,7 @@ tasks:
       - { src: "screenrc.j2", dest: "~/.screenrc", mode: "0600" }
       - { src: "vimrc.j2", dest: "~/.vimrc", mode: "0600" }
       - { src: "zshrc.j2", dest: "~/.zshrc", mode: "0600" }
+      - { src: "secrets.j2", dest: "~/.secrets", mode: "0600" }
       - { src: "config_global.json.j2", dest: "~/.dolt/config_global.json", mode: "0600" }
       - { src: "kemet.j2", dest: "~/bin/kemet", mode: "a+x" }
 
