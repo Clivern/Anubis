@@ -39,6 +39,10 @@ recipes:
     path: gnu-tar
     tags: kemet,must_have
 
+  - name: clivern/kemet/jq
+    path: jq
+    tags: kemet,must_have
+
   # Web Servers
   - name: clivern/kemet/caddy
     path: caddy
@@ -324,6 +328,7 @@ run:
   - name: clivern/kemet/upgrade
   - name: clivern/kemet/base
   - name: clivern/kemet/gnu-tar
+  - name: clivern/kemet/jq
   - name: clivern/kemet/caddy
   - name: clivern/kemet/consul
   - name: clivern/kemet/packer
