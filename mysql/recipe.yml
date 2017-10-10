@@ -27,4 +27,4 @@ tasks:
       name: "{{ item }}"
       state: present
     with_items:
-      - mysql@5.7
+      - mysql@8.1
