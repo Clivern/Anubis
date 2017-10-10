@@ -100,6 +100,19 @@ $ opswork recipe run clivern/linux/cmd -h clivern -v cmd="reboot"
 $ opswork host ssh clivern
 ```
 
+8. Store the secrets.
+
+```zsh
+$ op secret add clivern/ai/google_palm_api_key "~~" -t ai
+$ op secret add clivern/ai/openai_api_key "~~" -t ai
+```
+
+9. Secret can be loaded as environmental variable by adding it to `configs/zshrc.j2`.
+
+```zsh
+$ export OPENAI_API_KEY="$(op secret get clivern/ai/openai_api_key -o json | jq '.[0].value')"
+```
+
 
 ### License
 
