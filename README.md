@@ -6,13 +6,13 @@
            <img src="https://github.com/Clivern/Kemet/actions/workflows/ci.yml/badge.svg?branch=main"/>
         </a>
         <a href="https://pypi.org/project/opswork/">
-            <img src="https://img.shields.io/badge/Built_with-OpsWork-red"/>
+            <img src="https://img.shields.io/badge/Built_with-OpsWork-blue"/>
         </a>
         <a href="https://github.com/Clivern/Kemet/releases">
             <img src="https://img.shields.io/badge/Version-3.1.1-1abc9c.svg">
         </a>
         <a href="https://github.com/Clivern/Kemet/blob/master/LICENSE">
-            <img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg">
+            <img src="https://img.shields.io/badge/LICENSE-MIT-blue.svg">
         </a>
     </p>
 </p>
@@ -96,7 +96,7 @@ $ opswork recipe run clivern/linux/upgrade -h clivern
 # Force Reboot
 $ opswork recipe run clivern/linux/cmd -h clivern -v cmd="reboot"
 
-# SSH to Any Host
+# SSH to any Host
 $ opswork host ssh clivern
 ```
 
