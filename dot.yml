@@ -248,6 +248,10 @@ recipes:
     path: poetry
     tags: kemet,must_have,pypkg
 
+  - name: clivern/kemet/jupyterlab
+    path: jupyterlab
+    tags: kemet,must_have,pypkg
+
   - name: clivern/kemet/pyinfra
     path: pyinfra
     tags: kemet,must_have,pypkg
@@ -356,6 +360,7 @@ run:
   - name: clivern/kemet/cowsay
   - name: clivern/kemet/copier
   - name: clivern/kemet/poetry
+  - name: clivern/kemet/jupyterlab
   - name: clivern/kemet/pyinfra
   - name: clivern/kemet/streamlit
   - name: clivern/kemet/github
