@@ -152,3 +152,6 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # Lock mac
 alias whf="pmset sleepnow"
+
+# Get Weather
+alias weather="curl http://wttr.in/"
