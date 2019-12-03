@@ -35,6 +35,7 @@ build:
 	$(BASH) ./bin/go_pkgs.sh
 	$(BASH) ./bin/hugo.sh
 	$(BASH) ./bin/fx.sh
+	$(BASH) ./bin/vim.sh
 	$(BASH) ./env.sh
 
 
