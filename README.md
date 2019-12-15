@@ -4,14 +4,11 @@
 
 ## Installation
 
-### Using Git and the bootstrap script
+1. Clone the repository wherever you want. I like to keep it in `~/Clivern/dotfiles`, with `~/dotfiles` as a symlink. Then run `make build` and it should set up everything. 
 
-You can clone the repository wherever you want. I like to keep it in `~/Clivern/dotfiles`, with `~/dotfiles` as a symlink. Then run `make build` and it should set up everything.
+2. Install all under `/dmg` manually
 
-### Configure Pet CLI Snippet Manager with Github
-
-Add `access_token` & `gist_id`
-
+3. Add `access_token` & `gist_id` to configure Pet cli snippet manager
 ```bash
 $ pet configure
 ```
