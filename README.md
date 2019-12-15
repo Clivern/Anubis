@@ -8,7 +8,7 @@
 
 2. Install all under `/dmg` manually
 
-3. Add `access_token` & `gist_id` to configure Pet cli snippet manager
+3. Add `access_token` & `gist_id` to configure [pet cli snippet manager](https://github.com/knqyf263/pet)
 ```bash
 $ pet configure
 ```
