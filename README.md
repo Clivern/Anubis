@@ -80,3 +80,10 @@ When setting up a new Mac, you may want to install some common [Homebrew](https:
 ```
 
 Some of the functionality of these dotfiles depends on formulae installed by `brew.sh`. If you don’t plan to run `brew.sh`, you should look carefully through the script and manually install any particularly important ones. A good example is Bash/Git completion: the dotfiles use a special version from Homebrew.
+
+### Install Pet CLI Snippet Manager
+
+```bash
+$ export PET_VERSION=0.3.6
+$ curl -sL https://github.com/knqyf263/pet/releases/download/v{$PET_VERSION}/pet_{$PET_VERSION}_darwin_amd64.tar.gz | tar xz
+```
