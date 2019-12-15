@@ -87,3 +87,15 @@ Some of the functionality of these dotfiles depends on formulae installed by `br
 $ export PET_VERSION=0.3.6
 $ curl -sL https://github.com/knqyf263/pet/releases/download/v{$PET_VERSION}/pet_{$PET_VERSION}_darwin_amd64.tar.gz | tar xz
 ```
+```bash
+$ pet configure
+```
+
+```toml
+[Gist]
+  file_name = "pet-snippet.toml"
+  access_token = "~~~"
+  gist_id = "~~~"
+  public = false
+  auto_sync = false
+```
