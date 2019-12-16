@@ -13,6 +13,7 @@ BREW_PREFIX=$(brew --prefix)
 
 brew install git
 brew install wget --with-iri
+brew install fzf
 
 # Remove outdated versions from the cellar.
 brew cleanup
