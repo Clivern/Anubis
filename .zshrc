@@ -81,6 +81,14 @@ source $ZSH/oh-my-zsh.sh
    export EDITOR='nano'
  fi
 
+# Functions
+# create pet from prev command 
+# pet new !! TAB
+function prev() {
+  PREV=$(echo `history | tail -n2 | head -n1` | sed 's/[0-9]* //')
+  sh -c "pet new `printf %q "$PREV"`"
+}
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
