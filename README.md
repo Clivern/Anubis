@@ -1,10 +1,10 @@
 <p align="center">
-    <img alt="Logo" src="https://dotfiles.github.io/images/dotfiles-logo.png" height="80" />
+    <img alt="Logo" src="https://raw.githubusercontent.com/Clivern/dotfiles/master/img/logo.png" height="80" />
 </p>
 
 ## Installation
 
-1. Clone the repository wherever you want. I like to keep it in `~/Clivern/dotfiles`, with `~/dotfiles` as a symlink. Then run `make build` and it should set up everything. 
+1. Clone the repository wherever you want. I like to keep it in `~/Clivern/dotfiles`, with `~/dotfiles` as a symlink. Then run `make build` and it should set up everything.
 
 2. Install all under `/dmg` manually
 
