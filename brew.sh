@@ -13,5 +13,11 @@ brew install git
 brew install wget --with-iri
 brew install fzf
 
+# Install rbenv & ruby 2.6.5
+brew install rbenv ruby-build
+rbenv install 2.6.5
+rbenv global 2.6.5
+rbenv local 2.6.5
+
 # Remove outdated versions from the cellar.
 brew cleanup
