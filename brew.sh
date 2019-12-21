@@ -16,7 +16,8 @@ brew install fzf
 brew install go
 brew install python@3.8
 brew install php@7.3
-brew install java
+brew cask info java
+brew cask install java
 brew install gradle
 
 # Install rbenv & ruby 2.6.5
