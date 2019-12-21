@@ -10,7 +10,7 @@ brew upgrade
 BREW_PREFIX=$(brew --prefix)
 
 brew install git
-brew install wget --with-iri
+brew install wget
 brew install fzf
 
 # Install rbenv & ruby 2.6.5
