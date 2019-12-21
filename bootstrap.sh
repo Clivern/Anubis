@@ -7,11 +7,19 @@ git pull origin master;
 function doIt() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
+		--exclude ".phpintel/" \
+		--exclude "bin/" \
+		--exclude "dmg/" \
+		--exclude "img/" \
+		--exclude "init/" \
+		--exclude "third_party/" \
 		--exclude "bootstrap.sh" \
+		--exclude ".travis.yml" \
+		--exclude "brew.sh" \
+		--exclude "env.sh" \
+		--exclude "Makefile" \
 		--exclude "README.md" \
-		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
-	source ~/.bash_profile;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
