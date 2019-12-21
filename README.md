@@ -7,12 +7,15 @@
 </p>
 
 
+1. Clone the repository wherever you want. I like to keep it in `~/dotfiles`.
 
-1. Clone the repository wherever you want. I like to keep it in `~/Clivern/dotfiles`, with `~/dotfiles` as a symlink. Then run `make build` and it should set up everything.
+2. Run `make build` to install packages.
 
-2. Install all under `/dmg` manually
+3. Install all under `/dmg` manually.
 
-3. Add `access_token` & `gist_id` to configure [pet cli snippet manager](https://github.com/knqyf263/pet)
+4. Run `make sync` to sync your dotfiles with the ones in home dir.
+
+5. Add `access_token` & `gist_id` to configure [pet cli snippet manager](https://github.com/knqyf263/pet)
 ```bash
 $ pet configure
 ```
