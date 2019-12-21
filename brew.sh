@@ -18,7 +18,8 @@ brew upgrade python
 brew link --overwrite --dry-run python
 brew link --overwrite python
 brew install php@7.3
-brew install java
+brew cask info java
+brew cask install java
 brew install gradle
 
 # Install rbenv & ruby 2.6.5
