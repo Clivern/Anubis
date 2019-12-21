@@ -22,6 +22,7 @@ build:
 	$(BASH) ./third_party/gradle.sh
 	$(BASH) ./third_party/pip.sh
 	$(BASH) ./third_party/doctl.sh
+	$(BASH) ./env.sh
 
 
 .PHONY: help
