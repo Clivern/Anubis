@@ -14,7 +14,9 @@ brew install wget
 brew install curl
 brew install fzf
 brew install go
-brew install python@3.8
+brew upgrade python
+brew link --overwrite --dry-run python
+brew link --overwrite python
 brew install php@7.3
 brew install java
 brew install gradle
