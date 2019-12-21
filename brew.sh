@@ -11,7 +11,13 @@ BREW_PREFIX=$(brew --prefix)
 
 brew install git
 brew install wget
+brew install curld
 brew install fzf
+brew install go
+brew install python@3.8
+brew install php@7.3
+brew install java
+brew install gradle
 
 # Install rbenv & ruby 2.6.5
 brew install rbenv ruby-build
