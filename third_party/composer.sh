@@ -1,4 +1,6 @@
 cd /tmp
 
-export COMPOSER_VERSION=1.9.1
-echo "Installing composer v$COMPOSER_VERSION"
+echo "Installing latest composer"
+
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php --install-dir=/usr/local/bin/ --filename=composer
