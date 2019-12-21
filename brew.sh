@@ -11,7 +11,7 @@ BREW_PREFIX=$(brew --prefix)
 
 brew install git
 brew install wget
-brew install curld
+brew install curl
 brew install fzf
 brew install go
 brew install python@3.8
