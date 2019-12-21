@@ -1,7 +1,7 @@
 <p align="center">
     <img alt="Logo" src="https://raw.githubusercontent.com/Clivern/dotfiles/master/img/logo.png" height="150" />
     <p align="center">
-        <img src="https://travis-ci.org/Clivern/dotfiles.svg?branch=master">
+        <a href="https://travis-ci.org/Clivern/dotfiles"><img src="https://travis-ci.org/Clivern/dotfiles.svg?branch=master"></a>
         <img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg">
     </p>
 </p>
