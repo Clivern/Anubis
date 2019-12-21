@@ -25,4 +25,10 @@ build:
 	$(BASH) ./env.sh
 
 
+## sync: Sync My dotfiles.
+sync:
+	@echo ">> ============= Sync My dotfiles ============= <<"
+	$(BASH) bootstrap.sh
+
+
 .PHONY: help
