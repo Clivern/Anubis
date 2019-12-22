@@ -9,3 +9,5 @@ python3 -m pip -V
 
 python get-pip.py
 python -m pip -V
+
+rm get-pip.py
