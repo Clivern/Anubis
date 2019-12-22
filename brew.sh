@@ -31,6 +31,12 @@ brew cask install google-chrome
 brew cask info sublime-text
 brew cask install sublime-text
 
+# iterm2
+brew cask install iterm2
+
+# visual-studio-code
+brew cask install visual-studio-code
+
 # gradle
 brew install gradle
 
