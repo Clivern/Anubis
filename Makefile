@@ -17,6 +17,8 @@ build:
 	$(BASH) ./third_party/pip.sh
 	$(BASH) ./third_party/pet.sh
 	$(BASH) ./third_party/doctl.sh
+	$(BASH) ./third_party/kubectl.sh
+	$(BASH) ./third_party/terraform.sh
 	$(BASH) ./env.sh
 
 
