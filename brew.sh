@@ -18,8 +18,20 @@ brew upgrade python
 brew link --overwrite --dry-run python
 brew link --overwrite python
 brew install php@7.3
+
+# java
 brew cask info java
 brew cask install java
+
+# google-chrome
+brew cask info google-chrome
+brew cask install google-chrome
+
+# sublime-text
+brew cask info sublime-text
+brew cask install sublime-text
+
+# gradle
 brew install gradle
 
 # Install rbenv & ruby 2.6.5
