@@ -19,6 +19,7 @@ build:
 	$(BASH) ./third_party/doctl.sh
 	$(BASH) ./third_party/kubectl.sh
 	$(BASH) ./third_party/terraform.sh
+	$(BASH) ./third_party/glow.sh
 	$(BASH) ./env.sh
 
 
