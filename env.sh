@@ -6,3 +6,4 @@ python --version
 python3 --version
 zsh --version
 doctl version
+ngrok version
