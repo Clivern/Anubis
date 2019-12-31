@@ -20,6 +20,7 @@ build:
 	$(BASH) ./third_party/kubectl.sh
 	$(BASH) ./third_party/terraform.sh
 	$(BASH) ./third_party/glow.sh
+	$(BASH) ./third_party/ngrok.sh
 	$(BASH) ./env.sh
 
 
