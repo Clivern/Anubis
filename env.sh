@@ -7,5 +7,4 @@ python3 --version
 zsh --version
 doctl version
 ngrok version
-rustc --version
-cargo --version
+helm version
