@@ -1,1 +1,5 @@
 #!/usr/bin/env bash
+
+petgrep () {
+    pet list | grep -B 2 "$1"
+}
