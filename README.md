@@ -16,7 +16,7 @@
 4. Run `make sync` to sync your dotfiles with the ones in home dir.
 
 5. Add `access_token` & `gist_id` to configure [pet cli snippet manager](https://github.com/knqyf263/pet)
-```bash
+```zsh
 $ pet configure
 ```
 
@@ -27,4 +27,12 @@ $ pet configure
   gist_id = "~~~"
   public = false
   auto_sync = false
+```
+
+```zsh
+$ pet sync
+```
+
+```zsh
+$ petgrep ping
 ```
