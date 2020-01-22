@@ -18,3 +18,5 @@ Thumbs.db
 
 # composer if exists
 composer.phar
+
+.phpintel

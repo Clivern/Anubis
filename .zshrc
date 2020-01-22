@@ -1,6 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+source ~/.bash_profile
+
 export GOPATH=/Users/Ahmed/go
 export GOBIN="$GOPATH/bin"
 export PATH="$PATH:$GOBIN"
@@ -85,7 +87,7 @@ source $ZSH/oh-my-zsh.sh
  fi
 
 # Functions
-# create pet from prev command 
+# create pet from prev command
 # pet new !! TAB
 function prev() {
   PREV=$(echo `history | tail -n2 | head -n1` | sed 's/[0-9]* //')
@@ -106,7 +108,3 @@ function prev() {
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias mysql="/usr/local/mysql/bin/mysql"
-alias composer="php /usr/local/bin/composer.phar"
-alias sleepnow="pmset sleepnow"
-alias weather="curl http://wttr.in/"
