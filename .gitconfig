@@ -126,31 +126,16 @@
 	old = red # deletions
 	new = green # additions
 
-[color "status"]
-
-	added = yellow
-	changed = green
-	untracked = cyan
-
-[commit]
-
-	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+#[color "status"]
+#
+#	added = yellow
+#	changed = green
+#	untracked = cyan
 
 [diff]
 
 	# Detect copies as well as renames
 	renames = copies
-
-[diff "bin"]
-
-	# Use `hexdump` to diff binary files
-	textconv = hexdump -v -C
-
-[help]
-
-	# Automatically correct and execute mistyped commands
-	autocorrect = 1
 
 [merge]
 
