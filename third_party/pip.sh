@@ -11,3 +11,6 @@ python get-pip.py
 python -m pip -V
 
 rm get-pip.py
+
+python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
