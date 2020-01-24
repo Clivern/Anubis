@@ -38,7 +38,7 @@ $ pet sync
 $ petgrep ping
 ```
 
-6. Add personal commands & tokens inside `~/.extra`. If ~/.extra exists, it will be sourced along with the other files:
+6. Add personal commands & tokens inside `~/.extra`. If `~/.extra` exists, it will be sourced along with the other files:
 
 ```zsh
 GIT_AUTHOR_NAME="Clivern"
