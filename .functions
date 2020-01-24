@@ -1,5 +1,28 @@
 #!/usr/bin/env bash
 
+help () {
+    echo "
+Description: Sync & reload environment
+    $ dotsync
+------------------------------
+Description: Search & grep from snippets
+    $ petgrep <text>
+------------------------------
+Description: If site is down
+    $ isdown <example.com>
+";
+}
+
 petgrep () {
     pet list | grep -B 2 "$1"
+}
+
+isdown () {
+    curl -X GET https://isitup.org/$1.json
+}
+
+dotsync() {
+    cd ~/dotfiles
+    ./bootstrap.sh -f
+    reload
 }
