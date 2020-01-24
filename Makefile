@@ -23,6 +23,7 @@ build:
 	$(BASH) ./third_party/ngrok.sh
 	$(BASH) ./third_party/rust_cargo.sh
 	$(BASH) ./third_party/helm.sh
+	$(BASH) ./third_party/ansible.sh
 	$(BASH) ./env.sh
 
 
