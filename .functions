@@ -24,5 +24,6 @@ isdown () {
 dotsync() {
     cd ~/dotfiles
     ./bootstrap.sh -f
+    cd ~
     reload
 }
