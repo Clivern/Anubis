@@ -5,11 +5,17 @@ help () {
 Description: Sync & reload environment
     $ dotsync
 ------------------------------
+Description: Move to project dir
+    $ dotgo
+------------------------------
 Description: Search & grep from snippets
     $ petgrep <text>
 ------------------------------
 Description: If site is down
     $ isdown <example.com>
+------------------------------
+Description: Pipe outout to a URL
+    $ sea df
 ";
 }
 
@@ -22,8 +28,16 @@ isdown () {
 }
 
 dotsync() {
-    cd ~/dotfiles
+    cd ~/$DOTFILE_PATH
     ./bootstrap.sh -f
     cd ~
     reload
+}
+
+sea() {
+    $* 2>&1 | nc seashells.io 1337
+}
+
+dotgo() {
+    cd ~/$DOTFILE_PATH
 }
