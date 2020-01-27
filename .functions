@@ -29,6 +29,7 @@ isdown () {
 
 dotsync() {
     cd ~/$DOTFILE_PATH
+    ./extra.sh
     ./bootstrap.sh -f
     cd ~
     reload

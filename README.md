@@ -9,13 +9,20 @@
 
 1. Clone the repository wherever you want. I like to keep it in `~/dotfiles`.
 
-2. Run `make build` to install packages.
+2. Define initial configs.
 
-3. Install all under `/dmg` manually.
+```
+export GIT_AUTHOR_NAME=Clivern
+export GIT_AUTHOR_EMAIL=hello@clivern.com
+```
 
-4. Run `make sync` or `dotsync` to sync your dotfiles with the ones in home dir.
+3. Run `make build` to install packages.
 
-5. Add `access_token` & `gist_id` to configure [pet cli snippet manager](https://github.com/knqyf263/pet)
+4. Install all under `/dmg` manually.
+
+5. Run `make sync` or `dotsync` to sync your dotfiles with the ones in home dir.
+
+6. Add `access_token` & `gist_id` to configure [pet cli snippet manager](https://github.com/knqyf263/pet)
 
 ```zsh
 $ pet configure
@@ -36,15 +43,4 @@ $ pet sync
 
 ```zsh
 $ petgrep ping
-```
-
-6. Add personal commands & tokens inside `~/.extra`. If `~/.extra` exists, it will be sourced along with the other files:
-
-```zsh
-GIT_AUTHOR_NAME="Clivern"
-GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
-git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="hello@clivern.com"
-GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
-git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
