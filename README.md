@@ -12,8 +12,8 @@
 2. Define initial configs.
 
 ```
-export GIT_AUTHOR_NAME=Clivern
-export GIT_AUTHOR_EMAIL=hello@clivern.com
+$ export GIT_AUTHOR_NAME=Clivern
+$ export GIT_AUTHOR_EMAIL=hello@clivern.com
 ```
 
 3. Run `make build` to install packages.
