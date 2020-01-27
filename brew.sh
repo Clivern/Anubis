@@ -38,6 +38,10 @@ brew cask install iterm2
 # visual-studio-code
 brew cask install visual-studio-code
 
+# ccleaner
+brew cask info ccleaner
+brew cask install ccleaner
+
 # gradle
 brew install gradle
 
