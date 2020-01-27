@@ -15,6 +15,7 @@ function doIt() {
 		--exclude ".travis.yml" \
 		--exclude "brew.sh" \
 		--exclude "env.sh" \
+		--exclude "extra.sh" \
 		--exclude "Makefile" \
 		--exclude "README.md" \
 		-avh --no-perms . ~;
