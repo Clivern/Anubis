@@ -30,8 +30,8 @@ build:
 ## sync: Sync My dotfiles.
 sync:
 	@echo ">> ============= Sync My dotfiles ============= <<"
-	$(BASH) extra.sh
 	$(BASH) bootstrap.sh
+	$(BASH) extra.sh
 
 
 .PHONY: help
