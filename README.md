@@ -6,14 +6,19 @@
     </p>
 </p>
 
-
 1. Clone the repository wherever you want. I like to keep it in `~/dotfiles`.
 
 2. Define initial configs.
 
-```
+```zsh
 $ export GIT_AUTHOR_NAME=Clivern
 $ export GIT_AUTHOR_EMAIL=hello@clivern.com
+
+$ export PERSONAL_SPACE_GIT_AUTHOR_NAME=Clivern
+$ export PERSONAL_SPACE_GIT_AUTHOR_EMAIL=hello@clivern.com
+
+$ export WORK_SPACE_GIT_AUTHOR_NAME=Clivern
+$ export WORK_SPACE_GIT_AUTHOR_EMAIL=hello@clivern.com
 ```
 
 3. Run `make build` to install packages.

@@ -170,3 +170,11 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[includeIf "gitdir:~/"]
+
+    path = .gitconfig-personal-space
+
+[includeIf "gitdir:~/Space/Work/"]
+
+    path = .gitconfig-work-space
