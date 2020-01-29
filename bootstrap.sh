@@ -18,6 +18,8 @@ function doIt() {
 		--exclude "extra.sh" \
 		--exclude "Makefile" \
 		--exclude "README.md" \
+		--exclude ".gitconfig-personal-space" \
+		--exclude ".gitconfig-work-space" \
 		-avh --no-perms . ~;
 }
 
