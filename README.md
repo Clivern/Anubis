@@ -49,3 +49,9 @@ $ pet sync
 ```zsh
 $ petgrep ping
 ```
+
+7. Configure Cargo.
+
+```zsh
+$ cargo login $TOKEN
+```
