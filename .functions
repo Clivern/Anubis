@@ -3,10 +3,10 @@
 help () {
     echo "
 Description: Sync & reload environment
-    $ dotsync
+    $ dsync
 ------------------------------
 Description: Move to project dir
-    $ dotgo
+    $ dgo
 ------------------------------
 Description: Search & grep from snippets
     $ petgrep <text>
@@ -27,7 +27,7 @@ isdown () {
     curl -X GET https://isitup.org/$1.json
 }
 
-dotsync() {
+dsync() {
     cd ~/$DOTFILE_PATH
     ./bootstrap.sh -f
     ./extra.sh
@@ -39,6 +39,6 @@ sea() {
     $* 2>&1 | nc seashells.io 1337
 }
 
-dotgo() {
+dgo() {
     cd ~/$DOTFILE_PATH
 }
