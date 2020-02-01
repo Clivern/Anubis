@@ -42,6 +42,10 @@ brew cask install visual-studio-code
 brew cask info ccleaner
 brew cask install ccleaner
 
+# https://gpgtools.org/
+brew cask info gpg-suite
+brew cask install gpg-suite
+
 # gradle
 brew install gradle
 
