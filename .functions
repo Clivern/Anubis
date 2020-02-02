@@ -16,6 +16,12 @@ Description: If site is down
 ------------------------------
 Description: Pipe outout to a URL
     $ sea df
+------------------------------
+Description: Go to Work Space
+    $ gow
+------------------------------
+Description: Go to Personal Space
+    $ gop
 ";
 }
 
@@ -41,4 +47,12 @@ sea() {
 
 dgo() {
     cd ~/$DOTFILE_PATH
+}
+
+gow() {
+    cd ~/Space/Work
+}
+
+gop() {
+    cd ~/Space/Personal
 }
