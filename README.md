@@ -55,3 +55,9 @@ $ petgrep ping
 ```zsh
 $ cargo login $TOKEN
 ```
+
+8. Configure Github Client.
+
+```zsh
+$ gh issue list
+```
