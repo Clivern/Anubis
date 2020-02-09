@@ -25,6 +25,7 @@ build:
 	$(BASH) ./third_party/helm.sh
 	$(BASH) ./third_party/ansible.sh
 	$(BASH) ./third_party/goreleaser.sh
+	$(BASH) ./third_party/github.sh
 	$(BASH) ./env.sh
 
 
