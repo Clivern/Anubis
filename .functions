@@ -22,6 +22,9 @@ Description: Go to Work Space
 ------------------------------
 Description: Go to Personal Space
     $ gop
+------------------------------
+Description: URL Shortener
+    $ surl <URL>
 ";
 }
 
@@ -56,3 +59,8 @@ gow() {
 gop() {
     cd ~/Space/Personal
 }
+
+surl() {
+    curl -s "http://tinyurl.com/api-create.php?url=$1"
+}
+
