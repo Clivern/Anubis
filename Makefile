@@ -12,20 +12,20 @@ help: Makefile
 build:
 	@echo ">> ============= Build My Environment ============= <<"
 	$(BASH) ./brew.sh
-	$(BASH) ./third_party/zsh.sh
-	$(BASH) ./third_party/composer.sh
-	$(BASH) ./third_party/pip.sh
-	$(BASH) ./third_party/pet.sh
-	$(BASH) ./third_party/doctl.sh
-	$(BASH) ./third_party/kubectl.sh
-	$(BASH) ./third_party/terraform.sh
-	$(BASH) ./third_party/glow.sh
-	$(BASH) ./third_party/ngrok.sh
-	$(BASH) ./third_party/rust_cargo.sh
-	$(BASH) ./third_party/helm.sh
-	$(BASH) ./third_party/ansible.sh
-	$(BASH) ./third_party/goreleaser.sh
-	$(BASH) ./third_party/github.sh
+	$(BASH) ./bin/zsh.sh
+	$(BASH) ./bin/composer.sh
+	$(BASH) ./bin/pip.sh
+	$(BASH) ./bin/pet.sh
+	$(BASH) ./bin/doctl.sh
+	$(BASH) ./bin/kubectl.sh
+	$(BASH) ./bin/terraform.sh
+	$(BASH) ./bin/glow.sh
+	$(BASH) ./bin/ngrok.sh
+	$(BASH) ./bin/rust_cargo.sh
+	$(BASH) ./bin/helm.sh
+	$(BASH) ./bin/ansible.sh
+	$(BASH) ./bin/goreleaser.sh
+	$(BASH) ./bin/github.sh
 	$(BASH) ./env.sh
 
 

@@ -10,7 +10,6 @@ function doIt() {
 		--exclude "dmg/" \
 		--exclude "img/" \
 		--exclude "init/" \
-		--exclude "third_party/" \
 		--exclude "bootstrap.sh" \
 		--exclude ".travis.yml" \
 		--exclude "brew.sh" \

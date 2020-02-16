@@ -25,6 +25,9 @@ Description: Go to Personal Space
 ------------------------------
 Description: URL Shortener
     $ surl <URL>
+------------------------------
+Description: Get github latest release for a repository
+    $ github_latest_release \$author/\$repo
 ";
 }
 
@@ -64,3 +67,8 @@ surl() {
     curl -s "http://tinyurl.com/api-create.php?url=$1"
 }
 
+github_latest_release() {
+    curl --silent "https://api.github.com/repos/$1/releases/latest" |
+    jq '.tag_name' |
+    sed -E 's/.*"([^"]+)".*/\1/'
+}

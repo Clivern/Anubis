@@ -23,8 +23,6 @@ $ export WORK_SPACE_GIT_AUTHOR_EMAIL=hello@clivern.com
 
 3. Run `make build` to install packages.
 
-4. Install all under `/dmg` manually.
-
 5. Run `make sync` or `dsync` to sync your dotfiles with the ones in home dir.
 
 6. Add `access_token` & `gist_id` to configure [pet cli snippet manager](https://github.com/knqyf263/pet)
