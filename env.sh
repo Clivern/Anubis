@@ -8,3 +8,5 @@ zsh --version
 doctl version
 ngrok version
 helm version
+node -v
+npm -v
