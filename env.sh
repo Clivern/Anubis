@@ -10,3 +10,4 @@ ngrok version
 helm version
 node -v
 npm -v
+apes --get=release

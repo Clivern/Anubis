@@ -26,6 +26,7 @@ build:
 	$(BASH) ./bin/ansible.sh
 	$(BASH) ./bin/goreleaser.sh
 	$(BASH) ./bin/github.sh
+	$(BASH) ./bin/apes.sh
 	$(BASH) ./bin/npm_pkgs.sh
 	$(BASH) ./env.sh
 
