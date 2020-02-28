@@ -11,3 +11,4 @@ helm version
 node -v
 npm -v
 apes --get=release
+rhino --get=release
