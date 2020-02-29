@@ -52,6 +52,9 @@ brew install gradle
 # Node & Npm
 brew install node
 
+# asciinema
+brew install asciinema
+
 # Install rbenv & ruby 2.6.5
 brew install rbenv ruby-build
 rbenv install 2.6.5
