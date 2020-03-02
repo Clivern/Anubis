@@ -12,5 +12,3 @@ node -v
 npm -v
 apes --get=release
 rhino --get=release
-laravel -V
-symfony -V
