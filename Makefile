@@ -30,6 +30,7 @@ build:
 	$(BASH) ./bin/rhino.sh
 	$(BASH) ./bin/npm_pkgs.sh
 	$(BASH) ./bin/symfony.sh
+	$(BASH) ./bin/laravel.sh
 	$(BASH) ./env.sh
 
 
