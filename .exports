@@ -28,3 +28,6 @@ export GPG_TTY=$(tty);
 
 # Rel. path under home
 export DOTFILE_PATH="dotfiles"
+
+# Add Symfony bin dir
+export PATH="$HOME/.symfony/bin:$PATH"
