@@ -29,5 +29,10 @@ export GPG_TTY=$(tty);
 # Rel. path under home
 export DOTFILE_PATH="dotfiles"
 
-# Add Symfony bin dir
+# PHP Related
 export PATH="$HOME/.symfony/bin:$PATH"
+export COMPOSER_MEMORY_LIMIT=-1
+
+# Golag Related
+export GOPROXY=https://proxy.golang.org
+export GO111MODULE=on
