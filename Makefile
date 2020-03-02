@@ -29,6 +29,7 @@ build:
 	$(BASH) ./bin/apes.sh
 	$(BASH) ./bin/rhino.sh
 	$(BASH) ./bin/npm_pkgs.sh
+	$(BASH) ./bin/symfony.sh
 	$(BASH) ./env.sh
 
 
