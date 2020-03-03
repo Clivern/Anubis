@@ -19,6 +19,7 @@ brew upgrade python
 brew link --overwrite --dry-run python
 brew link --overwrite python
 brew install php@7.3
+brew install httpie
 
 # java
 brew cask info java
