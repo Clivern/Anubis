@@ -28,6 +28,9 @@ Description: URL Shortener
 ------------------------------
 Description: Get github latest release for a repository
     $ github_latest_release \$author/\$repo
+------------------------------
+Description: Install specific composer version or latest version
+    $ composer_installer <version>
 ";
 }
 
@@ -71,4 +74,12 @@ github_latest_release() {
     curl --silent "https://api.github.com/repos/$1/releases/latest" |
     jq '.tag_name' |
     sed -E 's/.*"([^"]+)".*/\1/'
+}
+
+composer_installer() {
+    rm ./composer.phar
+    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    [ -z "$1" ] && php composer-setup.php || php composer-setup.php --version=$1
+    php -r "unlink('composer-setup.php');"
+    ./composer.phar -v
 }
