@@ -30,7 +30,7 @@ Description: Get github latest release for a repository
     $ github_latest_release \$author/\$repo
 ------------------------------
 Description: Install specific composer version or latest version
-    $ composer_installer <version>
+    $ get_composer_phar <version>
 ";
 }
 
@@ -76,7 +76,7 @@ github_latest_release() {
     sed -E 's/.*"([^"]+)".*/\1/'
 }
 
-composer_installer() {
+get_composer_phar() {
     rm ./composer.phar
     php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
     [ -z "$1" ] && php composer-setup.php || php composer-setup.php --version=$1
