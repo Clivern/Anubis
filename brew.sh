@@ -20,6 +20,8 @@ brew link --overwrite --dry-run python
 brew link --overwrite python
 brew install php@7.3
 brew install httpie
+brew install watch
+brew install wget
 
 # java
 brew cask info java
