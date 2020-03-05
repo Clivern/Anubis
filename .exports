@@ -34,6 +34,9 @@ export PATH="$HOME/.symfony/bin:$PATH"
 export COMPOSER_MEMORY_LIMIT=-1
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
+# Rust Related
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # Golang Related
 export GOPROXY=https://proxy.golang.org
 export GO111MODULE=on
