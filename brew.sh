@@ -58,6 +58,10 @@ brew install node
 # asciinema
 brew install asciinema
 
+# MySQL
+brew info mysql@5.7
+brew install mysql@5.7
+
 # Install rbenv & ruby 2.6.5
 brew install rbenv ruby-build
 rbenv install 2.6.5

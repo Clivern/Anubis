@@ -40,3 +40,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Golang Related
 export GOPROXY=https://proxy.golang.org
 export GO111MODULE=on
+
+# MySQL Related
+export PATH=$PATH:/usr/local/mysql/bin

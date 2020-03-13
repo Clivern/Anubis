@@ -12,3 +12,4 @@ node -v
 npm -v
 apes --get=release
 rhino --get=release
+mysql -V
