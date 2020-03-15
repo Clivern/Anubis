@@ -94,4 +94,3 @@ alias mysql="/usr/local/mysql/bin/mysql"
 alias nixdoc="curl cheat.sh"
 
 alias smtpserver="sudo python3 -m smtpd -n -c DebuggingServer localhost:25"
-
