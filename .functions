@@ -31,6 +31,9 @@ Description: Get github latest release for a repository
 ------------------------------
 Description: Install specific composer version or latest version
     $ get_composer_phar <version>
+------------------------------
+Description: Push notification to my devices
+    $ pushover <title> <message>
 ";
 }
 
@@ -82,4 +85,14 @@ get_composer_phar() {
     [ -z "$1" ] && php composer-setup.php || php composer-setup.php --version=$1
     php -r "unlink('composer-setup.php');"
     ./composer.phar -v
+}
+
+pushover() {
+    curl -s \
+        --form-string "token=$PUSHOVER_TOKEN" \
+        --form-string "user=$PUSHOVER_USER" \
+        --form-string "title=$1" \
+        --form-string "sound=none" \
+        --form-string "message=$2" \
+        https://api.pushover.net/1/messages.json
 }

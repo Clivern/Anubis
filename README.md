@@ -19,6 +19,11 @@ $ export PERSONAL_SPACE_GIT_AUTHOR_EMAIL=hello@clivern.com
 
 $ export WORK_SPACE_GIT_AUTHOR_NAME=Clivern
 $ export WORK_SPACE_GIT_AUTHOR_EMAIL=hello@clivern.com
+
+# Get from https://pushover.net/
+$ export PUSHOVER_TOKEN="~~~app-token-here~~~"
+$ export PUSHOVER_USER="~~~user-key-here~~~"
+
 ```
 
 3. Run `make build` to install packages.
