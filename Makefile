@@ -31,6 +31,7 @@ build:
 	$(BASH) ./bin/npm_pkgs.sh
 	$(BASH) ./bin/symfony.sh
 	$(BASH) ./bin/laravel.sh
+	$(BASH) ./bin/go_pkgs.sh
 	$(BASH) ./env.sh
 
 
