@@ -64,9 +64,10 @@ brew install mysql@5.7
 
 # Install rbenv & ruby 2.6.5
 brew install rbenv ruby-build
-rbenv install 2.6.5
-rbenv global 2.6.5
-rbenv local 2.6.5
+rbenv install 2.5.0
+# rbenv install 2.6.5 -> for now
+rbenv global 2.5.0
+rbenv local 2.5.0
 
 # Remove outdated versions from the cellar.
 brew cleanup
