@@ -24,3 +24,5 @@ composer.phar
 # k8s prod files
 prod-*-cluster-kubeconfig.yaml
 
+# local ruby env version
+.ruby-version
