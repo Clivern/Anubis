@@ -69,5 +69,7 @@ rbenv install 2.5.0
 rbenv global 2.5.0
 rbenv local 2.5.0
 
+brew install kubectx
+
 # Remove outdated versions from the cellar.
 brew cleanup
