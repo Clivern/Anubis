@@ -71,5 +71,11 @@ rbenv local 2.5.0
 
 brew install kubectx
 
+brew cask info virtualbox
+brew cask install virtualbox
+
+brew cask info vagrant
+brew cask install vagrant
+
 # Remove outdated versions from the cellar.
 brew cleanup
