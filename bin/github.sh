@@ -1,6 +1,6 @@
 cd /tmp
 
-export GITHUB_VERSION=0.6.1
+export GITHUB_VERSION=0.6.4
 export GITHUB_LATEST_VERSION=$(curl --silent "https://api.github.com/repos/cli/cli/releases/latest" | jq '.tag_name' | sed -E 's/.*"([^"]+)".*/\1/')
 echo "Installing Github v$GITHUB_VERSION. Latest version is $GITHUB_LATEST_VERSION"
 
