@@ -32,6 +32,7 @@ build:
 	$(BASH) ./bin/symfony.sh
 	$(BASH) ./bin/laravel.sh
 	$(BASH) ./bin/go_pkgs.sh
+	$(BASH) ./bin/hugo.sh
 	$(BASH) ./env.sh
 
 
