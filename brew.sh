@@ -14,6 +14,7 @@ brew install wget
 brew install curl
 brew install fzf
 brew install screen
+brew install tmux
 brew install go
 brew upgrade python
 brew link --overwrite --dry-run python
