@@ -1,6 +1,6 @@
 cd /tmp
 
-export HELM_VERSION=3.0.2
+export HELM_VERSION=3.2.0
 echo "Installing Helm v$HELM_VERSION"
 
 curl -sL https://get.helm.sh/helm-v{$HELM_VERSION}-darwin-amd64.tar.gz | tar xz
