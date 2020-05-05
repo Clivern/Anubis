@@ -60,6 +60,9 @@
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
 
+	# Get changelog (eg. git changelog v1.0.0 HEAD)
+	changelog = "!f() { echo \"$(git log $1..$2 --pretty=format:'%h %s')\"; }; f"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
