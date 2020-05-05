@@ -3,6 +3,12 @@
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
+	# View abbreviated SHA, description, and history graph of the latest x commits
+	lx = "!f() { git log --pretty=oneline -n $1 --graph --abbrev-commit; }; f"
+
+	# Show commit changes
+	sh = "!f() { git show $1; }; f"
+
 	# View the current working tree status using the short format
 	s = status -s
 
