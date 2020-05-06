@@ -69,6 +69,9 @@
 	# Get changelog (eg. git changelog v1.0.0 HEAD)
 	changelog = "!f() { echo \"$(git log $1..$2 --pretty=format:'%h %s')\"; }; f"
 
+	# Get a list git aliases
+	alias =  "!f() { echo \"$(git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /)\"; }; f"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
