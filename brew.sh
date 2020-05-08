@@ -63,6 +63,10 @@ brew install asciinema
 brew info mysql@5.7
 brew install mysql@5.7
 
+# git-crypt
+brew info git-crypt
+brew install git-crypt
+
 # Install rbenv & ruby 2.6.5
 brew install rbenv ruby-build
 rbenv install 2.5.0
