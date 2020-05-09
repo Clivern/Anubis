@@ -67,6 +67,10 @@ brew install mysql@5.7
 brew info git-crypt
 brew install git-crypt
 
+# ack
+brew info ack
+brew install ack
+
 # Install rbenv & ruby 2.6.5
 brew install rbenv ruby-build
 rbenv install 2.5.0
