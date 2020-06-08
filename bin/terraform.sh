@@ -1,6 +1,6 @@
 cd /tmp
 
-export TERRAFORM_VERSION=0.12.24
+export TERRAFORM_VERSION=0.12.26
 echo "Installing Terraform v$TERRAFORM_VERSION"
 
 curl -sS https://releases.hashicorp.com/terraform/{$TERRAFORM_VERSION}/terraform_{$TERRAFORM_VERSION}_darwin_amd64.zip > terraform.zip
