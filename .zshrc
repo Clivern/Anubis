@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 source ~/.bash_profile
+source ~/.kubectl_aliases
 
 export GOPATH=/Users/Ahmed/go
 export GOBIN="$GOPATH/bin"
