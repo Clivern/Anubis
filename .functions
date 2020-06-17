@@ -34,6 +34,9 @@ Description: Install specific composer version or latest version
 ------------------------------
 Description: Push notification to my devices
     $ pushover <title> <message>
+------------------------------
+Description: Check go modules checksum
+    $ go_lookup author/repo@version
 ";
 }
 
@@ -85,6 +88,14 @@ get_composer_phar() {
     [ -z "$1" ] && php composer-setup.php || php composer-setup.php --version=$1
     php -r "unlink('composer-setup.php');"
     ./composer.phar -v
+}
+
+surl() {
+    curl -s "http://tinyurl.com/api-create.php?url=$1"
+}
+
+go_lookup() {
+    curl --silent https://sum.golang.org/lookup/github.com/$1
 }
 
 pushover() {
