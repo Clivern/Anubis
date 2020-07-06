@@ -33,6 +33,7 @@ export DOTFILE_PATH="dotfiles"
 export PATH="$HOME/.symfony/bin:$PATH"
 export COMPOSER_MEMORY_LIMIT=-1
 export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="/Users/$USER/Library/Python/3.7/bin/:$PATH"
 
 # Rust Related
 export PATH="$HOME/.cargo/bin:$PATH"

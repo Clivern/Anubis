@@ -2,5 +2,7 @@ cd /tmp
 
 echo "Installing Ansible"
 
-python3 -m pip install --upgrade pip
+pip3 install --upgrade pip
+pip3 install --user ansible
+
 ansible --version
