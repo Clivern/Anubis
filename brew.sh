@@ -78,6 +78,9 @@ rbenv install 2.5.0
 rbenv global 2.5.0
 rbenv local 2.5.0
 
+# Add pyenv
+brew install pyenv
+
 brew install kubectx
 
 brew cask info virtualbox
