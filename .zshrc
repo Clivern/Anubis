@@ -95,6 +95,17 @@ function prev() {
   sh -c "pet new `printf %q "$PREV"`"
 }
 
+# Do pet search of current command CTRL+S
+function pet-select() {
+  BUFFER=$(pet search --query "$LBUFFER")
+  CURSOR=$#BUFFER
+  zle redisplay
+}
+
+zle -N pet-select
+stty -ixon
+bindkey '^s' pet-select
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
