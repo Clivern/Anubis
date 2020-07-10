@@ -33,6 +33,7 @@ build:
 	$(BASH) ./bin/laravel.sh
 	$(BASH) ./bin/go_pkgs.sh
 	$(BASH) ./bin/hugo.sh
+	$(BASH) ./bin/fx.sh
 	$(BASH) ./env.sh
 
 
