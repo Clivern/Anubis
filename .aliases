@@ -97,3 +97,5 @@ alias smtpserver="sudo python3 -m smtpd -n -c DebuggingServer localhost:25"
 
 alias python3="/usr/local/bin/python3.7"
 
+# Rust aliases
+alias cargb="cargo build -j 1"
