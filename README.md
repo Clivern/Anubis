@@ -64,3 +64,9 @@ $ cargo login $TOKEN
 ```zsh
 $ gh issue list
 ```
+
+9. Configure [Poodle](https://github.com/Clivern/Poodle)
+
+```
+$ poodle configure
+```
