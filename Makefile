@@ -28,6 +28,7 @@ build:
 	$(BASH) ./bin/github.sh
 	$(BASH) ./bin/apes.sh
 	$(BASH) ./bin/rhino.sh
+	$(BASH) ./bin/poodle.sh
 	$(BASH) ./bin/npm_pkgs.sh
 	$(BASH) ./bin/symfony.sh
 	$(BASH) ./bin/laravel.sh
