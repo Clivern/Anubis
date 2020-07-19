@@ -1,6 +1,6 @@
 cd /tmp
 
-export POODLE_VERSION=0.1.4
+export POODLE_VERSION=0.1.5
 export POODLE_LATEST_VERSION=$(curl --silent "https://api.github.com/repos/Clivern/Poodle/releases/latest" | jq '.tag_name' | sed -E 's/.*"([^"]+)".*/\1/')
 echo "Installing Poodle $POODLE_VERSION. Latest version is $POODLE_LATEST_VERSION"
 
