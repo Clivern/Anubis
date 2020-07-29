@@ -4,5 +4,4 @@ npm install -g @vue/cli
 # Angular Cli
 npm install -g @angular/cli@latest
 
-# Terminalizer Cli
-npm install -g terminalizer
+npm install -g typescript
