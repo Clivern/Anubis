@@ -98,3 +98,5 @@ alias python3="/usr/local/bin/python3.7"
 
 # Rust aliases
 alias cargb="cargo build -j 1"
+
+alias tf="terraform"
