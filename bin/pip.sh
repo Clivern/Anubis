@@ -15,6 +15,4 @@ rm get-pip.py
 python3 -m pip install --upgrade pip
 python -m pip install --upgrade pip
 
-# Add pipenv
-python3 -m pip install pipenv
-python3 -m pip install celery
+python3 -m pip install virtualenv

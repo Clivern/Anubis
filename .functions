@@ -37,6 +37,9 @@ Description: Push notification to my devices
 ------------------------------
 Description: Check go modules checksum
     $ go_lookup author/repo@version
+------------------------------
+Description: Create python venv
+    $ pyv carbon
 ";
 }
 
@@ -106,4 +109,9 @@ pushover() {
         --form-string "sound=none" \
         --form-string "message=$2" \
         https://api.pushover.net/1/messages.json
+}
+
+pyv() {
+    python3 -m venv $1
+    source $1/bin/activate
 }
