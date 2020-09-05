@@ -23,6 +23,7 @@ brew install php@7.3
 brew install httpie
 brew install watch
 brew install wget
+brew install ttyrec
 
 # java
 brew cask info java
