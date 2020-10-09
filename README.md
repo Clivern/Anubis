@@ -39,13 +39,14 @@ $ brew install yq
 
 $ pip install ansible
 $ pip install opswork
+$ alias op=opswork
 ```
 
 3. Init the configs
 
 ```zsh
-$ opswork config init
-$ opswork config dump
+$ op config init
+$ op config dump
 ```
 
 4. Add local as a host.
@@ -63,10 +64,10 @@ $ make recipes
 6. Run recipes one by one or the needed ones. for example to run `clivern/ping` towards host with name `localhost`.
 
 ```zsh
-$ opswork recipe run clivern/linux/ping -h localhost -v key=value
+$ op recipe run clivern/linux/ping -h localhost -v key=value
 
 # To get the must have list
-$ opswork recipe list -t must_have -o json | jq .
+$ op recipe list -t must_have -o json | jq .
 ```
 
 6. To install dotfiles.
@@ -79,25 +80,25 @@ $ make run
 
 ```zsh
 # Add a Remote Linux Host
-$ opswork host add clivern -i ~x.x.x.x~ -p 22 -u ~user~ -s /Users/root/.ssh/id_rsa.pem
+$ op host add clivern -i ~x.x.x.x~ -p 22 -u ~user~ -s /Users/root/.ssh/id_rsa.pem
 
 # Check Uptime
-$ opswork recipe run clivern/linux/cmd -h clivern -v cmd="uptime"
+$ op recipe run clivern/linux/cmd -h clivern -v cmd="uptime"
 
 # Ping Remote Host
-$ opswork recipe run clivern/linux/ping -h clivern
+$ op recipe run clivern/linux/ping -h clivern
 
 # Update
-$ opswork recipe run clivern/linux/update -h clivern
+$ op recipe run clivern/linux/update -h clivern
 
 # Upgrade
-$ opswork recipe run clivern/linux/upgrade -h clivern
+$ op recipe run clivern/linux/upgrade -h clivern
 
 # Force Reboot
-$ opswork recipe run clivern/linux/cmd -h clivern -v cmd="reboot"
+$ op recipe run clivern/linux/cmd -h clivern -v cmd="reboot"
 
 # SSH to any Host
-$ opswork host ssh clivern
+$ op host ssh clivern
 ```
 
 8. Store the secrets in `OpsWork` vault.
