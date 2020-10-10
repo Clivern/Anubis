@@ -98,6 +98,10 @@ recipes:
     path: elixir
     tags: kemet,must_have,programming
 
+  - name: clivern/kemet/ruby
+    path: ruby
+    tags: kemet,must_have,programming
+
   # Databases
   - name: clivern/kemet/mysql
     path: mysql
@@ -264,6 +268,10 @@ recipes:
   - name: clivern/kemet/vagrant
     path: vagrant
     tags: kemet,hashicorp
+
+  - name: clivern/kemet/jekyll
+    path: jekyll
+    tags: kemet,must_have
 
   # Python packages running under pipx
   # To list them
