@@ -32,7 +32,7 @@ $ mkdir -p ~/space
 $ git clone git@github.com:Clivern/Kemet.git ~/space/kemet
 ```
 
-2. Install [opswork](https://pypi.org/project/opswork/) globally.
+2. Install [opswork](https://pypi.org/project/opswork/) and `pip` globally.
 
 ```zsh
 $ brew install yq
