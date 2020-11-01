@@ -38,6 +38,9 @@ export PATH="/Users/$USER/Library/Python/3.7/bin/:$PATH"
 # Rust Related
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# Java Related
+export PATH="$HOME/mvn-3.6.3/bin:$PATH"
+
 # Golang Related
 export GOPROXY=https://proxy.golang.org
 export GO111MODULE=on
