@@ -16,9 +16,7 @@ brew install fzf
 brew install screen
 brew install tmux
 brew install go
-brew upgrade python
-brew link --overwrite --dry-run python
-brew link --overwrite python
+brew install python@3.9
 brew install php@7.3
 brew install httpie
 brew install watch
@@ -78,9 +76,6 @@ rbenv install 2.5.0
 # rbenv install 2.6.5 -> for now
 rbenv global 2.5.0
 rbenv local 2.5.0
-
-# Add pyenv
-brew install pyenv
 
 brew install kubectx
 
