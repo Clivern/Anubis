@@ -1,6 +1,6 @@
 cd /tmp
 
-export RHINO_VERSION=1.3.0
+export RHINO_VERSION=1.4.0
 export RHINO_LATEST_VERSION=$(curl --silent "https://api.github.com/repos/Clivern/Rhino/releases/latest" | jq '.tag_name' | sed -E 's/.*"([^"]+)".*/\1/')
 echo "Installing Rhino $RHINO_VERSION. Latest version is $RHINO_LATEST_VERSION"
 
