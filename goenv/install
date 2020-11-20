@@ -2,7 +2,7 @@
 
 cd /tmp
 
-export GOENV_VERSION=1.1.0
+export GOENV_VERSION=1.2.0
 export GOENV_LATEST_VERSION=$(curl --silent "https://api.github.com/repos/Spacewalkio/Goenv/releases/latest" | jq '.tag_name' | sed -E 's/.*"([^"]+)".*/\1/')
 echo "Installing Goenv $GOENV_VERSION. Latest version is $GOENV_LATEST_VERSION"
 
