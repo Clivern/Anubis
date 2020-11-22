@@ -1,9 +1,5 @@
 <p align="center">
     <img alt="Logo" src="https://raw.githubusercontent.com/Clivern/dotfiles/master/img/logo.png" height="150" />
-    <p align="center">
-        <a href="https://travis-ci.org/Clivern/dotfiles"><img src="https://travis-ci.org/Clivern/dotfiles.svg?branch=master"></a>
-        <img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg">
-    </p>
 </p>
 
 1. Clone the repository wherever you want. I like to keep it in `~/dotfiles`.
