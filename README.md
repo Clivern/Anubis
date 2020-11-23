@@ -3,6 +3,8 @@
 </p>
 
 
+## Setup
+
 1. Clone the repository wherever you want. I like to keep it in `~/dotfiles`.
 
 2. Define initial configs.
