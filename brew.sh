@@ -54,6 +54,9 @@ brew install gradle
 # Node & Npm
 brew install node
 
+# elixir lang
+brew install elixir
+
 # asciinema
 brew install asciinema
 
