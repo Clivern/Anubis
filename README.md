@@ -43,13 +43,13 @@ $ opswork config dump
 4. Add local as a host.
 
 ```zsh
-$ make hsync
+$ make hosts
 ```
 
 5. Add dotfiles recipes.
 
 ```zsh
-$ make rsync
+$ make recipes
 ```
 
 6. Run recipes one by one or the needed ones. for example to run `clivern/ping` towards host with name `localhost`.
@@ -59,6 +59,12 @@ $ opswork recipe run clivern/ping -h localhost -v key=value
 
 # To get the must have list
 $ opswork recipe list -t must_have -o json | jq .
+```
+
+6. To install dotfiles.
+
+```
+$ make run
 ```
 
 
