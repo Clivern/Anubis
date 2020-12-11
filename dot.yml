@@ -153,6 +153,10 @@ recipes:
     path: doctl
     tags: dotfiles,must_have,digitalocean
 
+  - name: clivern/dotfiles/buildkit
+    path: buildkit
+    tags: dotfiles,must_have,docker
+
   - name: clivern/dotfiles/jump
     path: jump
     tags: dotfiles,must_have,rust_pkgs
@@ -300,5 +304,6 @@ run:
   - name: clivern/dotfiles/zsh
   - name: clivern/dotfiles/vim
   - name: clivern/dotfiles/doctl
+  - name: clivern/dotfiles/buildkit
   - name: clivern/dotfiles/jump
   - name: clivern/dotfiles/configs
