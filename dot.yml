@@ -198,6 +198,10 @@ recipes:
     path: cowsay
     tags: dotfiles,must_have,pypkg
 
+  - name: clivern/dotfiles/copier
+    path: copier
+    tags: dotfiles,must_have,pypkg
+
   - name: clivern/dotfiles/poetry
     path: poetry
     tags: dotfiles,must_have,pypkg
@@ -298,6 +302,7 @@ run:
   - name: clivern/dotfiles/ttyrec
   - name: clivern/dotfiles/pipx
   - name: clivern/dotfiles/cowsay
+  - name: clivern/dotfiles/copier
   - name: clivern/dotfiles/poetry
   - name: clivern/dotfiles/pyinfra
   - name: clivern/dotfiles/github
