@@ -247,13 +247,13 @@ recipes:
     path: linux/vault
     tags: automation,ubuntu,linux
 
+  - name: clivern/linux/cmd
+    path: linux/cmd
+    tags: automation,ubuntu,linux
+
   - name: clivern/configs
     path: configs
     tags: dotfiles,must_have,configs
-
-  - name: clivern/cmd
-    path: linux/cmd
-    tags: automation,ubuntu,linux
 
 
 # recipes to install

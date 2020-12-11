@@ -23,7 +23,7 @@
 1. Clone the repository.
 
 ```zsh
-$ git clone https://github.com/Clivern/dotfiles.git
+$ git clone git@github.com:Clivern/dotfiles.git
 ```
 
 2. Install [opswork](https://pypi.org/project/opswork/) globally.
@@ -56,7 +56,7 @@ $ make recipes
 6. Run recipes one by one or the needed ones. for example to run `clivern/ping` towards host with name `localhost`.
 
 ```zsh
-$ opswork recipe run clivern/ping -h localhost -v key=value
+$ opswork recipe run clivern/linux/ping -h localhost -v key=value
 
 # To get the must have list
 $ opswork recipe list -t must_have -o json | jq .
@@ -64,8 +64,14 @@ $ opswork recipe list -t must_have -o json | jq .
 
 6. To install dotfiles.
 
-```
+```zsh
 $ make run
+```
+
+7. To run command either locally or remotely.
+
+```zsh
+$ op recipe run clivern/linux/cmd -h clivern -v cmd="uptime"
 ```
 
 
