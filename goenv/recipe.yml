@@ -31,7 +31,7 @@ tasks:
   - name: copy goenv
     copy:
       src: /tmp/goenv
-      dest: $HOME/bin/goenv
+      dest: ~/bin/goenv
       mode: a+x
       force: true
 

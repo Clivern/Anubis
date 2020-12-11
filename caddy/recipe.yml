@@ -31,7 +31,7 @@ tasks:
   - name: copy caddy
     copy:
       src: /tmp/caddy
-      dest: $HOME/bin/caddy
+      dest: ~/bin/caddy
       mode: a+x
       force: true
 

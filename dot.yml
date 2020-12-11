@@ -31,6 +31,10 @@ recipes:
     path: brew/upgrade
     tags: dotfiles,must_have
 
+  - name: clivern/dotfiles/base
+    path: base
+    tags: dotfiles,must_have
+
   - name: clivern/dotfiles/gnu-tar
     path: gnu-tar
     tags: dotfiles,must_have
@@ -252,6 +256,7 @@ recipes:
 run:
   - name: clivern/dotfiles/update
   - name: clivern/dotfiles/upgrade
+  - name: clivern/dotfiles/base
   - name: clivern/dotfiles/gnu-tar
   - name: clivern/dotfiles/caddy
   - name: clivern/dotfiles/consul

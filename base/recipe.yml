@@ -22,21 +22,17 @@
 
 
 tasks:
-  - name: download doctl
-    unarchive:
-      src: https://github.com/digitalocean/doctl/releases/download/v1.99.0/doctl-1.99.0-darwin-amd64.tar.gz
-      dest: /tmp
-      remote_src: yes
+  - name: create bin directory
+    file:
+      path: ~/bin
+      state: directory
 
-  - name: copy doctl
-    copy:
-      src: /tmp/doctl
-      dest: ~/bin/doctl
-      mode: a+x
-      force: true
+  - name: create Work directory
+    file:
+      path: ~/Space/Work
+      state: directory
 
-  - name: get version
-    command: doctl version
-    register: output
-
-  - debug: msg="{{ output.stdout }}"
+  - name: create Personal directory
+    file:
+      path: ~/Space/Personal
+      state: directory

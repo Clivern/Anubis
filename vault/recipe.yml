@@ -31,7 +31,7 @@ tasks:
   - name: copy vault
     copy:
       src: /tmp/vault
-      dest: $HOME/bin/vault
+      dest: ~/bin/vault
       mode: a+x
       force: true
 

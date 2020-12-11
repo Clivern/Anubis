@@ -31,7 +31,7 @@ tasks:
   - name: copy nomad
     copy:
       src: /tmp/nomad
-      dest: $HOME/bin/nomad
+      dest: ~/bin/nomad
       mode: a+x
       force: true
 

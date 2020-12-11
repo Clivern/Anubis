@@ -31,6 +31,6 @@ tasks:
   - name: copy packer
     copy:
       src: /tmp/packer
-      dest: $HOME/bin/packer
+      dest: ~/bin/packer
       mode: a+x
       force: true

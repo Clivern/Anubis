@@ -31,7 +31,7 @@ tasks:
   - name: copy consul
     copy:
       src: /tmp/consul
-      dest: $HOME/bin/consul
+      dest: ~/bin/consul
       mode: a+x
       force: true
 

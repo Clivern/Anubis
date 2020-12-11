@@ -31,7 +31,7 @@ tasks:
   - name: copy revive
     copy:
       src: /tmp/revive
-      dest: $HOME/bin/revive
+      dest: ~/bin/revive
       mode: a+x
       force: true
 

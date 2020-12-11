@@ -31,7 +31,7 @@ tasks:
   - name: copy k6
     copy:
       src: /tmp/k6-v0.45.0-macos-amd64/k6
-      dest: $HOME/bin/k6
+      dest: ~/bin/k6
       mode: a+x
       force: true
 
