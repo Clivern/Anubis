@@ -3,10 +3,10 @@
     <h3 align="center">dotfiles</h3>
     <p align="center">
         <a href="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml">
-            <img src="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml/badge.svg"/>
+            <img src="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml/badge.svg?branch=main"/>
         </a>
         <a href="https://github.com/Clivern/dotfiles/releases">
-            <img src="https://img.shields.io/badge/Version-2.1.0-1abc9c.svg">
+            <img src="https://img.shields.io/badge/Version-3.0.0-1abc9c.svg">
         </a>
         <a href="https://github.com/Clivern/dotfiles/blob/master/LICENSE">
             <img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg">
