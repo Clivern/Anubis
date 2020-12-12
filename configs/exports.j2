@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+
+# Make nano the default editor.
+export EDITOR='nano';
+
+# Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
+export PYTHONIOENCODING='UTF-8';
+
+# Increase Bash history size. Allow 32³ entries; the default is 500.
+export HISTSIZE='32768';
+export HISTFILESIZE="${HISTSIZE}";
+# Omit duplicates and commands that begin with a space from history.
+export HISTCONTROL='ignoreboth';
+
+# Prefer US English and use UTF-8.
+export LANG='en_US.UTF-8';
+export LC_ALL='en_US.UTF-8';
+
+# Highlight section titles in manual pages.
+export LESS_TERMCAP_md="${yellow}";
+
+# Don’t clear the screen after quitting a manual page.
+export MANPAGER='less -X';
+
+# Avoid issues with `gpg` as installed via Homebrew.
+# https://stackoverflow.com/a/42265848/96656
+export GPG_TTY=$(tty);
+
+# Rel. path under home
+export DOTFILE_PATH="dotfiles"
+
+# PHP Related
+# export PATH="$HOME/.symfony/bin:$PATH"
+# export COMPOSER_MEMORY_LIMIT=-1
+# export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+# Rust Related
+# export PATH="$HOME/.cargo/bin:$PATH"
+
+# Ruby Related
+# export PATH="$HOME/.chefdk/gem/ruby/3.0.0/bin:$PATH"
+
+# Java Related
+# export PATH="$HOME/mvn-3.6.3/bin:$PATH"
+
+# Golang Related
+export GOPROXY=https://proxy.golang.org
+export GO111MODULE=on
+
+# MySQL Related
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+
+# Load all kubeconfigs for kubectx
+# export KUBECONFIG=$(find ~/configs/*kubeconfig.yaml -type f | tr "\n" ":")
+
+# export PATH="$PATH:/opt/homebrew/opt/python@3.9/bin"
+
+# PHP
+# export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
+# export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"
+
+export PATH="/usr/local/bin:$PATH"
+
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+
+export PATH="/Users/$USER/Library/Python/3.9/bin:$PATH"
+
+export PATH="/Users/$USER/aws-cli:$PATH"
+
+export JAVA_HOME="/usr/local/opt/openjdk@11/"
+
+export PATH="$HOME/.goenv/shims:"$PATH
+
+# for poetry
+export PATH="/Users/$USER/.local/bin:$PATH"

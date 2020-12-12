@@ -6,7 +6,7 @@
             <img src="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml/badge.svg"/>
         </a>
         <a href="https://github.com/Clivern/dotfiles/releases">
-            <img src="https://img.shields.io/badge/Version-2.0.0-1abc9c.svg">
+            <img src="https://img.shields.io/badge/Version-2.1.0-1abc9c.svg">
         </a>
         <a href="https://github.com/Clivern/dotfiles/blob/master/LICENSE">
             <img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg">

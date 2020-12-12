@@ -20,3 +20,57 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+
+vars:
+  personal_name: Clivern
+  personal_email: hello@clivern.com
+  work_name: Ahmed
+  work_email: hello@clivern.com
+
+templates:
+  aliases.j2: aliases.j2
+  bash_profile.j2: bash_profile.j2
+  bash_prompt.j2: bash_prompt.j2
+  bashrc.j2: bashrc.j2
+  editorconfig.j2: editorconfig.j2
+  exports.j2: exports.j2
+  functions.j2: functions.j2
+  gitattributes.j2: gitattributes.j2
+  gitconfig-personal.j2: gitconfig-personal.j2
+  gitconfig-work.j2: gitconfig-work.j2
+  gitconfig.j2: gitconfig.j2
+  gitignore.j2: gitignore.j2
+  macos.j2: macos.j2
+  my.cnf.j2: my.cnf.j2
+  profile.j2: profile.j2
+  ruby-version.j2: ruby-version.j2
+  screenrc.j2: screenrc.j2
+  vimrc.j2: vimrc.j2
+  zshrc.j2: zshrc.j2
+
+tasks:
+  - name: create dot config file
+    template:
+      src: "{{ item.src }}"
+      dest: "{{ item.dest }}"
+      mode: "{{ item.mode }}"
+    with_items:
+      - { src: "aliases.j2", dest: "~/.aliases", mode: "0700" }
+      - { src: "bash_profile.j2", dest: "~/.bash_profile", mode: "0700" }
+      - { src: "bash_prompt.j2", dest: "~/.bash_prompt", mode: "0700" }
+      - { src: "bashrc.j2", dest: "~/.bashrc", mode: "0700" }
+      - { src: "editorconfig.j2", dest: "~/.editorconfig", mode: "0700" }
+      - { src: "exports.j2", dest: "~/.exports", mode: "0700" }
+      - { src: "functions.j2", dest: "~/.functions", mode: "0700" }
+      - { src: "gitattributes.j2", dest: "~/.gitattributes", mode: "0700" }
+      - { src: "gitconfig-personal.j2", dest: "~/.gitconfig-personal", mode: "0700" }
+      - { src: "gitconfig-work.j2", dest: "~/.gitconfig-work", mode: "0700" }
+      - { src: "gitconfig.j2", dest: "~/.gitconfig", mode: "0700" }
+      - { src: "gitignore.j2", dest: "~/.gitignore", mode: "0700" }
+      - { src: "macos.j2", dest: "~/.macos", mode: "0700" }
+      - { src: "my.cnf.j2", dest: "~/.my.cnf", mode: "0700" }
+      - { src: "profile.j2", dest: "~/.profile", mode: "0700" }
+      - { src: "ruby-version.j2", dest: "~/.ruby-version", mode: "0700" }
+      - { src: "screenrc.j2", dest: "~/.screenrc", mode: "0700" }
+      - { src: "vimrc.j2", dest: "~/.vimrc", mode: "0700" }
+      - { src: "zshrc.j2", dest: "~/.zshrc", mode: "0700" }

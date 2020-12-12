@@ -243,6 +243,11 @@ recipes:
     path: linux/vault
     tags: automation,ubuntu,linux
 
+  - name: clivern/configs
+    path: configs
+    tags: dotfiles,must_have,configs
+
+
 # recipes to install
 run:
   - name: clivern/dotfiles/update
@@ -282,3 +287,4 @@ run:
   - name: clivern/dotfiles/zsh
   - name: clivern/dotfiles/vim
   - name: clivern/dotfiles/doctl
+  - name: clivern/configs
