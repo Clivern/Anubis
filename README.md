@@ -23,7 +23,11 @@
 1. Clone the repository.
 
 ```zsh
-$ git clone git@github.com:Clivern/dotfiles.git
+$ mkdir -p ~/Space/Personal
+$ mkdir -p ~/Space/Work
+$ mkdir -p ~/.configs
+
+$ git clone git@github.com:Clivern/dotfiles.git ~/Space/dotfiles
 ```
 
 2. Install [opswork](https://pypi.org/project/opswork/) globally.
