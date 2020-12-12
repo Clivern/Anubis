@@ -48,6 +48,7 @@ recipes:
 	opswork recipe add clivern/dotfiles/cowsay -p cowsay -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/poetry -p poetry -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/pyinfra -p pyinfra -t dotfiles,must_have -f
+	opswork recipe add clivern/dotfiles/openllm -p openllm -t dotfiles,must_have -f
 
 
 ## run: Run Recipes.
@@ -86,6 +87,7 @@ run:
 	opswork recipe run clivern/dotfiles/cowsay -h localhost
 	opswork recipe run clivern/dotfiles/poetry -h localhost
 	opswork recipe run clivern/dotfiles/pyinfra -h localhost
+	opswork recipe run clivern/dotfiles/openllm -h localhost
 
 
 .PHONY: help
