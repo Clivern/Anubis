@@ -26,9 +26,8 @@
 1. Clone the repository.
 
 ```zsh
-$ mkdir -p ~/space/personal
-$ mkdir -p ~/space/work
-$ mkdir -p ~/.configs
+# Create space directory
+$ mkdir -p ~/space
 
 $ git clone git@github.com:Clivern/Kemet.git ~/space/kemet
 ```
@@ -37,6 +36,7 @@ $ git clone git@github.com:Clivern/Kemet.git ~/space/kemet
 
 ```zsh
 $ brew install yq
+
 $ pip install ansible
 $ pip install opswork
 ```

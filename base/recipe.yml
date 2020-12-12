@@ -27,6 +27,11 @@ tasks:
       path: ~/bin
       state: directory
 
+  - name: create configs directory
+    file:
+      path: ~/.configs
+      state: directory
+
   - name: create Work directory
     file:
       path: ~/space/work
