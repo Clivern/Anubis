@@ -1,12 +1,12 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Clivern/dotfiles/main/screenshot02.jpg" width="600" />
+    <img src="https://raw.githubusercontent.com/Clivern/dotfiles/main/screenshot02.jpg?v=3.0.2" width="600" />
     <h3 align="center">dotfiles</h3>
     <p align="center">
         <a href="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml">
             <img src="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml/badge.svg?branch=main"/>
         </a>
         <a href="https://github.com/Clivern/dotfiles/releases">
-            <img src="https://img.shields.io/badge/Version-3.0.1-1abc9c.svg">
+            <img src="https://img.shields.io/badge/Version-3.0.2-1abc9c.svg">
         </a>
         <a href="https://github.com/Clivern/dotfiles/blob/master/LICENSE">
             <img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg">
