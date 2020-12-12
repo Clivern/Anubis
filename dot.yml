@@ -210,6 +210,10 @@ recipes:
     path: pyinfra
     tags: dotfiles,must_have,pypkg
 
+  - name: clivern/dotfiles/streamlit
+    path: streamlit
+    tags: dotfiles,must_have,pypkg
+
   - name: clivern/dotfiles/configs
     path: configs
     tags: dotfiles,must_have,configs
@@ -305,6 +309,7 @@ run:
   - name: clivern/dotfiles/copier
   - name: clivern/dotfiles/poetry
   - name: clivern/dotfiles/pyinfra
+  - name: clivern/dotfiles/streamlit
   - name: clivern/dotfiles/github
   - name: clivern/dotfiles/zsh
   - name: clivern/dotfiles/vim
