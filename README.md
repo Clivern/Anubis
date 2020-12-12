@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/static/logo.svg" width="250" />
+    <img src="/screenshot01.png" width="600" />
     <h3 align="center">dotfiles</h3>
     <p align="center">
         <a href="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml">
