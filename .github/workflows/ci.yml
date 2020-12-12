@@ -15,6 +15,8 @@ jobs:
         run: |
           sw_vers
 
+          brew install yq
+
           python3 -m pip --version
           python3 -m pip install opswork
           python3 -m pip install ansible

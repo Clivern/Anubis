@@ -29,6 +29,7 @@ $ git clone https://github.com/Clivern/dotfiles.git
 2. Install [opswork](https://pypi.org/project/opswork/) globally.
 
 ```zsh
+$ brew install yq
 $ pip install ansible
 $ pip install opswork
 ```

@@ -1,0 +1,164 @@
+# MIT License
+#
+# Copyright (c) 2010 Clivern
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+recipes:
+  - name: clivern/dotfiles/update
+    path: brew/update
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/upgrade
+    path: brew/upgrade
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/gnu-tar
+    path: gnu-tar
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/caddy
+    path: caddy
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/consul
+    path: consul
+    tags: dotfiles,must_have,hashicorp
+  - name: clivern/dotfiles/packer
+    path: packer
+    tags: dotfiles,must_have,hashicorp
+  - name: clivern/dotfiles/nomad
+    path: nomad
+    tags: dotfiles,must_have,hashicorp
+  - name: clivern/dotfiles/vault
+    path: vault
+    tags: dotfiles,must_have,hashicorp
+  - name: clivern/dotfiles/ack
+    path: ack
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/curl
+    path: curl
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/bat
+    path: bat
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/python
+    path: python
+    tags: dotfiles,must_have,programming
+  - name: clivern/dotfiles/php
+    path: php
+    tags: dotfiles,must_have,programming
+  - name: clivern/dotfiles/node
+    path: node
+    tags: dotfiles,must_have,programming
+  - name: clivern/dotfiles/nmap
+    path: nmap
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/mysql
+    path: mysql
+    tags: dotfiles,must_have,db
+  - name: clivern/dotfiles/kubectx
+    path: kubectx
+    tags: dotfiles,must_have,k8s
+  - name: clivern/dotfiles/kubectl
+    path: kubectl
+    tags: dotfiles,must_have,k8s
+  - name: clivern/dotfiles/k6
+    path: k6
+    tags: dotfiles,must_have,load-testing
+  - name: clivern/dotfiles/iterm
+    path: iterm
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/httpie
+    path: httpie
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/screen
+    path: screen
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/tfswitch
+    path: tfswitch
+    tags: dotfiles,must_have,hashicorp
+  - name: clivern/dotfiles/watch
+    path: watch
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/wget
+    path: wget
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/ytt
+    path: ytt
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/task
+    path: task
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/tmux
+    path: tmux
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/tree
+    path: tree
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/ttyrec
+    path: ttyrec
+    tags: dotfiles,must_have
+  - name: clivern/dotfiles/pipx
+    path: pipx
+    tags: dotfiles,must_have,pypkg
+  - name: clivern/dotfiles/cowsay
+    path: cowsay
+    tags: dotfiles,must_have,pypkg
+  - name: clivern/dotfiles/poetry
+    path: poetry
+    tags: dotfiles,must_have,pypkg
+  - name: clivern/dotfiles/pyinfra
+    path: pyinfra
+    tags: dotfiles,must_have,pypkg
+  - name: clivern/dotfiles/openllm
+    path: openllm
+    tags: dotfiles,must_have,pypkg
+
+run:
+  - name: clivern/dotfiles/update
+  - name: clivern/dotfiles/upgrade
+  - name: clivern/dotfiles/gnu-tar
+  - name: clivern/dotfiles/caddy
+  - name: clivern/dotfiles/consul
+  - name: clivern/dotfiles/packer
+  - name: clivern/dotfiles/nomad
+  - name: clivern/dotfiles/vault
+  - name: clivern/dotfiles/ack
+  - name: clivern/dotfiles/curl
+  - name: clivern/dotfiles/bat
+  - name: clivern/dotfiles/python
+  - name: clivern/dotfiles/php
+  - name: clivern/dotfiles/node
+  - name: clivern/dotfiles/nmap
+  - name: clivern/dotfiles/mysql
+  - name: clivern/dotfiles/kubectx
+  - name: clivern/dotfiles/kubectl
+  - name: clivern/dotfiles/k6
+  - name: clivern/dotfiles/httpie
+  - name: clivern/dotfiles/screen
+  - name: clivern/dotfiles/tfswitch
+  - name: clivern/dotfiles/watch
+  - name: clivern/dotfiles/wget
+  - name: clivern/dotfiles/ytt
+  - name: clivern/dotfiles/task
+  - name: clivern/dotfiles/tmux
+  - name: clivern/dotfiles/tree
+  - name: clivern/dotfiles/ttyrec
+  - name: clivern/dotfiles/pipx
+  - name: clivern/dotfiles/cowsay
+  - name: clivern/dotfiles/poetry
+  - name: clivern/dotfiles/pyinfra
+  - name: clivern/dotfiles/openllm
