@@ -19,3 +19,37 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
+tasks:
+  - name: Create choices.xml file
+    copy:
+      content: |
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+        <plist version="1.0">
+          <array>
+            <dict>
+              <key>choiceAttribute</key>
+              <string>customLocation</string>
+              <key>attributeSetting</key>
+              <string>/Users/{{ lookup('env', 'USER') }}</string>
+              <key>choiceIdentifier</key>
+              <string>default</string>
+            </dict>
+          </array>
+        </plist>
+      dest: /tmp/choices.xml
+
+  - name: Download AWS CLI package
+    get_url:
+      url: https://awscli.amazonaws.com/AWSCLIV2.pkg
+      dest: /tmp/AWSCLIV2.pkg
+
+  - name: Install AWS CLI package
+    command: /usr/sbin/installer -pkg /tmp/AWSCLIV2.pkg -target CurrentUserHomeDirectory -applyChoiceChangesXML /tmp/choices.xml
+
+  - name: get version
+    command: aws --version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"

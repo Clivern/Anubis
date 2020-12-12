@@ -175,6 +175,10 @@ recipes:
     path: doctl
     tags: kemet,must_have,digitalocean
 
+  - name: clivern/kemet/aws
+    path: aws
+    tags: kemet,must_have,aws
+
   - name: clivern/kemet/dolt
     path: dolt
     tags: kemet,must_have,git
@@ -349,6 +353,7 @@ run:
   - name: clivern/kemet/github
   - name: clivern/kemet/zsh
   - name: clivern/kemet/doctl
+  - name: clivern/kemet/aws
   - name: clivern/kemet/dolt
   - name: clivern/kemet/podman
   - name: clivern/kemet/jump
