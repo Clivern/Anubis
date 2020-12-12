@@ -71,7 +71,23 @@ $ make run
 7. To run command either locally or remotely.
 
 ```zsh
-$ op recipe run clivern/linux/cmd -h clivern -v cmd="uptime"
+# Add a Remote Linux Host
+$ opswork host add clivern -i ~x.x.x.x~ -p 22 -u ~user~ -s /Users/root/.ssh/id_rsa.pem
+
+# Check Uptime
+$ opswork recipe run clivern/linux/cmd -h clivern -v cmd="uptime"
+
+# Ping Remote Host
+$ opswork recipe run clivern/linux/ping -h clivern
+
+# Update
+$ opswork recipe run clivern/linux/update -h clivern
+
+# Upgrade
+$ opswork recipe run clivern/linux/upgrade -h clivern
+
+# Force Reboot
+$ opswork recipe run clivern/linux/cmd -h clivern -v cmd="reboot"
 ```
 
 
