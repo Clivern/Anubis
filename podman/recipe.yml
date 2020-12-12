@@ -28,19 +28,7 @@ tasks:
       state: present
     with_items:
       - qemu
-
-  - name: download podman
-    unarchive:
-      src: https://github.com/containers/podman/releases/download/v4.7.1/podman-remote-release-darwin_amd64.zip
-      dest: /tmp
-      remote_src: yes
-
-  - name: copy podman
-    copy:
-      src: /tmp/podman-4.7.1/usr/bin/podman
-      dest: ~/bin/podman
-      mode: a+x
-      force: true
+      - podman
 
   - name: get version
     command: podman -v
