@@ -23,13 +23,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 --]]
--- You can add your own plugins here or in other files in this directory!
 
+-- Indent using Spaces. Tab is 4 Spaces
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.softtabstop = 4
 
+-- Example keymap to save file edits with /c/i
 vim.keymap.set('n', '/c/i', '<cmd>write!<cr>', {desc = 'Save'})
 
 return {}
