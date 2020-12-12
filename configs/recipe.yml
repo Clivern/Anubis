@@ -48,6 +48,7 @@ templates:
   vimrc.j2: vimrc.j2
   zshrc.j2: zshrc.j2
   config_global.json.j2: config_global.json.j2
+  hello.j2: hello.j2
 
 tasks:
   - name: ensures ~/.dolt dir exists
@@ -58,6 +59,11 @@ tasks:
   - name: ensures ~/.configs dir exists
     file:
       path: "~/.configs"
+      state: directory
+
+  - name: ensures ~/bin dir exists
+    file:
+      path: "~/bin"
       state: directory
 
   - name: create dot config file
@@ -86,3 +92,5 @@ tasks:
       - { src: "vimrc.j2", dest: "~/.vimrc", mode: "0700" }
       - { src: "zshrc.j2", dest: "~/.zshrc", mode: "0700" }
       - { src: "config_global.json.j2", dest: "~/.dolt/config_global.json", mode: "0700" }
+      - { src: "hello.j2", dest: "~/bin/hello", mode: "a+x" }
+
