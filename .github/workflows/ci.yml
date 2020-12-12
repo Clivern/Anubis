@@ -13,5 +13,5 @@ jobs:
 
       - name: Run CI
         run: |
-          pip --version
-          pip install opswork
+          python3 -m pip --version
+          python3 -m pip install opswork
