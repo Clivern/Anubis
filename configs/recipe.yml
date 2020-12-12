@@ -55,6 +55,11 @@ tasks:
       path: "~/.dolt"
       state: directory
 
+  - name: ensures ~/.configs dir exists
+    file:
+      path: "~/.configs"
+      state: directory
+
   - name: create dot config file
     template:
       src: "{{ item.src }}"

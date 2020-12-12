@@ -56,6 +56,11 @@ recipes:
     path: bat
     tags: dotfiles,must_have
 
+  # IDE
+  - name: clivern/dotfiles/nvim
+    path: nvim
+    tags: dotfiles,must_have,ide
+
   # Programming Languages
   - name: clivern/dotfiles/python
     path: python
@@ -290,6 +295,7 @@ run:
   - name: clivern/dotfiles/ack
   - name: clivern/dotfiles/curl
   - name: clivern/dotfiles/bat
+  - name: clivern/dotfiles/nvim
   - name: clivern/dotfiles/python
   - name: clivern/dotfiles/php
   #- name: clivern/dotfiles/node # Raises Error
