@@ -34,3 +34,9 @@ tasks:
       dest: $HOME/bin/k6
       mode: a+x
       force: true
+
+  - name: get version
+    command: k6 version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"

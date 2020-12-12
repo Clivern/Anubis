@@ -34,3 +34,9 @@ tasks:
       dest: $HOME/bin/caddy
       mode: a+x
       force: true
+
+  - name: get version
+    command: caddy version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"
