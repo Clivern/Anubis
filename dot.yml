@@ -170,7 +170,7 @@ recipes:
     path: tfswitch
     tags: dotfiles,must_have,hashicorp
 
-  # - requires virtualbox (install manually)
+  # requires virtualbox (install manually)
   - name: clivern/dotfiles/vagrant
     path: vagrant
     tags: dotfiles,hashicorp
@@ -193,14 +193,6 @@ recipes:
   - name: clivern/dotfiles/pyinfra
     path: pyinfra
     tags: dotfiles,must_have,pypkg
-
-  - name: clivern/dotfiles/openllm
-    path: openllm
-    tags: dotfiles,must_have,pypkg
-
-  - name: clivern/dotfiles/gradient
-    path: gradient
-    tags: dotfiles,must_have,pypkg,paperspace,digitalocean
 
   # Remote Linux Server
   - name: clivern/linux/consul/client
@@ -251,10 +243,6 @@ recipes:
     path: linux/vault
     tags: automation,ubuntu,linux
 
-  - name: clivern/linux/ml-box
-    path: ml-box
-    tags: automation,ubuntu,linux,ml
-
 # recipes to install
 run:
   - name: clivern/dotfiles/update
@@ -290,7 +278,6 @@ run:
   - name: clivern/dotfiles/cowsay
   - name: clivern/dotfiles/poetry
   - name: clivern/dotfiles/pyinfra
-  - name: clivern/dotfiles/openllm
   - name: clivern/dotfiles/github
   - name: clivern/dotfiles/zsh
   - name: clivern/dotfiles/vim
