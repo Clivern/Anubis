@@ -35,25 +35,10 @@ recipes:
     path: gnu-tar
     tags: dotfiles,must_have
 
+  # Web Servers
   - name: clivern/dotfiles/caddy
     path: caddy
     tags: dotfiles,must_have
-
-  - name: clivern/dotfiles/consul
-    path: consul
-    tags: dotfiles,must_have,hashicorp
-
-  - name: clivern/dotfiles/packer
-    path: packer
-    tags: dotfiles,must_have,hashicorp
-
-  - name: clivern/dotfiles/nomad
-    path: nomad
-    tags: dotfiles,must_have,hashicorp
-
-  - name: clivern/dotfiles/vault
-    path: vault
-    tags: dotfiles,must_have,hashicorp
 
   - name: clivern/dotfiles/ack
     path: ack
@@ -67,6 +52,7 @@ recipes:
     path: bat
     tags: dotfiles,must_have
 
+  # Programming Languages
   - name: clivern/dotfiles/python
     path: python
     tags: dotfiles,must_have,programming
@@ -79,14 +65,16 @@ recipes:
     path: node
     tags: dotfiles,must_have,programming
 
-  - name: clivern/dotfiles/nmap
-    path: nmap
-    tags: dotfiles,must_have
-
   - name: clivern/dotfiles/mysql
     path: mysql
     tags: dotfiles,must_have,db
 
+  # Networking
+  - name: clivern/dotfiles/nmap
+    path: nmap
+    tags: dotfiles,must_have
+
+  # Kubernetes
   - name: clivern/dotfiles/kubectx
     path: kubectx
     tags: dotfiles,must_have,k8s
@@ -95,10 +83,12 @@ recipes:
     path: kubectl
     tags: dotfiles,must_have,k8s
 
+  # Grafana Products
   - name: clivern/dotfiles/k6
     path: k6
     tags: dotfiles,must_have,load-testing
 
+  # Misc
   - name: clivern/dotfiles/iterm
     path: iterm
     tags: dotfiles,must_have
@@ -110,10 +100,6 @@ recipes:
   - name: clivern/dotfiles/screen
     path: screen
     tags: dotfiles,must_have
-
-  - name: clivern/dotfiles/tfswitch
-    path: tfswitch
-    tags: dotfiles,must_have,hashicorp
 
   - name: clivern/dotfiles/watch
     path: watch
@@ -143,6 +129,35 @@ recipes:
     path: ttyrec
     tags: dotfiles,must_have
 
+  # Hashicorp products
+  - name: clivern/dotfiles/consul
+    path: consul
+    tags: dotfiles,must_have,hashicorp
+
+  - name: clivern/dotfiles/packer
+    path: packer
+    tags: dotfiles,must_have,hashicorp
+
+  - name: clivern/dotfiles/nomad
+    path: nomad
+    tags: dotfiles,must_have,hashicorp
+
+  - name: clivern/dotfiles/vault
+    path: vault
+    tags: dotfiles,must_have,hashicorp
+
+  - name: clivern/dotfiles/tfswitch
+    path: tfswitch
+    tags: dotfiles,must_have,hashicorp
+
+  # - requires virtualbox (install manually)
+  - name: clivern/dotfiles/vagrant
+    path: vagrant
+    tags: dotfiles,hashicorp
+
+  # Python packages running under pipx
+  # To list them
+  # $ pipx list
   - name: clivern/dotfiles/pipx
     path: pipx
     tags: dotfiles,must_have,pypkg
