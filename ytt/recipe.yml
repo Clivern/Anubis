@@ -23,4 +23,4 @@
 
 tasks:
   - name: Install ytt
-    ansible.builtin.command: wget -O- https://carvel.dev/install.sh > install.sh && bash install.sh
+    command: wget -O- https://carvel.dev/install.sh > install.sh && bash install.sh

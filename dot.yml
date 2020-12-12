@@ -153,6 +153,10 @@ recipes:
     path: doctl
     tags: dotfiles,must_have,digitalocean
 
+  - name: clivern/dotfiles/jump
+    path: jump
+    tags: dotfiles,must_have,rust_pkgs
+
   # Hashicorp products
   - name: clivern/dotfiles/consul
     path: consul
@@ -197,6 +201,10 @@ recipes:
   - name: clivern/dotfiles/pyinfra
     path: pyinfra
     tags: dotfiles,must_have,pypkg
+
+  - name: clivern/dotfiles/configs
+    path: configs
+    tags: dotfiles,must_have,configs
 
   # Remote Linux Server
   - name: clivern/linux/consul/client
@@ -251,10 +259,6 @@ recipes:
     path: linux/cmd
     tags: automation,ubuntu,linux
 
-  - name: clivern/configs
-    path: configs
-    tags: dotfiles,must_have,configs
-
 
 # recipes to install
 run:
@@ -272,7 +276,7 @@ run:
   - name: clivern/dotfiles/bat
   - name: clivern/dotfiles/python
   - name: clivern/dotfiles/php
-  - name: clivern/dotfiles/node
+  #- name: clivern/dotfiles/node # Raises Error
   - name: clivern/dotfiles/nmap
   - name: clivern/dotfiles/mysql
   - name: clivern/dotfiles/kubectx
@@ -296,4 +300,5 @@ run:
   - name: clivern/dotfiles/zsh
   - name: clivern/dotfiles/vim
   - name: clivern/dotfiles/doctl
-  - name: clivern/configs
+  - name: clivern/dotfiles/jump
+  - name: clivern/dotfiles/configs

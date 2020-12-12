@@ -23,4 +23,4 @@
 
 tasks:
   - name: Install poetry python package on version 1.6.1
-    ansible.builtin.command: pipx install poetry==1.6.1
+    command: pipx install poetry==1.6.1

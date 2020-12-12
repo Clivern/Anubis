@@ -23,4 +23,4 @@
 
 tasks:
   - name: Install hatch python package on version 1.7.0
-    ansible.builtin.command: pipx install hatch==1.7.0
+    command: pipx install hatch==1.7.0

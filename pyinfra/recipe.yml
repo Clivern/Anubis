@@ -22,4 +22,4 @@
 
 tasks:
   - name: Install pyinfra python package on version 2.8
-    ansible.builtin.command: pipx install pyinfra==2.8
+    command: pipx install pyinfra==2.8

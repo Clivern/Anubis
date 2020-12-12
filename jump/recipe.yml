@@ -22,5 +22,11 @@
 
 
 tasks:
-  - name: Install rust and cargo
-    command: curl https://sh.rustup.rs -sSf | sh
+  - name: Install jump rust package
+    command: cargo install -j 1 ju
+
+  - name: get version
+    command: ju --version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"
