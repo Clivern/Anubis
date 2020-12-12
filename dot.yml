@@ -251,6 +251,10 @@ recipes:
     path: linux/vault
     tags: automation,ubuntu,linux
 
+  - name: clivern/linux/ml-box
+    path: ml-box
+    tags: automation,ubuntu,linux,ml
+
 # recipes to install
 run:
   - name: clivern/dotfiles/update
