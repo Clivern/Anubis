@@ -186,6 +186,55 @@ recipes:
     path: gradient
     tags: dotfiles,must_have,pypkg,paperspace,digitalocean
 
+  # Remote Linux Server
+  - name: clivern/linux/consul/client
+    path: linux/consul/client
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/consul/server
+    path: linux/consul/server
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/grafana
+    path: linux/grafana
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/haproxy
+    path: linux/haproxy
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/motd
+    path: linux/motd
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/nginx
+    path: linux/nginx
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/node_exporter
+    path: linux/node_exporter
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/ping
+    path: linux/ping
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/prometheus
+    path: linux/prometheus
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/update
+    path: linux/update
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/upgrade
+    path: linux/upgrade
+    tags: automation,ubuntu,linux
+
+  - name: clivern/linux/vault
+    path: linux/vault
+    tags: automation,ubuntu,linux
+
 # recipes to install
 run:
   - name: clivern/dotfiles/update
