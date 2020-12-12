@@ -1,4 +1,4 @@
-name: ci
+name: CI
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - v2
 
 jobs:
-  ci:
+  CI:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
