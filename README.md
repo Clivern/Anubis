@@ -88,6 +88,9 @@ $ opswork recipe run clivern/linux/upgrade -h clivern
 
 # Force Reboot
 $ opswork recipe run clivern/linux/cmd -h clivern -v cmd="reboot"
+
+# SSH to Any Host
+$ opswork host ssh clivern
 ```
 
 
