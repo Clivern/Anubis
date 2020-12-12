@@ -89,8 +89,8 @@ recipes:
     tags: dotfiles,must_have,load-testing
 
   # Misc
-  - name: clivern/dotfiles/iterm
-    path: iterm
+  - name: clivern/dotfiles/iterm2
+    path: iterm2
     tags: dotfiles,must_have
 
   - name: clivern/dotfiles/httpie
