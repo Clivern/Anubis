@@ -182,6 +182,10 @@ recipes:
     path: openllm
     tags: dotfiles,must_have,pypkg
 
+  - name: clivern/dotfiles/gradient
+    path: gradient
+    tags: dotfiles,must_have,pypkg,paperspace,digitalocean
+
 # recipes to install
 run:
   - name: clivern/dotfiles/update
