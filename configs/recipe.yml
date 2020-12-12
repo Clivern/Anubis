@@ -47,8 +47,14 @@ templates:
   screenrc.j2: screenrc.j2
   vimrc.j2: vimrc.j2
   zshrc.j2: zshrc.j2
+  config_global.json.j2: config_global.json.j2
 
 tasks:
+  - name: ensures ~/.dolt dir exists
+    file:
+      path: "~/.dolt"
+      state: directory
+
   - name: create dot config file
     template:
       src: "{{ item.src }}"
@@ -74,3 +80,4 @@ tasks:
       - { src: "screenrc.j2", dest: "~/.screenrc", mode: "0700" }
       - { src: "vimrc.j2", dest: "~/.vimrc", mode: "0700" }
       - { src: "zshrc.j2", dest: "~/.zshrc", mode: "0700" }
+      - { src: "config_global.json.j2", dest: "~/.dolt/config_global.json", mode: "0700" }
