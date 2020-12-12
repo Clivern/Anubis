@@ -82,6 +82,15 @@ recipes:
     path: rust
     tags: dotfiles,must_have,programming
 
+  - name: clivern/dotfiles/goenv
+    path: goenv
+    tags: dotfiles,must_have,programming
+
+  - name: clivern/dotfiles/lua
+    path: lua
+    tags: dotfiles,must_have,programming
+
+  # Databases
   - name: clivern/dotfiles/mysql
     path: mysql
     tags: dotfiles,must_have,db
@@ -299,7 +308,9 @@ run:
   - name: clivern/dotfiles/vim
   - name: clivern/dotfiles/python
   - name: clivern/dotfiles/php
-  #- name: clivern/dotfiles/node # Raises Error
+  - name: clivern/dotfiles/goenv
+  - name: clivern/dotfiles/lua
+  - name: clivern/dotfiles/rust
   - name: clivern/dotfiles/nmap
   - name: clivern/dotfiles/mysql
   - name: clivern/dotfiles/kubectx
