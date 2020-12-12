@@ -30,7 +30,7 @@ tasks:
 
   - name: copy github cli
     copy:
-      src: /tmp/gh
+      src: /tmp/gh_2.36.0_macOS_amd64/bin/gh
       dest: $HOME/bin/gh
       mode: a+x
       force: true
