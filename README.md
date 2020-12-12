@@ -1,17 +1,17 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Clivern/dotfiles/main/screenshot01.png?v=3.1.0" width="600" />
-    <h3 align="center">dotfiles</h3>
+    <img src="https://raw.githubusercontent.com/Clivern/Kemet/main/screenshot01.png?v=3.1.0" width="600" />
+    <h3 align="center">Kemet</h3>
     <p align="center">
-        <a href="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml">
-           <img src="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml/badge.svg?branch=main"/>
+        <a href="https://github.com/Clivern/Kemet/actions/workflows/ci.yml">
+           <img src="https://github.com/Clivern/Kemet/actions/workflows/ci.yml/badge.svg?branch=main"/>
         </a>
         <a href="https://pypi.org/project/opswork/">
             <img src="https://img.shields.io/badge/Built_with-OpsWork-pink"/>
         </a>
-        <a href="https://github.com/Clivern/dotfiles/releases">
+        <a href="https://github.com/Clivern/Kemet/releases">
             <img src="https://img.shields.io/badge/Version-3.1.0-1abc9c.svg">
         </a>
-        <a href="https://github.com/Clivern/dotfiles/blob/master/LICENSE">
+        <a href="https://github.com/Clivern/Kemet/blob/master/LICENSE">
             <img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg">
         </a>
     </p>
@@ -26,11 +26,11 @@
 1. Clone the repository.
 
 ```zsh
-$ mkdir -p ~/Space/Personal
-$ mkdir -p ~/Space/Work
+$ mkdir -p ~/space/personal
+$ mkdir -p ~/space/work
 $ mkdir -p ~/.configs
 
-$ git clone git@github.com:Clivern/dotfiles.git ~/Space/dotfiles
+$ git clone git@github.com:Clivern/Kemet.git ~/space/kemet
 ```
 
 2. Install [opswork](https://pypi.org/project/opswork/) globally.
@@ -105,5 +105,5 @@ $ opswork host ssh clivern
 
 © 2010, Clivern. Released under [MIT License](https://opensource.org/licenses/mit-license.php).
 
-**Dotfiles** is authored and maintained by [@clivern](http://github.com/clivern).
+**Kemet** is authored and maintained by [@clivern](http://github.com/clivern).
 

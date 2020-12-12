@@ -23,222 +23,222 @@
 
 # recipes to load
 recipes:
-  - name: clivern/dotfiles/update
+  - name: clivern/kemet/update
     path: brew/update
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/upgrade
+  - name: clivern/kemet/upgrade
     path: brew/upgrade
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/base
+  - name: clivern/kemet/base
     path: base
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/gnu-tar
+  - name: clivern/kemet/gnu-tar
     path: gnu-tar
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
   # Web Servers
-  - name: clivern/dotfiles/caddy
+  - name: clivern/kemet/caddy
     path: caddy
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/ack
+  - name: clivern/kemet/ack
     path: ack
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/curl
+  - name: clivern/kemet/curl
     path: curl
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/bat
+  - name: clivern/kemet/bat
     path: bat
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
   # IDE
-  - name: clivern/dotfiles/neovim
+  - name: clivern/kemet/neovim
     path: neovim
-    tags: dotfiles,must_have,ide
+    tags: kemet,must_have,ide
 
-  - name: clivern/dotfiles/vim
+  - name: clivern/kemet/vim
     path: vim
-    tags: dotfiles,must_have,ide
+    tags: kemet,must_have,ide
 
   # Programming Languages
-  - name: clivern/dotfiles/python
+  - name: clivern/kemet/python
     path: python
-    tags: dotfiles,must_have,programming
+    tags: kemet,must_have,programming
 
-  - name: clivern/dotfiles/php
+  - name: clivern/kemet/php
     path: php
-    tags: dotfiles,must_have,programming
+    tags: kemet,must_have,programming
 
-  - name: clivern/dotfiles/node
+  - name: clivern/kemet/node
     path: node
-    tags: dotfiles,must_have,programming
+    tags: kemet,must_have,programming
 
-  - name: clivern/dotfiles/rust
+  - name: clivern/kemet/rust
     path: rust
-    tags: dotfiles,must_have,programming
+    tags: kemet,must_have,programming
 
-  - name: clivern/dotfiles/goenv
+  - name: clivern/kemet/goenv
     path: goenv
-    tags: dotfiles,must_have,programming
+    tags: kemet,must_have,programming
 
-  - name: clivern/dotfiles/lua
+  - name: clivern/kemet/lua
     path: lua
-    tags: dotfiles,must_have,programming
+    tags: kemet,must_have,programming
 
-  - name: clivern/dotfiles/elixir
+  - name: clivern/kemet/elixir
     path: elixir
-    tags: dotfiles,must_have,programming
+    tags: kemet,must_have,programming
 
   # Databases
-  - name: clivern/dotfiles/mysql
+  - name: clivern/kemet/mysql
     path: mysql
-    tags: dotfiles,must_have,db
+    tags: kemet,must_have,db
 
   # Networking
-  - name: clivern/dotfiles/nmap
+  - name: clivern/kemet/nmap
     path: nmap
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
   # Kubernetes
-  - name: clivern/dotfiles/kubectx
+  - name: clivern/kemet/kubectx
     path: kubectx
-    tags: dotfiles,must_have,k8s
+    tags: kemet,must_have,k8s
 
-  - name: clivern/dotfiles/kubectl
+  - name: clivern/kemet/kubectl
     path: kubectl
-    tags: dotfiles,must_have,k8s
+    tags: kemet,must_have,k8s
 
   # Grafana Products
-  - name: clivern/dotfiles/k6
+  - name: clivern/kemet/k6
     path: k6
-    tags: dotfiles,must_have,load-testing
+    tags: kemet,must_have,load-testing
 
   # Misc
-  - name: clivern/dotfiles/iterm2
+  - name: clivern/kemet/iterm2
     path: iterm2
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/httpie
+  - name: clivern/kemet/httpie
     path: httpie
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/screen
+  - name: clivern/kemet/screen
     path: screen
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/watch
+  - name: clivern/kemet/watch
     path: watch
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/wget
+  - name: clivern/kemet/wget
     path: wget
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/ytt
+  - name: clivern/kemet/ytt
     path: ytt
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/task
+  - name: clivern/kemet/task
     path: task
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/tmux
+  - name: clivern/kemet/tmux
     path: tmux
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/tree
+  - name: clivern/kemet/tree
     path: tree
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/ttyrec
+  - name: clivern/kemet/ttyrec
     path: ttyrec
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/github
+  - name: clivern/kemet/github
     path: github
-    tags: dotfiles,must_have,github
+    tags: kemet,must_have,github
 
-  - name: clivern/dotfiles/zsh
+  - name: clivern/kemet/zsh
     path: zsh
-    tags: dotfiles,must_have
+    tags: kemet,must_have
 
-  - name: clivern/dotfiles/doctl
+  - name: clivern/kemet/doctl
     path: doctl
-    tags: dotfiles,must_have,digitalocean
+    tags: kemet,must_have,digitalocean
 
-  - name: clivern/dotfiles/dolt
+  - name: clivern/kemet/dolt
     path: dolt
-    tags: dotfiles,must_have,git
+    tags: kemet,must_have,git
 
-  - name: clivern/dotfiles/podman
+  - name: clivern/kemet/podman
     path: podman
-    tags: dotfiles,must_have,podman
+    tags: kemet,must_have,podman
 
-  - name: clivern/dotfiles/jump
+  - name: clivern/kemet/jump
     path: jump
-    tags: dotfiles,must_have,rust_pkgs
+    tags: kemet,must_have,rust_pkgs
 
   # Hashicorp products
-  - name: clivern/dotfiles/consul
+  - name: clivern/kemet/consul
     path: consul
-    tags: dotfiles,must_have,hashicorp
+    tags: kemet,must_have,hashicorp
 
-  - name: clivern/dotfiles/packer
+  - name: clivern/kemet/packer
     path: packer
-    tags: dotfiles,must_have,hashicorp
+    tags: kemet,must_have,hashicorp
 
-  - name: clivern/dotfiles/nomad
+  - name: clivern/kemet/nomad
     path: nomad
-    tags: dotfiles,must_have,hashicorp
+    tags: kemet,must_have,hashicorp
 
-  - name: clivern/dotfiles/vault
+  - name: clivern/kemet/vault
     path: vault
-    tags: dotfiles,must_have,hashicorp
+    tags: kemet,must_have,hashicorp
 
-  - name: clivern/dotfiles/tfswitch
+  - name: clivern/kemet/tfswitch
     path: tfswitch
-    tags: dotfiles,must_have,hashicorp
+    tags: kemet,must_have,hashicorp
 
   # requires virtualbox (install manually)
-  - name: clivern/dotfiles/vagrant
+  - name: clivern/kemet/vagrant
     path: vagrant
-    tags: dotfiles,hashicorp
+    tags: kemet,hashicorp
 
   # Python packages running under pipx
   # To list them
   # $ pipx list
-  - name: clivern/dotfiles/pipx
+  - name: clivern/kemet/pipx
     path: pipx
-    tags: dotfiles,must_have,pypkg
+    tags: kemet,must_have,pypkg
 
-  - name: clivern/dotfiles/cowsay
+  - name: clivern/kemet/cowsay
     path: cowsay
-    tags: dotfiles,must_have,pypkg
+    tags: kemet,must_have,pypkg
 
-  - name: clivern/dotfiles/copier
+  - name: clivern/kemet/copier
     path: copier
-    tags: dotfiles,must_have,pypkg
+    tags: kemet,must_have,pypkg
 
-  - name: clivern/dotfiles/poetry
+  - name: clivern/kemet/poetry
     path: poetry
-    tags: dotfiles,must_have,pypkg
+    tags: kemet,must_have,pypkg
 
-  - name: clivern/dotfiles/pyinfra
+  - name: clivern/kemet/pyinfra
     path: pyinfra
-    tags: dotfiles,must_have,pypkg
+    tags: kemet,must_have,pypkg
 
-  - name: clivern/dotfiles/streamlit
+  - name: clivern/kemet/streamlit
     path: streamlit
-    tags: dotfiles,must_have,pypkg
+    tags: kemet,must_have,pypkg
 
-  - name: clivern/dotfiles/configs
+  - name: clivern/kemet/configs
     path: configs
-    tags: dotfiles,must_have,configs
+    tags: kemet,must_have,configs
 
   # Remote Linux Server
   - name: clivern/linux/consul/client
@@ -296,51 +296,51 @@ recipes:
 
 # recipes to install
 run:
-  - name: clivern/dotfiles/update
-  - name: clivern/dotfiles/upgrade
-  - name: clivern/dotfiles/base
-  - name: clivern/dotfiles/gnu-tar
-  - name: clivern/dotfiles/caddy
-  - name: clivern/dotfiles/consul
-  - name: clivern/dotfiles/packer
-  - name: clivern/dotfiles/nomad
-  - name: clivern/dotfiles/vault
-  - name: clivern/dotfiles/ack
-  - name: clivern/dotfiles/curl
-  - name: clivern/dotfiles/bat
-  - name: clivern/dotfiles/neovim
-  - name: clivern/dotfiles/vim
-  - name: clivern/dotfiles/python
-  - name: clivern/dotfiles/php
-  - name: clivern/dotfiles/goenv
-  - name: clivern/dotfiles/lua
-  - name: clivern/dotfiles/elixir
-  - name: clivern/dotfiles/rust
-  - name: clivern/dotfiles/nmap
-  - name: clivern/dotfiles/mysql
-  - name: clivern/dotfiles/kubectx
-  - name: clivern/dotfiles/kubectl
-  - name: clivern/dotfiles/k6
-  - name: clivern/dotfiles/httpie
-  - name: clivern/dotfiles/screen
-  - name: clivern/dotfiles/tfswitch
-  - name: clivern/dotfiles/watch
-  - name: clivern/dotfiles/wget
-  - name: clivern/dotfiles/ytt
-  - name: clivern/dotfiles/task
-  - name: clivern/dotfiles/tmux
-  - name: clivern/dotfiles/tree
-  - name: clivern/dotfiles/ttyrec
-  - name: clivern/dotfiles/pipx
-  - name: clivern/dotfiles/cowsay
-  - name: clivern/dotfiles/copier
-  - name: clivern/dotfiles/poetry
-  - name: clivern/dotfiles/pyinfra
-  - name: clivern/dotfiles/streamlit
-  - name: clivern/dotfiles/github
-  - name: clivern/dotfiles/zsh
-  - name: clivern/dotfiles/doctl
-  - name: clivern/dotfiles/dolt
-  - name: clivern/dotfiles/podman
-  - name: clivern/dotfiles/jump
-  - name: clivern/dotfiles/configs
+  - name: clivern/kemet/update
+  - name: clivern/kemet/upgrade
+  - name: clivern/kemet/base
+  - name: clivern/kemet/gnu-tar
+  - name: clivern/kemet/caddy
+  - name: clivern/kemet/consul
+  - name: clivern/kemet/packer
+  - name: clivern/kemet/nomad
+  - name: clivern/kemet/vault
+  - name: clivern/kemet/ack
+  - name: clivern/kemet/curl
+  - name: clivern/kemet/bat
+  - name: clivern/kemet/neovim
+  - name: clivern/kemet/vim
+  - name: clivern/kemet/python
+  - name: clivern/kemet/php
+  - name: clivern/kemet/goenv
+  - name: clivern/kemet/lua
+  - name: clivern/kemet/elixir
+  - name: clivern/kemet/rust
+  - name: clivern/kemet/nmap
+  - name: clivern/kemet/mysql
+  - name: clivern/kemet/kubectx
+  - name: clivern/kemet/kubectl
+  - name: clivern/kemet/k6
+  - name: clivern/kemet/httpie
+  - name: clivern/kemet/screen
+  - name: clivern/kemet/tfswitch
+  - name: clivern/kemet/watch
+  - name: clivern/kemet/wget
+  - name: clivern/kemet/ytt
+  - name: clivern/kemet/task
+  - name: clivern/kemet/tmux
+  - name: clivern/kemet/tree
+  - name: clivern/kemet/ttyrec
+  - name: clivern/kemet/pipx
+  - name: clivern/kemet/cowsay
+  - name: clivern/kemet/copier
+  - name: clivern/kemet/poetry
+  - name: clivern/kemet/pyinfra
+  - name: clivern/kemet/streamlit
+  - name: clivern/kemet/github
+  - name: clivern/kemet/zsh
+  - name: clivern/kemet/doctl
+  - name: clivern/kemet/dolt
+  - name: clivern/kemet/podman
+  - name: clivern/kemet/jump
+  - name: clivern/kemet/configs

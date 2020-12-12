@@ -1,6 +1,6 @@
 help: Makefile
 	@echo
-	@echo " Choose a command run in dotfiles:"
+	@echo " Choose a command run in Kemet:"
 	@echo
 	@sed -n 's/^##//p' $< | column -t -s ':' |  sed -e 's/^/ /'
 	@echo
@@ -27,8 +27,8 @@ recipes:
 
 ## config: Reload and sync configs
 config:
-	opswork recipe add clivern/dotfiles/configs -p configs -t dotfiles,must_have,configs -f
-	opswork recipe run clivern/dotfiles/configs -h localhost
+	opswork recipe add clivern/kemet/configs -p configs -t kemet,must_have,configs -f
+	opswork recipe run clivern/kemet/configs -h localhost
 
 
 ## run: Run Recipes.

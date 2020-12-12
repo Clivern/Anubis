@@ -41,4 +41,4 @@ tasks:
   - debug: msg="{{ output.stdout }}"
 
   - name: symlink the configs
-    command: ln -s ~/Space/dotfiles/nvim ~/.config/nvim
+    command: ln -s ~/space/kemet/nvim ~/.config/nvim

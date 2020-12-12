@@ -29,10 +29,10 @@ tasks:
 
   - name: create Work directory
     file:
-      path: ~/Space/Work
+      path: ~/space/work
       state: directory
 
   - name: create Personal directory
     file:
-      path: ~/Space/Personal
+      path: ~/space/personal
       state: directory
