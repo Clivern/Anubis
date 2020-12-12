@@ -16,6 +16,8 @@ jobs:
           python3 -m pip --version
           python3 -m pip install opswork
 
+          opswork config init
+
           make hosts
           make recipes
           make run
