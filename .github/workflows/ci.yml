@@ -15,8 +15,6 @@ jobs:
         run: |
           python3 -m pip --version
           python3 -m pip install opswork
-          python3 -m pip install ansible
-          python3 -m pip ansible --version
           opswork config init
 
           make hosts
