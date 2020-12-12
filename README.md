@@ -6,7 +6,7 @@
            <img src="https://github.com/Clivern/Kemet/actions/workflows/ci.yml/badge.svg?branch=main"/>
         </a>
         <a href="https://pypi.org/project/opswork/">
-            <img src="https://img.shields.io/badge/Built_with-OpsWork-pink"/>
+            <img src="https://img.shields.io/badge/Built_with-OpsWork-red"/>
         </a>
         <a href="https://github.com/Clivern/Kemet/releases">
             <img src="https://img.shields.io/badge/Version-3.1.1-1abc9c.svg">
