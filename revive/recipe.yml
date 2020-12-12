@@ -19,3 +19,24 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
+
+tasks:
+  - name: download revive
+    unarchive:
+      src: https://github.com/mgechev/revive/releases/download/v1.3.4/revive_darwin_amd64.tar.gz
+      dest: /tmp
+      remote_src: yes
+
+  - name: copy revive
+    copy:
+      src: /tmp/revive
+      dest: $HOME/bin/revive
+      mode: a+x
+      force: true
+
+  - name: get version
+    command: revive --version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"

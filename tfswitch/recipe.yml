@@ -22,9 +22,21 @@
 
 
 tasks:
-  - name: installing warrensbox/tap/tfswitch package
-    homebrew:
-      name: "{{ item }}"
-      state: present
-    with_items:
-      - warrensbox/tap/tfswitch
+  - name: download tfswitch
+    unarchive:
+      src: https://github.com/warrensbox/terraform-switcher/releases/download/0.13.1308/terraform-switcher_0.13.1308_darwin_amd64.tar.gz
+      dest: /tmp
+      remote_src: yes
+
+  - name: copy tfswitch
+    copy:
+      src: /tmp/tfswitch
+      dest: $HOME/bin/tfswitch
+      mode: a+x
+      force: true
+
+  - name: get version
+    command: tfswitch --version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"

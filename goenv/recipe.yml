@@ -22,13 +22,6 @@
 
 
 tasks:
-  - name: installing gnu-tar package
-    homebrew:
-      name: "{{ item }}"
-      state: present
-    with_items:
-      - gnu-tar
-
   - name: download goenv
     unarchive:
       src: https://github.com/Norwik/Goenv/releases/download/v1.11.0/goenv_1.11.0_Darwin_x86_64.tar.gz
@@ -41,3 +34,9 @@ tasks:
       dest: $HOME/bin/goenv
       mode: a+x
       force: true
+
+  - name: get version
+    command: goenv info
+    register: output
+
+  - debug: msg="{{ output.stdout }}"

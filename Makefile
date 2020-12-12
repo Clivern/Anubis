@@ -17,6 +17,7 @@ recipes:
 	@echo ">> ============= Load Recipes ============= <<"
 	opswork recipe add clivern/dotfiles/update -p brew/update -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/upgrade -p brew/upgrade -t dotfiles,must_have -f
+	opswork recipe add clivern/dotfiles/gnu-tar -p gnu-tar -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/caddy -p caddy -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/consul -p consul -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/packer -p packer -t dotfiles,must_have -f
@@ -56,6 +57,7 @@ run:
 	@echo ">> ============= Run Recipes ============= <<"
 	opswork recipe run clivern/dotfiles/update -h localhost
 	opswork recipe run clivern/dotfiles/upgrade -h localhost
+	opswork recipe run clivern/dotfiles/gnu-tar -h localhost
 	opswork recipe run clivern/dotfiles/caddy -h localhost
 	opswork recipe run clivern/dotfiles/consul -h localhost
 	opswork recipe run clivern/dotfiles/packer -h localhost
