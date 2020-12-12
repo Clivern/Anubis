@@ -28,4 +28,4 @@ jobs:
           make hosts
           make recipes
           make run
-          brew doctor
+
