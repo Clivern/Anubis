@@ -20,8 +20,3 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-
-tasks:
-  - name: Install pipx python package on version 1.2.0
-    pip:
-      name: pipx==1.2.0

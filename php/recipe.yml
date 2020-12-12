@@ -22,9 +22,9 @@
 
 
 tasks:
-  - name: installing python@3.9 package
+  - name: installing php@8.2 package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
-      - python@3.9
+      - php@8.2
