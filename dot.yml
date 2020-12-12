@@ -90,6 +90,10 @@ recipes:
     path: lua
     tags: dotfiles,must_have,programming
 
+  - name: clivern/dotfiles/elixir
+    path: elixir
+    tags: dotfiles,must_have,programming
+
   # Databases
   - name: clivern/dotfiles/mysql
     path: mysql
@@ -310,6 +314,7 @@ run:
   - name: clivern/dotfiles/php
   - name: clivern/dotfiles/goenv
   - name: clivern/dotfiles/lua
+  - name: clivern/dotfiles/elixir
   - name: clivern/dotfiles/rust
   - name: clivern/dotfiles/nmap
   - name: clivern/dotfiles/mysql
