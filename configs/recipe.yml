@@ -72,25 +72,25 @@ tasks:
       dest: "{{ item.dest }}"
       mode: "{{ item.mode }}"
     with_items:
-      - { src: "aliases.j2", dest: "~/.aliases", mode: "0700" }
-      - { src: "bash_profile.j2", dest: "~/.bash_profile", mode: "0700" }
-      - { src: "bash_prompt.j2", dest: "~/.bash_prompt", mode: "0700" }
-      - { src: "bashrc.j2", dest: "~/.bashrc", mode: "0700" }
-      - { src: "editorconfig.j2", dest: "~/.editorconfig", mode: "0700" }
-      - { src: "exports.j2", dest: "~/.exports", mode: "0700" }
-      - { src: "functions.j2", dest: "~/.functions", mode: "0700" }
-      - { src: "gitattributes.j2", dest: "~/.gitattributes", mode: "0700" }
-      - { src: "gitconfig-personal.j2", dest: "~/.gitconfig-personal", mode: "0700" }
-      - { src: "gitconfig-work.j2", dest: "~/.gitconfig-work", mode: "0700" }
-      - { src: "gitconfig.j2", dest: "~/.gitconfig", mode: "0700" }
-      - { src: "gitignore.j2", dest: "~/.gitignore", mode: "0700" }
-      - { src: "macos.j2", dest: "~/.macos", mode: "0700" }
-      - { src: "my.cnf.j2", dest: "~/.my.cnf", mode: "0700" }
-      - { src: "profile.j2", dest: "~/.profile", mode: "0700" }
-      - { src: "ruby-version.j2", dest: "~/.ruby-version", mode: "0700" }
-      - { src: "screenrc.j2", dest: "~/.screenrc", mode: "0700" }
-      - { src: "vimrc.j2", dest: "~/.vimrc", mode: "0700" }
-      - { src: "zshrc.j2", dest: "~/.zshrc", mode: "0700" }
-      - { src: "config_global.json.j2", dest: "~/.dolt/config_global.json", mode: "0700" }
+      - { src: "aliases.j2", dest: "~/.aliases", mode: "0600" }
+      - { src: "bash_profile.j2", dest: "~/.bash_profile", mode: "0600" }
+      - { src: "bash_prompt.j2", dest: "~/.bash_prompt", mode: "0600" }
+      - { src: "bashrc.j2", dest: "~/.bashrc", mode: "0600" }
+      - { src: "editorconfig.j2", dest: "~/.editorconfig", mode: "0600" }
+      - { src: "exports.j2", dest: "~/.exports", mode: "0600" }
+      - { src: "functions.j2", dest: "~/.functions", mode: "0600" }
+      - { src: "gitattributes.j2", dest: "~/.gitattributes", mode: "0600" }
+      - { src: "gitconfig-personal.j2", dest: "~/.gitconfig-personal", mode: "0600" }
+      - { src: "gitconfig-work.j2", dest: "~/.gitconfig-work", mode: "0600" }
+      - { src: "gitconfig.j2", dest: "~/.gitconfig", mode: "0600" }
+      - { src: "gitignore.j2", dest: "~/.gitignore", mode: "0600" }
+      - { src: "macos.j2", dest: "~/.macos", mode: "0600" }
+      - { src: "my.cnf.j2", dest: "~/.my.cnf", mode: "0600" }
+      - { src: "profile.j2", dest: "~/.profile", mode: "0600" }
+      - { src: "ruby-version.j2", dest: "~/.ruby-version", mode: "0600" }
+      - { src: "screenrc.j2", dest: "~/.screenrc", mode: "0600" }
+      - { src: "vimrc.j2", dest: "~/.vimrc", mode: "0600" }
+      - { src: "zshrc.j2", dest: "~/.zshrc", mode: "0600" }
+      - { src: "config_global.json.j2", dest: "~/.dolt/config_global.json", mode: "0600" }
       - { src: "kemet.j2", dest: "~/bin/kemet", mode: "a+x" }
 
