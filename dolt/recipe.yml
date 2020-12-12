@@ -22,21 +22,21 @@
 
 
 tasks:
-  - name: download goenv
+  - name: download dolt
     unarchive:
-      src: https://github.com/Norwik/Goenv/releases/download/v1.13.0/goenv_1.13.0_Darwin_x86_64.tar.gz
+      src: https://github.com/dolthub/dolt/releases/download/v1.24.1/dolt-darwin-amd64.tar.gz
       dest: /tmp
       remote_src: yes
 
-  - name: copy goenv
+  - name: copy dolt
     copy:
-      src: /tmp/goenv
-      dest: ~/bin/goenv
+      src: /tmp/dolt-darwin-amd64/bin/dolt
+      dest: ~/bin/dolt
       mode: a+x
       force: true
 
   - name: get version
-    command: goenv info
+    command: dolt version
     register: output
 
   - debug: msg="{{ output.stdout }}"

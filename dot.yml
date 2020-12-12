@@ -153,6 +153,10 @@ recipes:
     path: doctl
     tags: dotfiles,must_have,digitalocean
 
+  - name: clivern/dotfiles/dolt
+    path: dolt
+    tags: dotfiles,must_have,git
+
   - name: clivern/dotfiles/podman
     path: podman
     tags: dotfiles,must_have,podman
@@ -314,6 +318,7 @@ run:
   - name: clivern/dotfiles/zsh
   - name: clivern/dotfiles/vim
   - name: clivern/dotfiles/doctl
+  - name: clivern/dotfiles/dolt
   - name: clivern/dotfiles/podman
   - name: clivern/dotfiles/jump
   - name: clivern/dotfiles/configs
