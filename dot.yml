@@ -104,6 +104,10 @@ recipes:
     path: nmap
     tags: kemet,must_have
 
+  - name: clivern/kemet/netcat
+    path: netcat
+    tags: kemet,must_have
+
   # Kubernetes
   - name: clivern/kemet/kubectx
     path: kubectx
@@ -317,6 +321,7 @@ run:
   - name: clivern/kemet/elixir
   - name: clivern/kemet/rust
   - name: clivern/kemet/nmap
+  - name: clivern/kemet/netcat
   - name: clivern/kemet/mysql
   - name: clivern/kemet/kubectx
   - name: clivern/kemet/kubectl
