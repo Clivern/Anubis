@@ -65,6 +65,10 @@ recipes:
     path: node
     tags: dotfiles,must_have,programming
 
+  - name: clivern/dotfiles/rust
+    path: rust
+    tags: dotfiles,must_have,programming
+
   - name: clivern/dotfiles/mysql
     path: mysql
     tags: dotfiles,must_have,db
@@ -132,6 +136,18 @@ recipes:
   - name: clivern/dotfiles/github
     path: github
     tags: dotfiles,must_have,github
+
+  - name: clivern/dotfiles/vim
+    path: vim
+    tags: dotfiles,must_have,ide
+
+  - name: clivern/dotfiles/zsh
+    path: zsh
+    tags: dotfiles,must_have
+
+  - name: clivern/dotfiles/doctl
+    path: doctl
+    tags: dotfiles,must_have,digitalocean
 
   # Hashicorp products
   - name: clivern/dotfiles/consul
@@ -272,3 +288,6 @@ run:
   - name: clivern/dotfiles/pyinfra
   - name: clivern/dotfiles/openllm
   - name: clivern/dotfiles/github
+  - name: clivern/dotfiles/zsh
+  - name: clivern/dotfiles/vim
+  - name: clivern/dotfiles/doctl
