@@ -40,5 +40,5 @@ tasks:
 
   - debug: msg="{{ output.stdout }}"
 
-  - name: clone nvim configs
-    command: git clone https://github.com/nvim-lua/kickstart.nvim.git ~/.config/nvim
+  - name: symlink the configs
+    command: ln -s ~/Space/dotfiles/nvim ~/.config/nvim

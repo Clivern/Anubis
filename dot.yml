@@ -57,8 +57,12 @@ recipes:
     tags: dotfiles,must_have
 
   # IDE
-  - name: clivern/dotfiles/nvim
-    path: nvim
+  - name: clivern/dotfiles/neovim
+    path: neovim
+    tags: dotfiles,must_have,ide
+
+  - name: clivern/dotfiles/vim
+    path: vim
     tags: dotfiles,must_have,ide
 
   # Programming Languages
@@ -145,10 +149,6 @@ recipes:
   - name: clivern/dotfiles/github
     path: github
     tags: dotfiles,must_have,github
-
-  - name: clivern/dotfiles/vim
-    path: vim
-    tags: dotfiles,must_have,ide
 
   - name: clivern/dotfiles/zsh
     path: zsh
@@ -295,7 +295,8 @@ run:
   - name: clivern/dotfiles/ack
   - name: clivern/dotfiles/curl
   - name: clivern/dotfiles/bat
-  - name: clivern/dotfiles/nvim
+  - name: clivern/dotfiles/neovim
+  - name: clivern/dotfiles/vim
   - name: clivern/dotfiles/python
   - name: clivern/dotfiles/php
   #- name: clivern/dotfiles/node # Raises Error
@@ -322,7 +323,6 @@ run:
   - name: clivern/dotfiles/streamlit
   - name: clivern/dotfiles/github
   - name: clivern/dotfiles/zsh
-  - name: clivern/dotfiles/vim
   - name: clivern/dotfiles/doctl
   - name: clivern/dotfiles/dolt
   - name: clivern/dotfiles/podman
