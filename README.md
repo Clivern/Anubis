@@ -3,11 +3,11 @@
     <h3 align="center">dotfiles</h3>
     <p align="center">
         <a href="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml">
-            <img src="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml/badge.svg?branch=main"/>
+           <img src="https://github.com/Clivern/dotfiles/actions/workflows/ci.yml/badge.svg?branch=main"/>
         </a>
-    	<a href="https://pypi.org/project/opswork/">
+        <a href="https://pypi.org/project/opswork/">
             <img src="https://img.shields.io/badge/Built_with-OpsWork-pink"/>
-    	</a>
+        </a>
         <a href="https://github.com/Clivern/dotfiles/releases">
             <img src="https://img.shields.io/badge/Version-3.1.0-1abc9c.svg">
         </a>
