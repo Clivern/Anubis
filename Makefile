@@ -33,7 +33,7 @@ recipes:
 	opswork recipe add clivern/dotfiles/kubectx -p kubectx -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/kubectl -p kubectl -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/k6 -p k6 -t dotfiles,must_have -f
-	opswork recipe add clivern/dotfiles/iterm2 -p iterm2 -t dotfiles,must_have -f
+	opswork recipe add clivern/dotfiles/iterm -p iterm -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/httpie -p httpie -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/screen -p screen -t dotfiles,must_have -f
 	opswork recipe add clivern/dotfiles/tfswitch -p tfswitch -t dotfiles,must_have -f
@@ -71,7 +71,7 @@ run:
 	opswork recipe run clivern/dotfiles/kubectx -h localhost
 	opswork recipe run clivern/dotfiles/kubectl -h localhost
 	opswork recipe run clivern/dotfiles/k6 -h localhost
-	opswork recipe run clivern/dotfiles/iterm2 -h localhost
+	opswork recipe run clivern/dotfiles/iterm -h localhost
 	opswork recipe run clivern/dotfiles/httpie -h localhost
 	opswork recipe run clivern/dotfiles/screen -h localhost
 	opswork recipe run clivern/dotfiles/tfswitch -h localhost
