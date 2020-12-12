@@ -19,3 +19,24 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
+
+tasks:
+  - name: download github cli
+    unarchive:
+      src: https://github.com/cli/cli/releases/download/v2.36.0/gh_2.36.0_macOS_amd64.zip
+      dest: /tmp
+      remote_src: yes
+
+  - name: copy github cli
+    copy:
+      src: /tmp/gh
+      dest: $HOME/bin/gh
+      mode: a+x
+      force: true
+
+  - name: get version
+    command: gh version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"

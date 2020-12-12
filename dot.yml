@@ -129,6 +129,10 @@ recipes:
     path: ttyrec
     tags: dotfiles,must_have
 
+  - name: clivern/dotfiles/github
+    path: github
+    tags: dotfiles,must_have,github
+
   # Hashicorp products
   - name: clivern/dotfiles/consul
     path: consul
@@ -214,3 +218,5 @@ run:
   - name: clivern/dotfiles/poetry
   - name: clivern/dotfiles/pyinfra
   - name: clivern/dotfiles/openllm
+  - name: clivern/dotfiles/github
+
