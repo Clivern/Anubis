@@ -23,7 +23,7 @@
 
 tasks:
   - name: Install jump rust package
-    command: cargo install -j 1 ju
+    command: cargo install ju
 
   - name: get version
     command: ju --version
