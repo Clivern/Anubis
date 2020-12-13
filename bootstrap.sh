@@ -35,6 +35,7 @@ function doIt() {
 		--exclude "nomad/" \
 		--exclude "consul/" \
 		--exclude "img/" \
+		--exclude "kustomize/" \
 		--exclude "init/" \
 		--exclude "dotfiles.fish/" \
 		--exclude "iterm/" \
