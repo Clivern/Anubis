@@ -85,5 +85,7 @@ brew cask install virtualbox
 brew cask info vagrant
 brew cask install vagrant
 
+brew install buildpacks/tap/pack
+
 # Remove outdated versions from the cellar.
 brew cleanup

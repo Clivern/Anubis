@@ -40,6 +40,9 @@ Description: Check go modules checksum
 ------------------------------
 Description: Create python venv
     $ pyv carbon
+------------------------------
+Description: Use remote docker env
+    $ remote_docker X.X.X.X:2376
 ";
 }
 
@@ -114,4 +117,21 @@ pushover() {
 pyv() {
     python3 -m venv $1
     source $1/bin/activate
+}
+
+# Expose docker over tcp for testing
+#
+#   # Remote
+#       Edit /lib/systemd/system/docker.service
+#
+#       ```
+#       ExecStart=/usr/bin/dockerd -H fd:// -H tcp://0.0.0.0:2376 --containerd=/run/containerd/containerd.sock
+#       ```
+#
+#   # Local
+#       $ remote_docker X.X.X.X:2376
+#
+remote_docker() {
+    export DOCKER_HOST=tcp://$1
+    export DOCKER_TLS_VERIFY=0
 }

@@ -14,3 +14,4 @@ apes --get=release
 rhino version
 poodle version
 kubectl version
+pack --version
