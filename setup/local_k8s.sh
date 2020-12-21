@@ -2,10 +2,10 @@
 
 # source local_k8s.sh
 # setup
-# deploy_from_branch "https://github.com/Clivern/kubernetes.git" "feature/dirty" v1.20.2
-# build_k8s_binaries "https://github.com/Clivern/kubernetes.git" "feature/dirty" v1.20.2
+# deploy_from_branch "https://github.com/Clivern/kubernetes.git" "feature/x" v1.20.2
+# build_k8s_binaries "https://github.com/Clivern/kubernetes.git" "feature/x" v1.20.2
 
-function setup () {
+function setup_for_k8s () {
     # Install Docker
     cd /tmp
 
@@ -53,7 +53,7 @@ function deploy_from_branch() {
     # kubectl apply -f https://k8s.io/examples/application/deployment.yaml
 }
 
-function build_k8s_binaries {
+function build_k8s_binaries() {
     # Clone k8s, build from a fork, custom branch
     rm -rf $(go env GOPATH)/src/k8s.io/kubernetes
     mkdir -p $(go env GOPATH)/src/k8s.io/
