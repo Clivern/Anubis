@@ -123,8 +123,12 @@
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	followTags = true
 
-# URL shorthands
+[pull]
+	# merge (the default strategy)
+	rebase = false
 
+
+# URL shorthands
 [url "git@github.com:"]
 
 	insteadOf = "gh:"
