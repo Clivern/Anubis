@@ -6,4 +6,6 @@ npm install -g @angular/cli@latest
 
 npm install -g typescript
 
+npm install -g webpack
+
 npm install -g grunt-cli
