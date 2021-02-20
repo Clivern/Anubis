@@ -9,3 +9,6 @@ npm install -g typescript
 npm install -g webpack
 
 npm install -g grunt-cli
+
+npm install --global yo
+
