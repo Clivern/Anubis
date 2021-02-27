@@ -45,6 +45,7 @@ function doIt() {
 		--exclude "kubectx/" \
 		--exclude "mvn/" \
 		--exclude "php_redis/" \
+		--exclude "goenv/" \
 		--exclude "pushover/" \
 		--exclude "tlstool/" \
 		--exclude "revive/" \
