@@ -22,6 +22,7 @@ brew install httpie
 brew install watch
 brew install wget
 brew install ttyrec
+brew install yarn
 
 # java
 brew cask info java
