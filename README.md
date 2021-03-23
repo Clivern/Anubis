@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Logo" src="https://raw.githubusercontent.com/Clivern/dotfiles/master/img/logo.png" height="150" />
+    <img alt="Logo" src="https://raw.githubusercontent.com/Clivern/dotfiles/main/img/logo.png" height="150" />
 </p>
 
 1. Clone the repository wherever you want. I like to keep it in `~/dotfiles`.
