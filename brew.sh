@@ -26,6 +26,7 @@ brew install yarn
 brew install groovy
 brew install tree
 brew install warrensbox/tap/tfswitch
+brew install task
 
 # java
 brew install java --cask
