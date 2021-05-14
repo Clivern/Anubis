@@ -1,0 +1,14 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND noninteractive
+ENV CLIVERN_KERNEL 1.0.0
+
+RUN apt update
+RUN apt install ruby-full -y
+RUN apt install python3 -y
+RUN apt install git -y
+RUN apt install build-essential -y
+RUN apt install golang-go -y
+RUN apt install curl -y
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+# RUN source $HOME/.cargo/env
