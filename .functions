@@ -52,6 +52,9 @@ Description: Update nomad host & token
 ------------------------------
 Description: Update consul host & token
     $ consul_host http://127.0.0.1:8500 f8b2a12a-7980-8369-c585-802d26b6c89c
+------------------------------
+Description: Load SSH Keys
+    $ init
 ";
 }
 
@@ -157,4 +160,8 @@ consul_host() {
 nomad_host() {
     export NOMAD_ADDR=$1
     export NOMAD_TOKEN=$2
+}
+
+init () {
+    ssh-add ~/.ssh/*.pem
 }

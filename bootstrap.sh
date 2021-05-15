@@ -22,6 +22,8 @@ function doIt() {
 		--exclude "github/" \
 		--exclude "apes/" \
 		--exclude "rhino/" \
+		--exclude "docker/" \
+		--exclude "setup/" \
 		--exclude "poodle/" \
 		--exclude "npm_pkgs/" \
 		--exclude "symfony/" \
@@ -56,6 +58,10 @@ function doIt() {
 		--exclude "extra.sh" \
 		--exclude "Makefile" \
 		--exclude "README.md" \
+		--exclude "LICENSE.md" \
+		--exclude "CODE_OF_CONDUCT.md" \
+		--exclude "commit_convention.yml" \
+		--exclude "renovate.json" \
 		--exclude ".gitconfig-personal-space" \
 		--exclude ".gitconfig-work-space" \
 		-avh --no-perms . ~;
