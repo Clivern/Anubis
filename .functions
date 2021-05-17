@@ -43,6 +43,12 @@ Description: Create python venv
 ------------------------------
 Description: Use remote docker env
     $ remote_docker X.X.X.X:2376
+------------------------------
+Description: Update nomad host & token
+    $ nomad_host http://127.0.0.1:4646 f8b2a12a-7980-8369-c585-802d26b6c89c
+------------------------------
+Description: Update consul host & token
+    $ consul_host http://127.0.0.1:8500 f8b2a12a-7980-8369-c585-802d26b6c89c
 ";
 }
 
@@ -134,4 +140,14 @@ pyv() {
 remote_docker() {
     export DOCKER_HOST=tcp://$1
     export DOCKER_TLS_VERIFY=0
+}
+
+consul_host() {
+    export CONSUL_HTTP_ADDR=$1
+    export CONSUL_HTTP_TOKEN=$2
+}
+
+nomad_host() {
+    export NOMAD_ADDR=$1
+    export NOMAD_TOKEN=$2
 }
