@@ -13,5 +13,7 @@ npm -v
 apes --get=release
 rhino version
 poodle version
-kubectl version
 pack --version
+nomad version
+consul version
+kubectl version

@@ -36,6 +36,8 @@ build:
 	$(BASH) ./bin/hugo.sh
 	$(BASH) ./bin/fx.sh
 	$(BASH) ./bin/vim.sh
+	$(BASH) ./bin/nomad.sh
+	$(BASH) ./bin/consul.sh
 	$(BASH) ./env.sh
 
 
