@@ -16,7 +16,6 @@ build:
 	bash ./pet/install
 	bash ./doctl/install
 	bash ./kubectl/install
-	bash ./tf_v1.1.9/install
 	bash ./glow/install
 	bash ./ngrok/install
 	bash ./rust_cargo/install
