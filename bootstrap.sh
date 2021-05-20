@@ -46,6 +46,7 @@ function doIt() {
 		--exclude "mvn/" \
 		--exclude "php_redis/" \
 		--exclude "pushover/" \
+		--exclude "tlstool/" \
 		--exclude "revive/" \
 		--exclude "svu/" \
 		--exclude "tf_v0.13.7/" \
