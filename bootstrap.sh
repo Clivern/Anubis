@@ -49,7 +49,6 @@ function doIt() {
 		--exclude "tlstool/" \
 		--exclude "revive/" \
 		--exclude "svu/" \
-		--exclude "tf_v0.13.7/" \
 		--exclude "arduino/" \
 		--exclude "aws/" \
 		--exclude "bazel/" \
