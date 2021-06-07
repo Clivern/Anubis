@@ -69,12 +69,12 @@ brew install git-crypt
 # ack
 brew install ack
 
-# Install rbenv & ruby 2.7.4
+# Install rbenv & ruby 3.1.0
 brew install rbenv ruby-build
-# rbenv install 2.7.4
-rbenv install 2.7.4
-rbenv global 2.7.4
-rbenv local 2.7.4
+# rbenv install 3.1.0
+rbenv install 3.1.0
+rbenv global 3.1.0
+rbenv local 3.1.0
 gem install rails -v 6.1.3
 gem install bundler jekyll
 

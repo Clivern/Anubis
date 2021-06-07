@@ -8,9 +8,6 @@ export GOPATH=$HOME/go
 export GOBIN="$GOPATH/bin"
 export PATH="$PATH:$GOBIN"
 
-#export PATH="$HOME/.rbenv/bin:$PATH"
-#eval "$(rbenv init -)"
-
 export LOCAL_BIN=$HOME/bin
 export PATH="$PATH:$LOCAL_BIN"
 
@@ -143,3 +140,4 @@ export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 source $HOME/.cargo/env
 
 eval "$(rbenv init - zsh)"
+
