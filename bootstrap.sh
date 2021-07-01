@@ -57,6 +57,7 @@ function doIt() {
 		--exclude ".github/" \
 		--exclude "packer/" \
 		--exclude "arduino/" \
+		--exclude "roles/" \
 		--exclude "aws/" \
 		--exclude "bazel/" \
 		--exclude "poetry/" \
