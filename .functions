@@ -86,11 +86,11 @@ dgo() {
 }
 
 gow() {
-    cd ~/Space/Work
+    jut work
 }
 
 gop() {
-    cd ~/Space/Personal
+    jut personal
 }
 
 surl() {
