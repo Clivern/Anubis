@@ -52,6 +52,7 @@ function doIt() {
 		--exclude "pushover/" \
 		--exclude "tlstool/" \
 		--exclude "revive/" \
+		--exclude "sq/" \
 		--exclude "svu/" \
 		--exclude ".github/" \
 		--exclude "packer/" \

@@ -35,6 +35,7 @@ build:
 	bash ./vim/install
 	bash ./nomad/install
 	bash ./consul/install
+	bash ./sq/install
 	bash ./env.sh
 
 

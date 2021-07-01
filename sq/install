@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /tmp
+
+curl -sL https://github.com/neilotoole/sq/releases/download/v0.25.1/sq-0.25.1-macos-amd64.tar.gz | tar xz
+
+chmod +x ./sq
+
+mv -f sq $LOCAL_BIN/sq
