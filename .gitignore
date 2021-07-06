@@ -27,3 +27,6 @@ prod-*-cluster-kubeconfig.yaml
 .ignore*
 
 hub.pkrvars.json
+
+.terraform.lock.hcl
+
