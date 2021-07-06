@@ -42,6 +42,8 @@ brew install iterm2 --cask
 # visual-studio-code
 brew install visual-studio-code --cask
 
+brew install --cask wireshark
+
 # ccleaner
 brew install ccleaner --cask
 
