@@ -51,6 +51,8 @@ function doIt() {
 		--exclude "tlstool/" \
 		--exclude "revive/" \
 		--exclude "svu/" \
+		--exclude ".github/" \
+		--exclude "packer/" \
 		--exclude "arduino/" \
 		--exclude "aws/" \
 		--exclude "bazel/" \
