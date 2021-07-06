@@ -1,9 +1,12 @@
-> When you live in a command line, configurations are a deeply personal thing. They are often crafted over years of 
-experience, battles lost, lessons learned, advice followed, and ingenuity rewarded. When you are away from your own 
-configurations, you are an orphaned refugee in unfamiliar and hostile surroundings. You feel clumsy and out of sorts. You 
-are filled with a sense of longing to be back in a place you know. A place you built. A place where all the short-cuts 
-have been worn bare by your own travels. A place you proudly call… `$HOME`. ~ yadm
+<p align="center">
+    <img src="/logo.png" width="230" />
+    <h3 align="center">Home</h3>
+</p>
 
+Configurations are a very personal thing. They are shaped through years of experience, defeat, education, guidance taken, and ingenuity rewarded. Being without your personal configurations, you feel like a lost and helpless outsider in an unknown and hostile environment. You are uncomfortable and disoriented, yearning to return to a place of familiarity - a place you constructed through your own adventures, where all the shortcuts are well-traveled, and which you proudly call `$HOME`
+
+
+### Usage
 
 1. Clone the repository wherever you want. I like to keep it in `~/dotfiles`.
 
@@ -69,4 +72,3 @@ $ gh issue list
 ```
 $ poodle configure
 ```
-
