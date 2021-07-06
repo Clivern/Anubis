@@ -44,6 +44,7 @@ function doIt() {
 		--exclude "habitat/" \
 		--exclude "helidon/" \
 		--exclude "kubectx/" \
+		--exclude "k6/" \
 		--exclude "mvn/" \
 		--exclude "php_redis/" \
 		--exclude "goenv/" \
