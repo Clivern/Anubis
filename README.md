@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/logo.png" width="150" />
+    <img src="/img/logo.png" width="150" />
     <h3 align="center">dotfiles</h3>
 </p>
 <br/>
@@ -73,3 +73,10 @@ $ gh issue list
 ```
 $ poodle configure
 ```
+
+### License
+
+© 2010, Clivern. Released under [MIT License](https://opensource.org/licenses/mit-license.php).
+
+**Dotfiles** is authored and maintained by [@clivern](http://github.com/clivern).
+
