@@ -30,3 +30,4 @@ hub.pkrvars.json
 
 .terraform.lock.hcl
 
+.jump

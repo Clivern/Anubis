@@ -173,3 +173,7 @@ ansible_cc() {
     rm -rf ~/.ansible/roles/*
     rm -rf ~/.ansible/collections/ansible_collections/*
 }
+
+jut () {
+    cd $(ju to $1)
+}
