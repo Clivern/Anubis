@@ -61,7 +61,7 @@ isdown () {
 }
 
 dsync() {
-    cd ~/$DOTFILE_PATH
+    cd ~/Space/$DOTFILE_PATH
     ./bootstrap.sh -f
     ./extra.sh
     cd ~
@@ -73,7 +73,7 @@ sea() {
 }
 
 dgo() {
-    cd ~/$DOTFILE_PATH
+    cd ~/Space/$DOTFILE_PATH
 }
 
 gow() {
