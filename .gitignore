@@ -26,3 +26,5 @@ prod-*-cluster-kubeconfig.yaml
 
 # local ruby env version
 .ruby-version
+
+.ignore*
