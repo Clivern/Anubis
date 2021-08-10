@@ -89,5 +89,7 @@ brew cask install vagrant
 
 brew install buildpacks/tap/pack
 
+brew install mysql-client
+
 # Remove outdated versions from the cellar.
 brew cleanup

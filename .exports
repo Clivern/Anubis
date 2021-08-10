@@ -33,7 +33,6 @@ export DOTFILE_PATH="dotfiles"
 export PATH="$HOME/.symfony/bin:$PATH"
 export COMPOSER_MEMORY_LIMIT=-1
 export PATH="$HOME/.composer/vendor/bin:$PATH"
-export PATH="/Users/$USER/Library/Python/3.7/bin/:$PATH"
 
 # Rust Related
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -50,3 +49,5 @@ export PATH="$PATH:/usr/local/mysql/bin"
 
 # Load all kubeconfigs for kubectx
 #export KUBECONFIG=$(find ~/configs/*kubeconfig.yaml -type f | tr "\n" ":")
+
+export PATH="$PATH:/opt/homebrew/opt/python@3.9/bin"
