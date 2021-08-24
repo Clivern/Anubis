@@ -3,6 +3,8 @@
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
+	lp = log --format=format:%C(yellow)%h%x20%C(red)%an%>|(26)%x20%Cblue(%Cgreen%ci%Cblue)%x20%Creset%s%C(yellow)%d --stat
+
 	# View abbreviated SHA, description, and history graph of the latest x commits
 	lx = "!f() { git log --pretty=oneline -n $1 --graph --abbrev-commit; }; f"
 
@@ -71,6 +73,8 @@
 
 	# Get a list git aliases
 	alias =  "!f() { echo \"$(git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /)\"; }; f"
+
+	size = !du -hs .git/objects/pack/ .git/
 
 [apply]
 
@@ -151,8 +155,8 @@
 
 [includeIf "gitdir:~/"]
 
-    path = .gitconfig-personal-space
+	path = .gitconfig-personal-space
 
 [includeIf "gitdir:~/Space/Work/"]
 
-    path = .gitconfig-work-space
+	path = .gitconfig-work-space
