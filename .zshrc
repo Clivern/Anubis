@@ -4,9 +4,10 @@
 source ~/.bash_profile
 source ~/.kubectl_aliases
 
-#export GOPATH=/Users/Ahmed/go
-#export GOBIN="$GOPATH/bin"
-#export PATH="$PATH:$GOBIN"
+export GOPATH=$HOME/go
+export GOBIN="$GOPATH/bin"
+export PATH="$PATH:$GOBIN"
+
 #export PATH="$HOME/.rbenv/bin:$PATH"
 #eval "$(rbenv init -)"
 
