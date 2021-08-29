@@ -133,7 +133,7 @@ bindkey '^s' pet-select
 
 # Tell npm where to store globally installed packages
 # $ npm config set prefix "${HOME}/.npm-packages"
-# $ NPM_PACKAGES="${HOME}/.npm-packages"
+export NPM_PACKAGES="${HOME}/.npm-packages"
 export PATH="$PATH:$NPM_PACKAGES/bin"
 
 # Preserve MANPATH if you already defined it somewhere in your config.
