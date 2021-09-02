@@ -8,4 +8,4 @@ curl -sL https://github.com/Clivern/Rhino/releases/download/{$RHINO_VERSION}/Rhi
 
 chmod +x ./Rhino
 
-mv -f Rhino /usr/local/bin/rhino
+mv -f Rhino $LOCAL_BIN/rhino

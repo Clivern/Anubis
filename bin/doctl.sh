@@ -8,4 +8,4 @@ curl -sL https://github.com/digitalocean/doctl/releases/download/v{$DOCTL_VERSIO
 
 chmod +x ./doctl
 
-mv -f doctl /usr/local/bin/doctl
+mv -f doctl $LOCAL_BIN/doctl

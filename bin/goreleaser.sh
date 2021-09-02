@@ -8,4 +8,4 @@ curl -sL https://github.com/goreleaser/goreleaser/releases/download/v{$GO_RELEAS
 
 chmod +x ./goreleaser
 
-mv -f goreleaser /usr/local/bin/goreleaser
+mv -f goreleaser $LOCAL_BIN/goreleaser

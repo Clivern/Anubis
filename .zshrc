@@ -4,11 +4,17 @@
 source ~/.bash_profile
 source ~/.kubectl_aliases
 
-export GOPATH=/Users/Ahmed/go
-export GOBIN="$GOPATH/bin"
-export PATH="$PATH:$GOBIN"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#export GOPATH=/Users/Ahmed/go
+#export GOBIN="$GOPATH/bin"
+#export PATH="$PATH:$GOBIN"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
+
+export LOCAL_BIN=$HOME/bin
+export PATH="$PATH:$LOCAL_BIN"
+
+export SYMFONY_PATH=$HOME/.symfony/bin
+export PATH="$PATH:$SYMFONY_PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -120,5 +126,3 @@ bindkey '^s' pet-select
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-

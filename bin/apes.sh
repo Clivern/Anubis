@@ -8,4 +8,4 @@ curl -sL https://github.com/Clivern/Apes/releases/download/{$APES_VERSION}/Apes_
 
 chmod +x ./Apes
 
-mv -f Apes /usr/local/bin/apes
+mv -f Apes $LOCAL_BIN/apes

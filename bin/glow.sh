@@ -8,4 +8,4 @@ curl -sL https://github.com/charmbracelet/glow/releases/download/v{$GLOW_VERSION
 
 chmod +x ./glow
 
-mv -f glow /usr/local/bin/glow
+mv -f glow $LOCAL_BIN/glow

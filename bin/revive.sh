@@ -8,4 +8,4 @@ curl -sL https://github.com/mgechev/revive/releases/download/v{$REVIVE_VERSION}/
 
 chmod +x ./revive
 
-mv -f revive /usr/local/bin/revive
+mv -f revive $LOCAL_BIN/revive

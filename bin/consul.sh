@@ -9,6 +9,6 @@ unzip consul.zip
 
 chmod +x ./consul
 
-mv -f consul /usr/local/bin/consul
+mv -f consul $LOCAL_BIN/consul
 
 rm consul.zip

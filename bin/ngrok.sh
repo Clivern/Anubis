@@ -8,6 +8,6 @@ unzip ngrok.zip
 
 chmod +x ./ngrok
 
-mv -f ngrok /usr/local/bin/ngrok
+mv -f ngrok $LOCAL_BIN/ngrok
 
 rm ngrok.zip

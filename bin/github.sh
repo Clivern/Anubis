@@ -8,6 +8,6 @@ curl -sL https://github.com/cli/cli/releases/download/v{$GITHUB_VERSION}/gh_{$GI
 
 chmod +x ./gh_*/bin/gh
 
-mv -f ./gh_*/bin/gh /usr/local/bin/gh
+mv -f ./gh_*/bin/gh $LOCAL_BIN/gh
 
 gh --version

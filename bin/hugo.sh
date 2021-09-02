@@ -8,4 +8,4 @@ curl -sL https://github.com/gohugoio/hugo/releases/download/v{$HUGO_VERSION}/hug
 
 chmod +x ./hugo
 
-mv -f hugo /usr/local/bin/hugo
+mv -f hugo $LOCAL_BIN/hugo

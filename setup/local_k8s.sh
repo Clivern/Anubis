@@ -26,12 +26,12 @@ function setup_for_k8s () {
     # Install Kind
     curl -Lo ./kind "https://kind.sigs.k8s.io/dl/v0.9.0/kind-$(uname)-amd64"
     chmod +x ./kind
-    mv ./kind /usr/local/bin/kind
+    mv ./kind $LOCAL_BIN/kind
 
     # Install Kubectl
     curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
     chmod +x ./kubectl
-    sudo mv ./kubectl /usr/local/bin/kubectl
+    sudo mv ./kubectl $LOCAL_BIN/kubectl
 }
 
 function deploy_from_branch() {

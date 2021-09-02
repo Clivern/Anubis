@@ -9,6 +9,6 @@ unzip terraform.zip
 
 chmod +x ./terraform
 
-mv -f terraform /usr/local/bin/terraform
+mv -f terraform $LOCAL_BIN/terraform
 
 rm terraform.zip

@@ -8,4 +8,4 @@ curl -sL https://github.com/knqyf263/pet/releases/download/v{$PET_VERSION}/pet_{
 
 chmod +x ./pet
 
-mv -f pet /usr/local/bin/pet
+mv -f pet $LOCAL_BIN/pet

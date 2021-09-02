@@ -8,4 +8,4 @@ curl -sL https://github.com/Clivern/Poodle/releases/download/{$POODLE_VERSION}/p
 
 chmod +x ./poodle
 
-mv -f poodle /usr/local/bin/poodle
+mv -f poodle $LOCAL_BIN/poodle

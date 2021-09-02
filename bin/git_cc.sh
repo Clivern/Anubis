@@ -8,4 +8,4 @@ curl -sL https://github.com/SKalt/git-cc/releases/download/v{$GIT_CC_VERSION}/gi
 
 chmod +x ./git-cc
 
-mv -f git-cc /usr/local/bin/git-cc
+mv -f git-cc $LOCAL_BIN/git-cc

@@ -9,6 +9,6 @@ unzip nomad.zip
 
 chmod +x ./nomad
 
-mv -f nomad /usr/local/bin/nomad
+mv -f nomad $LOCAL_BIN/nomad
 
 rm nomad.zip

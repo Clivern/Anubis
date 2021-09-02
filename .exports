@@ -49,4 +49,4 @@ export GO111MODULE=on
 export PATH="$PATH:/usr/local/mysql/bin"
 
 # Load all kubeconfigs for kubectx
-export KUBECONFIG=$(find ~/configs/*kubeconfig.yaml -type f | tr "\n" ":")
+#export KUBECONFIG=$(find ~/configs/*kubeconfig.yaml -type f | tr "\n" ":")

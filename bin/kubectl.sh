@@ -6,4 +6,4 @@ curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s ht
 
 chmod +x ./kubectl
 
-mv -f kubectl /usr/local/bin/kubectl
+mv -f kubectl $LOCAL_BIN/kubectl

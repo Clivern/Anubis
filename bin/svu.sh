@@ -8,4 +8,4 @@ curl -sL https://github.com/caarlos0/svu/releases/download/v{$SVU_VERSION}/svu_{
 
 chmod +x ./svu
 
-mv -f svu /usr/local/bin/svu
+mv -f svu $LOCAL_BIN/svu
