@@ -1,8 +1,3 @@
-<p align="center">
-    <img alt="Logo" src="/img/logo.png?v=1.0.0" height="230" />
-</p>
-
-
 
 1. Clone the repository wherever you want. I like to keep it in `~/dotfiles`.
 
