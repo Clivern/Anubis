@@ -48,6 +48,9 @@ brew install ccleaner --cask
 # https://gpgtools.org/
 brew install gpg-suite --cask
 
+# postico (free trial)
+brew install --cask postico
+
 # gradle
 brew install gradle
 
