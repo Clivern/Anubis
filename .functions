@@ -55,6 +55,9 @@ Description: Update consul host & token
 ------------------------------
 Description: Load SSH Keys
     $ init
+------------------------------
+Description: Clear ansible cache
+    $ ansible_cc
 ";
 }
 
@@ -164,4 +167,9 @@ nomad_host() {
 
 init () {
     ssh-add ~/.ssh/*.pem
+}
+
+ansible_cc() {
+    rm -rf ~/.ansible/roles/*
+    rm -rf ~/.ansible/collections/ansible_collections/*
 }
