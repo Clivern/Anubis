@@ -11,3 +11,4 @@ source $HOME/.cargo/env
 
 # https://crates.io/crates/orc-rs
 cargo install --force orc-rs
+cargo install --force mdbook
