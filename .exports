@@ -37,6 +37,9 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 # Rust Related
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# Ruby Related
+export PATH="$HOME/.chefdk/gem/ruby/3.0.0/bin:$PATH"
+
 # Java Related
 export PATH="$HOME/mvn-3.6.3/bin:$PATH"
 
@@ -51,3 +54,7 @@ export PATH="$PATH:/usr/local/mysql/bin"
 #export KUBECONFIG=$(find ~/configs/*kubeconfig.yaml -type f | tr "\n" ":")
 
 export PATH="$PATH:/opt/homebrew/opt/python@3.9/bin"
+
+# PHP
+export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"

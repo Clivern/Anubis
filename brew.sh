@@ -71,12 +71,12 @@ brew install git-crypt
 brew info ack
 brew install ack
 
-# Install rbenv & ruby 2.6.5
+# Install rbenv & ruby 2.7.4
 brew install rbenv ruby-build
-# rbenv install 2.5.0
-rbenv install 2.6.5
-rbenv global 2.6.5
-rbenv local 2.6.5
+# rbenv install 2.7.4
+rbenv install 2.7.4
+rbenv global 2.7.4
+rbenv local 2.7.4
 gem install rails -v 6.1.3
 
 brew install kubectx
