@@ -24,6 +24,7 @@ brew install wget
 brew install ttyrec
 brew install yarn
 brew install groovy
+brew install tree
 
 # java
 brew install java --cask

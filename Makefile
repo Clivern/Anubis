@@ -18,7 +18,7 @@ build:
 	$(BASH) ./bin/pet.sh
 	$(BASH) ./bin/doctl.sh
 	$(BASH) ./bin/kubectl.sh
-	$(BASH) ./bin/terraform.sh
+	$(BASH) ./bin/tf_v1.1.9.sh
 	$(BASH) ./bin/glow.sh
 	$(BASH) ./bin/ngrok.sh
 	$(BASH) ./bin/rust_cargo.sh
