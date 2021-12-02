@@ -12,32 +12,32 @@ help: Makefile
 build:
 	@echo ">> ============= Build My Environment ============= <<"
 	$(BASH) ./brew.sh
-	$(BASH) ./bin/zsh.sh
-	$(BASH) ./bin/composer.sh
-	$(BASH) ./bin/pip.sh
-	$(BASH) ./bin/pet.sh
-	$(BASH) ./bin/doctl.sh
-	$(BASH) ./bin/kubectl.sh
-	$(BASH) ./bin/tf_v1.1.9.sh
-	$(BASH) ./bin/glow.sh
-	$(BASH) ./bin/ngrok.sh
-	$(BASH) ./bin/rust_cargo.sh
-	$(BASH) ./bin/helm.sh
-	$(BASH) ./bin/ansible.sh
-	$(BASH) ./bin/goreleaser.sh
-	$(BASH) ./bin/github.sh
-	$(BASH) ./bin/apes.sh
-	$(BASH) ./bin/rhino.sh
-	$(BASH) ./bin/poodle.sh
-	$(BASH) ./bin/npm_pkgs.sh
-	$(BASH) ./bin/symfony.sh
-	$(BASH) ./bin/laravel.sh
-	$(BASH) ./bin/go_pkgs.sh
-	$(BASH) ./bin/hugo.sh
-	$(BASH) ./bin/fx.sh
-	$(BASH) ./bin/vim.sh
-	$(BASH) ./bin/nomad.sh
-	$(BASH) ./bin/consul.sh
+	$(BASH) ./zsh/install.sh
+	$(BASH) ./composer/install.sh
+	$(BASH) ./pip/install.sh
+	$(BASH) ./pet/install.sh
+	$(BASH) ./doctl/install.sh
+	$(BASH) ./kubectl/install.sh
+	$(BASH) ./tf_v1.1.9/install.sh
+	$(BASH) ./glow/install.sh
+	$(BASH) ./ngrok/install.sh
+	$(BASH) ./rust_cargo/install.sh
+	$(BASH) ./helm/install.sh
+	$(BASH) ./ansible/install.sh
+	$(BASH) ./goreleaser/install.sh
+	$(BASH) ./github/install.sh
+	$(BASH) ./apes/install.sh
+	$(BASH) ./rhino/install.sh
+	$(BASH) ./poodle/install.sh
+	$(BASH) ./npm_pkgs/install.sh
+	$(BASH) ./symfony/install.sh
+	$(BASH) ./laravel/install.sh
+	$(BASH) ./go_pkgs/install.sh
+	$(BASH) ./hugo/install.sh
+	$(BASH) ./fx/install.sh
+	$(BASH) ./vim/install.sh
+	$(BASH) ./nomad/install.sh
+	$(BASH) ./consul/install.sh
 	$(BASH) ./env.sh
 
 
