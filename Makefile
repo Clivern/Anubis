@@ -10,32 +10,32 @@ help: Makefile
 build:
 	@echo ">> ============= Build My Environment ============= <<"
 	bash ./brew.sh
-	bash ./zsh/install.sh
-	bash ./composer/install.sh
-	bash ./pip/install.sh
-	bash ./pet/install.sh
-	bash ./doctl/install.sh
-	bash ./kubectl/install.sh
-	bash ./tf_v1.1.9/install.sh
-	bash ./glow/install.sh
-	bash ./ngrok/install.sh
-	bash ./rust_cargo/install.sh
-	bash ./helm/install.sh
-	bash ./ansible/install.sh
-	bash ./goreleaser/install.sh
-	bash ./github/install.sh
-	bash ./apes/install.sh
-	bash ./rhino/install.sh
-	bash ./poodle/install.sh
-	bash ./npm_pkgs/install.sh
-	bash ./symfony/install.sh
-	bash ./laravel/install.sh
-	bash ./go_pkgs/install.sh
-	bash ./hugo/install.sh
-	bash ./fx/install.sh
-	bash ./vim/install.sh
-	bash ./nomad/install.sh
-	bash ./consul/install.sh
+	bash ./zsh/install
+	bash ./composer/install
+	bash ./pip/install
+	bash ./pet/install
+	bash ./doctl/install
+	bash ./kubectl/install
+	bash ./tf_v1.1.9/install
+	bash ./glow/install
+	bash ./ngrok/install
+	bash ./rust_cargo/install
+	bash ./helm/install
+	bash ./ansible/install
+	bash ./goreleaser/install
+	bash ./github/install
+	bash ./apes/install
+	bash ./rhino/install
+	bash ./poodle/install
+	bash ./npm_pkgs/install
+	bash ./symfony/install
+	bash ./laravel/install
+	bash ./go_pkgs/install
+	bash ./hugo/install
+	bash ./fx/install
+	bash ./vim/install
+	bash ./nomad/install
+	bash ./consul/install
 	bash ./env.sh
 
 
