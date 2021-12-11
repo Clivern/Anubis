@@ -42,9 +42,11 @@ void loop() {
   hum = dht.readHumidity();
   temp= dht.readTemperature();
 
+  Serial.write("\n");
   String tempMessage = "{\"type\":\"gauge\",\"name\":\"uno_temp_reading\",\"help\":\"The temp reading celsius.\",\"method\":\"set\",\"value\":" + String(temp) + ",\"labels\":{\"country\":\"nl\"}}";
   Serial.write(tempMessage.c_str());
 
+  Serial.write("\n");
   String humMessage = "{\"type\":\"gauge\",\"name\":\"uno_hum_reading\",\"help\":\"The hum reading %.\",\"method\":\"set\",\"value\":" + String(hum) + ",\"labels\":{\"country\":\"nl\"}}";
   Serial.write(humMessage.c_str());
 
