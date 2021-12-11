@@ -49,6 +49,7 @@ void loop() {
   Serial.write("\n");
   String humMessage = "{\"type\":\"gauge\",\"name\":\"uno_hum_reading\",\"help\":\"The hum reading %.\",\"method\":\"set\",\"value\":" + String(hum) + ",\"labels\":{\"country\":\"nl\"}}";
   Serial.write(humMessage.c_str());
+  Serial.write("\n");
 
   delay(3000);
 }
