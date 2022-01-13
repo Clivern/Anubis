@@ -1,4 +1,4 @@
-name: CI
+name: docker
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run CI
+      - name: Push docker images
         run: |
           cd docker
 
@@ -22,9 +22,10 @@ jobs:
           docker version
           packer version
 
-          echo "username = \"${{ secrets.USERNAME }}\"
-          password = \"${{ secrets.PASSWORD }}\"" > hub.pkrvars.hcl
+          echo $HCL > hub.pkrvars.hcl
 
           make ci
           make golang
           make rust
+        env:
+          HCL: ${{ secrets.HCL }}
