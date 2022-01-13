@@ -1,10 +1,9 @@
 ### Usage
 
-1. Create `hub.pkrvars.hcl` from `tpl.hub.pkrvars.hcl` with the docker hub credentials
+1. Create `hub.pkrvars.json` from `tpl.hub.pkrvars.json` with the docker hub credentials
 
 ```
-username = "$$$"
-password = "$$$"
+{"username": "$$$", "password": "$$$"}
 ```
 
 2. Run `ci`
