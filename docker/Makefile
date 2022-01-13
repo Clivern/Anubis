@@ -27,6 +27,8 @@ rust:
 .PHONY: ci
 ci:
 	@echo ">> ============= CI ============= <<"
+	@$(packer) init images/go/
+	@$(packer) init images/rust/
 	@$(packer) fmt images/go/generic.pkr.hcl
 	@$(packer) fmt images/rust/generic.pkr.hcl
 	@$(packer) validate images/go/generic.pkr.hcl
