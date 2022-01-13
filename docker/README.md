@@ -17,7 +17,10 @@ $ make ci
 ```zsh
 $ make golang
 $ make rust
+$ make erlang
+$ make elixir
 ```
+
 
 ### Images
 
@@ -27,3 +30,7 @@ $ make rust
 - `clivern/rust:prod`: Used to run rust binary.
 - `clivern/rust:prod-generic`: Used to run rust binary.
 - `clivern/rust:generic`: Used to run rust binary.
+- `clivern/elixir:1.13`: Used to run elixir project on production.
+- `clivern/elixir:prod`: Used to run elixir project on production.
+- `clivern/erlang:25`: Used to run erlang project on production.
+- `clivern/erlang:prod`: Used to run erlang project on production.
