@@ -27,5 +27,7 @@ jobs:
           make ci
           make golang
           make rust
+          make elixir
+          make erlang
         env:
           HCL: ${{ secrets.HCL }}

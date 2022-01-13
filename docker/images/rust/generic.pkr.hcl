@@ -36,7 +36,8 @@ build {
 
     inline = [
       "apt-get update",
-      "apt-get upgrade -y"
+      "apt-get upgrade -y",
+      "echo $(date) > .build"
     ]
   }
 

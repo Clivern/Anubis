@@ -23,13 +23,61 @@ rust:
 	@$(packer) build -var-file=hub.pkrvars.json images/rust/generic.pkr.hcl
 
 
-## ci: Run ci
-.PHONY: ci
-ci:
-	@echo ">> ============= CI ============= <<"
+## elixir: Build and push elixir images
+.PHONY: elixir
+elixir:
+	@echo ">> ============= Elixir ============= <<"
+	@$(packer) build -var-file=hub.pkrvars.json images/elixir/1.13.prod.pkr.hcl
+
+
+## erlang: Build and push erlang images
+.PHONY: erlang
+erlang:
+	@echo ">> ============= Erlang ============= <<"
+	@$(packer) build -var-file=hub.pkrvars.json images/erlang/25.prod.pkr.hcl
+
+
+## init: Run init
+.PHONY: init
+init:
+	@echo ">> ============= packer init ============= <<"
 	@$(packer) init images/go/generic.pkr.hcl
 	@$(packer) init images/rust/generic.pkr.hcl
+	@$(packer) init images/elixir/1.13.prod.pkr.hcl
+	@$(packer) init images/erlang/25.prod.pkr.hcl
+
+
+## fmt: Run fmt
+.PHONY: fmt
+fmt:
+	@echo ">> ============= packer fmt ============= <<"
 	@$(packer) fmt images/go/generic.pkr.hcl
 	@$(packer) fmt images/rust/generic.pkr.hcl
+	@$(packer) fmt images/elixir/1.13.prod.pkr.hcl
+	@$(packer) fmt images/erlang/25.prod.pkr.hcl
+
+
+## check: Run check
+.PHONY: check
+check:
+	@echo ">> ============= packer fmt ============= <<"
+	@$(packer) fmt -check -diff images/go/generic.pkr.hcl
+	@$(packer) fmt -check -diff images/rust/generic.pkr.hcl
+	@$(packer) fmt -check -diff images/elixir/1.13.prod.pkr.hcl
+	@$(packer) fmt -check -diff images/erlang/25.prod.pkr.hcl
+
+
+## validate: Run validate
+.PHONY: validate
+validate:
+	@echo ">> ============= packer validate ============= <<"
 	@$(packer) validate images/go/generic.pkr.hcl
 	@$(packer) validate images/rust/generic.pkr.hcl
+	@$(packer) validate images/elixir/1.13.prod.pkr.hcl
+	@$(packer) validate images/erlang/25.prod.pkr.hcl
+
+
+## ci: Run ci
+.PHONY: ci
+ci: init check validate
+	@echo "\n==> All quality checks passed"

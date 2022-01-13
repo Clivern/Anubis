@@ -9,8 +9,8 @@ packer {
   }
 }
 
-source "docker" "jammy" {
-  image  = "ubuntu:22.04"
+source "docker" "erlang" {
+  image  = "erlang:25"
   commit = true
 }
 
@@ -25,26 +25,24 @@ variable "password" {
 }
 
 build {
-  name = "go-generic"
+  name = "erlang-25"
 
   sources = [
-    "source.docker.jammy",
+    "source.docker.erlang",
   ]
 
   provisioner "shell" {
     environment_vars = []
 
     inline = [
-      "apt-get update",
-      "apt-get upgrade -y",
       "echo $(date) > .build"
     ]
   }
 
   post-processors {
     post-processor "docker-tag" {
-      repository = "clivern/golang"
-      tags       = ["generic", "prod-generic", "prod"]
+      repository = "clivern/erlang"
+      tags       = ["25", "prod"]
     }
 
     post-processor "docker-push" {
