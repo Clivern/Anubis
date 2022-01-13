@@ -1,31 +1,33 @@
+packer    ?= packer
+
+
 help: Makefile
 	@echo
-	@echo " A list of all available commands:"
+	@echo " Choose a command run in dotfiles:"
 	@echo
 	@sed -n 's/^##//p' $< | column -t -s ':' |  sed -e 's/^/ /'
 	@echo
 
 
-## login: Login into DO container registry.
-.PHONY: login
-login:
-	@echo ">> ============= Loging into DO Registry  ============= <<"
-	doctl registry login
+## golang: Build and push golang images
+.PHONY: golang
+golang:
+	@echo ">> ============= Golang ============= <<"
+	$(packer) build -var-file=hub.pkrvars.hcl images/go/generic.pkr.hcl
 
 
-## build: Build docker image locally from dockerfile.
-.PHONY: build
-build:
-	@echo ">> ============= Build docker image  ============= <<"
-	docker build -t clivern/kernel:1.0.0 -f Dockerfile.kernel .
-	docker tag clivern/kernel:1.0.0 registry.digitalocean.com/clivern/kernel:1.0.0
+## rust: Build and push rust images
+.PHONY: rust
+rust:
+	@echo ">> ============= Rust ============= <<"
+	$(packer) build -var-file=hub.pkrvars.hcl images/rust/generic.pkr.hcl
 
 
-## push: Push image to DO container registry.
-.PHONY: push
-push:
-	@echo ">> =========== Push docker image to DO Registry  ======== <<"
-	docker push registry.digitalocean.com/clivern/kernel:1.0.0
-
-
-.PHONY: help
+## ci: Run ci
+.PHONY: ci
+ci:
+	@echo ">> ============= CI ============= <<"
+	$(packer) fmt images/go/generic.pkr.hcl
+	$(packer) fmt images/rust/generic.pkr.hcl
+	$(packer) validate images/go/generic.pkr.hcl
+	$(packer) validate images/rust/generic.pkr.hcl

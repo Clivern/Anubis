@@ -25,3 +25,5 @@ composer.phar
 prod-*-cluster-kubeconfig.yaml
 
 .ignore*
+
+hub.pkrvars.hcl
