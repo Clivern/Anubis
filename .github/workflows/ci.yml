@@ -21,4 +21,10 @@ jobs:
 
           docker version
           packer version
+
+          echo "username = \"${{ secrets.USERNAME }}\"\npassword = \"${{ secrets.PASSWORD }}\"" > hub.pkrvars.hcl
+          cat hub.pkrvars.hcl
+
           make ci
+          make golang
+          make rust
