@@ -26,4 +26,4 @@ prod-*-cluster-kubeconfig.yaml
 
 .ignore*
 
-hub.pkrvars.hcl
+hub.pkrvars.json

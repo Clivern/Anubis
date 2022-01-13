@@ -22,7 +22,7 @@ jobs:
           docker version
           packer version
 
-          echo $HCL > hub.pkrvars.hcl
+          echo $HCL > hub.pkrvars.json
 
           make ci
           make golang
