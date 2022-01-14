@@ -25,7 +25,7 @@ variable "password" {
 }
 
 build {
-  name = "elixir-1.13"
+  name = "elixir.1.13.prod"
 
   sources = [
     "source.docker.elixir",
@@ -42,7 +42,7 @@ build {
   post-processors {
     post-processor "docker-tag" {
       repository = "clivern/elixir"
-      tags       = ["1.13", "prod"]
+      tags       = ["1.13.prod"]
     }
 
     post-processor "docker-push" {

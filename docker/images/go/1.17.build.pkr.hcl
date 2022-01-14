@@ -9,8 +9,8 @@ packer {
   }
 }
 
-source "docker" "erlang" {
-  image  = "erlang:25"
+source "docker" "golang" {
+  image  = "golang:1.17"
   commit = true
 }
 
@@ -25,24 +25,26 @@ variable "password" {
 }
 
 build {
-  name = "erlang.25.prod"
+  name = "golang.1.17.build"
 
   sources = [
-    "source.docker.erlang",
+    "source.docker.golang",
   ]
 
   provisioner "shell" {
     environment_vars = []
 
     inline = [
+      "apt-get update",
+      "apt-get upgrade -y",
       "echo $(date) > .build"
     ]
   }
 
   post-processors {
     post-processor "docker-tag" {
-      repository = "clivern/erlang"
-      tags       = ["25.prod"]
+      repository = "clivern/golang"
+      tags       = ["1.17.build"]
     }
 
     post-processor "docker-push" {

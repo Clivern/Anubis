@@ -9,7 +9,7 @@ packer {
   }
 }
 
-source "docker" "jammy" {
+source "docker" "golang" {
   image  = "ubuntu:22.04"
   commit = true
 }
@@ -25,10 +25,10 @@ variable "password" {
 }
 
 build {
-  name = "rust-generic"
+  name = "golang.prod"
 
   sources = [
-    "source.docker.jammy",
+    "source.docker.golang",
   ]
 
   provisioner "shell" {
@@ -43,8 +43,8 @@ build {
 
   post-processors {
     post-processor "docker-tag" {
-      repository = "clivern/rust"
-      tags       = ["generic", "prod-generic", "prod"]
+      repository = "clivern/golang"
+      tags       = ["prod"]
     }
 
     post-processor "docker-push" {

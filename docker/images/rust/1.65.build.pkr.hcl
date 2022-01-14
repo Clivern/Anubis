@@ -9,8 +9,8 @@ packer {
   }
 }
 
-source "docker" "erlang" {
-  image  = "erlang:25"
+source "docker" "rust" {
+  image  = "rust:1.65"
   commit = true
 }
 
@@ -25,24 +25,26 @@ variable "password" {
 }
 
 build {
-  name = "erlang.25.prod"
+  name = "rust.1.65.build"
 
   sources = [
-    "source.docker.erlang",
+    "source.docker.rust",
   ]
 
   provisioner "shell" {
     environment_vars = []
 
     inline = [
+      "apt-get update",
+      "apt-get upgrade -y",
       "echo $(date) > .build"
     ]
   }
 
   post-processors {
     post-processor "docker-tag" {
-      repository = "clivern/erlang"
-      tags       = ["25.prod"]
+      repository = "clivern/rust"
+      tags       = ["1.65.build"]
     }
 
     post-processor "docker-push" {
