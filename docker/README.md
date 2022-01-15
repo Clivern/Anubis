@@ -24,13 +24,7 @@ $ make elixir
 
 ### Images
 
-- `clivern/golang:prod`: Used to run golang binary.
-- `clivern/golang:prod-generic`: Used to run golang binary.
-- `clivern/golang:generic`: Used to run golang binary.
-- `clivern/rust:prod`: Used to run rust binary.
-- `clivern/rust:prod-generic`: Used to run rust binary.
-- `clivern/rust:generic`: Used to run rust binary.
-- `clivern/elixir:1.13`: Used to run elixir project on production.
-- `clivern/elixir:prod`: Used to run elixir project on production.
-- `clivern/erlang:25`: Used to run erlang project on production.
-- `clivern/erlang:prod`: Used to run erlang project on production.
+- [golang](https://hub.docker.com/r/clivern/golang/tags) docker images.
+- [rust](https://hub.docker.com/r/clivern/rust/tags) docker images.
+- [elixir](https://hub.docker.com/r/clivern/elixir/tags) docker images.
+- [erlang](https://hub.docker.com/r/clivern/erlang/tags) docker images.
