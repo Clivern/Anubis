@@ -1,0 +1,17 @@
+[Unit]
+Description=Consul
+After=network.target
+
+StartLimitIntervalSec=500
+StartLimitBurst=5
+
+[Service]
+Environment=CONSUL_HTTP_TOKEN={{ consul_server_token }}
+Restart=on-failure
+RestartSec=5s
+ExecStart=/opt/hashicorp/consul/consul agent -config-file=/opt/hashicorp/consul/config/client.hcl
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+
+[Install]
+WantedBy=multi-user.target
