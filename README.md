@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/static/logo.png" width="150" />
+    <img src="/static/logo.svg" width="150" />
     <h3 align="center">dotfiles</h3>
 </p>
 <br/>
