@@ -11,68 +11,40 @@ dotfiles are a very personal thing. They are shaped through years of experience,
 
 1. Clone the repository wherever you want. I like to keep it in `~/dotfiles`.
 
-2. Define initial configs.
+2. Install [opswork](https://pypi.org/project/opswork/) globally.
 
 ```zsh
-$ export GIT_AUTHOR_NAME=Clivern
-$ export GIT_AUTHOR_EMAIL=hello@clivern.com
-
-$ export PERSONAL_SPACE_GIT_AUTHOR_NAME=Clivern
-$ export PERSONAL_SPACE_GIT_AUTHOR_EMAIL=hello@clivern.com
-
-$ export WORK_SPACE_GIT_AUTHOR_NAME=Clivern
-$ export WORK_SPACE_GIT_AUTHOR_EMAIL=hello@clivern.com
-
-# Get from https://pushover.net/
-$ export PUSHOVER_TOKEN="~~~app-token-here~~~"
-$ export PUSHOVER_USER="~~~user-key-here~~~"
-
+$ pip install opswork
 ```
 
-3. Run `make build` to install packages.
-
-5. Run `make sync` or `dsync` to sync your dotfiles with the ones in home dir.
-
-6. Add `access_token` & `gist_id` to configure [pet cli snippet manager](https://github.com/knqyf263/pet)
+3. Init the configs
 
 ```zsh
-$ pet configure
+$ opswork config init
+$ opswork config dump
 ```
 
-```toml
-[Gist]
-  file_name = "pet-snippet.toml"
-  access_token = "~~~"
-  gist_id = "~~~"
-  public = false
-  auto_sync = false
-```
+4. Add local as a host.
 
 ```zsh
-$ pet sync
+$ make hsync
 ```
+
+5. Add dotfiles recipes.
 
 ```zsh
-$ petgrep ping
+$ make rsync
 ```
 
-7. Configure Cargo.
+6. Run recipes one by one or the needed ones. for example to run `clivern/ping` towards host with name `localhost`.
 
 ```zsh
-$ cargo login $TOKEN
+$ opswork recipe run clivern/ping -h localhost
+
+# To get the must have list
+$ opswork recipe list -t must_have -o json | jq .
 ```
 
-8. Configure Github Client.
-
-```zsh
-$ gh issue list
-```
-
-9. Configure [Poodle](https://github.com/Clivern/Poodle)
-
-```
-$ poodle configure
-```
 
 ### License
 

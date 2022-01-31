@@ -13,21 +13,11 @@ jobs:
 
       - name: Push docker images
         run: |
-          cd docker
-
           curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
           sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
           sudo apt-get update && sudo apt-get install packer -y
 
           docker version
           packer version
-
-          echo $HCL > hub.pkrvars.json
-
-          make ci
-          make golang
-          make rust
-          make elixir
-          make erlang
         env:
           HCL: ${{ secrets.HCL }}

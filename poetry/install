@@ -1,5 +1,0 @@
-#!/bin/bash
-
-cd /tmp
-
-curl -sSL https://install.python-poetry.org | python3 -

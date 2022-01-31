@@ -1,9 +1,0 @@
-#!/bin/bash
-
-cd /tmp
-
-curl -sL https://github.com/tilt-dev/tilt/releases/download/v0.32.2/tilt.0.32.2.mac.x86_64.tar.gz | tar xz
-
-chmod +x ./tilt
-
-mv -f tilt $LOCAL_BIN/tilt
