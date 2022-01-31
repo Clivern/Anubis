@@ -28,16 +28,3 @@ tasks:
       state: present
     with_items:
       - gnu-tar
-
-  - name: download consul
-    unarchive:
-      src: https://releases.hashicorp.com/consul/1.16.0/consul_1.16.0_darwin_amd64.zip
-      dest: /tmp
-      remote_src: yes
-
-  - name: copy consul
-    copy:
-      src: /tmp/consul
-      dest: $HOME/bin/consul
-      mode: a+x
-      force: true

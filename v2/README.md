@@ -11,7 +11,7 @@ dotfiles are a very personal thing. They are shaped through years of experience,
 
 1. Clone the repository wherever you want. I like to keep it in `~/dotfiles`.
 
-2. Install [flook](https://github.com/norwik/flook/) globally.
+2. Install [flook](https://pypi.org/project/flook/) globally.
 
 ```zsh
 $ pip install flook
@@ -21,24 +21,28 @@ $ pip install flook
 
 ```zsh
 $ flook config init
+$ flook config dump
 ```
 
 4. Add local as a host.
 
 ```zsh
-$ make local
+$ make hsync
 ```
 
 5. Add dotfiles recipes.
 
 ```zsh
-$ make sync
+$ make rsync
 ```
 
 6. Run recipes one by one or the needed ones. for example to run `clivern/ping` towards host with name `localhost`.
 
 ```zsh
 $ flook recipe run clivern/ping -h localhost
+
+# To get the must have list
+$ flook recipe list -t must_have -o json | jq .
 ```
 
 

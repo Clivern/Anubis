@@ -17,6 +17,7 @@ rsync:
 	@echo ">> ============= Sync Recipes ============= <<"
 	flook recipe add clivern/dotfiles/update -p brew/update -t dotfiles,must_have -f
 	flook recipe add clivern/dotfiles/upgrade -p brew/upgrade -t dotfiles,must_have -f
+	flook recipe add clivern/dotfiles/gnu-tar -p gnu-tar -t dotfiles,must_have -f
 	flook recipe add clivern/ping -p linux/ping -t dotfiles,must_have -f
 	flook recipe add clivern/dotfiles/ack -p ack -t dotfiles -f
 	flook recipe add clivern/dotfiles/ansible -p ansible -t dotfiles,must_have -f
