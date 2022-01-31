@@ -23,6 +23,22 @@
 
 vars:
   version: 1.16.0
+  datacenter: AMS-01
+  data_dir: "/opt/hashicorp/consul/data"
+  node_name: "clivern"
+  bind_addr: 127.0.0.1
+  client_addr: 127.0.0.1
+
+templates:
+  server.hcl.j2: server.hcl.j2
+  consul.service.j2: consul.service.j2
+
+handlers:
+  - name: reload consul service
+    systemd:
+      state: restarted
+      daemon_reload: yes
+      name: consul
 
 tasks:
   - name: install required packages
@@ -39,6 +55,20 @@ tasks:
       mode: 0755
     become: yes
 
+  - name: create consul config directory
+    file:
+      path: /opt/hashicorp/consul/config
+      state: directory
+      mode: 0755
+    become: yes
+
+  - name: create consul data directory
+    file:
+      path: /opt/hashicorp/consul/data
+      state: directory
+      mode: 0755
+    become: yes
+
   - name: download consul
     unarchive:
       src: "https://releases.hashicorp.com/consul/{{ version }}/consul_{{ version }}_linux_386.zip"
@@ -51,3 +81,23 @@ tasks:
       dest: /opt/hashicorp/consul/consul
       mode: a+x
     become: yes
+
+  - name: set server.hcl config file
+    template:
+      src: "server.hcl.j2"
+      dest: "/opt/hashicorp/consul/config/server.hcl"
+      mode: 0700
+    become: yes
+
+  - name: create consul service file
+    template:
+      src: consul.service.j2
+      dest: /etc/systemd/system/consul.service
+      mode: "0750"
+    notify: reload consul service
+
+  - name: enable and start consul service
+    systemd:
+      name: consul
+      state: started
+      enabled: yes
