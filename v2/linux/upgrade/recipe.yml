@@ -28,10 +28,13 @@ tasks:
       upgrade: yes
       update_cache: yes
       cache_valid_time: 86400
+    become: yes
 
   - name: remove dependencies that are no longer required
     apt:
       autoremove: yes
+    become: yes
 
   - name: reboot the server
     reboot:
+    become: yes

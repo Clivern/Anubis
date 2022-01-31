@@ -98,3 +98,7 @@ alias tf="terraform"
 alias dnscls="dscacheutil -flushcache"
 
 alias pip="python3 -m pip"
+
+# Flook alias https://github.com/Norwik/Flook
+alias fh="flook host"
+alias fr="flook recipe"
