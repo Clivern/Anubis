@@ -96,3 +96,5 @@ alias cargb="cargo build -j 1"
 alias tf="terraform"
 
 alias dnscls="dscacheutil -flushcache"
+
+alias pip="python3 -m pip"
