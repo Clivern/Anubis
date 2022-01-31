@@ -33,7 +33,7 @@ vars:
   # Consul Server HTTP Address
   server_addr: 127.0.0.1
   # Token to communicate with consul server
-  consul_server_token: xxxxxxxxxxxx
+  consul_server_token: f812c2b4-2530-40a1-9764-96eef8b63029
 
 templates:
   client.hcl.j2: client.hcl.j2
