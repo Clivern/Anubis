@@ -97,6 +97,7 @@ rsync:
 	opswork recipe add clivern/linux/update -p linux/update -t linux -f
 	opswork recipe add clivern/linux/upgrade -p linux/upgrade -t linux -f
 	opswork recipe add clivern/linux/consul -p linux/consul -t linux -f
+	opswork recipe add clivern/linux/vault -p linux/vault -t linux -f
 	opswork recipe add clivern/linux/haproxy -p linux/haproxy -t linux -f
 	opswork recipe add clivern/linux/motd -p linux/motd -t linux -f
 

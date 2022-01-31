@@ -22,7 +22,7 @@
 
 
 vars:
-  version: v0.3
+  version: v0.1
 
 templates:
   motd.j2: motd.j2
@@ -38,3 +38,4 @@ tasks:
       src: "motd.j2"
       dest: "/etc/motd"
       mode: 0700
+    become: yes

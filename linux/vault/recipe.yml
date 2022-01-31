@@ -27,20 +27,24 @@ tasks:
       pkg:
       - zip
       - unzip
+    become: yes
 
   - name: create vault directory
     file:
       path: /opt/hashicorp/vault
       state: directory
       mode: 0755
+    become: yes
 
   - name: download vault
     unarchive:
       src: https://releases.hashicorp.com/vault/1.14.0/vault_1.14.0_linux_386.zip
       dest: /opt/hashicorp/vault/
       remote_src: yes
+    become: yes
 
   - name: change perm
     file:
       dest: /opt/hashicorp/vault/vault
       mode: a+x
+    become: yes
