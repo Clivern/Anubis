@@ -28,7 +28,6 @@ rsync:
 	flook recipe add clivern/dotfiles/bat -p bat -t dotfiles -f
 	flook recipe add clivern/dotfiles/bazel -p bazel -t dotfiles -f
 	flook recipe add clivern/dotfiles/composer -p composer -t dotfiles -f
-	flook recipe add clivern/dotfiles/consul -p consul -t dotfiles -f
 	flook recipe add clivern/dotfiles/curl -p curl -t dotfiles -f
 	flook recipe add clivern/dotfiles/docker -p docker -t dotfiles -f
 	flook recipe add clivern/dotfiles/doctl -p doctl -t dotfiles -f
@@ -62,9 +61,7 @@ rsync:
 	flook recipe add clivern/dotfiles/mysql-client -p mysql-client -t dotfiles,must_have -f
 	flook recipe add clivern/dotfiles/ngrok -p ngrok -t dotfiles,must_have -f
 	flook recipe add clivern/dotfiles/node -p node -t dotfiles,must_have -f
-	flook recipe add clivern/dotfiles/nomad -p nomad -t dotfiles -f
 	flook recipe add clivern/dotfiles/npm_pkgs -p npm_pkgs -t dotfiles -f
-	flook recipe add clivern/dotfiles/packer -p packer -t dotfiles -f
 	flook recipe add clivern/dotfiles/pet -p pet -t dotfiles -f
 	flook recipe add clivern/dotfiles/php -p php -t dotfiles,must_have -f
 	flook recipe add clivern/dotfiles/pip -p pip -t dotfiles,must_have -f
@@ -87,13 +84,16 @@ rsync:
 	flook recipe add clivern/dotfiles/tmux -p tmux -t dotfiles -f
 	flook recipe add clivern/dotfiles/tree -p tree -t dotfiles -f
 	flook recipe add clivern/dotfiles/ttyrec -p ttyrec -t dotfiles -f
-	flook recipe add clivern/dotfiles/vault -p vault -t dotfiles -f
 	flook recipe add clivern/dotfiles/vim -p vim -t dotfiles,must_have -f
 	flook recipe add clivern/dotfiles/watch -p watch -t dotfiles -f
 	flook recipe add clivern/dotfiles/wget -p wget -t dotfiles,must_have -f
 	flook recipe add clivern/dotfiles/yarn -p yarn -t dotfiles -f
 	flook recipe add clivern/dotfiles/ytt -p ytt -t dotfiles -f
 	flook recipe add clivern/dotfiles/zsh -p zsh -t dotfiles,must_have -f
+	flook recipe add clivern/dotfiles/nomad -p nomad -t dotfiles,hashicorp -f
+	flook recipe add clivern/dotfiles/packer -p packer -t dotfiles,hashicorp -f
+	flook recipe add clivern/dotfiles/consul -p consul -t dotfiles,hashicorp -f
+	flook recipe add clivern/dotfiles/vault -p vault -t dotfiles,hashicorp -f
 
 
 .PHONY: help

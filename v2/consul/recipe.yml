@@ -22,13 +22,6 @@
 
 
 tasks:
-  - name: installing gnu-tar package
-    homebrew:
-      name: "{{ item }}"
-      state: present
-    with_items:
-      - gnu-tar
-
   - name: download consul
     unarchive:
       src: https://releases.hashicorp.com/consul/1.16.0/consul_1.16.0_darwin_amd64.zip

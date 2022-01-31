@@ -19,3 +19,18 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
+
+tasks:
+  - name: download packer
+    unarchive:
+      src: https://releases.hashicorp.com/packer/1.9.1/packer_1.9.1_darwin_amd64.zip
+      dest: /tmp
+      remote_src: yes
+
+  - name: copy packer
+    copy:
+      src: /tmp/packer
+      dest: $HOME/bin/packer
+      mode: a+x
+      force: true

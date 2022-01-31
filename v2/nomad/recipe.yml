@@ -22,13 +22,6 @@
 
 
 tasks:
-  - name: installing gnu-tar package
-    homebrew:
-      name: "{{ item }}"
-      state: present
-    with_items:
-      - gnu-tar
-
   - name: download nomad
     unarchive:
       src: https://releases.hashicorp.com/nomad/1.5.6/nomad_1.5.6_darwin_amd64.zip
