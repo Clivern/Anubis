@@ -28,19 +28,19 @@ tasks:
       - zip
       - unzip
 
-  - name: create consul directory
+  - name: create vault directory
     file:
-      path: /opt/hashicorp/consul
+      path: /opt/hashicorp/vault
       state: directory
       mode: 0755
 
-  - name: download consul
+  - name: download vault
     unarchive:
-      src: https://releases.hashicorp.com/consul/1.16.0/consul_1.16.0_linux_386.zip
-      dest: /opt/hashicorp/consul/
+      src: https://releases.hashicorp.com/vault/1.14.0/vault_1.14.0_linux_386.zip
+      dest: /opt/hashicorp/vault/
       remote_src: yes
 
   - name: change perm
     file:
-      dest: /opt/hashicorp/consul/consul
+      dest: /opt/hashicorp/vault/vault
       mode: a+x

@@ -22,7 +22,7 @@
 
 
 vars:
-  version: v0.2
+  version: v0.3
 
 templates:
   motd.j2: motd.j2

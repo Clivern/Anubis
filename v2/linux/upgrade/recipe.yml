@@ -22,25 +22,16 @@
 
 
 tasks:
-  - name: install required packages
+  - name: upgrade Packages
+    become: true
     apt:
-      pkg:
-      - zip
-      - unzip
+      upgrade: yes
+      update_cache: yes
+      cache_valid_time: 86400
 
-  - name: create consul directory
-    file:
-      path: /opt/hashicorp/consul
-      state: directory
-      mode: 0755
+  - name: remove dependencies that are no longer required
+    apt:
+      autoremove: yes
 
-  - name: download consul
-    unarchive:
-      src: https://releases.hashicorp.com/consul/1.16.0/consul_1.16.0_linux_386.zip
-      dest: /opt/hashicorp/consul/
-      remote_src: yes
-
-  - name: change perm
-    file:
-      dest: /opt/hashicorp/consul/consul
-      mode: a+x
+  - name: reboot the server
+    reboot:

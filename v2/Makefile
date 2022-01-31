@@ -12,7 +12,7 @@ hsync:
 	flook host add localhost -i localhost -c local -f
 
 
-## sync: Sync Recipes.
+## rsync: Sync Recipes.
 rsync:
 	@echo ">> ============= Sync Recipes ============= <<"
 	flook recipe add clivern/dotfiles/update -p brew/update -t dotfiles,must_have -f
@@ -94,6 +94,11 @@ rsync:
 	flook recipe add clivern/dotfiles/packer -p packer -t dotfiles,hashicorp -f
 	flook recipe add clivern/dotfiles/consul -p consul -t dotfiles,hashicorp -f
 	flook recipe add clivern/dotfiles/vault -p vault -t dotfiles,hashicorp -f
+	flook recipe add clivern/linux/update -p linux/update -t linux -f
+	flook recipe add clivern/linux/upgrade -p linux/upgrade -t linux -f
+	flook recipe add clivern/linux/consul -p linux/consul -t linux -f
+	flook recipe add clivern/linux/haproxy -p linux/haproxy -t linux -f
+	flook recipe add clivern/linux/motd -p linux/motd -t linux -f
 
 
 .PHONY: help
