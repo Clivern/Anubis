@@ -24,7 +24,7 @@
 tasks:
   - name: installing ack package
     homebrew:
-      name: {{ item }}
+      name: "{{ item }}"
       state: present
     with_items:
       - ack

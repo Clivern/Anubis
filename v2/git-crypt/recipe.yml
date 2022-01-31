@@ -24,7 +24,7 @@
 tasks:
   - name: installing git-crypt package
     homebrew:
-      name: {{ item }}
+      name: "{{ item }}"
       state: present
     with_items:
       - git-crypt
