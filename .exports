@@ -30,31 +30,33 @@ export GPG_TTY=$(tty);
 export DOTFILE_PATH="dotfiles"
 
 # PHP Related
-export PATH="$HOME/.symfony/bin:$PATH"
-export COMPOSER_MEMORY_LIMIT=-1
-export PATH="$HOME/.composer/vendor/bin:$PATH"
+# export PATH="$HOME/.symfony/bin:$PATH"
+# export COMPOSER_MEMORY_LIMIT=-1
+# export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # Rust Related
-export PATH="$HOME/.cargo/bin:$PATH"
+# export PATH="$HOME/.cargo/bin:$PATH"
 
 # Ruby Related
-export PATH="$HOME/.chefdk/gem/ruby/3.0.0/bin:$PATH"
+# export PATH="$HOME/.chefdk/gem/ruby/3.0.0/bin:$PATH"
 
 # Java Related
-export PATH="$HOME/mvn-3.6.3/bin:$PATH"
+# export PATH="$HOME/mvn-3.6.3/bin:$PATH"
 
 # Golang Related
 export GOPROXY=https://proxy.golang.org
 export GO111MODULE=on
 
 # MySQL Related
-export PATH="$PATH:/usr/local/mysql/bin"
+# export PATH="$PATH:/usr/local/mysql/bin"
 
 # Load all kubeconfigs for kubectx
-#export KUBECONFIG=$(find ~/configs/*kubeconfig.yaml -type f | tr "\n" ":")
+# export KUBECONFIG=$(find ~/configs/*kubeconfig.yaml -type f | tr "\n" ":")
 
-export PATH="$PATH:/opt/homebrew/opt/python@3.9/bin"
+# export PATH="$PATH:/opt/homebrew/opt/python@3.9/bin"
 
 # PHP
-export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
-export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"
+# export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
+# export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"
+
+export PATH="/usr/local/bin:$PATH"
