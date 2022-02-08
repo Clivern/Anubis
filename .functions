@@ -41,6 +41,9 @@ Description: Check go modules checksum
 Description: Create python venv
     $ pyv carbon
 ------------------------------
+Description: Activate python venv
+    $ pya
+------------------------------
 Description: Use remote docker env
     $ remote_docker X.X.X.X:2376
 ------------------------------
@@ -123,6 +126,10 @@ pushover() {
 pyv() {
     python3 -m venv $1
     source $1/bin/activate
+}
+
+pya () {
+    source bin/activate
 }
 
 # Expose docker over tcp for testing
