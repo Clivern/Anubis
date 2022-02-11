@@ -1,6 +1,6 @@
 cd /tmp
 
-export FZF_VERSION=0.27.2
+export FZF_VERSION=0.30.0
 wget https://github.com/junegunn/fzf/releases/download/$FZF_VERSION/fzf-$FZF_VERSION-darwin_amd64.zip 
 unzip fzf-$FZF_VERSION-darwin_amd64.zip
 

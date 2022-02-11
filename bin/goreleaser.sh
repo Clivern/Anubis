@@ -1,6 +1,6 @@
 cd /tmp
 
-export GO_RELEASER_VERSION=0.159.0
+export GO_RELEASER_VERSION=1.8.3
 export GO_RELEASER_LATEST_VERSION=$(curl --silent "https://api.github.com/repos/goreleaser/goreleaser/releases/latest" | jq '.tag_name' | sed -E 's/.*"([^"]+)".*/\1/')
 echo "Installing GoReleaser v$GO_RELEASER_VERSION. Latest version is $GO_RELEASER_LATEST_VERSION"
 
