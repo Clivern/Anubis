@@ -23,6 +23,7 @@ brew install watch
 brew install wget
 brew install ttyrec
 brew install yarn
+brew install groovy
 
 # java
 brew cask info java
