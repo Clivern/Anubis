@@ -60,3 +60,5 @@ export GO111MODULE=on
 # export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"
 
 export PATH="/usr/local/bin:$PATH"
+
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
