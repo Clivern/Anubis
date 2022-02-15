@@ -62,3 +62,5 @@ export GO111MODULE=on
 export PATH="/usr/local/bin:$PATH"
 
 export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+
+export PATH="/Users/$USER/Library/Python/3.9/bin:$PATH"
