@@ -101,3 +101,5 @@ alias smtpserver="sudo python3 -m smtpd -n -c DebuggingServer localhost:25"
 alias cargb="cargo build -j 1"
 
 alias tf="terraform"
+
+alias dnscls="dscacheutil -flushcache"

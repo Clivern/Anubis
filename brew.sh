@@ -26,30 +26,25 @@ brew install yarn
 brew install groovy
 
 # java
-brew cask info java
-brew cask install java
+brew install java --cask
 
 # google-chrome
-brew cask info google-chrome
-brew cask install google-chrome
+brew install google-chrome --cask
 
 # sublime-text
-brew cask info sublime-text
-brew cask install sublime-text
+brew install sublime-text --cask
 
 # iterm2
-brew cask install iterm2
+brew install iterm2 --cask
 
 # visual-studio-code
-brew cask install visual-studio-code
+brew install visual-studio-code --cask
 
 # ccleaner
-brew cask info ccleaner
-brew cask install ccleaner
+brew install ccleaner --cask
 
 # https://gpgtools.org/
-brew cask info gpg-suite
-brew cask install gpg-suite
+brew install gpg-suite --cask
 
 # gradle
 brew install gradle
@@ -61,15 +56,12 @@ brew install node
 brew install asciinema
 
 # MySQL
-brew info mysql@5.7
 brew install mysql@5.7
 
 # git-crypt
-brew info git-crypt
 brew install git-crypt
 
 # ack
-brew info ack
 brew install ack
 
 # Install rbenv & ruby 2.7.4
@@ -83,11 +75,9 @@ gem install bundler jekyll
 
 brew install kubectx
 
-brew cask info virtualbox
-brew cask install virtualbox
+brew install virtualbox --cask
 
-brew cask info vagrant
-brew cask install vagrant
+brew install vagrant --cask
 
 brew install buildpacks/tap/pack
 
