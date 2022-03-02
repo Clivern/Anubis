@@ -54,6 +54,7 @@ function doIt() {
 		--exclude "arduino/" \
 		--exclude "aws/" \
 		--exclude "bazel/" \
+		--exclude "poetry/" \
 		--exclude "bootstrap.sh" \
 		--exclude "brew.sh" \
 		--exclude "env.sh" \

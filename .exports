@@ -70,3 +70,6 @@ export PATH="/Users/$USER/aws-cli:$PATH"
 export JAVA_HOME="/usr/local/opt/openjdk@11/"
 
 export PATH="$HOME/.goenv/shims:"$PATH
+
+# for poetry
+export PATH="/Users/$USER/.local/bin:$PATH"
