@@ -1,6 +1,6 @@
 cd /tmp
 
-export REVIVE_VERSION=1.0.6
+export REVIVE_VERSION=1.1.4
 export REVIVE_LATEST_VERSION=$(curl --silent "https://api.github.com/repos/mgechev/revive/releases/latest" | jq '.tag_name' | sed -E 's/.*"([^"]+)".*/\1/')
 echo "Installing revive $REVIVE_VERSION. Latest version is $REVIVE_LATEST_VERSION"
 
