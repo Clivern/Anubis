@@ -40,6 +40,7 @@ function doIt() {
 		--exclude "dotfiles.fish/" \
 		--exclude "iterm/" \
 		--exclude "git_cc/" \
+		--exclude "logo.png" \
 		--exclude "fzf/" \
 		--exclude "habitat/" \
 		--exclude "helidon/" \
