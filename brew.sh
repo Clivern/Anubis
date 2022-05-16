@@ -79,6 +79,7 @@ rbenv install 2.7.4
 rbenv global 2.7.4
 rbenv local 2.7.4
 gem install rails -v 6.1.3
+gem install bundler jekyll
 
 brew install kubectx
 

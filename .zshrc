@@ -142,4 +142,4 @@ export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 
 source $HOME/.cargo/env
 
-#eval "$(rbenv init - zsh)"
+eval "$(rbenv init - zsh)"
