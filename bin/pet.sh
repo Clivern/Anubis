@@ -1,6 +1,6 @@
 cd /tmp
 
-export PET_VERSION=0.3.6
+export PET_VERSION=0.4.0
 export PET_LATEST_VERSION=$(curl --silent "https://api.github.com/repos/knqyf263/pet/releases/latest" | jq '.tag_name' | sed -E 's/.*"([^"]+)".*/\1/')
 echo "Installing Pet v$PET_VERSION. Latest version is $PET_LATEST_VERSION"
 
