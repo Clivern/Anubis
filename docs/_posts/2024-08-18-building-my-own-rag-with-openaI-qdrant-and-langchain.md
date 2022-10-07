@@ -278,7 +278,7 @@ Rashid Brown
 
 ### Vector Search as a Service.
 
-Rather that building the above from scratch, you can leverage **Tyran**, a powerful tool designed to efficiently retrieve relevant context for large language models (LLMs). Tyran organizes documents alongside their associated metadata, such as topic, author, and project or team, to enhance the search process.
+Rather that building the above from scratch, you can leverage **Tyran**, a service designed to efficiently retrieve relevant context for large language models (LLMs). Tyran organizes documents alongside their associated metadata, such as topic, author, and project or team, to enhance the search process.
 
 ![](/images/blog/tyrant-chart.png)
 
