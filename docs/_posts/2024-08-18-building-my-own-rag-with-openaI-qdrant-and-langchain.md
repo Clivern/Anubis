@@ -275,8 +275,24 @@ You will get his name like this
 Rashid Brown
 ```
 
+
+### Vector Search as a Service.
+
+Rather that building the above from scratch, you can leverage **Tyran**, a powerful tool designed to efficiently retrieve relevant context for large language models (LLMs). Tyran organizes documents alongside their associated metadata, such as topic, author, and project or team, to enhance the search process.
+
+When a query is made, Tyran follows a streamlined process:
+
+- It utilizes the OpenAI embedding API to convert the query into a vector representation.
+- The system then performs a semantic search using this vector, applying any specified filters to narrow the search to relevant documents.
+- Upon identifying similar documents, Tyran fetches their content from the local database.
+- Finally, it returns the relevant documents along with their similarity scores, providing a clear indication of how closely each document matches the query.
+
+For more details, you can visit the [Tyran GitHub repository](https://github.com/Norwik/Tyran).
+
+
 ### References:
 
 - [Langchain Documentation](https://python.langchain.com/v0.2/docs/introduction/)
 - [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
 - [Qdrant Documentation](https://qdrant.tech/documentation/)
+- [Tyran Project](https://github.com/Norwik/Tyran)
