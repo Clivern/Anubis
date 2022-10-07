@@ -282,9 +282,9 @@ Rather that building the above from scratch, you can leverage **Tyran**, a servi
 
 ![](/images/blog/tyrant-chart.png)
 
-When a query is made, Tyran follows a streamlined process:
+When a query is made, Tyran follows the following:
 
-- It utilizes the OpenAI embedding API to convert the query into a vector representation.
+- It uses the OpenAI embedding API to convert the query into a vector representation.
 - The system then performs a semantic search using this vector, applying any specified filters to narrow the search to relevant documents.
 - Upon identifying similar documents, Tyran fetches their content from the local database.
 - Finally, it returns the relevant documents along with their similarity scores, providing a clear indication of how closely each document matches the query.
