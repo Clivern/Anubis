@@ -280,6 +280,8 @@ Rashid Brown
 
 Rather that building the above from scratch, you can leverage **Tyran**, a powerful tool designed to efficiently retrieve relevant context for large language models (LLMs). Tyran organizes documents alongside their associated metadata, such as topic, author, and project or team, to enhance the search process.
 
+![](/images/blog/tyrant-chart.png)
+
 When a query is made, Tyran follows a streamlined process:
 
 - It utilizes the OpenAI embedding API to convert the query into a vector representation.
