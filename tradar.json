@@ -49,6 +49,13 @@
         "description":"A versatile, object-oriented programming language used for a wide range of applications."
     },
     {
+        "name":"Kotlin",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"TRUE",
+        "description":"Kotlin is a cross-platform, statically typed, general-purpose high-level programming language with type inference."
+    },
+    {
         "name":"Elixir",
         "ring":"adopt",
         "quadrant":"languages-and-frameworks",
@@ -103,6 +110,13 @@
         "quadrant":"languages-and-frameworks",
         "isNew":"FALSE",
         "description":"Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It provides a comprehensive set of tools and features for building complex, scalable web applications."
+    },
+    {
+        "name":"FastAPI",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"TRUE",
+        "description":"FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints."
     },
     {
         "name":"Gin",
@@ -285,6 +299,13 @@
         "quadrant":"tools",
         "isNew":"TRUE",
         "description":"Qdrant is a high-performance vector similarity search engine designed to manage and search large-scale vector data efficiently."
+    },
+    {
+        "name":"Chroma",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"TRUE",
+        "description":"Chroma is the open-source AI application database. Batteries included."
     },
     {
         "name":"VCS",
