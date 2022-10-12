@@ -289,7 +289,7 @@ When a query is made, Tyran follows the following:
 - Upon identifying similar documents, Tyran fetches their content from the local database.
 - Finally, it returns the relevant documents along with their similarity scores, providing a clear indication of how closely each document matches the query.
 
-For more details, you can visit the [Tyran GitHub repository](https://github.com/Norwik/Tyran).
+For more details, you can visit the [Tyran GitHub repository](https://github.com/Clivern/Tyran).
 
 
 ### References:
@@ -297,4 +297,4 @@ For more details, you can visit the [Tyran GitHub repository](https://github.com
 - [Langchain Documentation](https://python.langchain.com/v0.2/docs/introduction/)
 - [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
 - [Qdrant Documentation](https://qdrant.tech/documentation/)
-- [Tyran Project](https://github.com/Norwik/Tyran)
+- [Tyran Project](https://github.com/Clivern/Tyran)
