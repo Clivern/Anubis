@@ -1,3 +1,4 @@
+-- https://www.youtube.com/watch?v=Mtgo-nP_r8Y
 vim.g.base46_cache = vim.fn.stdpath "data" .. "/nvchad/base46/"
 vim.g.mapleader = " "
 
