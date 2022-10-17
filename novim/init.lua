@@ -28,7 +28,6 @@ vim.g.base46_cache = vim.fn.stdpath "data" .. "/nvchad/base46/"
 vim.g.mapleader = " "
 
 vim.opt.number = true
--- vim.opt.relativenumber = true
 
 vim.opt.expandtab = true
 vim.opt.tabstop = 4

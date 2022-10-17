@@ -24,7 +24,7 @@ At a high level, text splitters work as following:
 3. Once you reach that size, make that chunk its own piece of text and then start creating a new chunk of text with some overlap (to keep context between chunks).
 
 
-#### Recursive Character Text Splitter
+### Recursive Character Text Splitter
 
 `RecursiveCharacterTextSplitter` is used to split large texts into smaller, manageable chunks. It does this recursively, ensuring that the splits respect certain constraints like chunk size and overlap. The text is split by list of characters `["\n\n", "\n", " ", ""]` and the chunk size is measured by number of characters.
 
@@ -34,14 +34,54 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 with open("~/docs/runbook.txt", "r") as file:
 	text_splitter = RecursiveCharacterTextSplitter(
-    	chunk_size=1000,
-    	chunk_overlap=200,
-    	length_function=len,
-    	is_separator_regex=False,
+		chunk_size=1000,
+		chunk_overlap=200,
+		length_function=len,
+		is_separator_regex=False,
 	)
 	texts = text_splitter.create_documents([file.read()])
 	print(texts)
 ```
+
+
+### Split by HTML Header
+
+To split text by `HTML` headers, you can use the `HtmlTextSplitter` from `LangChain`. It splits the text based on HTML tags like `<h1>`, `<h2>`, etc.
+
+
+### Split by HTML Sections
+
+The `HtmlWebPageTextSplitter` from `LangChain` can be used to split an `HTML` web page into sections based on semantic HTML tags like `<section>`, `<article>`, etc.
+
+
+### Split by Character
+
+The `CharacterTextSplitter` from `LangChain` splits the text into chunks based on a specified character count, without considering any semantic structure.
+
+
+### Split Code
+
+For splitting code, you can use the `MarkdownCodeBlockSplitter` from `LangChain`, which splits the text into chunks based on code blocks delimited by triple backticks (```).
+
+
+### Split Markdown by Headers
+
+The `MarkdownHeadingTextSplitter` from LangChain splits Markdown text into chunks based on heading levels (e.g., `#`, `##`, `###`).
+
+
+### Split JSON
+
+To split JSON data, you can use the `JsonlNewlineTextSplitter` from `LangChain`, which splits the text by newlines, assuming each line contains a valid `JSON` object.
+
+
+### Split Text into Semantic Chunk
+
+The `NLTKTextSplitter` from `LangChain` uses `NLTK` (Natural Language Toolkit) to split the text into semantic chunks based on sentences or paragraphs.
+
+
+### Split by Tokens
+
+The `TokenTextSplitter` from `LangChain` splits the text into chunks based on a specified token count, similar to `CharacterTextSplitter` but using a tokenizer.
 
 
 ### References:
