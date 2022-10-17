@@ -531,6 +531,37 @@
         "isNew":"FALSE",
         "description":"ngrok is a powerful and versatile tool that provides secure access to local servers behind NATs and firewalls."
     },
+{
+    "name": "Visual Studio Code",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Visual Studio Code is a source-code editor developed by Microsoft. It includes support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. It is highly customizable and supports a wide range of extensions."
+},
+
+{
+    "name": "Sublime Text",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It offers a distraction-free writing mode, split editing, and instant project switch. Its powerful API and package ecosystem make it highly extensible."
+},
+
+{
+    "name": "Neovim",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Neovim is an extensible Vim-based text editor that aims to improve upon Vim's architecture. It features a built-in terminal emulator, asynchronous job control, and a rich plugin ecosystem that enhances the editing experience."
+},
+
+{
+    "name": "Vim",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Vim is a highly configurable text editor built to enable efficient text editing. It is known for its modal editing style and extensive plugin system. Vim is often used for programming and system administration tasks."
+},
     {
         "name":"GitHub",
         "ring":"adopt",
