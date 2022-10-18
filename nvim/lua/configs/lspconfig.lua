@@ -33,6 +33,7 @@ local lspconfig = require "lspconfig"
 local servers = { "html", "cssls" }
 local nvlsp = require "nvchad.configs.lspconfig"
 
+-- Disable lua_lsp by not calling it in the defaults
 nvlsp.defaults = function()
   -- Do not include sumneko_lua here
 end
