@@ -39,6 +39,12 @@ run:
 	done
 
 
+## rnvcache: Clean Neovim cache
+rnvcache:
+	@echo ">> ============= Clean Neovim cache ============= <<"
+	rm -rf ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
+
+
 ## serve: Serve Website.
 serve:
 	@echo ">> ============= Serve Website ============= <<"
