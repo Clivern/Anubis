@@ -25,7 +25,8 @@ SOFTWARE.
 --]]
 
 -- load defaults i.e lua_lsp
-require("nvchad.configs.lspconfig").defaults()
+-- https://github.com/NvChad/NvChad/blob/v2.5/lua/nvchad/configs/lspconfig.lua
+-- require("nvchad.configs.lspconfig").defaults()
 
 local lspconfig = require "lspconfig"
 
