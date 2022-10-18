@@ -32,7 +32,7 @@ SOFTWARE.
 local M = {}
 
 M.base46 = {
-	theme = "catppuccin",
+	theme = "tomorrow_night",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
