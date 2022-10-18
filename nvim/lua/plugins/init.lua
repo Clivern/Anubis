@@ -44,7 +44,8 @@ return {
   			"html", "css", "java",
 				"elixir", "php", "python",
 				"rust", "go", "markdown",
-				"javascript", "json", "yaml"
+				"javascript", "json", "yaml",
+				"kotlin"
   		},
   	},
   },
