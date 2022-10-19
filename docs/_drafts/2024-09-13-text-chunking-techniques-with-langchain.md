@@ -63,6 +63,10 @@ print(texts)
 
 ### Split by HTML Header or Sections
 
+`HTMLHeaderTextSplitter` and `HTMLSectionSplitter` are designed to split `HTML` documents into manageable chunks, but they differ in their approach and specific use cases.
+
+- `HTMLHeaderTextSplitter` divides the `HTML` content based on header elements (like `<h1>`, `<h2>`, etc.). It is particularly useful for documents where the structure is defined by these headers.
+- `HTMLSectionSplitter` divides content based on sections defined in the `HTML`. However, it may take into account other structural elements beyond just headers.
 
 ```python
 from langchain_text_splitters import HTMLHeaderTextSplitter
@@ -258,8 +262,16 @@ print(json_chunks)
 
 ### Split Text into Semantic Chunk
 
-The `NLTKTextSplitter` from `LangChain` uses `NLTK` (Natural Language Toolkit) to split the text into semantic chunks based on sentences or paragraphs.
+`SemanticChunker` split chunks based on their semantic similarity. If embeddings are sufficiently far apart, chunks are split.
 
+```python
+from langchain_experimental.text_splitter import SemanticChunker
+from langchain_openai.embeddings import OpenAIEmbeddings
+
+
+text_splitter = SemanticChunker(OpenAIEmbeddings())
+docs = text_splitter.create_documents([document])
+```
 
 ### Split by Tokens
 
