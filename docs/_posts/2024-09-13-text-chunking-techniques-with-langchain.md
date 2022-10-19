@@ -49,7 +49,7 @@ texts = text_splitter.create_documents([data])
 print(texts)
 ```
 
-```output
+```
 [
     Document(metadata={}, page_content='Balloons are pretty and come in different colors, different shapes, different sizes,'),
     Document(metadata={}, page_content="and they can even adjust sizes as needed. But don't make them too big or they might just pop,"),
@@ -107,7 +107,7 @@ html_header_splits = html_splitter.split_text(html_string)
 html_header_splits
 ```
 
-```output
+```
 [
     Document(metadata={}, page_content='Foo'),
     Document(metadata={'Header 1': 'Foo'}, page_content='Some intro text about Foo.  \nBar main section Bar subsection 1 Bar subsection 2'),
@@ -160,7 +160,7 @@ html_header_splits = html_splitter.split_text(html_string)
 html_header_splits
 ```
 
-```output
+```
 [
     Document(metadata={'Header 1': 'Foo'}, page_content='Foo \n Some intro text about Foo.'),
     Document(metadata={'Header 2': 'Bar main section'}, page_content='Bar main section \n Some intro text about Bar. \n Bar subsection 1 \n Some text about the first subtopic of Bar. \n Bar subsection 2 \n Some text about the second subtopic of Bar.'),
@@ -197,7 +197,7 @@ md_header_splits = markdown_splitter.split_text(markdown_document)
 print(md_header_splits)
 ```
 
-```output
+```
 [
     Document(metadata={'Header 1': 'Foo'}, page_content='Some intro text about Foo.'),
     Document(metadata={'Header 1': 'Foo', 'Header 2': 'Bar'}, page_content='Some intro text about Bar.'),
@@ -265,7 +265,7 @@ json_chunks = splitter.split_json(json_data=json_data)
 print(json_chunks)
 ```
 
-```output
+```
 [
     {'message': 'Hello, Mireya! Your order number is: #48'},
     {'phoneNumber': '878.358.3458 x6225', 'phoneVariation': '+90 388 601 10 24'},
@@ -287,4 +287,5 @@ print(json_chunks)
 
 ### References:
 
-- [Langchain Text Splitters Documentation](https://python.langchain.com/v0.1/docs/modules/data_connection/document_transformers/)
+- [Langchain Text Splitters Documentation](https://python.langchain.com/docs/how_to/#text-splitters)
+
