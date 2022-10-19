@@ -1,5 +1,5 @@
 ---
-title: Text Chunking Techniques With Langchain
+title: Text Chunking Techniques With Langchain Part 1
 date: 2024-09-13 00:00:00
 featured_image: https://images.unsplash.com/photo-1579004464832-0c014afa448c
 excerpt: In this article we explain different ways to split a long document into smaller chunks that can fit into your model's context window. LangChain has a number of built-in transformers that make it easy to split, combine, filter, and otherwise manipulate documents.
@@ -22,7 +22,6 @@ At a high level, text splitters work as following:
 1. Split the text up into small, semantically meaningful chunks.
 2. Start combining these small chunks into a larger chunk until you reach a certain size.
 3. Once you reach that size, make that chunk its own piece of text and then start creating a new chunk of text with some overlap (to keep context between chunks).
-
 
 ### Recursive Character Text Splitter
 
@@ -59,7 +58,6 @@ print(texts)
     Document(metadata={}, page_content='You just have to use your head to think a little bit about what to do with them.')
 ]
 ```
-
 
 ### Split by HTML Header or Sections
 
@@ -170,15 +168,42 @@ html_header_splits
 ]
 ```
 
-### Split Code
-
-For splitting code, you can use the `MarkdownCodeBlockSplitter` from `LangChain`, which splits the text into chunks based on code blocks delimited by triple backticks (```).
-
-
 ### Split Markdown by Headers
 
 The `MarkdownHeadingTextSplitter` from LangChain splits Markdown text into chunks based on heading levels (e.g., `#`, `##`, `###`).
 
+```python
+from langchain_text_splitters import MarkdownHeaderTextSplitter
+
+
+headers_to_split_on = [
+    ("#", "Header 1"),
+    ("##", "Header 2"),
+    ("###", "Header 3"),
+]
+
+markdown_document = """
+# Foo
+Some intro text about Foo.
+
+## Bar
+Some intro text about Bar.
+
+### Baz
+Some text about Baz
+"""
+markdown_splitter = MarkdownHeaderTextSplitter(headers_to_split_on)
+md_header_splits = markdown_splitter.split_text(markdown_document)
+print(md_header_splits)
+```
+
+```output
+[
+    Document(metadata={'Header 1': 'Foo'}, page_content='Some intro text about Foo.'),
+    Document(metadata={'Header 1': 'Foo', 'Header 2': 'Bar'}, page_content='Some intro text about Bar.'),
+    Document(metadata={'Header 1': 'Foo', 'Header 2': 'Bar', 'Header 3': 'Baz'}, page_content='Some text about Baz')
+]
+```
 
 ### Split JSON
 
@@ -259,24 +284,6 @@ print(json_chunks)
     {'objectId': '66e9bb4035b9062a57ddc0c1'}
 ]
 ```
-
-### Split Text into Semantic Chunk
-
-`SemanticChunker` split chunks based on their semantic similarity. If embeddings are sufficiently far apart, chunks are split.
-
-```python
-from langchain_experimental.text_splitter import SemanticChunker
-from langchain_openai.embeddings import OpenAIEmbeddings
-
-
-text_splitter = SemanticChunker(OpenAIEmbeddings())
-docs = text_splitter.create_documents([document])
-```
-
-### Split by Tokens
-
-The `TokenTextSplitter` from `LangChain` splits the text into chunks based on a specified token count, similar to `CharacterTextSplitter` but using a tokenizer.
-
 
 ### References:
 
