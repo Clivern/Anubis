@@ -45,7 +45,7 @@ return {
 				"elixir", "php", "python",
 				"rust", "go", "markdown",
 				"javascript", "json", "yaml",
-				"kotlin"
+				"kotlin", "heex"
   		},
   	},
   },
