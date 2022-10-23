@@ -1,9 +1,8 @@
 ---
-title: Observability for Go Systems
+title: Observability for Go Systems Part 1
 date: 2024-06-14 00:00:00
-featured_image: https://images.unsplash.com/photo-1517782924173-aac5b5fcee7b
+featured_image: https://images.unsplash.com/photo-1520776174717-a1ea0e6069df
 excerpt:
 ---
 
-![](https://images.unsplash.com/photo-1517782924173-aac5b5fcee7b)
-
+![](https://images.unsplash.com/photo-1520776174717-a1ea0e6069df)
