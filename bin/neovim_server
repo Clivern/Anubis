@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cd /root
+git clone https://github.com/Clivern/Anubis.git anubis
+mkdir -p ~/.config
+ln -s /root/anubis/nvim ~/.config/nvim
+
+wget https://github.com/neovim/neovim/releases/download/v0.10.1/nvim-linux64.tar.gz
+tar xzvf nvim-linux64.tar.gz
+sudo mv nvim-linux64 /opt/
+sudo ln -s /opt/nvim-linux64/bin/nvim /usr/local/bin/nvim
+export PATH="/usr/local/bin:$PATH"
