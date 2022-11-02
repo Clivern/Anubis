@@ -14,9 +14,9 @@ Distributed Tracing is a technique to keep track of requests as they flow from t
 
 - **Request Initiation:** When a request is initiated (e.g., a user submits a form), it is assigned a unique identifier known as a `Trace ID`. This Trace ID remains with the request throughout its lifecycle across multiple distributed services.
 - **Span Creation:** As the request moves through different services, each service generates `spans`, which are individual units of work representing operations performed during the request's journey. Each `span` includes:
-* Start and End Timestamps: To measure the duration of the operation.
-* Span ID: A unique identifier for each span.
-* Metadata: Additional information such as service name, operation type, and error status.
+    * Start and End Timestamps: To measure the duration of the operation.
+    * Span ID: A unique identifier for each span.
+    * Metadata: Additional information such as service name, operation type, and error status.
 - **Data Collection:** Each service logs its span data, associating it with the original `Trace ID`. This allows for the reconstruction of the entire request flow, enabling developers to see how requests interact with various services and where delays or errors occur
 - **Visualization:** Distributed tracing tools often visualize this data using diagrams. These visualizations help identify performance bottlenecks by showing where time is spent within each service and how services interact.
 
