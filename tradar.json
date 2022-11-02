@@ -490,6 +490,13 @@
         "description":"K6 is an open-source load testing tool developed by Grafana Labs that helps teams assess system performance and identify issues before they reach production."
     },
     {
+        "name":"locust",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"False",
+        "description": "An open source load testing tool. Define user behaviour with Python code, and swarm your system with millions of simultaneous users"
+    },
+    {
         "name":"HCL",
         "ring":"adopt",
         "quadrant":"tools",
