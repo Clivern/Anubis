@@ -427,6 +427,13 @@
         "description":"Grafana is a popular open-source data visualization and monitoring platform. It provides a flexible and customizable interface for creating dashboards and visualizations from various data sources, including Prometheus and Loki."
     },
     {
+        "name":"Alloy",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Grafana Alloy is an open source OpenTelemetry Collector distribution with built-in Prometheus pipelines and support for metrics, logs, traces, and profiles."
+    },
+    {
         "name":"Loki",
         "ring":"adopt",
         "quadrant":"tools",
@@ -453,6 +460,13 @@
         "quadrant":"tools",
         "isNew":"FALSE",
         "description":"Alertmanager is a component of the Prometheus monitoring system that handles alerts sent by client applications or other Prometheus servers. It provides a flexible and powerful way to manage and route alerts, including the ability to group, silence, and inhibit alerts."
+    },
+    {
+        "name":"OpenTelemetry",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"OpenTelemetry is a collection of APIs, SDKs, and tools. Use it to instrument, generate, collect, and export telemetry data (metrics, logs and traces) to help you analyze your software's performance and behavior."
     },
     {
         "name":"Vagrant",
@@ -531,37 +545,37 @@
         "isNew":"FALSE",
         "description":"ngrok is a powerful and versatile tool that provides secure access to local servers behind NATs and firewalls."
     },
-{
-    "name": "Visual Studio Code",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Visual Studio Code is a source-code editor developed by Microsoft. It includes support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. It is highly customizable and supports a wide range of extensions."
-},
+    {
+        "name": "Visual Studio Code",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Visual Studio Code is a source-code editor developed by Microsoft. It includes support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. It is highly customizable and supports a wide range of extensions."
+    },
 
-{
-    "name": "Sublime Text",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It offers a distraction-free writing mode, split editing, and instant project switch. Its powerful API and package ecosystem make it highly extensible."
-},
+    {
+        "name": "Sublime Text",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It offers a distraction-free writing mode, split editing, and instant project switch. Its powerful API and package ecosystem make it highly extensible."
+    },
 
-{
-    "name": "Neovim",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Neovim is an extensible Vim-based text editor that aims to improve upon Vim's architecture. It features a built-in terminal emulator, asynchronous job control, and a rich plugin ecosystem that enhances the editing experience."
-},
+    {
+        "name": "Neovim",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Neovim is an extensible Vim-based text editor that aims to improve upon Vim's architecture. It features a built-in terminal emulator, asynchronous job control, and a rich plugin ecosystem that enhances the editing experience."
+    },
 
-{
-    "name": "Vim",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Vim is a highly configurable text editor built to enable efficient text editing. It is known for its modal editing style and extensive plugin system. Vim is often used for programming and system administration tasks."
-},
+    {
+        "name": "Vim",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Vim is a highly configurable text editor built to enable efficient text editing. It is known for its modal editing style and extensive plugin system. Vim is often used for programming and system administration tasks."
+    },
     {
         "name":"GitHub",
         "ring":"adopt",
