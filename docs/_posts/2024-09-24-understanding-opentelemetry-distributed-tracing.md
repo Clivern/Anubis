@@ -1,6 +1,6 @@
 ---
 title: Understanding Distributed Tracing
-date: 2024-09-26 00:00:00
+date: 2024-09-24 00:00:00
 featured_image: https://images.unsplash.com/photo-1677232979214-adfb81fd26c0
 excerpt: Distributed Tracing is a technique to keep track of requests as they flow from the frontend layers through a complex distributed backend systems, Mainly those built in a microservices architecture.
 ---
