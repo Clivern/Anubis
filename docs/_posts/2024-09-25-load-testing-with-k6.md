@@ -67,4 +67,3 @@ To run the test, you need to define the `API_URL` and use `k6` to run the test s
 $ export API_URL=http://localhost:8000
 $ k6 run stress_test.js
 ```
-

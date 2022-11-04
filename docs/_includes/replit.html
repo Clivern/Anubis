@@ -1,0 +1,8 @@
+<!--
+Usage:
+
+{% include replit.html src="https://replit.com/@Clivern/unique?embed=true&theme=light" %}
+-->
+<div style="text-align: center;">
+    <iframe src="{{ include.src }}" width="{{ include.width | default: '75%' }}" height="{{ include.height | default: '400' }}" style="border-width:0px"></iframe>
+</div>
