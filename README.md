@@ -173,7 +173,7 @@ $ make recipes
 Install LSP servers
 
 ```
-opswork recipe run clivern/anubis/lsp -h localhost
+$ opswork recipe run clivern/anubis/lsp -h localhost
 ```
 
 
