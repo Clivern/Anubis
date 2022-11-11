@@ -332,6 +332,10 @@ recipes:
     path: streamlit
     tags: anubis,must_have,pypkg
 
+  - name: clivern/anubis/lsp
+    path: lsp
+    tags: anubis,must_have,neovim
+
   - name: clivern/anubis/configs
     path: configs
     tags: anubis,must_have,configs
@@ -442,6 +446,7 @@ run:
   - name: clivern/anubis/multipass
   - name: clivern/anubis/copier
   - name: clivern/anubis/poetry
+  - name: clivern/anubis/lsp
   - name: clivern/anubis/jupyterlab
   - name: clivern/anubis/pyinfra
   - name: clivern/anubis/locust

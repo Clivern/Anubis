@@ -31,13 +31,13 @@ SOFTWARE.
 local lspconfig = require "lspconfig"
 
 -- EXAMPLE
-local servers = { "html", "cssls" }
+local servers = {"pylsp" }
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- Disable lua_lsp by not calling it in the defaults
-nvlsp.defaults = function()
+-- nvlsp.defaults = function()
   -- Do not include sumneko_lua here
-end
+-- end
 
 -- lsps with default config
 for _, lsp in ipairs(servers) do
@@ -48,6 +48,25 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+-- python lsp server
+lspconfig.pylsp.setup {
+  on_attach = nvlsp.on_attach,
+  on_init = nvlsp.on_init,
+  capabilities = nvlsp.capabilities,
+  settings = {
+    pylsp = {
+      plugins = {
+        pyflakes = { enabled = true },
+        yapf = { enabled = true },
+        autopep8 = { enabled = true }, -- Choose one formatter
+        pycodestyle = {
+          enabled = true,
+          ignore = { "E501" }, -- Exclude E501 warning
+        },
+      },
+    },
+  },
+}
 -- configuring single server, example: typescript
 -- lspconfig.ts_ls.setup {
 --   on_attach = nvlsp.on_attach,

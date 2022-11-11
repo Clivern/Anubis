@@ -162,6 +162,21 @@ $ ngrok http --domain=$NGROK_DOMAIN 8000
 ```
 
 
+### LSP Servers
+
+Add recipes
+
+```zsh
+$ make recipes
+```
+
+Install LSP servers
+
+```
+opswork recipe run clivern/anubis/lsp -h localhost
+```
+
+
 ### Technology Radar
 
 My Technology Radar is stored in `tradar.json`
