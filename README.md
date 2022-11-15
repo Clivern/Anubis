@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/clivern/anubis/main/static/cover.jpeg" width="100%" />
+    <img src="https://raw.githubusercontent.com/clivern/anubis/main/static/logo.png" width="300" />
     <h3 align="center">Anubis</h3>
     <p align="center">My Personal dotfiles</p>
     <p align="center">
