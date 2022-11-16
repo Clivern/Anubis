@@ -3,6 +3,7 @@ title: Supervised Learning With scikit-learn
 date: 2023-12-01 00:00:00
 featured_image: https://images.unsplash.com/photo-1599194038569-3893bfaff741
 excerpt: Supervised learning with scikit-learn is a popular approach for building predictive models based on labeled data. It involves splitting the data into training and testing sets, fitting a model on the training data, making predictions on the test data, and evaluating the model's performance.
+keywords: scikit-learn, machine-learning
 ---
 
 ![](https://images.unsplash.com/photo-1599194038569-3893bfaff741)

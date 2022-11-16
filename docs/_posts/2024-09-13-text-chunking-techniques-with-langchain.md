@@ -3,6 +3,7 @@ title: Text Chunking Techniques With Langchain Part 1
 date: 2024-09-13 00:00:00
 featured_image: https://images.unsplash.com/photo-1579004464832-0c014afa448c
 excerpt: In this article we explain different ways to split a long document into smaller chunks that can fit into your model's context window. LangChain has a number of built-in transformers that make it easy to split, combine, filter, and otherwise manipulate documents.
+keywords: langchain, langchain-text-splitters, chunking-techniques
 ---
 
 ![](https://images.unsplash.com/photo-1579004464832-0c014afa448c)
