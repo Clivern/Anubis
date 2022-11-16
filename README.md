@@ -16,7 +16,7 @@
             <img src="https://img.shields.io/badge/Technology-Radar-green.svg">
         </a>
         <a href="https://github.com/Clivern/Anubis/releases">
-            <img src="https://img.shields.io/badge/Version-5.2.0-1abc9c.svg">
+            <img src="https://img.shields.io/badge/Version-5.3.0-1abc9c.svg">
         </a>
         <a href="https://github.com/Clivern/Anubis/blob/master/LICENSE">
             <img src="https://img.shields.io/badge/LICENSE-MIT-blue.svg">

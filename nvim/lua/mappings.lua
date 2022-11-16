@@ -32,5 +32,7 @@ local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
+map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Find File" })
+map("n", "<leader>fb", function() print("Anubis 5.3.0") end, { desc = "Foobar" })
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
