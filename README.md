@@ -24,7 +24,7 @@
     </p>
     <br/>
     <p align="center">
-	     <img src="https://raw.githubusercontent.com/clivern/anubis/main/static/shot_01.png" width="600" />
+	     <img src="https://raw.githubusercontent.com/clivern/anubis/main/static/shot_01.png" width="95%" />
 	</p>
 </p>
 <br/>
