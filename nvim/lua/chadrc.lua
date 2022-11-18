@@ -88,7 +88,7 @@ M.base46 = {
 	-- 53. penumbra_dark
 	-- 54. penumbra_light
 	-- 55. poimandres
-	theme = "ashes",
+	theme = "tomorrow_night",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
