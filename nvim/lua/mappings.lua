@@ -32,7 +32,27 @@ local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
-map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Find File" })
-map("n", "<leader>v", function() print("Anubis v5.4.0") end, { desc = "Foobar" })
+map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Find File with Telescope" })
 
+local function print_version()
+    print("Anubis v5.4.0")
+end
+
+map("n", "<leader>v", print_version, { desc = "Get Version" })
+
+local function run_command()
+    -- Prompt user for input
+    local cmd = vim.fn.input("Enter command: ")
+
+    -- Execute the command and capture the output
+    local handle = io.popen(cmd)
+    local result = handle:read("*a")  -- Read all output
+    handle:close()
+
+    -- Use vim.notify to show the result
+    vim.notify(result, vim.log.levels.INFO, { title = "Command Output" })
+end
+
+-- Map run_command function to <leader>ru
+map("n", "<leader>ru", run_command, { desc = "Run Local Command" })
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
