@@ -324,6 +324,10 @@ recipes:
     path: pyinfra
     tags: anubis,must_have,pypkg
 
+  - name: clivern/anubis/txy
+    path: txy
+    tags: anubis,must_have,pypkg
+
   - name: clivern/anubis/locust
     path: locust
     tags: anubis,must_have,pypkg
@@ -449,6 +453,7 @@ run:
   - name: clivern/anubis/lsp
   - name: clivern/anubis/jupyterlab
   - name: clivern/anubis/pyinfra
+  - name: clivern/anubis/txy
   - name: clivern/anubis/locust
   - name: clivern/anubis/streamlit
   - name: clivern/anubis/github
