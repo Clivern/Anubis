@@ -2,7 +2,7 @@
 title: Sponsor
 description:
 subtitle:
-featured_image: https://images.unsplash.com/photo-1599663253423-7cad6e5fae1e
+featured_image: https://images.unsplash.com/photo-1578301977886-43be7b983104
 ---
 
 ![](https://images.unsplash.com/photo-1599663253423-7cad6e5fae1e)

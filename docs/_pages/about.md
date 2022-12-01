@@ -2,7 +2,7 @@
 title: About
 description:
 subtitle:
-featured_image: https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f
+featured_image: https://images.unsplash.com/photo-1578301977886-43be7b983104
 ---
 
 ![](https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f)
