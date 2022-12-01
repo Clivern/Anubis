@@ -332,6 +332,14 @@ recipes:
     path: locust
     tags: anubis,must_have,pypkg
 
+  - name: clivern/anubis/uv
+    path: uv
+    tags: anubis,must_have,pypkg
+
+  - name: clivern/anubis/ruff
+    path: ruff
+    tags: anubis,must_have,pypkg
+
   - name: clivern/anubis/streamlit
     path: streamlit
     tags: anubis,must_have,pypkg
@@ -454,6 +462,8 @@ run:
   - name: clivern/anubis/jupyterlab
   - name: clivern/anubis/pyinfra
   - name: clivern/anubis/txy
+  - name: clivern/anubis/ruff
+  - name: clivern/anubis/uv
   - name: clivern/anubis/locust
   - name: clivern/anubis/streamlit
   - name: clivern/anubis/github
