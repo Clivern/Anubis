@@ -285,6 +285,10 @@ recipes:
     path: vagrant
     tags: anubis,hashicorp
 
+  - name: clivern/anubis/multipass
+    path: multipass
+    tags: anubis,must_have,vms
+
   - name: clivern/anubis/jekyll
     path: jekyll
     tags: anubis,must_have
@@ -427,6 +431,7 @@ run:
   - name: clivern/anubis/ttyrec
   - name: clivern/anubis/pipx
   - name: clivern/anubis/cowsay
+  - name: clivern/anubis/multipass
   - name: clivern/anubis/copier
   - name: clivern/anubis/poetry
   - name: clivern/anubis/jupyterlab
