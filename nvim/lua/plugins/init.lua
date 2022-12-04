@@ -49,4 +49,7 @@ return {
   		},
   	},
   },
+  {
+    "Clivern/teacup.neovim",
+  },
 }
