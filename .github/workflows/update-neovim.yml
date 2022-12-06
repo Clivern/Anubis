@@ -1,0 +1,30 @@
+name: Update Neovim Plugins
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  update-plugins:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Neovim
+        run: |
+          sudo add-apt-repository ppa:neovim-ppa/unstable
+          sudo apt-get update
+          sudo apt-get install -y neovim
+
+      - name: Update Neovim plugins
+        run: nvim --headless "+Lazy! sync" +qa
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update Neovim plugins" || echo "No changes to commit"
+          git push
