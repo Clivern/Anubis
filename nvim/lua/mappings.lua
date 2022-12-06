@@ -35,7 +35,7 @@ map("i", "jk", "<ESC>")
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Find File with Telescope" })
 
 local function print_version()
-    print("Anubis v5.4.0")
+    print("Anubis v5.5.0")
 end
 
 map("n", "<leader>v", print_version, { desc = "Get Version" })
