@@ -24,3 +24,6 @@
 tasks:
   - name: Install  python-lsp-server
     command: pipx install "python-lsp-server[all]"
+
+  - name: Install gopls
+    command: go install golang.org/x/tools/gopls@latest
