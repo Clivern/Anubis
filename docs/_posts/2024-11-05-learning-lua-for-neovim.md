@@ -195,7 +195,7 @@ end
 return mymodule
 ```
 
-2. `lib/init.lua. Please note that `init.lua` is pretty similar to `__init__.py` in python.
+2. `lib/init.lua`. Please note that `init.lua` is pretty similar to `__init__.py` in python.
 
 ```lua
 -- lib/init.lua
