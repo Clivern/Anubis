@@ -61,4 +61,7 @@ return {
     },
     config = true
   },
+  {
+    "nvim-lua/plenary.nvim",
+  },
 }
