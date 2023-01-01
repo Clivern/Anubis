@@ -247,6 +247,10 @@ recipes:
     path: gum
     tags: kemet,must_have
 
+  - name: clivern/kemet/pgcli
+    path: pgcli
+    tags: kemet,must_have
+
   # Hashicorp products
   - name: clivern/kemet/consul
     path: consul
@@ -429,6 +433,7 @@ run:
   - name: clivern/kemet/rhino
   - name: clivern/kemet/bazel
   - name: clivern/kemet/symfony
+  - name: clivern/kemet/pgcli
   - name: clivern/kemet/cheat
   - name: clivern/kemet/gum
   - name: clivern/kemet/configs
