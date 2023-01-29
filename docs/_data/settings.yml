@@ -5,7 +5,7 @@ basic_settings:
 
 header_settings:
   avatar_image: /images/cover.png
-  logo_image: 
+  logo_image:
   logo_width: 200
 
 menu_settings:
@@ -150,7 +150,7 @@ font_settings:
     letter_spacing: 0
 
 advanced_settings:
-  ajax_loading: false
+  ajax_loading: true
   analytics_code: |
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7G0HKSRRQ"></script>
