@@ -1,12 +1,12 @@
 ---
 title: Building My Own RAG With OpenAI, Qdrant and LangChain
 date: 2024-08-18 00:00:00
-featured_image: https://images.unsplash.com/photo-1536936343740-68cb2a95f935
+featured_image: https://images.unsplash.com/photo-1536936343740-68cb2a95f935?q=5
 excerpt: RAG stands for Retrieval Augmented Generation. It enhances the large language models (LLMs) by integrating them with external data sources. This allows LLMs to generate more accurate and relevant responses by providing it with information from databases or knowledge bases, rather than relying on their pre-trained data.
 keywords: openai, rag, qdrant, langchain
 ---
 
-![](https://images.unsplash.com/photo-1536936343740-68cb2a95f935)
+![](https://images.unsplash.com/photo-1536936343740-68cb2a95f935?q=5)
 
 RAG stands for Retrieval Augmented Generation. It enhances the large language models (LLMs) by integrating them with external data sources. This allows LLMs to generate more accurate and relevant responses by providing it with information from databases or knowledge bases, rather than relying on their pre-trained data.
 

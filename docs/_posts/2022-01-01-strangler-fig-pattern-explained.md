@@ -1,11 +1,11 @@
 ---
 title: Strangler Fig Pattern Explained
 date: 2022-01-01 00:00:00
-featured_image: https://images.unsplash.com/photo-1493515322954-4fa727e97985
+featured_image: https://images.unsplash.com/photo-1493515322954-4fa727e97985?q=5
 excerpt: Strangler Figs is a nightmare that lives on other tropical trees, stealing their soil nutrients, water, and even sunlight through a canopy of dense leaves and roots that twist around the host plant. Eventually, the fig's roots can completely encase the host, strangling its trunk and cutting off nutrient flow until it dies and rots away leaving just the hollow fig behind.
 ---
 
-![](https://images.unsplash.com/photo-1493515322954-4fa727e97985)
+![](https://images.unsplash.com/photo-1493515322954-4fa727e97985?q=5)
 
 [Strangler Figs](https://en.wikipedia.org/wiki/Strangler_fig) is a nightmare that lives on other tropical trees, stealing their soil nutrients, water, and even sunlight through a canopy of dense leaves and roots that twist around the host plant. Eventually, the fig's roots can completely encase the host, strangling its trunk and cutting off nutrient flow until it dies and rots away leaving just the hollow fig behind.
 

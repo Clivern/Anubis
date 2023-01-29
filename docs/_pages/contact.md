@@ -2,10 +2,10 @@
 title: Contact
 description:
 subtitle:
-featured_image: https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0
+featured_image: https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0?q=5
 ---
 
-![](https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0)
+![](https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0?q=5)
 
 <strong><em>Help Us Improve Our Services!</em></strong>
 

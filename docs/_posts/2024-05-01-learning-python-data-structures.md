@@ -1,11 +1,11 @@
 ---
 title: Learning Python Data Structures
 date: 2024-05-01 00:00:00
-featured_image: https://images.unsplash.com/photo-1517782924173-aac5b5fcee7b
+featured_image: https://images.unsplash.com/photo-1517782924173-aac5b5fcee7b?q=5
 excerpt: Python ships with an extensive set of data structures in its standard library. I will cover most of them in this guide.
 ---
 
-![](https://images.unsplash.com/photo-1517782924173-aac5b5fcee7b)
+![](https://images.unsplash.com/photo-1517782924173-aac5b5fcee7b?q=5)
 
 Python ships with an extensive set of data structures in its standard library. I will cover most of them in this guide.
 

@@ -1,11 +1,11 @@
 ---
 title: Getting Started With Ruby
 date: 2022-01-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1542542008521-cf5d1c1cfc4d
+featured_image: https://images.unsplash.com/photo-1542542008521-cf5d1c1cfc4d?q=5
 excerpt: Ruby is a language of careful balance. Its creator, Yukihiro “Matz” Matsumoto, blended parts of his favorite languages (`Perl`, `Smalltalk`, `Eiffel`, `Ada`, and `Lisp`) to form a new language that balanced functional programming with imperative programming.
 ---
 
-![](https://images.unsplash.com/photo-1542542008521-cf5d1c1cfc4d)
+![](https://images.unsplash.com/photo-1542542008521-cf5d1c1cfc4d?q=5)
 
 Ruby is a language of careful balance. Its creator, [Yukihiro “Matz” Matsumoto](https://matz.rubyist.net/), blended parts of his favorite languages (`Perl`, `Smalltalk`, `Eiffel`, `Ada`, and `Lisp`) to form a new language that balanced functional programming with imperative programming.
 

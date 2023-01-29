@@ -1,11 +1,11 @@
 ---
 title: Separate Test Cases in Golang With Build Tags
 date: 2021-01-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1498196915534-f2fd4dc29430
+featured_image: https://images.unsplash.com/photo-1498196915534-f2fd4dc29430?q=5
 excerpt: A build tag or a build constraint as described in the build package documentation, is a line comment that begins `// +build` that lists the conditions under which a file should be included in the package.
 ---
 
-![](https://images.unsplash.com/photo-1498196915534-f2fd4dc29430)
+![](https://images.unsplash.com/photo-1498196915534-f2fd4dc29430?q=5)
 
 A build tag or a build constraint as described in the build package documentation, is a line comment that begins `// +build` that lists the conditions under which a file should be included in the package.
 
