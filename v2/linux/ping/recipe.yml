@@ -22,6 +22,6 @@
 
 
 tasks:
-  - name: upgrade homebrew packages
-    homebrew:
-      upgrade_all: true
+  - name: ping the host
+    ping:
+      data: pong

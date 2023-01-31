@@ -21,7 +21,20 @@
 # SOFTWARE.
 
 
+vars:
+  version: v0.2
+
+templates:
+  motd.j2: motd.j2
+
 tasks:
-  - name: upgrade homebrew packages
-    homebrew:
-      upgrade_all: true
+  - name: check mandatory variables
+    assert:
+      that:
+        - version is defined
+
+  - name: set motd banner
+    template:
+      src: "motd.j2"
+      dest: "/etc/motd"
+      mode: 0700
