@@ -32,12 +32,9 @@ tasks:
     assert:
       that:
         - version is defined
-    tags: [ motd, flook ]
 
   - name: set motd banner
     template:
       src: "motd.j2"
       dest: "/etc/motd"
       mode: 0700
-    notify: restart nginx
-    tags: [ motd, flook ]

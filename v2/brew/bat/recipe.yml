@@ -22,7 +22,9 @@
 
 
 tasks:
-  - name: install nginx
-    apt:
-      name: nginx
-      state: latest
+  - name: installing bat package
+    homebrew:
+      name: {{ item }}
+      state: present
+    with_items:
+      - bat

@@ -22,7 +22,6 @@
 
 
 tasks:
-  - name: install nginx
-    apt:
-      name: nginx
-      state: latest
+  - name: update homebrew packages
+    homebrew:
+      update_homebrew: true

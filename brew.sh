@@ -54,6 +54,10 @@ brew install gpg-suite --cask
 # postico (free trial)
 brew install --cask postico
 
+brew install virtualbox --cask
+
+brew install vagrant --cask
+
 # gradle
 brew install gradle
 
@@ -86,15 +90,12 @@ gem install bundler jekyll
 
 brew install kubectx
 
-brew install virtualbox --cask
-
-brew install vagrant --cask
-
 brew install buildpacks/tap/pack
 
 brew install mysql-client
 
 brew tap vmware-tanzu/carvel
+
 brew install ytt
 
 brew install bat
