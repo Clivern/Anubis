@@ -13,29 +13,32 @@ dotfiles are a very personal thing. They are shaped through years of experience,
 
 2. Install [flook](https://github.com/norwik/flook/) globally.
 
+```zsh
+$ pip install flook
+```
+
 3. Init the configs
 
 ```zsh
-flook config init
+$ flook config init
 ```
 
 4. Add local as a host.
 
 ```zsh
-#
-
+$ flook host add localhost -i localhost -c local
 ```
 
 5. Add dotfiles recipes.
 
 ```zsh
-#
+$ flook recipe add clivern/ping -p recipe/ping
 ```
 
 6. Run recipes one by one or the needed ones.
 
 ```zsh
-#
+$ flook recipe run clivern/ping -h localhost
 ```
 
 
