@@ -74,7 +74,6 @@ $ flook recipe add clivern/dotfiles/kubectl -p kubectl -t dotfiles
 $ flook recipe add clivern/dotfiles/kubectx -p kubectx -t dotfiles
 $ flook recipe add clivern/dotfiles/kustomize -p kustomize -t dotfiles
 $ flook recipe add clivern/dotfiles/laravel -p laravel -t dotfiles
-$ flook recipe add clivern/dotfiles/linux -p linux -t dotfiles
 $ flook recipe add clivern/dotfiles/mvn -p mvn -t dotfiles
 $ flook recipe add clivern/dotfiles/mysql -p mysql -t dotfiles
 $ flook recipe add clivern/dotfiles/mysql-client -p client -t dotfiles
