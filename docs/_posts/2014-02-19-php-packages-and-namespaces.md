@@ -1,11 +1,11 @@
 ---
 title: PHP Packages and Namespaces
 date: 2014-02-19 00:00:00
-featured_image: https://images.unsplash.com/photo-1511468102400-883d6ea28755
+featured_image: https://images.unsplash.com/photo-1511468102400-883d6ea28755?q=5
 excerpt: Package is a set of PHP classes grouped in some manner .Many developers use file system to organise their applications because PHP has no native concept of a package until PHP 5.3 .With PHP 5.3 ,namespaces become part of PHP .I know that most of us think many times before using namespaces in any commercial code .you know ,not all servers support PHP 5.3 but this will be for a while.
 ---
 
-![](https://images.unsplash.com/photo-1511468102400-883d6ea28755)
+![](https://images.unsplash.com/photo-1511468102400-883d6ea28755?q=5)
 
 Package is a set of PHP classes grouped in some manner .Many developers use file system to organise their applications because PHP has no native concept of a package until PHP 5.3 .With PHP 5.3 ,namespaces become part of PHP .I know that most of us think many times before using namespaces in any commercial code .you know ,not all servers support PHP 5.3 but this will be for a while.
 

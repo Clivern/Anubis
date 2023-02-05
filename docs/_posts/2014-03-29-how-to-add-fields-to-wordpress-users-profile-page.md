@@ -1,11 +1,11 @@
 ---
 title: How To Add Fields To WordPress Users Profile Page
 date: 2014-03-29 00:00:00
-featured_image: https://images.unsplash.com/photo-1642629428981-fa0d8f2700af
+featured_image: https://images.unsplash.com/photo-1642629428981-fa0d8f2700af?q=5
 excerpt: We discussed before wordpress users metadata and how it is flexible. Now we will explore how to use metadata in storing a per-user settings and how to add fields to user profile page to update metadata value.
 ---
 
-![](https://images.unsplash.com/photo-1642629428981-fa0d8f2700af)
+![](https://images.unsplash.com/photo-1642629428981-fa0d8f2700af?q=5)
 
 We discussed before wordpress users metadata and how it is flexible. Now we will explore how to use metadata in storing a per-user settings and how to add fields to user profile page to update metadata value.
 

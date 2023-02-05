@@ -1,11 +1,11 @@
 ---
 title: Working With WordPress Shortcodes
 date: 2014-03-01 00:00:00
-featured_image: https://images.unsplash.com/photo-1603145066679-c172b5914220
+featured_image: https://images.unsplash.com/photo-1603145066679-c172b5914220?q=5
 excerpt: Shortcodes enable developers to embed content that would require alot of complicated tasks. With shortcodes ,you can enhance your posts with few characters.
 ---
 
-![](https://images.unsplash.com/photo-1603145066679-c172b5914220)
+![](https://images.unsplash.com/photo-1603145066679-c172b5914220?q=5)
 
 Shortcodes enable developers to embed content that would require alot of complicated tasks. With shortcodes ,you can enhance your posts with few characters.
 

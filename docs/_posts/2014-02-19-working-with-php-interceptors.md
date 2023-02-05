@@ -1,11 +1,11 @@
 ---
 title: Working With PHP Interceptors
 date: 2014-02-19 00:00:00
-featured_image: https://images.unsplash.com/photo-1538294514414-41a9041a46be
+featured_image: https://images.unsplash.com/photo-1538294514414-41a9041a46be?q=5
 excerpt: PHP provides some handful methods which can be used within your classes to intercept messages sent to undefined methods and properties .Some developers call this overloading .These methods like `__construct()` method which invoked when you instantiate object. Let's explores these methods.
 ---
 
-![](https://images.unsplash.com/photo-1538294514414-41a9041a46be)
+![](https://images.unsplash.com/photo-1538294514414-41a9041a46be?q=5)
 
 PHP provides some handful methods which can be used within your classes to intercept messages sent to undefined methods and properties .Some developers call this overloading .These methods like `__construct()` method which invoked when you instantiate object. Let's explores these methods.
 

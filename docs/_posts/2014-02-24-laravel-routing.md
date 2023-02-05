@@ -1,11 +1,11 @@
 ---
 title: Laravel Routing
 date: 2014-02-24 00:00:00
-featured_image: https://images.unsplash.com/photo-1452979081267-f541411cb48e
+featured_image: https://images.unsplash.com/photo-1452979081267-f541411cb48e?q=5
 excerpt: Laravel 4.1 provides us with a handful routing API which can be used for both small and large application .Also with this API you can define RESTful controllers ,and controllers can have predefined methods to receive requests via GET,PUT,DELETE,POST and UPDATE .we will see this later in subsequent tutorials but now we will discus basic routing API.
 ---
 
-![](https://images.unsplash.com/photo-1452979081267-f541411cb48e)
+![](https://images.unsplash.com/photo-1452979081267-f541411cb48e?q=5)
 
 Laravel 4.1 provides us with a handful routing API which can be used for both small and large application .Also with this API you can define RESTful controllers ,and controllers can have predefined methods to receive requests via GET,PUT,DELETE,POST and UPDATE. we will see this later in subsequent tutorials but now we will discuss basic routing API.
 

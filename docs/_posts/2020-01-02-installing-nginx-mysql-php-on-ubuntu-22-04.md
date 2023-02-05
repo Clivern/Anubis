@@ -1,11 +1,11 @@
 ---
 title: Installing Nginx, MySQL, PHP on Ubuntu 22.04
 date: 2020-01-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1442328166075-47fe7153c128
+featured_image: https://images.unsplash.com/photo-1442328166075-47fe7153c128?q=5
 excerpt: In this guide you will learn how to install Nginx, MySQL 8.0 and PHP 8.1 and PHP-FPM on Ubuntu 22.04.
 ---
 
-![](https://images.unsplash.com/photo-1442328166075-47fe7153c128)
+![](https://images.unsplash.com/photo-1442328166075-47fe7153c128?q=5)
 
 In this guide you will learn how to install Nginx, MySQL 8.0 and PHP 8.1 and PHP-FPM on Ubuntu 22.04.
 

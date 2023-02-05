@@ -1,11 +1,11 @@
 ---
 title: Laravel ORM Part2
 date: 2014-03-03 00:00:00
-featured_image: https://images.unsplash.com/photo-1486895756674-b48b9b2eacf3
+featured_image: https://images.unsplash.com/photo-1486895756674-b48b9b2eacf3?q=5
 excerpt: We discussed later how to retrieve rows as objects and perform basic CRUD methods on them. Well,there are other good tasks that eloquent can perform. Let's discuss some of them and the rest will be discussed in subsequent parts.
 ---
 
-![](https://images.unsplash.com/photo-1486895756674-b48b9b2eacf3)
+![](https://images.unsplash.com/photo-1486895756674-b48b9b2eacf3?q=5)
 
 We discussed later how to retrieve rows as objects and perform basic CRUD methods on them. Well,there are other good tasks that eloquent can perform. Let's discuss some of them and the rest will be discussed in subsequent parts.
 

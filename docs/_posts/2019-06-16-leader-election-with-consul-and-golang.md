@@ -1,11 +1,11 @@
 ---
 title: Leader Election with Consul and Golang
 date: 2019-06-16 00:00:00
-featured_image: https://images.unsplash.com/photo-1485102068545-7286b0d199d8
+featured_image: https://images.unsplash.com/photo-1485102068545-7286b0d199d8?q=5
 excerpt: Leader election is the process of designating a single node as the organizer of some task distributed among several nodes. The leader will be responsible for managing the others and coordinate the actions performed by other nodes. If for any reason the leader fails, other nodes will elect another leader and so on.  This can help to ensure that nodes don't conflict with each other.
 ---
 
-![](https://images.unsplash.com/photo-1485102068545-7286b0d199d8)
+![](https://images.unsplash.com/photo-1485102068545-7286b0d199d8?q=5)
 
 Leader election is the process of designating a single node as the organizer of some task distributed among several nodes. The leader will be responsible for managing the others and coordinate the actions performed by other nodes. If for any reason the leader fails, other nodes will elect another leader and so on.  This can help to ensure that nodes don't conflict with each other.
 

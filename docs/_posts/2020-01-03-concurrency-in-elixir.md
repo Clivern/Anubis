@@ -1,11 +1,11 @@
 ---
 title: Concurrency in Elixir
 date: 2020-01-03 00:00:00
-featured_image: https://images.unsplash.com/photo-1445283142063-f4802ea5aac3
+featured_image: https://images.unsplash.com/photo-1445283142063-f4802ea5aac3?q=5
 excerpt: Concurrency is a fundamental concept in Elixir, a functional programming language built on the Erlang virtual machine (BEAM). Elixir provides powerful tools and abstractions for managing concurrent processes, making it ideal for building scalable and fault-tolerant systems.
 ---
 
-![](https://images.unsplash.com/photo-1445283142063-f4802ea5aac3)
+![](https://images.unsplash.com/photo-1445283142063-f4802ea5aac3?q=5)
 
 Concurrency is a fundamental concept in Elixir, a functional programming language built on the Erlang virtual machine (BEAM). Elixir provides powerful tools and abstractions for managing concurrent processes, making it ideal for building scalable and fault-tolerant systems.
 

@@ -1,11 +1,11 @@
 ---
 title: Laravel Schema Builder Part2
 date: 2014-02-28 00:00:00
-featured_image: https://images.unsplash.com/photo-1542613556-1338e812a138
+featured_image: https://images.unsplash.com/photo-1542613556-1338e812a138?q=5
 excerpt: Laravel `Schema` class have several methods that have varied uses. Let's take a look at them.
 ---
 
-![](https://images.unsplash.com/photo-1542613556-1338e812a138)
+![](https://images.unsplash.com/photo-1542613556-1338e812a138?q=5)
 
 Laravel `Schema` class have several methods that have varied uses. Let's take a look at them.
 

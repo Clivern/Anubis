@@ -1,11 +1,11 @@
 ---
 title: Laravel Migrations Part1
 date: 2014-03-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1616140862298-ecda61e58b20
+featured_image: https://images.unsplash.com/photo-1616140862298-ecda61e58b20?q=5
 excerpt: After building your database schemas ,You should be searching if laravel could give some help and run these schemas .Fortunately laravel migrations come in handy. Laravel use custom table to keep track of all migrations that have already run for your application. You know what ?Let's create a new migration.
 ---
 
-![](https://images.unsplash.com/photo-1616140862298-ecda61e58b20)
+![](https://images.unsplash.com/photo-1616140862298-ecda61e58b20?q=5)
 
 After building your database schemas ,You should be searching if laravel could give some help and run these schemas .Fortunately laravel migrations come in handy. Laravel use custom table to keep track of all migrations that have already run for your application. You know what ?Let's create a new migration.
 

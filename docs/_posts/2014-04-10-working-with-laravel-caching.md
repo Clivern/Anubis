@@ -1,11 +1,11 @@
 ---
 title: Working With Laravel Caching
 date: 2014-04-10 00:00:00
-featured_image: https://images.unsplash.com/photo-1706277183539-abdfffc59b12
+featured_image: https://images.unsplash.com/photo-1706277183539-abdfffc59b12?q=5
 excerpt: Caching is a temporary data storage used to store data for a while and can be retrieved quickly. It is often used to reduce the times we need to access database or other remote services. It can be a wonderful tool to keep your application fast and responsive.
 ---
 
-![](https://images.unsplash.com/photo-1706277183539-abdfffc59b12)
+![](https://images.unsplash.com/photo-1706277183539-abdfffc59b12?q=5)
 
 Caching is a temporary data storage used to store data for a while and can be retrieved quickly. It is often used to reduce the times we need to access database or other remote services. It can be a wonderful tool to keep your application fast and responsive.
 

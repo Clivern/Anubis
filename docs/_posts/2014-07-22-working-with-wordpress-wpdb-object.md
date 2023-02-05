@@ -1,11 +1,11 @@
 ---
 title: Working With WordPress wpdb Object
 date: 2014-07-22 00:00:00
-featured_image: https://images.unsplash.com/photo-1506333732058-3e444b33f223
+featured_image: https://images.unsplash.com/photo-1506333732058-3e444b33f223?q=5
 excerpt: WordPress offers an object that can be used to access data form default tables and custom tables. The $wpdb object contains several methods to read, insert, delete and update records from tables. Let's  explore these methods in details.
 ---
 
-![](https://images.unsplash.com/photo-1506333732058-3e444b33f223)
+![](https://images.unsplash.com/photo-1506333732058-3e444b33f223?q=5)
 
 WordPress offers an object that can be used to access data form default tables and custom tables. The `$wpdb` object contains several methods to read, insert, delete and update records from tables. Let's  explore these methods in details.
 

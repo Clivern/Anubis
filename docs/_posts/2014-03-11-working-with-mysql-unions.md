@@ -1,11 +1,11 @@
 ---
 title: Working With MySQL Unions
 date: 2014-03-11 00:00:00
-featured_image: https://images.unsplash.com/photo-1660023218127-3c44fd9132ae
+featured_image: https://images.unsplash.com/photo-1660023218127-3c44fd9132ae?q=5
 excerpt: MySQL unions used to combine the results of multiple `SELECT` statements into one result. MySQL supports both `UNION` and `UNION ALL` for joining `SELECT` results.
 ---
 
-![](https://images.unsplash.com/photo-1660023218127-3c44fd9132ae)
+![](https://images.unsplash.com/photo-1660023218127-3c44fd9132ae?q=5)
 
 MySQL unions used to combine the results of multiple `SELECT` statements into one result. MySQL supports both `UNION` and `UNION ALL` for joining `SELECT` results.
 

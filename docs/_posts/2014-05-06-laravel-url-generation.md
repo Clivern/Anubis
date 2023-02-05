@@ -1,11 +1,11 @@
 ---
 title: Laravel URL Generation
 date: 2014-05-06 00:00:00
-featured_image: https://images.unsplash.com/photo-1657085126049-25349bcde5a2
+featured_image: https://images.unsplash.com/photo-1657085126049-25349bcde5a2?q=5
 excerpt: In order to build hyperlinks in our applications. We might do this by hand but laravel provides a number of helpers to build URLs. Let's explore them.
 ---
 
-![](https://images.unsplash.com/photo-1657085126049-25349bcde5a2)
+![](https://images.unsplash.com/photo-1657085126049-25349bcde5a2?q=5)
 
 In order to build hyperlinks in our applications. We might do this by hand but laravel provides a number of helpers to build URLs. Let's explore them.
 

@@ -1,11 +1,11 @@
 ---
 title: Working With Roles and Capabilities of WordPress Users
 date: 2014-03-30 00:00:00
-featured_image: https://images.unsplash.com/photo-1585352489367-8ad9a2b1adad
+featured_image: https://images.unsplash.com/photo-1585352489367-8ad9a2b1adad?q=5
 excerpt: Wordpress ships with a powerful roles and capabilities system which control users permissions. Roles enable plugin developers to group users, each group has its own permissions. Understanding roles and capabilities is important aspect of plugin development.
 ---
 
-![](https://images.unsplash.com/photo-1585352489367-8ad9a2b1adad)
+![](https://images.unsplash.com/photo-1585352489367-8ad9a2b1adad?q=5)
 
 Wordpress ships with a powerful roles and capabilities system which control users permissions. Roles enable plugin developers to group users, each group has its own permissions. Understanding roles and capabilities is important aspect of plugin development.
 

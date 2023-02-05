@@ -1,11 +1,11 @@
 ---
 title: How To Create File Upload With Laravel
 date: 2014-04-10 00:00:00
-featured_image: https://images.unsplash.com/photo-1642488055316-31ef66363823
+featured_image: https://images.unsplash.com/photo-1642488055316-31ef66363823?q=5
 excerpt: We discussed before form creation and validation but file upload input is a bit different. Let's create our first file upload with laravel.
 ---
 
-![](https://images.unsplash.com/photo-1642488055316-31ef66363823)
+![](https://images.unsplash.com/photo-1642488055316-31ef66363823?q=5)
 
 We discussed before form creation and validation but file upload input is a bit different. Let's create our first file upload with laravel.
 

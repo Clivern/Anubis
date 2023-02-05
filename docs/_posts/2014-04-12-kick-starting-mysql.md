@@ -1,11 +1,11 @@
 ---
 title: Kick-Starting MySQL
 date: 2014-04-12 00:00:00
-featured_image: https://images.unsplash.com/photo-1706277183560-6d26ffbf1c23
+featured_image: https://images.unsplash.com/photo-1706277183560-6d26ffbf1c23?q=5
 excerpt: Today MySQL is one of the most popular open source databases as it supports millions of web applications. We will discuss the basics of MySQL like creating databases and tables and interacting with data.
 ---
 
-![](https://images.unsplash.com/photo-1706277183560-6d26ffbf1c23)
+![](https://images.unsplash.com/photo-1706277183560-6d26ffbf1c23?q=5)
 
 Today MySQL is one of the most popular open source databases as it supports millions of web applications. We will discuss the basics of MySQL like creating databases and tables and interacting with data.
 

@@ -1,11 +1,11 @@
 ---
 title: Laravel ORM Part3
 date: 2014-03-06 00:00:00
-featured_image: https://images.unsplash.com/photo-1515767175197-2c7c3e3a3959
+featured_image: https://images.unsplash.com/photo-1515767175197-2c7c3e3a3959?q=5
 excerpt: We have discovered eloquent fetching methods in previous parts. It's time to fine tune query constraints as they add custom rules to our queries.
 ---
 
-![](https://images.unsplash.com/photo-1515767175197-2c7c3e3a3959)
+![](https://images.unsplash.com/photo-1515767175197-2c7c3e3a3959?q=5)
 
 We have discovered eloquent fetching methods in previous parts. It's time to fine tune query constraints as they add custom rules to our queries.
 

@@ -1,11 +1,11 @@
 ---
 title: Laravel ORM Part1
 date: 2014-03-03 00:00:00
-featured_image: https://images.unsplash.com/photo-1535567512880-4ce202f3e3b2
+featured_image: https://images.unsplash.com/photo-1535567512880-4ce202f3e3b2?q=5
 excerpt: Laravel is a MVC PHP framework so it ships with its own ORM component called "Eloquent". Eloquent will take care of records retrieval for us. We don't have to write any SQL line. Let's explore eloquent basic CRUD methods.
 ---
 
-![](https://images.unsplash.com/photo-1535567512880-4ce202f3e3b2)
+![](https://images.unsplash.com/photo-1535567512880-4ce202f3e3b2?q=5)
 
 Laravel is a MVC PHP framework so it ships with its own ORM component called "Eloquent". Eloquent will take care of records retrieval for us. We don't have to write any SQL line. Let's explore eloquent basic CRUD methods.
 
