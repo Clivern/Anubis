@@ -1,11 +1,11 @@
 ---
 title: How to Connect Arduino With a Raspberry PI over a Serial Port
 date: 2021-11-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1617563844166-7da58918e10b?q=5
+featured_image: https://images.unsplash.com/photo-1617563844166-7da58918e10b?q=75&fm=jpg&w=1000&fit=max
 excerpt: In this post, You will understand how to collect values from an Arduino with a connected Raspberry PI over a serial port. This can be useful if you want collect sensor values over a period of time and store them on a timeseries database or trigger an alert either from the Raspberry PI (email notification or telegram alert) or from the Arduino (like fire alerting systems). Let's dive in!
 ---
 
-![](https://images.unsplash.com/photo-1617563844166-7da58918e10b?q=5)
+![](https://images.unsplash.com/photo-1617563844166-7da58918e10b?q=75&fm=jpg&w=1000&fit=max)
 
 In this post, You will understand how to collect values from an Arduino with a connected Raspberry PI over a serial port. This can be useful if you want collect sensor values over a period of time and store them on a timeseries database or trigger an alert either from the Raspberry PI (email notification or telegram alert) or from the Arduino (like fire alerting systems). Let's dive in!
 

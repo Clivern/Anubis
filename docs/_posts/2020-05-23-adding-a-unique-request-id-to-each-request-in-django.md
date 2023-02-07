@@ -1,11 +1,11 @@
 ---
 title: Adding a Unique Request ID to Each Request in Django
 date: 2020-05-23 00:00:00
-featured_image: https://images.unsplash.com/photo-1630083132742-a1708141abb9?q=5
+featured_image: https://images.unsplash.com/photo-1630083132742-a1708141abb9?q=75&fm=jpg&w=1000&fit=max
 excerpt: You can do that in Django using a middleware. The middleware needs to generate a unique request id (e.g. using UUID) and associate that id with the request.
 ---
 
-![](https://images.unsplash.com/photo-1630083132742-a1708141abb9?q=5)
+![](https://images.unsplash.com/photo-1630083132742-a1708141abb9?q=75&fm=jpg&w=1000&fit=max)
 
 You can do that in Django using a middleware. The middleware needs to generate a unique request id (e.g. using UUID) and associate that id with the request.
 

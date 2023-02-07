@@ -1,11 +1,11 @@
 ---
 title: How To Make HTTP Requests with WordPress
 date: 2014-02-18 00:00:00
-featured_image: https://images.unsplash.com/photo-1519592695728-f8ec824b232b?q=5
+featured_image: https://images.unsplash.com/photo-1519592695728-f8ec824b232b?q=75&fm=jpg&w=1000&fit=max
 excerpt: In the modern web "means 2.0", Web applications communicate with each other to gather and share data in between .Your wordpress blog is no exception that's why wordpress implemented a smart and powerful class WP_Http since version 2.7.0 .This class supports all methods you need to use.
 ---
 
-![](https://images.unsplash.com/photo-1519592695728-f8ec824b232b?q=5)
+![](https://images.unsplash.com/photo-1519592695728-f8ec824b232b?q=75&fm=jpg&w=1000&fit=max)
 
 In the modern web "means 2.0", Web applications communicate with each other to gather and share data in between. Your WordPress blog is no exception, that's why WordPress implemented a smart and powerful class `WP_Http` since version 2.7.0. This class supports all methods you need to use.
 

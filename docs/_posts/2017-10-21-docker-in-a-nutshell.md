@@ -1,11 +1,11 @@
 ---
 title: Docker in a Nutshell
 date: 2017-10-21 00:00:00
-featured_image: https://images.unsplash.com/photo-1610582144787-eda2e6f293b4?q=5
+featured_image: https://images.unsplash.com/photo-1610582144787-eda2e6f293b4?q=75&fm=jpg&w=1000&fit=max
 excerpt: Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.
 ---
 
-![](https://images.unsplash.com/photo-1610582144787-eda2e6f293b4?q=5)
+![](https://images.unsplash.com/photo-1610582144787-eda2e6f293b4?q=75&fm=jpg&w=1000&fit=max)
 
 Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.
 

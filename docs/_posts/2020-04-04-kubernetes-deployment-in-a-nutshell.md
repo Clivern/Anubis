@@ -1,11 +1,11 @@
 ---
 title: Kubernetes Deployment in a Nutshell
 date: 2020-04-04 00:00:00
-featured_image: https://images.unsplash.com/photo-1630083133119-222ecae57b46?q=5
+featured_image: https://images.unsplash.com/photo-1630083133119-222ecae57b46?q=75&fm=jpg&w=1000&fit=max
 excerpt: Deployment is a higher-level resource meant for deploying applications and updating them declaratively, instead of doing it through a ReplicationController or a ReplicaSet, which are both considered lower-level concepts.
 ---
 
-![](https://images.unsplash.com/photo-1630083133119-222ecae57b46?q=5)
+![](https://images.unsplash.com/photo-1630083133119-222ecae57b46?q=75&fm=jpg&w=1000&fit=max)
 
 Deployment is a higher-level resource meant for deploying applications and updating them declaratively, instead of doing it through a ReplicationController or a ReplicaSet, which are both considered lower-level concepts.
 

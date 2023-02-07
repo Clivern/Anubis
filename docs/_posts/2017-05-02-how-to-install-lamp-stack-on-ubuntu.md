@@ -1,11 +1,11 @@
 ---
 title: How To Install LAMP Stack on Ubuntu
 date: 2017-05-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1607950026157-44cab229b733?q=5
+featured_image: https://images.unsplash.com/photo-1607950026157-44cab229b733?q=75&fm=jpg&w=1000&fit=max
 excerpt: LAMP stack is a group of open source software and it stands for Linux, Apache, MySQL, and PHP. To install them Just run the following bash script with a non-root user with sudo privileges configured on a server running Ubuntu.
 ---
 
-![](https://images.unsplash.com/photo-1607950026157-44cab229b733?q=5)
+![](https://images.unsplash.com/photo-1607950026157-44cab229b733?q=75&fm=jpg&w=1000&fit=max)
 
 LAMP stack is a group of open source software and it stands for Linux, Apache, MySQL, and PHP. To install them Just run the following bash script with a non-root user with sudo privileges configured on a server running Ubuntu.
 

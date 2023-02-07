@@ -1,11 +1,11 @@
 ---
 title: Django Custom Lookups
 date: 2019-04-23 00:00:00
-featured_image: https://images.unsplash.com/photo-1534535611235-c7323a5957e9?q=5
+featured_image: https://images.unsplash.com/photo-1534535611235-c7323a5957e9?q=75&fm=jpg&w=1000&fit=max
 excerpt: By default Django has a `date` lookup that support timezones. It actually will wrap your field with `CONVERT_TZ` in case `USE_TZ` is `True`. This is pretty awesome unless you have timezones table empty because this call will return `Null.`
 ---
 
-![](https://images.unsplash.com/photo-1534535611235-c7323a5957e9?q=5)
+![](https://images.unsplash.com/photo-1534535611235-c7323a5957e9?q=75&fm=jpg&w=1000&fit=max)
 
 By default Django has a `date` lookup that support timezones. It actually will wrap your field with `CONVERT_TZ` in case `USE_TZ` is `True`. This is pretty awesome unless you have timezones table empty because this call will return `Null.`
 

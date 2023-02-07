@@ -1,11 +1,11 @@
 ---
 title: Apache Cassandra for Developers Part 1
 date: 2020-05-26 00:00:00
-featured_image: https://images.unsplash.com/photo-1630083133034-b4644df639cf?q=5
+featured_image: https://images.unsplash.com/photo-1630083133034-b4644df639cf?q=75&fm=jpg&w=1000&fit=max
 excerpt: Apache Cassandra is a free and open-source, distributed, NoSQL database management system designed to handle large amounts of data across many servers, providing high availability with no single point of failure. Cassandra offers robust support for clusters spanning multiple datacenters, with asynchronous masterless replication allowing low latency operations for all clients.
 ---
 
-![](https://images.unsplash.com/photo-1630083133034-b4644df639cf?q=5)
+![](https://images.unsplash.com/photo-1630083133034-b4644df639cf?q=75&fm=jpg&w=1000&fit=max)
 
 Apache Cassandra is a free and open-source, distributed, NoSQL database management system designed to handle large amounts of data across many servers, providing high availability with no single point of failure. Cassandra offers robust support for clusters spanning multiple datacenters, with asynchronous masterless replication allowing low latency operations for all clients.
 

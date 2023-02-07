@@ -1,11 +1,11 @@
 ---
 title: Laravel Schema Builder Part3
 date: 2014-02-28 00:00:00
-featured_image: https://images.unsplash.com/photo-1580873317709-31f73ee56ead?q=5
+featured_image: https://images.unsplash.com/photo-1580873317709-31f73ee56ead?q=75&fm=jpg&w=1000&fit=max
 excerpt: Once you database tables created ,it is a complex task to update these tables names and their structure .But i think laravel has another opinion .Let's get started and i will show you how laravel take care of you.
 ---
 
-![](https://images.unsplash.com/photo-1580873317709-31f73ee56ead?q=5)
+![](https://images.unsplash.com/photo-1580873317709-31f73ee56ead?q=75&fm=jpg&w=1000&fit=max)
 
 Once you database tables created, it is a complex task to update these tables names and their structure. But i think laravel has another opinion .Let's get started and i will show you how laravel take care of you.
 

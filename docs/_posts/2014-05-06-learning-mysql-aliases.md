@@ -1,11 +1,11 @@
 ---
 title: Learning MySQL Aliases
 date: 2014-05-06 00:00:00
-featured_image: https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=5
+featured_image: https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=75&fm=jpg&w=1000&fit=max
 excerpt: MySQL aliases are simply nicknames used to express tables, columns and functions' names. These nicknames can be used in your queries to make them short and neat. Let's explore this feature.
 ---
 
-![](https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=5)
+![](https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=75&fm=jpg&w=1000&fit=max)
 
 MySQL aliases are simply nicknames used to express tables, columns and functions' names. These nicknames can be used in your queries to make them short and neat. Let's explore this feature.
 

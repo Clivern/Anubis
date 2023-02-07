@@ -1,11 +1,11 @@
 ---
 title: How to Create a Facebook Messenger Bot With Java
 date: 2017-10-20 00:00:00
-featured_image: https://images.unsplash.com/photo-1526590776442-5541f7dcf2c8?q=5
+featured_image: https://images.unsplash.com/photo-1526590776442-5541f7dcf2c8?q=75&fm=jpg&w=1000&fit=max
 excerpt: Today I’ll show you how to build your own Facebook Messenger Chat Bot in Java. We’ll use Spark Web Framework, Racter Java Package, Gradle and Ngrok. So Let’s get started.
 ---
 
-![](https://images.unsplash.com/photo-1526590776442-5541f7dcf2c8?q=5)
+![](https://images.unsplash.com/photo-1526590776442-5541f7dcf2c8?q=75&fm=jpg&w=1000&fit=max)
 
 Today I’ll show you how to build your own Facebook Messenger Chat Bot in Java. We’ll use <a href="http://sparkjava.com/" rel="noopener" target="_blank">Spark Web Framework</a>, <a href="https://github.com/clivern/racter" rel="noopener" target="_blank">Racter Java Package</a>, <a href="https://gradle.org/" rel="noopener" target="_blank">Gradle</a> and <a href="https://ngrok.com/" rel="noopener" target="_blank">Ngrok.</a> So Let’s get started.
 

@@ -1,11 +1,11 @@
 ---
 title: Laravel Migrations Part2
 date: 2014-03-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1603084325971-9590a5e873c6?q=5
+featured_image: https://images.unsplash.com/photo-1603084325971-9590a5e873c6?q=75&fm=jpg&w=1000&fit=max
 excerpt: In Laravel Migrations Part1, I discussed how to create, run and update your migrations. It seems you need more and fortunately laravel still have many features to enhance your application migrations. Let's explore some of them.
 ---
 
-![](https://images.unsplash.com/photo-1603084325971-9590a5e873c6?q=5)
+![](https://images.unsplash.com/photo-1603084325971-9590a5e873c6?q=75&fm=jpg&w=1000&fit=max)
 
 In Laravel Migrations Part1, I discussed how to create, run and update your migrations. It seems you need more and fortunately laravel still have many features to enhance your application migrations. Let's explore some of them.
 

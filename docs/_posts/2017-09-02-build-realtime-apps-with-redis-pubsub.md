@@ -1,11 +1,11 @@
 ---
 title: Build Realtime Apps With Redis PubSub
 date: 2017-09-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1471313902629-21dffc56c966?q=5
+featured_image: https://images.unsplash.com/photo-1471313902629-21dffc56c966?q=75&fm=jpg&w=1000&fit=max
 excerpt: Last week I worked with Pusher. Pusher is really amazing product to build scalable realtime apps. Also there is slanger and Poxa, Both are open source implementation compatible with Pusher libraries. But today we will use PHP, NodeJs, SocketIO and Redis Pub/Sub To work with realtime messaging.
 ---
 
-![](https://images.unsplash.com/photo-1471313902629-21dffc56c966?q=5)
+![](https://images.unsplash.com/photo-1471313902629-21dffc56c966?q=75&fm=jpg&w=1000&fit=max)
 
 Last week I worked with <a href="https://pusher.com/" target="_blank">Pusher</a>. Pusher is really amazing product to build scalable realtime apps. Also there is <a href="https://github.com/stevegraham/slanger" target="_blank">slanger</a> and <a href="https://github.com/edgurgel/poxa" target="_blank">Poxa</a>, Both are open source implementation compatible with Pusher libraries. But today we will use PHP, NodeJs, <a href="https://socket.io/" target="_blank">SocketIO</a> and <a href="https://redis.io/topics/pubsub" target="_blank">Redis Pub/Sub</a> To work with realtime messaging.
 

@@ -1,11 +1,11 @@
 ---
 title: Kubernetes Services in a Nutshell
 date: 2020-05-30 00:00:00
-featured_image: https://images.unsplash.com/photo-1641999459215-3bb5378bedbe?q=5
+featured_image: https://images.unsplash.com/photo-1641999459215-3bb5378bedbe?q=75&fm=jpg&w=1000&fit=max
 excerpt: Service is a resource you create to make a single, constant point of entry to a group of pods providing the same service. Each service has an IP address and port that never change while the service exists. Clients can open connections to that IP and port, and those connections are then routed to one of the pods backing that service. This way, clients of a service don’t need to know the location of individual pods providing the service, allowing those pods to be moved around the cluster at any time.
 ---
 
-![](https://images.unsplash.com/photo-1641999459215-3bb5378bedbe?q=5)
+![](https://images.unsplash.com/photo-1641999459215-3bb5378bedbe?q=75&fm=jpg&w=1000&fit=max)
 
 Service is a resource you create to make a single, constant point of entry to a group of pods providing the same service. Each service has an IP address and port that never change while the service exists. Clients can open connections to that IP and port, and those connections are then routed to one of the pods backing that service. This way, clients of a service don’t need to know the location of individual pods providing the service, allowing those pods to be moved around the cluster at any time.
 

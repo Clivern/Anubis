@@ -1,12 +1,12 @@
 ---
 title: Load testing with k6
 date: 2024-09-25 00:00:00
-featured_image: https://images.unsplash.com/photo-1581255078657-13b74a0690c6?q=5
+featured_image: https://images.unsplash.com/photo-1581255078657-13b74a0690c6?q=75&fm=jpg&w=1000&fit=max
 excerpt: A while ago, I came across this a nice load testing tool called k6. It's an open-source project developed by Grafana Labs that lets developers easily test the performance of their APIs, websites, and microservices.
 keywords: k6, load-testing, performance-testing
 ---
 
-![](https://images.unsplash.com/photo-1581255078657-13b74a0690c6?q=5)
+![](https://images.unsplash.com/photo-1581255078657-13b74a0690c6?q=75&fm=jpg&w=1000&fit=max)
 
 A while ago, I came across this a nice load testing tool called [k6](https://k6.io/). It's an open-source project developed by Grafana Labs that lets developers easily test the performance of their `APIs`, websites, and microservices.
 

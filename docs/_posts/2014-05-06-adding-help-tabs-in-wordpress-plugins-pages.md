@@ -1,11 +1,11 @@
 ---
 title: Adding Help Tabs In Wordpress Plugins Pages
 date: 2014-05-06 00:00:00
-featured_image: https://images.unsplash.com/photo-1413847394921-b259543f4872?q=5
+featured_image: https://images.unsplash.com/photo-1413847394921-b259543f4872?q=75&fm=jpg&w=1000&fit=max
 excerpt: Wordpress 3.3 introduces the ability to create custom help tabs in plugin pages. You can use these tabs for plugin documentation to allow users to quickly understand your plugin function. I will show you how to add a help tab to your plugin configuration page.
 ---
 
-![](https://images.unsplash.com/photo-1413847394921-b259543f4872?q=5)
+![](https://images.unsplash.com/photo-1413847394921-b259543f4872?q=75&fm=jpg&w=1000&fit=max)
 
 Wordpress 3.3 introduces the ability to create custom help tabs in plugin pages. You can use these tabs for plugin documentation to allow users to quickly understand your plugin function. I will show you how to add a help tab to your plugin configuration page.
 

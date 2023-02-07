@@ -1,11 +1,11 @@
 ---
 title: How To Set Up MySQL Master-Master Database Replication
 date: 2017-09-03 00:00:00
-featured_image: https://images.unsplash.com/photo-1525120334885-38cc03a6ec77?q=5
+featured_image: https://images.unsplash.com/photo-1525120334885-38cc03a6ec77?q=75&fm=jpg&w=1000&fit=max
 excerpt: One of the most difficult tasks for software engineers is scaling out the databases incase of large traffic applications. Today we will discuss one of the horizontal scaling techniques which is the Master-Master replication. Master-Master replication adds speed and redundancy and also distribute the writes load over many servers.
 ---
 
-![](https://images.unsplash.com/photo-1525120334885-38cc03a6ec77?q=5)
+![](https://images.unsplash.com/photo-1525120334885-38cc03a6ec77?q=75&fm=jpg&w=1000&fit=max)
 
 One of the most difficult tasks for software engineers is scaling out the databases incase of large traffic applications. Today we will discuss one of the horizontal scaling techniques which is the Master-Master replication. Master-Master replication adds speed and redundancy and also distribute the writes load over many servers.
 

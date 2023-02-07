@@ -1,11 +1,11 @@
 ---
 title: How to Install Apache Tomcat 8 on Ubuntu 16.04
 date: 2017-04-30 00:00:00
-featured_image: https://images.unsplash.com/photo-1460038917749-83f4ed4a27da?q=5
+featured_image: https://images.unsplash.com/photo-1460038917749-83f4ed4a27da?q=75&fm=jpg&w=1000&fit=max
 excerpt: Tomcat is an open source web server used to serve Java Web Applications and provides a Java HTTP web server environment in which Java code can run. To install Tomcat Server Just run the following bash script with a non-root user with sudo privileges configured on a server running Ubuntu 16.04.
 ---
 
-![](https://images.unsplash.com/photo-1460038917749-83f4ed4a27da?q=5)
+![](https://images.unsplash.com/photo-1460038917749-83f4ed4a27da?q=75&fm=jpg&w=1000&fit=max)
 
 Tomcat is an open source web server used to serve Java Web Applications and provides a Java HTTP web server environment in which Java code can run. To install Tomcat Server Just run the following bash script with a non-root user with sudo privileges configured on a server running Ubuntu 16.04.
 

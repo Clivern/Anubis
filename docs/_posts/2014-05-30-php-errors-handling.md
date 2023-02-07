@@ -1,11 +1,11 @@
 ---
 title: PHP Errors Handling
 date: 2014-05-30 00:00:00
-featured_image: https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0?q=5
+featured_image: https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0?q=75&fm=jpg&w=1000&fit=max
 excerpt: PHP5 introduced exceptions, a completely different way to handle errors. Simply, exceptions like sensors detect any error occur within your code and output a bunch of data to handle these errors. Let's see how these exceptions work.
 ---
 
-![](https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0?q=5)
+![](https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0?q=75&fm=jpg&w=1000&fit=max)
 
 PHP5 introduced exceptions, a completely different way to handle errors. Simply, exceptions like sensors detect any error occur within your code and output a bunch of data to handle these errors. Let's see how these exceptions work.
 

@@ -1,11 +1,11 @@
 ---
 title: A Deep Dive into Metrics Based Alerting With Elasticsearch
 date: 2020-01-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1482444279085-ff5edf603d79?q=5
+featured_image: https://images.unsplash.com/photo-1482444279085-ff5edf603d79?q=75&fm=jpg&w=1000&fit=max
 excerpt: Elasticsearch is an open-source, distributed search and analytics engine based on the Lucene search engine library. It is designed to handle large volumes of data in real-time and provides fast, efficient search and analysis capabilities. Elasticsearch is commonly used for log analysis, full-text search, and business analytics
 ---
 
-![](https://images.unsplash.com/photo-1482444279085-ff5edf603d79?q=5)
+![](https://images.unsplash.com/photo-1482444279085-ff5edf603d79?q=75&fm=jpg&w=1000&fit=max)
 
 Elasticsearch is an open-source, distributed search and analytics engine based on the Lucene search engine library. It is designed to handle large volumes of data in real-time and provides fast, efficient search and analysis capabilities. Elasticsearch is commonly used for log analysis, full-text search, and business analytics
 

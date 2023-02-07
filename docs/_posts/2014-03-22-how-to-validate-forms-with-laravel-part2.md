@@ -1,11 +1,11 @@
 ---
 title: How To Validate Forms With Laravel Part2
 date: 2014-03-22 00:00:00
-featured_image: https://images.unsplash.com/photo-1568990600861-038159d19fce?q=5
+featured_image: https://images.unsplash.com/photo-1568990600861-038159d19fce?q=75&fm=jpg&w=1000&fit=max
 excerpt: We discussed before how to create forms with laravel and then how to build validation rules. Now let's see how to access error messages from form view.
 ---
 
-![](https://images.unsplash.com/photo-1568990600861-038159d19fce?q=5)
+![](https://images.unsplash.com/photo-1568990600861-038159d19fce?q=75&fm=jpg&w=1000&fit=max)
 
 We discussed before how to create forms with laravel and then how to build validation rules. Now let's see how to access error messages from form view.
 

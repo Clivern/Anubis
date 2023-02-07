@@ -1,11 +1,11 @@
 ---
 title: Adding Menus and Submenus for Wordpress Plugins
 date: 2014-06-29 00:00:00
-featured_image: https://images.unsplash.com/photo-1496619465405-721b2b66a868?q=5
+featured_image: https://images.unsplash.com/photo-1496619465405-721b2b66a868?q=75&fm=jpg&w=1000&fit=max
 excerpt: Integrating your plugin in wordpress is the first step in building plugins. There are many different ways to integrate your plugins including adding menus and submenus, adding metaboxes and adding widgets. Let's explore how to add menus and submenus for wordpress plugins.
 ---
 
-![](https://images.unsplash.com/photo-1496619465405-721b2b66a868?q=5)
+![](https://images.unsplash.com/photo-1496619465405-721b2b66a868?q=75&fm=jpg&w=1000&fit=max)
 
 Integrating your plugin in wordpress is the first step in building plugins. There are many different ways to integrate your plugins including adding menus and submenus, adding metaboxes and adding widgets. Let's explore how to add menus and submenus for wordpress plugins.
 

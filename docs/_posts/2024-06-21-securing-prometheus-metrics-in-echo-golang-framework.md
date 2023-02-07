@@ -1,12 +1,12 @@
 ---
 title: Securing Prometheus Metrics in Echo Golang Framework
 date: 2024-06-21 00:00:00
-featured_image: https://images.unsplash.com/photo-1593433514364-8db94732d06d?q=5
+featured_image: https://images.unsplash.com/photo-1593433514364-8db94732d06d?q=75&fm=jpg&w=1000&fit=max
 excerpt: Echo golang framework supports Prometheus Metrics middleware, but the middleware itself doesn't support authentication. We can use the basic authentication middleware to secure the metrics endpoint.
 keywords: echo-golang, prometheus, grafana, prometheus-metrics, metrics
 ---
 
-![](https://images.unsplash.com/photo-1593433514364-8db94732d06d?q=5)
+![](https://images.unsplash.com/photo-1593433514364-8db94732d06d?q=75&fm=jpg&w=1000&fit=max)
 
 [Echo](https://echo.labstack.com/) golang framework supports Prometheus Metrics middleware, but the middleware itself doesn't support authentication. We can use the basic authentication middleware to secure the metrics endpoint.
 
