@@ -64,4 +64,7 @@ return {
   {
     "nvim-lua/plenary.nvim",
   },
+  {
+    "rafamadriz/friendly-snippets",
+  },
 }
