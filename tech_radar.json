@@ -89,7 +89,7 @@
   {
     "name": "Cargo",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "assess",
     "isNew": "FALSE",
     "description": "Rust's package manager and build system."
   },
@@ -106,5 +106,19 @@
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "A build automation tool for Java projects that provides dependency management, build automation, and more. It can be used as an alternative to Maven"
+  },
+  {
+    "name": "Ansible",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "A relatively simple infrastructure automation engine that automates application deployment, configuration management, cloud provisioning, and intra-service orchestration."
+  },
+  {
+    "name": "Chef",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "One of the oldest and best-known infrastructure automation tools, it facilitates continuous delivery and configuration management by converting infrastructure to code."
   }
 ]
