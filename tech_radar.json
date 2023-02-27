@@ -1,384 +1,429 @@
 [
-   {
-      "name":"PHP",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"A server-side scripting language for web development and dynamic websites."
-   },
-   {
-      "name":"JavaScript",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"A client-side scripting language used for building interactive web pages and web applications."
-   },
-   {
-      "name":"Golang",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"A statically typed, compiled programming language designed for simplicity, efficiency, and scalability."
-   },
-   {
-      "name":"Python",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"A high-level, interpreted programming language known for its simplicity and readability."
-   },
-   {
-      "name":"Java",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"A versatile, object-oriented programming language used for a wide range of applications."
-   },
-   {
-      "name":"Elixir",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"TRUE",
-      "description":"A functional, concurrent programming language that runs on the Erlang Virtual Machine."
-   },
-   {
-      "name":"Rust",
-      "ring":"assess",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"TRUE",
-      "description":"A systems programming language focused on performance, safety, and concurrency."
-   },
-   {
-      "name":"HTML",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"HTML (Hypertext Markup Language) is the standard markup language for creating web pages. It provides the structure and content of a web page."
-   },
-   {
-      "name":"CSS",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in a markup language like HTML. It is used to control the layout, color, font, and other visual aspects of a web page."
-   },
-   {
-      "name":"Laravel",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"Laravel is a PHP web application framework that provides an elegant and expressive syntax for building web applications. It follows the Model-View-Controller (MVC) architectural pattern and is known for its ease of use and developer-friendly features."
-   },
-   {
-      "name":"Symfony",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"Symfony is a PHP web application framework that also follows the Model-View-Controller (MVC) architectural pattern. It is known for its flexibility, scalability, and extensive set of reusable components."
-   },
-   {
-      "name":"Angular",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"Angular is a TypeScript-based web application framework for building single-page applications (SPAs). It provides a comprehensive set of tools and features for building complex, scalable, and maintainable web applications."
-   },
-   {
-      "name":"CodeIgniter",
-      "ring":"hold",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"CodeIgniter is a PHP web application framework that encourages rapid development. It follows the Model-View-Controller (MVC) architectural pattern and is known for its simplicity and flexibility."
-   },
-   {
-      "name":"Flask",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"Flask is a lightweight, flexible Python web framework for building web applications. It is known for its simplicity, ease of use, and minimal setup requirements."
-   },
-   {
-      "name":"Django",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It provides a comprehensive set of tools and features for building complex, scalable web applications."
-   },
-   {
-      "name":"Vert.x",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"Vert.x is a toolkit for building reactive applications on the Java Virtual Machine. It is designed to be lightweight, scalable, and asynchronous, making it well-suited for building high-performance, real-time applications."
-   },
-   {
-      "name":"BackboneJs",
-      "ring":"hold",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"BackboneJs is a JavaScript library that provides structure to web applications by providing models, views, and collections. It is known for its simplicity and flexibility, making it a popular choice for building single-page applications (SPAs)."
-   },
-   {
-      "name":"jQuery",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"jQuery is a popular JavaScript library that simplifies HTML document traversal, event handling, and AJAX interactions. It is widely used for building interactive and responsive web pages."
-   },
-   {
-      "name":"Slim",
-      "ring":"hold",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"Slim is a PHP micro-framework that helps you quickly write simple yet powerful web applications and APIs. It is known for its simplicity, flexibility, and performance."
-   },
-   {
-      "name":"Vue.js",
-      "ring":"adopt",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"Vue.js is an open-source, progressive JavaScript framework for building user interfaces and single-page applications."
-   },
-
-
-   {
-      "name":"Ajax",
-      "ring":"adopt",
-      "quadrant":"techniques",
-      "isNew":"FALSE",
-      "description":"Ajax (Asynchronous JavaScript and XML) is a set of web development techniques that use client-side scripting to create asynchronous web applications. It allows web pages to be updated incrementally, without requiring a full page refresh, improving the user experience."
-   },
-
-   {
-      "name":"WordPress Plugin and Themes Development",
-      "ring":"hold",
-      "quadrant":"techniques",
-      "isNew":"FALSE",
-      "description":"WordPress Plugin and Themes Development is the process of creating custom plugins and themes for the WordPress content management system. It allows developers to extend the functionality and customize the appearance of WordPress-powered websites."
-   },
-   {
-      "name":"Composer",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"A dependency management tool for PHP that allows you to declare the libraries your project depends on and it will manage (install/update) them for you."
-   },
-   {
-      "name":"npm",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"The default package manager for the Node.js JavaScript runtime."
-   },
-   {
-      "name":"Mix",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"The build tool for Elixir projects that handles dependencies, compiling the application, running tests, and more."
-   },
-   {
-      "name":"Maven",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"A build automation tool used primarily for Java projects."
-   },
-   {
-      "name":"Cargo",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Rust's package manager and build system."
-   },
-   {
-      "name":"pip",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"The default package installer for Python. It allows you to install, upgrade, and remove Python packages."
-   },
-   {
-      "name":"Gradle",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"A build automation tool for Java projects that provides dependency management, build automation, and more. It can be used as an alternative to Maven"
-   },
-   {
-      "name":"Ansible",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"A relatively simple infrastructure automation engine that automates application deployment, configuration management, cloud provisioning, and intra-service orchestration."
-   },
-   {
-      "name":"Chef",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"One of the oldest and best-known infrastructure automation tools, it facilitates continuous delivery and configuration management by converting infrastructure to code."
-   },
-
-   {
-      "name":"MySQL",
-      "ring":"adopt",
-      "quadrant":"platforms",
-      "isNew":"FALSE",
-      "description":"MySQL is a popular open-source relational database management system (RDBMS) that is widely used for web applications, data warehousing, and other enterprise-level applications."
-   },
-   {
-      "name":"NoSQL",
-      "ring":"adopt",
-      "quadrant":"platforms",
-      "isNew":"FALSE",
-      "description":"NoSQL is a non-relational database management system that provides a flexible schema and scalability. It is often used for handling large, unstructured datasets and real-time web applications."
-   },
-   {
-      "name":"MongoDB",
-      "ring":"adopt",
-      "quadrant":"platforms",
-      "isNew":"FALSE",
-      "description":"MongoDB is a popular NoSQL database that stores data in flexible, JSON-like documents. It is known for its scalability, high availability, and ease of use."
-   },
-   {
-      "name":"Cassandra",
-      "ring":"adopt",
-      "quadrant":"platforms",
-      "isNew":"FALSE",
-      "description":"Cassandra is a distributed, wide-column store NoSQL database management system that is designed to handle large amounts of data across many servers, providing high availability with no single point of failure."
-   },
-   {
-      "name":"LAMP",
-      "ring":"adopt",
-      "quadrant":"platforms",
-      "isNew":"FALSE",
-      "description":"LAMP is an open-source web server environment that includes Linux, Apache, MySQL, and PHP/Python/Perl. It is a widely-used stack for building and hosting web applications."
-   },
-   {
-      "name":"OOP",
-      "ring":"adopt",
-      "quadrant":"techniques",
-      "isNew":"FALSE",
-      "description":"Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which can contain data (properties) and code (methods). OOP is a fundamental approach to software design and development."
-   },
-   {
-      "name":"VCS",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Version Control System (VCS) is a software tool that helps manage changes to source code over time. It allows developers to track, collaborate, and revert changes to their codebase."
-   },
-   {
-      "name":"Git",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Git is a distributed version control system for tracking changes in source code during software development. It is widely used for collaborative software development and is known for its speed, efficiency, and flexibility."
-   },
-   {
-      "name":"Continuous Integration",
-      "ring":"adopt",
-      "quadrant":"techniques",
-      "isNew":"FALSE",
-      "description":"Continuous Integration (CI) is a software development practice where developers regularly merge their code changes into a central repository, and then automatically build and test the integrated codebase. This helps to detect and fix integration issues early in the development process."
-   },
-   {
-      "name":"Chef",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Chef is an infrastructure automation tool that helps manage and provision servers. It allows developers and operations teams to define their infrastructure as code, making it easier to automate the deployment and management of complex systems."
-   },
-   {
-      "name":"Jenkins",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Jenkins is an open-source automation server that helps automate the various stages of the software development lifecycle, such as building, testing, and deploying applications."
-   },
-   {
-      "name":"ElasticSearch",
-      "ring":"adopt",
-      "quadrant":"platforms",
-      "isNew":"FALSE",
-      "description":"ElasticSearch is a distributed, RESTful search and analytics engine for handling large amounts of data. It is often used for building real-time applications that require full-text search, structured search, and data analysis."
-   },
-   {
-      "name":"RabbitMQ",
-      "ring":"adopt",
-      "quadrant":"platforms",
-      "isNew":"FALSE",
-      "description":"RabbitMQ is a message broker software (or message-oriented middleware) that implements the Advanced Message Queuing Protocol (AMQP). It is used for building distributed and scalable applications by providing a reliable way to send and receive messages between different components."
-   },
-   {
-      "name":"Kafka",
-      "ring":"adopt",
-      "quadrant":"platforms",
-      "isNew":"FALSE",
-      "description":"Kafka is a distributed streaming platform used for building real-time data pipelines and streaming applications. It is known for its high throughput, low latency, and fault-tolerance, making it a popular choice for handling large-scale data processing tasks."
-   },
-   {
-      "name":"HAProxy",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"HAProxy is a free, open-source load balancer software that provides high availability, load balancing, and proxying for TCP and HTTP-based applications. It is widely used for improving the performance and reliability of web applications and services."
-   },
-   {
-      "name":"Vagrant",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Vagrant is a tool for building and managing virtual machine environments in a single workflow. It allows developers to create and configure portable development environments, making it easier to ensure consistency across different systems."
-   },
-   {
-      "name":"Consul",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Consul is a service mesh solution that provides a full featured control plane with service discovery, configuration, and segmentation functionality. It is used for building and managing distributed systems, ensuring high availability and reliability."
-   },
-   {
-      "name":"Grafana",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Grafana is an open-source data visualization and monitoring tool that allows users to create, explore, and share rich data visualizations and dashboards. It supports a wide range of data sources, making it a versatile tool for monitoring and analyzing various types of data."
-   },
-   {
-      "name":"Prometheus",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Prometheus is an open-source monitoring and alerting toolkit. It is designed to monitor and alert on metrics, providing a powerful and flexible way to monitor the health and performance of systems and applications."
-   },
-   {
-      "name":"Nomad",
-      "ring":"assess",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Nomad is a distributed, highly available, datacenter-aware scheduler designed to run a diverse workload of micro-services, batch, containerized, and non-containerized applications. It is known for its simplicity, scalability, and fault-tolerance."
-   },
-   {
-      "name":"Terraform",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Terraform is an open-source infrastructure as code software tool that enables users to define and provision a datacenter infrastructure. It supports a wide range of cloud providers, making it a versatile choice for managing complex cloud environments."
-   },
-   {
-      "name":"Docker",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Docker is an open-source containerization platform that allows developers to package applications into containers. Containers provide a consistent and portable way to run applications, making it easier to deploy and manage software across different environments."
-   },
-   {
-      "name":"Kubernetes",
-      "ring":"adopt",
-      "quadrant":"tools",
-      "isNew":"FALSE",
-      "description":"Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications."
-   }
+    {
+        "name":"PHP",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A server-side scripting language for web development and dynamic websites."
+    },
+    {
+        "name":"JavaScript",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A client-side scripting language used for building interactive web pages and web applications."
+    },
+    {
+        "name":"Golang",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A statically typed, compiled programming language designed for simplicity, efficiency, and scalability."
+    },
+    {
+        "name":"Python",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A high-level, interpreted programming language known for its simplicity and readability."
+    },
+    {
+        "name":"Java",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A versatile, object-oriented programming language used for a wide range of applications."
+    },
+    {
+        "name":"Elixir",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"TRUE",
+        "description":"A functional, concurrent programming language that runs on the Erlang Virtual Machine."
+    },
+    {
+        "name":"Rust",
+        "ring":"assess",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"TRUE",
+        "description":"A systems programming language focused on performance, safety, and concurrency."
+    },
+    {
+        "name":"HTML",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"HTML (Hypertext Markup Language) is the standard markup language for creating web pages. It provides the structure and content of a web page."
+    },
+    {
+        "name":"CSS",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in a markup language like HTML. It is used to control the layout, color, font, and other visual aspects of a web page."
+    },
+    {
+        "name":"Laravel",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"Laravel is a PHP web application framework that provides an elegant and expressive syntax for building web applications. It follows the Model-View-Controller (MVC) architectural pattern and is known for its ease of use and developer-friendly features."
+    },
+    {
+        "name":"Symfony",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"Symfony is a PHP web application framework that also follows the Model-View-Controller (MVC) architectural pattern. It is known for its flexibility, scalability, and extensive set of reusable components."
+    },
+    {
+        "name":"Angular",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"Angular is a TypeScript-based web application framework for building single-page applications (SPAs). It provides a comprehensive set of tools and features for building complex, scalable, and maintainable web applications."
+    },
+    {
+        "name":"CodeIgniter",
+        "ring":"hold",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"CodeIgniter is a PHP web application framework that encourages rapid development. It follows the Model-View-Controller (MVC) architectural pattern and is known for its simplicity and flexibility."
+    },
+    {
+        "name":"Flask",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"Flask is a lightweight, flexible Python web framework for building web applications. It is known for its simplicity, ease of use, and minimal setup requirements."
+    },
+    {
+        "name":"Django",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It provides a comprehensive set of tools and features for building complex, scalable web applications."
+    },
+    {
+        "name":"Vert.x",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"Vert.x is a toolkit for building reactive applications on the Java Virtual Machine. It is designed to be lightweight, scalable, and asynchronous, making it well-suited for building high-performance, real-time applications."
+    },
+    {
+        "name":"BackboneJs",
+        "ring":"hold",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"BackboneJs is a JavaScript library that provides structure to web applications by providing models, views, and collections. It is known for its simplicity and flexibility, making it a popular choice for building single-page applications (SPAs)."
+    },
+    {
+        "name":"jQuery",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"jQuery is a popular JavaScript library that simplifies HTML document traversal, event handling, and AJAX interactions. It is widely used for building interactive and responsive web pages."
+    },
+    {
+        "name":"Slim",
+        "ring":"hold",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"Slim is a PHP micro-framework that helps you quickly write simple yet powerful web applications and APIs. It is known for its simplicity, flexibility, and performance."
+    },
+    {
+        "name":"Vue.js",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"Vue.js is an open-source, progressive JavaScript framework for building user interfaces and single-page applications."
+    },
+    {
+        "name":"Ajax",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"FALSE",
+        "description":"Ajax (Asynchronous JavaScript and XML) is a set of web development techniques that use client-side scripting to create asynchronous web applications. It allows web pages to be updated incrementally, without requiring a full page refresh, improving the user experience."
+    },
+    {
+        "name":"WordPress Plugin and Themes Development",
+        "ring":"hold",
+        "quadrant":"techniques",
+        "isNew":"FALSE",
+        "description":"WordPress Plugin and Themes Development is the process of creating custom plugins and themes for the WordPress content management system. It allows developers to extend the functionality and customize the appearance of WordPress-powered websites."
+    },
+    {
+        "name":"Composer",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"A dependency management tool for PHP that allows you to declare the libraries your project depends on and it will manage (install/update) them for you."
+    },
+    {
+        "name":"npm",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"The default package manager for the Node.js JavaScript runtime."
+    },
+    {
+        "name":"Mix",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"The build tool for Elixir projects that handles dependencies, compiling the application, running tests, and more."
+    },
+    {
+        "name":"Maven",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"A build automation tool used primarily for Java projects."
+    },
+    {
+        "name":"Cargo",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Rust's package manager and build system."
+    },
+    {
+        "name":"pip",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"The default package installer for Python. It allows you to install, upgrade, and remove Python packages."
+    },
+    {
+        "name":"Gradle",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"A build automation tool for Java projects that provides dependency management, build automation, and more. It can be used as an alternative to Maven"
+    },
+    {
+        "name":"Ansible",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"A relatively simple infrastructure automation engine that automates application deployment, configuration management, cloud provisioning, and intra-service orchestration."
+    },
+    {
+        "name":"Chef",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"One of the oldest and best-known infrastructure automation tools, it facilitates continuous delivery and configuration management by converting infrastructure to code."
+    },
+    {
+        "name":"MySQL",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"MySQL is a popular open-source relational database management system (RDBMS) that is widely used for web applications, data warehousing, and other enterprise-level applications."
+    },
+    {
+        "name":"NoSQL",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"NoSQL is a non-relational database management system that provides a flexible schema and scalability. It is often used for handling large, unstructured datasets and real-time web applications."
+    },
+    {
+        "name":"MongoDB",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"MongoDB is a popular NoSQL database that stores data in flexible, JSON-like documents. It is known for its scalability, high availability, and ease of use."
+    },
+    {
+        "name":"Cassandra",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"Cassandra is a distributed, wide-column store NoSQL database management system that is designed to handle large amounts of data across many servers, providing high availability with no single point of failure."
+    },
+    {
+        "name":"LAMP",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"LAMP is an open-source web server environment that includes Linux, Apache, MySQL, and PHP/Python/Perl. It is a widely-used stack for building and hosting web applications."
+    },
+    {
+        "name":"GitHub",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"GitHub is a web-based hosting service for version control using Git. It provides a platform for developers to host and collaborate on software projects, manage code repositories, and track changes over time."
+    },
+    {
+        "name":"Bitbucket",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"Bitbucket is a web-based hosting service for version control using Git or Mercurial. It provides a platform for developers to host, collaborate on, and manage their software projects, with features like pull requests, issue tracking, and integrated CI/CD."
+    },
+    {
+        "name":"GitLab",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"GitLab is a web-based platform for version control using Git. It provides a comprehensive set of tools for the entire software development lifecycle, including code repositories, issue tracking, continuous integration and deployment, and more. GitLab can be self-hosted or used as a cloud-based service."
+    },
+    {
+        "name":"Jira",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"Jira is a proprietary project management and issue tracking software developed by Atlassian. It is widely used by software development teams and other organizations to plan, track, and manage their work, including bug tracking, agile project management, and more."
+    },
+    {
+        "name": "AWS",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Amazon Web Services (AWS) is a comprehensive, evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure as a service (IaaS), platform as a service (PaaS), and packaged software as a service (SaaS) offerings. AWS provides a suite of cloud computing services that include computing, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools, and tools for the Internet of Things."
+    },
+    {
+        "name": "DigitalOcean",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "DigitalOcean is a cloud computing platform that provides virtual private servers (VPS), also known as Droplets, for developers and businesses. It offers a simple and intuitive interface, along with a range of cloud computing services including compute, storage, networking, and managed databases, making it a popular choice for startups, small and medium-sized businesses, and individual developers."
+    },
+    {
+        "name": "Google Cloud",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Google Cloud Platform (GCP) is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube. GCP provides a wide range of services, including computing, storage, networking, big data, machine learning, and management tools, making it a comprehensive cloud platform for enterprises, startups, and developers."
+    },
+    {
+        "name":"OOP",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"FALSE",
+        "description":"Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which can contain data (properties) and code (methods). OOP is a fundamental approach to software design and development."
+    },
+    {
+        "name":"VCS",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Version Control System (VCS) is a software tool that helps manage changes to source code over time. It allows developers to track, collaborate, and revert changes to their codebase."
+    },
+    {
+        "name":"Git",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Git is a distributed version control system for tracking changes in source code during software development. It is widely used for collaborative software development and is known for its speed, efficiency, and flexibility."
+    },
+    {
+        "name":"Continuous Integration",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"FALSE",
+        "description":"Continuous Integration (CI) is a software development practice where developers regularly merge their code changes into a central repository, and then automatically build and test the integrated codebase. This helps to detect and fix integration issues early in the development process."
+    },
+    {
+        "name":"Chef",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Chef is an infrastructure automation tool that helps manage and provision servers. It allows developers and operations teams to define their infrastructure as code, making it easier to automate the deployment and management of complex systems."
+    },
+    {
+        "name":"Jenkins",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Jenkins is an open-source automation server that helps automate the various stages of the software development lifecycle, such as building, testing, and deploying applications."
+    },
+    {
+        "name":"ElasticSearch",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"ElasticSearch is a distributed, RESTful search and analytics engine for handling large amounts of data. It is often used for building real-time applications that require full-text search, structured search, and data analysis."
+    },
+    {
+        "name":"RabbitMQ",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"RabbitMQ is a message broker software (or message-oriented middleware) that implements the Advanced Message Queuing Protocol (AMQP). It is used for building distributed and scalable applications by providing a reliable way to send and receive messages between different components."
+    },
+    {
+        "name":"Kafka",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"Kafka is a distributed streaming platform used for building real-time data pipelines and streaming applications. It is known for its high throughput, low latency, and fault-tolerance, making it a popular choice for handling large-scale data processing tasks."
+    },
+    {
+        "name":"HAProxy",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"HAProxy is a free, open-source load balancer software that provides high availability, load balancing, and proxying for TCP and HTTP-based applications. It is widely used for improving the performance and reliability of web applications and services."
+    },
+    {
+        "name":"Vagrant",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Vagrant is a tool for building and managing virtual machine environments in a single workflow. It allows developers to create and configure portable development environments, making it easier to ensure consistency across different systems."
+    },
+    {
+        "name":"Consul",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Consul is a service mesh solution that provides a full featured control plane with service discovery, configuration, and segmentation functionality. It is used for building and managing distributed systems, ensuring high availability and reliability."
+    },
+    {
+        "name":"Grafana",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Grafana is an open-source data visualization and monitoring tool that allows users to create, explore, and share rich data visualizations and dashboards. It supports a wide range of data sources, making it a versatile tool for monitoring and analyzing various types of data."
+    },
+    {
+        "name":"Prometheus",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Prometheus is an open-source monitoring and alerting toolkit. It is designed to monitor and alert on metrics, providing a powerful and flexible way to monitor the health and performance of systems and applications."
+    },
+    {
+        "name":"Nomad",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Nomad is a distributed, highly available, datacenter-aware scheduler designed to run a diverse workload of micro-services, batch, containerized, and non-containerized applications. It is known for its simplicity, scalability, and fault-tolerance."
+    },
+    {
+        "name":"Terraform",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Terraform is an open-source infrastructure as code software tool that enables users to define and provision a datacenter infrastructure. It supports a wide range of cloud providers, making it a versatile choice for managing complex cloud environments."
+    },
+    {
+        "name":"Docker",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Docker is an open-source containerization platform that allows developers to package applications into containers. Containers provide a consistent and portable way to run applications, making it easier to deploy and manage software across different environments."
+    },
+    {
+        "name":"Kubernetes",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications."
+    }
 ]
