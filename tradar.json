@@ -195,6 +195,8 @@
         "isNew": "FALSE",
         "description": "A framework for building applications that leverage large language models and data structures."
     },
+
+
     {
         "name":"Composer",
         "ring":"adopt",
@@ -484,9 +486,6 @@
         "isNew": "FALSE",
         "description": "Boundary is an intelligent proxy that creates granular, identity-based access controls for dynamic infrastructure."
     },
-
-
-
     {
         "name":"GitHub",
         "ring":"adopt",
@@ -550,9 +549,6 @@
         "isNew": "FALSE",
         "description": "Google Cloud Platform (GCP) is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube. GCP provides a wide range of services, including computing, storage, networking, big data, machine learning, and management tools, making it a comprehensive cloud platform for enterprises, startups, and developers."
     },
-
-
-
     {
         "name":"NoSQL",
         "ring":"adopt",
@@ -594,5 +590,5 @@
         "quadrant":"techniques",
         "isNew":"FALSE",
         "description":"WordPress Plugin and Themes Development is the process of creating custom plugins and themes for the WordPress content management system. It allows developers to extend the functionality and customize the appearance of WordPress-powered websites."
-    },
+    }
 ]
