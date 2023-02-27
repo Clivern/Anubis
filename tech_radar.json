@@ -105,6 +105,48 @@
         "description":"Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It provides a comprehensive set of tools and features for building complex, scalable web applications."
     },
     {
+        "name": "Gin",
+        "ring": "adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "A high-performance, minimalist Go web framework that focuses on simplicity and speed."
+    },
+    {
+        "name": "Echo",
+        "ring": "adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "A high-performance, extensible, minimalist Go web framework."
+    },
+    {
+        "name": "Spring",
+        "ring": "adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "A popular application development framework for building Java enterprise applications."
+    },
+    {
+        "name": "Phoenix",
+        "ring": "adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "A web framework for Elixir that emphasizes developer productivity and application scalability."
+    },
+    {
+        "name": "Hyper",
+        "ring": "adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "A fast, safe and correct low-level HTTP library for Rust."
+    },
+    {
+        "name": "Rocket",
+        "ring": "assess",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "A web framework for Rust with a focus on ease of use and performance."
+    },
+    {
         "name":"Vert.x",
         "ring":"adopt",
         "quadrant":"languages-and-frameworks",
