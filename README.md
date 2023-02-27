@@ -8,11 +8,11 @@
         <a href="https://pypi.org/project/opswork/">
             <img src="https://img.shields.io/badge/Built_with-OpsWork-blue"/>
         </a>
+        <a href="https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FKemet%2Fmain%2Ftech_radar.json">
+            <img src="https://img.shields.io/badge/Technology-Radar-green.svg">
+        </a>
         <a href="https://github.com/Clivern/Kemet/releases">
             <img src="https://img.shields.io/badge/Version-3.1.3-1abc9c.svg">
-        </a>
-        <a href="https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FKemet%2Fmain%2Ftech_radar.json">
-            <img src="https://img.shields.io/badge/Technology-Radar-cyan.svg">
         </a>
         <a href="https://github.com/Clivern/Kemet/blob/master/LICENSE">
             <img src="https://img.shields.io/badge/LICENSE-MIT-blue.svg">
