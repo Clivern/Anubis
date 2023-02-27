@@ -51,7 +51,7 @@
   },
   {
     "name": "Rust",
-    "ring": "adopt",
+    "ring": "assess",
     "quadrant": "languages-and-frameworks",
     "isNew": "TRUE",
     "description": "A systems programming language focused on performance, safety, and concurrency."
@@ -62,6 +62,49 @@
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
-    "description": "Composer is a dependency management tool for the PHP programming language. It allows developers to easily install, update, and remove third-party PHP libraries and packages that their application depends on."
+    "description": "A dependency management tool for PHP that allows you to declare the libraries your project depends on and it will manage (install/update) them for you."
+  },
+  {
+    "name": "npm",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "The default package manager for the Node.js JavaScript runtime."
+  },
+
+  {
+    "name": "Mix",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "The build tool for Elixir projects that handles dependencies, compiling the application, running tests, and more."
+  },
+  {
+    "name": "Maven",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "A build automation tool used primarily for Java projects."
+  },
+  {
+    "name": "Cargo",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Rust's package manager and build system."
+  },
+  {
+    "name": "pip",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "The default package installer for Python. It allows you to install, upgrade, and remove Python packages."
+  },
+  {
+    "name": "Gradle",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "A build automation tool for Java projects that provides dependency management, build automation, and more. It can be used as an alternative to Maven"
   }
 ]
