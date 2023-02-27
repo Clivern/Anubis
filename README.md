@@ -8,7 +8,7 @@
         <a href="https://pypi.org/project/opswork/">
             <img src="https://img.shields.io/badge/Built_with-OpsWork-blue"/>
         </a>
-        <a href="https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FKemet%2Fmain%2Ftech_radar.json">
+        <a href="https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FKemet%2Fmain%2Ftradar.json">
             <img src="https://img.shields.io/badge/Technology-Radar-green.svg">
         </a>
         <a href="https://github.com/Clivern/Kemet/releases">
