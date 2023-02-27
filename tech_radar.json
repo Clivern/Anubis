@@ -1,0 +1,67 @@
+[
+  {
+    "name": "PHP",
+    "ring": "adopt",
+    "quadrant": "languages-and-frameworks",
+    "isNew": "FALSE",
+    "description": "A server-side scripting language for web development and dynamic websites."
+  },
+  {
+    "name": "JavaScript",
+    "ring": "adopt",
+    "quadrant": "languages-and-frameworks",
+    "isNew": "FALSE",
+    "description": "A client-side scripting language used for building interactive web pages and web applications."
+  },
+  {
+    "name": "Golang",
+    "ring": "adopt",
+    "quadrant": "languages-and-frameworks",
+    "isNew": "FALSE",
+    "description": "A statically typed, compiled programming language designed for simplicity, efficiency, and scalability."
+  },
+  {
+    "name": "Python",
+    "ring": "adopt",
+    "quadrant": "languages-and-frameworks",
+    "isNew": "FALSE",
+    "description": "A high-level, interpreted programming language known for its simplicity and readability."
+  },
+  {
+    "name": "MySQL",
+    "ring": "adopt",
+    "quadrant": "languages-and-frameworks",
+    "isNew": "FALSE",
+    "description": "A popular open-source relational database management system used for storing and managing data."
+  },
+  {
+    "name": "Java",
+    "ring": "adopt",
+    "quadrant": "languages-and-frameworks",
+    "isNew": "FALSE",
+    "description": "A versatile, object-oriented programming language used for a wide range of applications."
+  },
+
+  {
+    "name": "Elixir",
+    "ring": "adopt",
+    "quadrant": "languages-and-frameworks",
+    "isNew": "TRUE",
+    "description": "A functional, concurrent programming language that runs on the Erlang Virtual Machine."
+  },
+  {
+    "name": "Rust",
+    "ring": "adopt",
+    "quadrant": "languages-and-frameworks",
+    "isNew": "TRUE",
+    "description": "A systems programming language focused on performance, safety, and concurrency."
+  },
+
+  {
+    "name": "Composer",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Composer is a dependency management tool for the PHP programming language. It allows developers to easily install, update, and remove third-party PHP libraries and packages that their application depends on."
+  }
+]

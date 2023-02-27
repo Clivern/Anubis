@@ -1,9 +1,0 @@
-[
-  {
-    "name": "Composer",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Composer is a dependency management tool for the PHP programming language. It allows developers to easily install, update, and remove third-party PHP libraries and packages that their application depends on."
-  }
-]
