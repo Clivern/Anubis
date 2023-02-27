@@ -67,4 +67,11 @@ return {
   {
     "rafamadriz/friendly-snippets",
   },
+  {
+    "declancm/cinnamon.nvim",
+    version = "*", -- use latest release
+    opts = {
+      -- change default options here
+    },
+  },
 }

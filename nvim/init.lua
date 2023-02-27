@@ -59,6 +59,16 @@ require("lazy").setup({
   { import = "plugins" },
 }, lazy_config)
 
+require("cinnamon").setup {
+    -- Enable all provided keymaps
+    keymaps = {
+        basic = true,
+        extra = true,
+    },
+    -- Only scroll the window
+    options = { mode = "cursor" },
+}
+
 -- load theme
 dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
