@@ -182,18 +182,18 @@
         "description":"Vue.js is an open-source, progressive JavaScript framework for building user interfaces and single-page applications."
     },
     {
-        "name":"Ajax",
-        "ring":"adopt",
-        "quadrant":"techniques",
-        "isNew":"FALSE",
-        "description":"Ajax (Asynchronous JavaScript and XML) is a set of web development techniques that use client-side scripting to create asynchronous web applications. It allows web pages to be updated incrementally, without requiring a full page refresh, improving the user experience."
+        "name": "Langchain",
+        "ring": "adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "A framework for building applications with large language models (LLMs)."
     },
     {
-        "name":"WordPress Plugin and Themes Development",
-        "ring":"hold",
-        "quadrant":"techniques",
-        "isNew":"FALSE",
-        "description":"WordPress Plugin and Themes Development is the process of creating custom plugins and themes for the WordPress content management system. It allows developers to extend the functionality and customize the appearance of WordPress-powered websites."
+        "name": "LlamaIndex",
+        "ring": "adopt",
+        "quadrant": "languages-and-frameworks",
+        "isNew": "FALSE",
+        "description": "A framework for building applications that leverage large language models and data structures."
     },
     {
         "name":"Composer",
@@ -261,94 +261,25 @@
     {
         "name":"MySQL",
         "ring":"adopt",
-        "quadrant":"platforms",
+        "quadrant":"tools",
         "isNew":"FALSE",
         "description":"MySQL is a popular open-source relational database management system (RDBMS) that is widely used for web applications, data warehousing, and other enterprise-level applications."
     },
     {
-        "name":"NoSQL",
-        "ring":"adopt",
-        "quadrant":"platforms",
-        "isNew":"FALSE",
-        "description":"NoSQL is a non-relational database management system that provides a flexible schema and scalability. It is often used for handling large, unstructured datasets and real-time web applications."
-    },
-    {
         "name":"MongoDB",
         "ring":"adopt",
-        "quadrant":"platforms",
+        "quadrant":"tools",
         "isNew":"FALSE",
         "description":"MongoDB is a popular NoSQL database that stores data in flexible, JSON-like documents. It is known for its scalability, high availability, and ease of use."
     },
     {
         "name":"Cassandra",
         "ring":"adopt",
-        "quadrant":"platforms",
+        "quadrant":"tools",
         "isNew":"FALSE",
         "description":"Cassandra is a distributed, wide-column store NoSQL database management system that is designed to handle large amounts of data across many servers, providing high availability with no single point of failure."
     },
-    {
-        "name":"LAMP",
-        "ring":"adopt",
-        "quadrant":"platforms",
-        "isNew":"FALSE",
-        "description":"LAMP is an open-source web server environment that includes Linux, Apache, MySQL, and PHP/Python/Perl. It is a widely-used stack for building and hosting web applications."
-    },
-    {
-        "name":"GitHub",
-        "ring":"adopt",
-        "quadrant":"platforms",
-        "isNew":"FALSE",
-        "description":"GitHub is a web-based hosting service for version control using Git. It provides a platform for developers to host and collaborate on software projects, manage code repositories, and track changes over time."
-    },
-    {
-        "name":"Bitbucket",
-        "ring":"adopt",
-        "quadrant":"platforms",
-        "isNew":"FALSE",
-        "description":"Bitbucket is a web-based hosting service for version control using Git or Mercurial. It provides a platform for developers to host, collaborate on, and manage their software projects, with features like pull requests, issue tracking, and integrated CI/CD."
-    },
-    {
-        "name":"GitLab",
-        "ring":"adopt",
-        "quadrant":"platforms",
-        "isNew":"FALSE",
-        "description":"GitLab is a web-based platform for version control using Git. It provides a comprehensive set of tools for the entire software development lifecycle, including code repositories, issue tracking, continuous integration and deployment, and more. GitLab can be self-hosted or used as a cloud-based service."
-    },
-    {
-        "name":"Jira",
-        "ring":"adopt",
-        "quadrant":"platforms",
-        "isNew":"FALSE",
-        "description":"Jira is a proprietary project management and issue tracking software developed by Atlassian. It is widely used by software development teams and other organizations to plan, track, and manage their work, including bug tracking, agile project management, and more."
-    },
-    {
-        "name": "AWS",
-        "ring": "adopt",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "Amazon Web Services (AWS) is a comprehensive, evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure as a service (IaaS), platform as a service (PaaS), and packaged software as a service (SaaS) offerings. AWS provides a suite of cloud computing services that include computing, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools, and tools for the Internet of Things."
-    },
-    {
-        "name": "DigitalOcean",
-        "ring": "adopt",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "DigitalOcean is a cloud computing platform that provides virtual private servers (VPS), also known as Droplets, for developers and businesses. It offers a simple and intuitive interface, along with a range of cloud computing services including compute, storage, networking, and managed databases, making it a popular choice for startups, small and medium-sized businesses, and individual developers."
-    },
-    {
-        "name": "Google Cloud",
-        "ring": "adopt",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "Google Cloud Platform (GCP) is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube. GCP provides a wide range of services, including computing, storage, networking, big data, machine learning, and management tools, making it a comprehensive cloud platform for enterprises, startups, and developers."
-    },
-    {
-        "name":"OOP",
-        "ring":"adopt",
-        "quadrant":"techniques",
-        "isNew":"FALSE",
-        "description":"Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which can contain data (properties) and code (methods). OOP is a fundamental approach to software design and development."
-    },
+
     {
         "name":"VCS",
         "ring":"hold",
@@ -363,13 +294,7 @@
         "isNew":"FALSE",
         "description":"Git is a distributed version control system for tracking changes in source code during software development. It is widely used for collaborative software development and is known for its speed, efficiency, and flexibility."
     },
-    {
-        "name":"Continuous Integration",
-        "ring":"adopt",
-        "quadrant":"techniques",
-        "isNew":"FALSE",
-        "description":"Continuous Integration (CI) is a software development practice where developers regularly merge their code changes into a central repository, and then automatically build and test the integrated codebase. This helps to detect and fix integration issues early in the development process."
-    },
+
     {
         "name":"Jenkins",
         "ring":"adopt",
@@ -558,5 +483,116 @@
         "quadrant": "tools",
         "isNew": "FALSE",
         "description": "Boundary is an intelligent proxy that creates granular, identity-based access controls for dynamic infrastructure."
-    }
+    },
+
+
+
+    {
+        "name":"GitHub",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"GitHub is a web-based hosting service for version control using Git. It provides a platform for developers to host and collaborate on software projects, manage code repositories, and track changes over time."
+    },
+    {
+        "name":"Bitbucket",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"Bitbucket is a web-based hosting service for version control using Git or Mercurial. It provides a platform for developers to host, collaborate on, and manage their software projects, with features like pull requests, issue tracking, and integrated CI/CD."
+    },
+    {
+        "name":"GitLab",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"GitLab is a web-based platform for version control using Git. It provides a comprehensive set of tools for the entire software development lifecycle, including code repositories, issue tracking, continuous integration and deployment, and more. GitLab can be self-hosted or used as a cloud-based service."
+    },
+    {
+        "name":"Jira",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"Jira is a proprietary project management and issue tracking software developed by Atlassian. It is widely used by software development teams and other organizations to plan, track, and manage their work, including bug tracking, agile project management, and more."
+    },
+    {
+        "name": "OpenAI",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "A suite of AI models and tools developed by OpenAI, including GPT-3, DALL-E, and Whisper."
+    },
+    {
+        "name": "Google Gemini",
+        "ring": "assess",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "A framework for building conversational AI applications using large language models."
+    },
+    {
+        "name": "AWS",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Amazon Web Services (AWS) is a comprehensive, evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure as a service (IaaS), platform as a service (PaaS), and packaged software as a service (SaaS) offerings. AWS provides a suite of cloud computing services that include computing, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools, and tools for the Internet of Things."
+    },
+    {
+        "name": "DigitalOcean",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "DigitalOcean is a cloud computing platform that provides virtual private servers (VPS), also known as Droplets, for developers and businesses. It offers a simple and intuitive interface, along with a range of cloud computing services including compute, storage, networking, and managed databases, making it a popular choice for startups, small and medium-sized businesses, and individual developers."
+    },
+    {
+        "name": "Google Cloud",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Google Cloud Platform (GCP) is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube. GCP provides a wide range of services, including computing, storage, networking, big data, machine learning, and management tools, making it a comprehensive cloud platform for enterprises, startups, and developers."
+    },
+
+
+
+    {
+        "name":"NoSQL",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"FALSE",
+        "description":"NoSQL is a non-relational database management system that provides a flexible schema and scalability. It is often used for handling large, unstructured datasets and real-time web applications."
+    },
+    {
+        "name":"LAMP",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"FALSE",
+        "description":"LAMP is an open-source web server environment that includes Linux, Apache, MySQL, and PHP/Python/Perl. It is a widely-used stack for building and hosting web applications."
+    },
+    {
+        "name":"OOP",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"FALSE",
+        "description":"Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which can contain data (properties) and code (methods). OOP is a fundamental approach to software design and development."
+    },
+    {
+        "name":"Continuous Integration",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"FALSE",
+        "description":"Continuous Integration (CI) is a software development practice where developers regularly merge their code changes into a central repository, and then automatically build and test the integrated codebase. This helps to detect and fix integration issues early in the development process."
+    },
+    {
+        "name":"Ajax",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"FALSE",
+        "description":"Ajax (Asynchronous JavaScript and XML) is a set of web development techniques that use client-side scripting to create asynchronous web applications. It allows web pages to be updated incrementally, without requiring a full page refresh, improving the user experience."
+    },
+    {
+        "name":"WordPress Plugin and Themes Development",
+        "ring":"hold",
+        "quadrant":"techniques",
+        "isNew":"FALSE",
+        "description":"WordPress Plugin and Themes Development is the process of creating custom plugins and themes for the WordPress content management system. It allows developers to extend the functionality and customize the appearance of WordPress-powered websites."
+    },
 ]
