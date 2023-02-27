@@ -53,25 +53,6 @@ return {
     "Clivern/teacup.neovim",
   },
   {
-    "NeogitOrg/neogit",
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "sindrets/diffview.nvim",
-      "nvim-telescope/telescope.nvim",
-    },
-    config = true
-  },
-  {
     "nvim-lua/plenary.nvim",
-  },
-  {
-    "rafamadriz/friendly-snippets",
-  },
-  {
-    "declancm/cinnamon.nvim",
-    version = "*", -- use latest release
-    opts = {
-      -- change default options here
-    },
   },
 }
