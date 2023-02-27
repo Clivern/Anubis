@@ -1,5 +1,19 @@
 [
     {
+        "name":"HTML",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"HTML (Hypertext Markup Language) is the standard markup language for creating web pages. It provides the structure and content of a web page."
+    },
+    {
+        "name":"CSS",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in a markup language like HTML. It is used to control the layout, color, font, and other visual aspects of a web page."
+    },
+    {
         "name":"PHP",
         "ring":"adopt",
         "quadrant":"languages-and-frameworks",
@@ -48,20 +62,7 @@
         "isNew":"TRUE",
         "description":"A systems programming language focused on performance, safety, and concurrency."
     },
-    {
-        "name":"HTML",
-        "ring":"adopt",
-        "quadrant":"languages-and-frameworks",
-        "isNew":"FALSE",
-        "description":"HTML (Hypertext Markup Language) is the standard markup language for creating web pages. It provides the structure and content of a web page."
-    },
-    {
-        "name":"CSS",
-        "ring":"adopt",
-        "quadrant":"languages-and-frameworks",
-        "isNew":"FALSE",
-        "description":"CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in a markup language like HTML. It is used to control the layout, color, font, and other visual aspects of a web page."
-    },
+
     {
         "name":"Laravel",
         "ring":"adopt",
@@ -309,7 +310,7 @@
     },
     {
         "name":"VCS",
-        "ring":"adopt",
+        "ring":"hold",
         "quadrant":"tools",
         "isNew":"FALSE",
         "description":"Version Control System (VCS) is a software tool that helps manage changes to source code over time. It allows developers to track, collaborate, and revert changes to their codebase."
@@ -329,13 +330,6 @@
         "description":"Continuous Integration (CI) is a software development practice where developers regularly merge their code changes into a central repository, and then automatically build and test the integrated codebase. This helps to detect and fix integration issues early in the development process."
     },
     {
-        "name":"Chef",
-        "ring":"adopt",
-        "quadrant":"tools",
-        "isNew":"FALSE",
-        "description":"Chef is an infrastructure automation tool that helps manage and provision servers. It allows developers and operations teams to define their infrastructure as code, making it easier to automate the deployment and management of complex systems."
-    },
-    {
         "name":"Jenkins",
         "ring":"adopt",
         "quadrant":"tools",
@@ -343,23 +337,16 @@
         "description":"Jenkins is an open-source automation server that helps automate the various stages of the software development lifecycle, such as building, testing, and deploying applications."
     },
     {
-        "name":"ElasticSearch",
-        "ring":"adopt",
-        "quadrant":"platforms",
-        "isNew":"FALSE",
-        "description":"ElasticSearch is a distributed, RESTful search and analytics engine for handling large amounts of data. It is often used for building real-time applications that require full-text search, structured search, and data analysis."
-    },
-    {
         "name":"RabbitMQ",
         "ring":"adopt",
-        "quadrant":"platforms",
+        "quadrant":"tools",
         "isNew":"FALSE",
         "description":"RabbitMQ is a message broker software (or message-oriented middleware) that implements the Advanced Message Queuing Protocol (AMQP). It is used for building distributed and scalable applications by providing a reliable way to send and receive messages between different components."
     },
     {
         "name":"Kafka",
         "ring":"adopt",
-        "quadrant":"platforms",
+        "quadrant":"tools",
         "isNew":"FALSE",
         "description":"Kafka is a distributed streaming platform used for building real-time data pipelines and streaming applications. It is known for its high throughput, low latency, and fault-tolerance, making it a popular choice for handling large-scale data processing tasks."
     },
@@ -369,48 +356,6 @@
         "quadrant":"tools",
         "isNew":"FALSE",
         "description":"HAProxy is a free, open-source load balancer software that provides high availability, load balancing, and proxying for TCP and HTTP-based applications. It is widely used for improving the performance and reliability of web applications and services."
-    },
-    {
-        "name":"Vagrant",
-        "ring":"adopt",
-        "quadrant":"tools",
-        "isNew":"FALSE",
-        "description":"Vagrant is a tool for building and managing virtual machine environments in a single workflow. It allows developers to create and configure portable development environments, making it easier to ensure consistency across different systems."
-    },
-    {
-        "name":"Consul",
-        "ring":"adopt",
-        "quadrant":"tools",
-        "isNew":"FALSE",
-        "description":"Consul is a service mesh solution that provides a full featured control plane with service discovery, configuration, and segmentation functionality. It is used for building and managing distributed systems, ensuring high availability and reliability."
-    },
-    {
-        "name":"Grafana",
-        "ring":"adopt",
-        "quadrant":"tools",
-        "isNew":"FALSE",
-        "description":"Grafana is an open-source data visualization and monitoring tool that allows users to create, explore, and share rich data visualizations and dashboards. It supports a wide range of data sources, making it a versatile tool for monitoring and analyzing various types of data."
-    },
-    {
-        "name":"Prometheus",
-        "ring":"adopt",
-        "quadrant":"tools",
-        "isNew":"FALSE",
-        "description":"Prometheus is an open-source monitoring and alerting toolkit. It is designed to monitor and alert on metrics, providing a powerful and flexible way to monitor the health and performance of systems and applications."
-    },
-    {
-        "name":"Nomad",
-        "ring":"assess",
-        "quadrant":"tools",
-        "isNew":"FALSE",
-        "description":"Nomad is a distributed, highly available, datacenter-aware scheduler designed to run a diverse workload of micro-services, batch, containerized, and non-containerized applications. It is known for its simplicity, scalability, and fault-tolerance."
-    },
-    {
-        "name":"Terraform",
-        "ring":"adopt",
-        "quadrant":"tools",
-        "isNew":"FALSE",
-        "description":"Terraform is an open-source infrastructure as code software tool that enables users to define and provision a datacenter infrastructure. It supports a wide range of cloud providers, making it a versatile choice for managing complex cloud environments."
     },
     {
         "name":"Docker",
@@ -425,5 +370,155 @@
         "quadrant":"tools",
         "isNew":"FALSE",
         "description":"Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications."
+    },
+    {
+        "name": "Elasticsearch",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Elasticsearch is a distributed search and analytics engine that acts as the core of the ELK stack. It excels at managing and analyzing large volumes of data."
+    },
+    {
+        "name": "Logstash",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Logstash is the data processing component of the ELK stack. It specializes in collecting, enriching, and transporting data, making it ready for analysis."
+    },
+    {
+        "name": "Kibana",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Kibana is the user interface of the ELK stack, allowing users to create and manage dashboards and visualizations, turning data into easily understandable formats."
+    },
+    {
+        "name": "Filebeat",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Filebeat is a Beat that collects log files and sends them to Logstash or Elasticsearch for processing and analysis."
+    },
+    {
+        "name": "Metricbeat",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Metricbeat is a Beat that collects system and service metrics and sends them to Logstash or Elasticsearch for processing and analysis."
+    },
+    {
+        "name": "Packetbeat",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Packetbeat is a Beat that collects network traffic data and sends it to Logstash or Elasticsearch for processing and analysis."
+    }
+
+
+    {
+        "name": "Tempo",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Tempo is a high-performance, open-source, and easy-to-use distributed tracing system. It is part of the LGTM observability stack and is used for collecting and storing traces."
+    },
+    {
+        "name": "Prometheus",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Prometheus is a powerful open-source monitoring and alerting system. It collects and stores time-series data and provides a flexible query language for analyzing the data."
+    },
+    {
+        "name": "Grafana",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Grafana is a popular open-source data visualization and monitoring platform. It provides a flexible and customizable interface for creating dashboards and visualizations from various data sources, including Prometheus and Loki."
+    },
+    {
+        "name": "Loki",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is part of the LGTM observability stack and is used for collecting and storing logs."
+    },
+    {
+        "name": "Promtail",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Promtail is a log agent that collects logs and pushes them to Loki. It is designed to be highly scalable and efficient, making it a key component of the LGTM observability stack."
+    },
+    {
+        "name": "Pyroscope",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Pyroscope is an open-source continuous profiling platform that helps developers understand the performance characteristics of their applications. It provides detailed insights into CPU and memory usage, as well as other performance metrics."
+    },
+    {
+        "name": "Alertmanager",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Alertmanager is a component of the Prometheus monitoring system that handles alerts sent by client applications or other Prometheus servers. It provides a flexible and powerful way to manage and route alerts, including the ability to group, silence, and inhibit alerts."
+    },
+
+    {
+        "name":"Vagrant",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Vagrant is a tool for building and managing virtual machine environments in a single workflow. It allows developers to create and configure portable development environments, making it easier to ensure consistency across different systems."
+    },
+    {
+        "name": "HCL",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "HCL is the HashiCorp configuration language, a toolkit for creating structured configuration languages that are both human- and machine-friendly, for use with command-line tools."
+    },
+    {
+        "name": "Packer",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration."
+    },
+    {
+        "name": "Terraform",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. It can be used to provision and manage any cloud, infrastructure, or service."
+    },
+    {
+        "name": "Nomad",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Nomad is a distributed, highly-available, data-center aware scheduler. It can be used to deploy a wide variety of workloads including batch, microservices, and stateful services."
+    },
+    {
+        "name": "Vault",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Vault is a tool for securely managing sensitive data, such as passwords, API keys, and certificates."
+    },
+    {
+        "name": "Consul",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Consul is a service mesh solution that provides a full featured control plane with service discovery, configuration, and segmentation functionality. It is used for building and managing distributed systems, ensuring high availability and reliability."
+    },
+    {
+        "name": "Boundary",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Boundary is an intelligent proxy that creates granular, identity-based access controls for dynamic infrastructure."
     }
 ]
