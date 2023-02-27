@@ -62,7 +62,6 @@
         "isNew":"TRUE",
         "description":"A systems programming language focused on performance, safety, and concurrency."
     },
-
     {
         "name":"Laravel",
         "ring":"adopt",
@@ -412,9 +411,7 @@
         "quadrant": "tools",
         "isNew": "FALSE",
         "description": "Packetbeat is a Beat that collects network traffic data and sends it to Logstash or Elasticsearch for processing and analysis."
-    }
-
-
+    },
     {
         "name": "Tempo",
         "ring": "assess",
@@ -464,7 +461,6 @@
         "isNew": "FALSE",
         "description": "Alertmanager is a component of the Prometheus monitoring system that handles alerts sent by client applications or other Prometheus servers. It provides a flexible and powerful way to manage and route alerts, including the ability to group, silence, and inhibit alerts."
     },
-
     {
         "name":"Vagrant",
         "ring":"adopt",
