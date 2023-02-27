@@ -85,7 +85,7 @@
    },
    {
       "name":"CodeIgniter",
-      "ring":"assess",
+      "ring":"hold",
       "quadrant":"languages-and-frameworks",
       "isNew":"FALSE",
       "description":"CodeIgniter is a PHP web application framework that encourages rapid development. It follows the Model-View-Controller (MVC) architectural pattern and is known for its simplicity and flexibility."
@@ -106,14 +106,14 @@
    },
    {
       "name":"Vert.x",
-      "ring":"assess",
+      "ring":"adopt",
       "quadrant":"languages-and-frameworks",
       "isNew":"FALSE",
       "description":"Vert.x is a toolkit for building reactive applications on the Java Virtual Machine. It is designed to be lightweight, scalable, and asynchronous, making it well-suited for building high-performance, real-time applications."
    },
    {
       "name":"BackboneJs",
-      "ring":"assess",
+      "ring":"hold",
       "quadrant":"languages-and-frameworks",
       "isNew":"FALSE",
       "description":"BackboneJs is a JavaScript library that provides structure to web applications by providing models, views, and collections. It is known for its simplicity and flexibility, making it a popular choice for building single-page applications (SPAs)."
@@ -126,22 +126,32 @@
       "description":"jQuery is a popular JavaScript library that simplifies HTML document traversal, event handling, and AJAX interactions. It is widely used for building interactive and responsive web pages."
    },
    {
+      "name":"Slim",
+      "ring":"hold",
+      "quadrant":"languages-and-frameworks",
+      "isNew":"FALSE",
+      "description":"Slim is a PHP micro-framework that helps you quickly write simple yet powerful web applications and APIs. It is known for its simplicity, flexibility, and performance."
+   },
+   {
+      "name":"Vue.js",
+      "ring":"adopt",
+      "quadrant":"languages-and-frameworks",
+      "isNew":"FALSE",
+      "description":"Vue.js is an open-source, progressive JavaScript framework for building user interfaces and single-page applications."
+   },
+
+
+   {
       "name":"Ajax",
       "ring":"adopt",
       "quadrant":"techniques",
       "isNew":"FALSE",
       "description":"Ajax (Asynchronous JavaScript and XML) is a set of web development techniques that use client-side scripting to create asynchronous web applications. It allows web pages to be updated incrementally, without requiring a full page refresh, improving the user experience."
    },
-   {
-      "name":"Slim",
-      "ring":"assess",
-      "quadrant":"languages-and-frameworks",
-      "isNew":"FALSE",
-      "description":"Slim is a PHP micro-framework that helps you quickly write simple yet powerful web applications and APIs. It is known for its simplicity, flexibility, and performance."
-   },
+
    {
       "name":"WordPress Plugin and Themes Development",
-      "ring":"adopt",
+      "ring":"hold",
       "quadrant":"techniques",
       "isNew":"FALSE",
       "description":"WordPress Plugin and Themes Development is the process of creating custom plugins and themes for the WordPress content management system. It allows developers to extend the functionality and customize the appearance of WordPress-powered websites."
@@ -209,6 +219,7 @@
       "isNew":"FALSE",
       "description":"One of the oldest and best-known infrastructure automation tools, it facilitates continuous delivery and configuration management by converting infrastructure to code."
    },
+
    {
       "name":"MySQL",
       "ring":"adopt",
@@ -232,7 +243,7 @@
    },
    {
       "name":"Cassandra",
-      "ring":"assess",
+      "ring":"adopt",
       "quadrant":"platforms",
       "isNew":"FALSE",
       "description":"Cassandra is a distributed, wide-column store NoSQL database management system that is designed to handle large amounts of data across many servers, providing high availability with no single point of failure."
