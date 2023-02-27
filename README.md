@@ -130,6 +130,23 @@ $ op recipe list -o json | jq '.[].name'
 ```
 
 
+### Technology Radar
+
+My technology radar is stored in `tech_radar.json`
+
+```json
+[
+  {
+    "name": "..",
+    "ring": "adopt or trial or assess or hold",
+    "quadrant": "tools or techniques or platforms or languages-and-frameworks",
+    "isNew": "FALSE or TRUE",
+    "description": ".."
+  }
+]
+```
+
+
 ### License
 
 © 2010, Clivern. Released under [MIT License](https://opensource.org/licenses/mit-license.php).
