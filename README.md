@@ -132,7 +132,7 @@ $ op recipe list -o json | jq '.[].name'
 
 ### Technology Radar
 
-My technology radar is stored in `tech_radar.json`
+My technology radar is stored in `tradar.json`
 
 ```json
 [

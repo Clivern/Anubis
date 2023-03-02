@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Function to get the latest version of a package
+get_latest_version() {
+    local package=$1
+    apt-cache policy "$package" | grep "Candidate:" | awk '{print $2}'
+}
+
+# Function to get the installed version of a package
+get_installed_version() {
+    local package=$1
+    apt list --installed "$package" 2>/dev/null | awk -F/ '{print $2}'
+}
+
+# Prompt the user to enter the package name
+read -p "Enter the package name: " package_name
+
+# Get the latest and installed versions
+latest_version=$(get_latest_version "$package_name")
+installed_version=$(get_installed_version "$package_name")
+
+# Compare the versions and display the result
+echo "Latest version: $latest_version"
+echo "Installed version: $installed_version"
+
