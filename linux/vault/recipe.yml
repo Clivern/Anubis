@@ -21,6 +21,9 @@
 # SOFTWARE.
 
 
+vars:
+  version: 1.14.0
+
 tasks:
   - name: install required packages
     apt:
@@ -38,7 +41,7 @@ tasks:
 
   - name: download vault
     unarchive:
-      src: https://releases.hashicorp.com/vault/1.14.0/vault_1.14.0_linux_386.zip
+      src: "https://releases.hashicorp.com/vault/{{ version }}/vault_{{ version }}_linux_386.zip"
       dest: /opt/hashicorp/vault/
       remote_src: yes
     become: yes

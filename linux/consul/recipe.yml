@@ -21,6 +21,9 @@
 # SOFTWARE.
 
 
+vars:
+  version: 1.16.0
+
 tasks:
   - name: install required packages
     apt:
@@ -38,7 +41,7 @@ tasks:
 
   - name: download consul
     unarchive:
-      src: https://releases.hashicorp.com/consul/1.16.0/consul_1.16.0_linux_386.zip
+      src: "https://releases.hashicorp.com/consul/{{ version }}/consul_{{ version }}_linux_386.zip"
       dest: /opt/hashicorp/consul/
       remote_src: yes
     become: yes
