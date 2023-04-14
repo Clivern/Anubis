@@ -137,6 +137,10 @@ recipes:
     path: kops
     tags: kemet,must_have,k8s
 
+  - name: clivern/kemet/helm
+    path: helm
+    tags: kemet,must_have,k8s
+
   # Grafana Products
   - name: clivern/kemet/k6
     path: k6
@@ -400,6 +404,7 @@ run:
   - name: clivern/kemet/sq
   - name: clivern/kemet/kubectx
   - name: clivern/kemet/kubectl
+  - name: clivern/kemet/helm
   - name: clivern/kemet/kops
   - name: clivern/kemet/k6
   - name: clivern/kemet/httpie

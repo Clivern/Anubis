@@ -19,3 +19,24 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
+
+tasks:
+  - name: download helm
+    unarchive:
+      src: https://get.helm.sh/helm-v3.15.1-darwin-amd64.tar.gz
+      dest: /tmp
+      remote_src: yes
+
+  - name: copy helm
+    copy:
+      src: /tmp/darwin-amd64/helm
+      dest: ~/bin/helm
+      mode: a+x
+      force: true
+
+  - name: get version
+    command: helm version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"
