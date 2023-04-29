@@ -1,33 +1,22 @@
 ---
-title: About Simples
-description: Simples is a super simple blogging theme for Jekyll.
-subtitle: Simples is a super simple blogging theme for Jekyll.
-featured_image: /images/social.jpg
+title: About
+description:
+subtitle:
+featured_image: /images/pages/about_page.png
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/pages/about_page.png)
 
-## Features
+<em>Hi, I am Ahmed, a software developer interested specifically in development using PHP, Python, Go, Java, MySQL, Javascript, Rust &amp; Elixir Newbie!</em>
 
-Simples is packed with powerful features to showcase your content:
+I don't believe on a specific language or a framework but on software principles that translate across language barriers. Frameworks and even programming languages change fast but principles are evergreen. I studied Petroleum Engineering (Yes I am a Petroleum Engineer :D). Weird Right! But It's been an interesting journey to get here.
 
-* Beautiful, minimal design
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+I love challenges, Never settle for less, Always looking to improve and play nice with both humans and machines. Also I like gaming, photography. I been into Arduino and Electronics for a while no.
 
-## Get Simples
+<em><u>Specialties:</u> PHP, Python, Golang, Rust, Elixir, Java, Javascript, MySQL, NoSQL, MongoDB, Cassandra, HTML, CSS, Laravel, Symfony, Angular, CodeIgniter, Flask, Django, Vert.x, BackboneJs, jQuery, Ajax, Slim, Wordpress Plugin and Themes Development, LAMP, OOP, VCS, GIT, Continuous Integration, Chef, Jenkins, ElasticSearch, RabbitMQ, Kafka, HAProxy, Vagrant, Consul, Grafana, Prometheus, Nomad, Terraform, Docker, Kubernetes, MVC, Composer, Bower, VueJs, Typescript, TDD, Linux, Cloud Computing, DevOps, Bash, Apache, Nginx, Scrum.</em>
 
-Simples is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
+<em><u>Current Interests:</u> Scaling Web Applications, Microservices Architecture, Cloud Native Architecture, High Availability, Automation and AI-Powered Systems.</em>
 
-<a href="https://jekyllthemes.io/theme/simples-blog-jekyll-theme" class="button button--large">Get This Theme</a>
+<em>I would love to hear from you, and what you think about clivern. All feedback is welcome and if you have any idea you'd like to share or what you think I should write about next, let me know!</em>
+
+<em>You can reach me at <a href="mailto:hello@clivern.com">hello at clivern.com</a></em>

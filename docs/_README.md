@@ -1,9 +1,3 @@
-# Simples by JekyllThemes.io – Instructions
-
-If you have any questions or feedback about the theme, don't hesitate to reach out to hello@jekyllthemes.io for 1-to-1 support direct from the developers.
-
----
-
 ## Getting started
 
 Copy the theme files to your website directory.
@@ -150,11 +144,3 @@ This is the blog listing page, which shows all your project posts. You can edit 
 These control the main content of your website, and are found inside the `_projects`, `_posts` and `_pages` folders.
 
 Take a look at the demo content inside each folder for full descriptions on what you can do inside these, and to use as a template for your own content.
-
----
-
-## Any questions?
-
-If you have any questions or feedback about the theme, don't hesitate to reach out to hello@jekyllthemes.io for 1-to-1 support direct from the developers!
-
-🤘
