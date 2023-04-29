@@ -2,10 +2,10 @@
 title: About
 description:
 subtitle:
-featured_image: /images/pages/about_page.png
+featured_image: /images/pages/about_page.jpg
 ---
 
-![](/images/pages/about_page.png)
+![](/images/pages/about_page.jpg)
 
 <em>Hi, I am Ahmed, a software developer interested specifically in development using PHP, Python, Go, Java, MySQL, Javascript, Rust &amp; Elixir Newbie!</em>
 

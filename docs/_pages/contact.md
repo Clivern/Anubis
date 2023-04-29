@@ -1,10 +1,14 @@
 ---
 title: Contact
-subtitle: Simples comes with a built-in contact form, that's free and easy to set up.
-description: Simples is a super simple blogging theme for Jekyll.
-featured_image: /images/demo/demo-landscape.jpg
+description:
+subtitle:
+featured_image: /images/pages/about_page.png
 ---
 
-{% include contact-form.html %}
+![](/images/pages/contact_page.jpeg)
 
-We've made a contact form that you can use with [Formspree](https://formspree.io/create/jekyllthemes) to handle up to 50 submissions per month for free. You could also easily switch out the end-point to use another contact form service.
+<strong><em>Help Us Improve Our Services!</em></strong>
+
+We love to providing all of our users with the best service we can. If you feel you have received unsatisfactory service or unfair treatment, please send us an email. Your feedback represents an opportunity to improve our services to meet your needs.
+
+Please send your feedback to this email <a href="mailto:hello@clivern.com">hello@clivern.com</a>
