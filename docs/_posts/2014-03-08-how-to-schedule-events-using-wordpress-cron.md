@@ -1,11 +1,11 @@
 ---
 title: How To Schedule Events Using WordPress Cron
 date: 2014-03-08 00:00:00
-featured_image: https://images.unsplash.com/photo-1530172888244-f3520bbeaa55
+featured_image: https://images.unsplash.com/photo-1487360920430-e18a62e59ad2
 excerpt: Cron API is a great feature of wordpress. It allows wordpress to execute certain functions on a schedule. By default, wordpress schedule events to check for new versions and to check for plugins and themes updates. Every time your blog requested by visitor or search engine bot. Wordpress check if there are any cron jobs to run.
 ---
 
-![](https://images.unsplash.com/photo-1530172888244-f3520bbeaa55)
+![](https://images.unsplash.com/photo-1487360920430-e18a62e59ad2)
 
 Cron API is a great feature of wordpress. It allows wordpress to execute certain functions on a schedule. By default, wordpress schedule events to check for new versions and to check for plugins and themes updates. Every time your blog requested by visitor or search engine bot. Wordpress check if there are any cron jobs to run.
 

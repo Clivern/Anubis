@@ -1,11 +1,11 @@
 ---
 title: Working With MySQL Joins
 date: 2014-03-11 00:00:00
-featured_image: https://images.unsplash.com/photo-1530172888244-f3520bbeaa55
+featured_image: https://images.unsplash.com/photo-1582105665743-5f7e6ad6d24a
 excerpt: In PHP applications, Retrieving data from relational tables generally require the use of joins. MySQL joins enable developers to select data from multiple tables with a single SQL statement. Let's explore MYSQL joins.
 ---
 
-![](https://images.unsplash.com/photo-1530172888244-f3520bbeaa55)
+![](https://images.unsplash.com/photo-1582105665743-5f7e6ad6d24a)
 
 In PHP applications, Retrieving data from relational tables generally require the use of joins. MySQL joins enable developers to select data from multiple tables with a single SQL statement. Let's explore MYSQL joins.
 

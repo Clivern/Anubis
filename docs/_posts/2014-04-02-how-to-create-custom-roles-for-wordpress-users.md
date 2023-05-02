@@ -1,11 +1,11 @@
 ---
 title: How To Create Custom Roles For WordPress Users
 date: 2014-04-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1530172888244-f3520bbeaa55
+featured_image: https://images.unsplash.com/photo-1530947443747-bcaaacd048d0
 excerpt: We discussed before how to work with wordpress built in roles and capabilities. Let's lead by creating custom roles and add capabilities to these roles.
 ---
 
-![](https://images.unsplash.com/photo-1530172888244-f3520bbeaa55)
+![](https://images.unsplash.com/photo-1530947443747-bcaaacd048d0)
 
 We discussed before how to work with wordpress built in roles and capabilities. Let's lead by creating custom roles and add capabilities to these roles.
 

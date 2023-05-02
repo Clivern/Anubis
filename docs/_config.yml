@@ -6,13 +6,13 @@ baseurl:
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: /:name/
   posts:
     output: true
-    permalink: /:slug
+    permalink: /:slug/
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /project/:slug/
 
 defaults:
   -

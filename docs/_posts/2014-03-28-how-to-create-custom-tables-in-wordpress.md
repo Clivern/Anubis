@@ -1,11 +1,11 @@
 ---
 title: How To Create Custom Tables In WordPress
 date: 2014-02-18 00:00:00
-featured_image: https://images.unsplash.com/photo-1530172888244-f3520bbeaa55
+featured_image: https://images.unsplash.com/photo-1507237081139-5dfb209dba79
 excerpt: WordPress creates 11 tables to store settings, users data, posts data, comments data, links and terms. In many cases wordpress tables can fit perfectly our plugin data but sometimes you need to create custom tables. WordPress provides a handful function that can create your custom tables and update their structure easily.
 ---
 
-![](https://images.unsplash.com/photo-1530172888244-f3520bbeaa55)
+![](https://images.unsplash.com/photo-1507237081139-5dfb209dba79)
 
 WordPress creates 11 tables to store settings, users data, posts data, comments data, links and terms. In many cases wordpress tables can fit perfectly our plugin data but sometimes you need to create custom tables. WordPress provides a handful function that can create your custom tables and update their structure easily.
 

@@ -17,9 +17,9 @@ menu_settings:
     # - title: 'Contact'
     #   url: '/contact'
     - title: 'Sponsor'
-      url: '/sponsor'
+      url: '/sponsor/'
     - title: 'About'
-      url: '/about'
+      url: '/about/'
 
 grid_settings:
   grid_spacing: 10

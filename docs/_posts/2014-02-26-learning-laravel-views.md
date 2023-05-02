@@ -1,11 +1,11 @@
 ---
 title: Learning Laravel Views
 date: 2014-02-26 00:00:00
-featured_image: https://images.unsplash.com/photo-1530172888244-f3520bbeaa55
+featured_image: https://images.unsplash.com/photo-1492500318351-274a118407c2
 excerpt: Laravel like any php framework separate visual aspects of your application from business logic .Before we get started to explore templating syntax . I will show you how to render view files from a route or controller.
 ---
 
-![](https://images.unsplash.com/photo-1530172888244-f3520bbeaa55)
+![](https://images.unsplash.com/photo-1492500318351-274a118407c2)
 
 Laravel like any php framework separate visual aspects of your application from business logic .Before we get started to explore templating syntax . I will show you how to render view files from a route or controller.
 

@@ -1,11 +1,11 @@
 ---
 title: How To Validate Forms With Laravel Part1
 date: 2014-03-13 00:00:00
-featured_image: https://images.unsplash.com/photo-1530172888244-f3520bbeaa55
+featured_image: https://images.unsplash.com/photo-1604182234951-06adec74329e
 excerpt: We discussed before form creation with laravel and I think the important thing you need to learn right now is form validation. You should always validate forms to ensure that you receive good data. You shouldn't trust your clients or they will exploit your application.
 ---
 
-![](https://images.unsplash.com/photo-1530172888244-f3520bbeaa55)
+![](https://images.unsplash.com/photo-1604182234951-06adec74329e)
 
 We discussed before form creation with laravel and I think the important thing you need to learn right now is form validation. You should always validate forms to ensure that you receive good data. You shouldn't trust your clients or they will exploit your application.
 

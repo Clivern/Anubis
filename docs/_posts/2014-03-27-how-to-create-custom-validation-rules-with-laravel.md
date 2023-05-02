@@ -1,11 +1,11 @@
 ---
 title: How To Create Custom Validation Rules With Laravel
 date: 2014-03-27 00:00:00
-featured_image: https://images.unsplash.com/photo-1530172888244-f3520bbeaa55
+featured_image: https://images.unsplash.com/photo-1460794418188-1bb7dba2720d
 excerpt: You don't need laravel built in validation rules and wish if you could create your own validation rules. Well, fortunately laravel is very flexible as it allows you to build your own validation rules and with a bunch of ways.
 ---
 
-![](https://images.unsplash.com/photo-1530172888244-f3520bbeaa55)
+![](https://images.unsplash.com/photo-1460794418188-1bb7dba2720d)
 
 You don't need laravel built in validation rules and wish if you could create your own validation rules. Well, fortunately laravel is very flexible as it allows you to build your own validation rules and with a bunch of ways.
 

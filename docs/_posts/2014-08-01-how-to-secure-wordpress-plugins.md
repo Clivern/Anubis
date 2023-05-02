@@ -1,11 +1,11 @@
 ---
 title: How to Secure WordPress Plugins
 date: 2014-08-01 00:00:00
-featured_image: https://images.unsplash.com/photo-1530172888244-f3520bbeaa55
+featured_image: https://images.unsplash.com/photo-1489440756412-01ddd309b1a1
 excerpt: Securing your wordpress plugin isn't a difficult task or cumbersome because wordpress implements several tools to make your code safe and secure. We will exploore how to secure your plugins from internet pirates.
 ---
 
-![](https://images.unsplash.com/photo-1530172888244-f3520bbeaa55)
+![](https://images.unsplash.com/photo-1489440756412-01ddd309b1a1)
 
 Securing your wordpress plugin isn't a difficult task or cumbersome because wordpress implements several tools to make your code safe and secure. We will exploore how to secure your plugins from internet pirates.
 

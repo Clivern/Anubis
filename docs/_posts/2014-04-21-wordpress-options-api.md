@@ -1,11 +1,11 @@
 ---
 title: WordPress Options API
 date: 2014-04-21 00:00:00
-featured_image: https://images.unsplash.com/photo-1530172888244-f3520bbeaa55
+featured_image: https://images.unsplash.com/photo-1687952608259-437c4233876d
 excerpt: Wordpress provides a set of functions that enable easy access to plugin options. By default wordpress and plugins options are stored in `wp_options` table. Let's explore these functions.
 ---
 
-![](https://images.unsplash.com/photo-1530172888244-f3520bbeaa55)
+![](https://images.unsplash.com/photo-1687952608259-437c4233876d)
 
 Wordpress provides a set of functions that enable easy access to plugin options. By default wordpress and plugins options are stored in `wp_options` table. Let's explore these functions.
 

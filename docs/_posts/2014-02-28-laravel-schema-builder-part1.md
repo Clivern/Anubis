@@ -1,11 +1,11 @@
 ---
 title: Laravel Schema Builder Part1
 date: 2014-02-28 00:00:00
-featured_image: https://images.unsplash.com/photo-1530172888244-f3520bbeaa55
+featured_image: https://images.unsplash.com/photo-1531210194434-2bc4d24185a8
 excerpt: Does your application need to store data in a database? Well let's see if laravel will give help. Laravel support MySQL, SQLite, PostgreSQL and SQL Server Platforms. Also it has very flexible abstraction layer. It can work with multi database applications. Secured as it escape value for you .Let's explore how laravel take care of you.
 ---
 
-![](https://images.unsplash.com/photo-1530172888244-f3520bbeaa55)
+![](https://images.unsplash.com/photo-1531210194434-2bc4d24185a8)
 
 Does your application need to store data in a database? Well let's see if laravel will give help. Laravel support MySQL, SQLite, PostgreSQL and SQL Server Platforms. Also it has very flexible abstraction layer. It can work with multi database applications. Secured as it escape value for you .Let's explore how laravel take care of you.
 
