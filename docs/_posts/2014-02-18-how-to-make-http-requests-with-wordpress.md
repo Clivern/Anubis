@@ -34,22 +34,22 @@ The default parameters are the following array:
 
 ```php
 $defaults = array(
- 'method' => 'GET',
- 'timeout' => 5,
- 'redirection' => 5,
- 'httpversion' => '1.0',
- 'user-agent' => 'WordPress/version;URL',
- 'reject_unsafe_urls' => false,
- 'blocking' => true,
- 'headers' => array(),
- 'cookies' => array(),
- 'body' => null,
- 'compress' => false,
- 'decompress' => true,
- 'sslverify' => true,
- 'stream' => false,
- 'filename' => null,
- 'limit_response_size' => null,
+   'method' => 'GET',
+   'timeout' => 5,
+   'redirection' => 5,
+   'httpversion' => '1.0',
+   'user-agent' => 'WordPress/version;URL',
+   'reject_unsafe_urls' => false,
+   'blocking' => true,
+   'headers' => array(),
+   'cookies' => array(),
+   'body' => null,
+   'compress' => false,
+   'decompress' => true,
+   'sslverify' => true,
+   'stream' => false,
+   'filename' => null,
+   'limit_response_size' => null,
 );
 ```
 
