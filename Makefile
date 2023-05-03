@@ -39,4 +39,10 @@ run:
 	done
 
 
+## serve: Serve Website.
+serve:
+	@echo ">> ============= Serve Website ============= <<"
+	cd docs; bundle exec jekyll serve
+
+
 .PHONY: help
