@@ -6,3 +6,5 @@ apt-get upgrade -y
 
 apt-get install prometheus-node-exporter -y
 apt-get install prometheus -y
+
+# Install https://github.com/Clivern/arduino_exporter on the raspberrypi
