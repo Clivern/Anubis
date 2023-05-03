@@ -20,7 +20,7 @@ iex(1)> h spawn/1
 
 def spawn(fun)
 
-  @spec spawn((() -&gt; any())) :: pid()
+  @spec spawn((() -> any())) :: pid()
 
 Spawns the given function and returns its PID.
 
@@ -38,26 +38,26 @@ Inlined by the compiler.
 ## Examples
 
     current = self()
-    child = spawn(fn -&gt; send(current, {self(), 1 + 2}) end)
+    child = spawn(fn -> send(current, {self(), 1 + 2}) end)
 
     receive do
-      {^child, 3} -&gt; IO.puts("Received 3 back")
+      {^child, 3} -> IO.puts("Received 3 back")
     end
 ```
 
 ```elixir
-pid = spawn(fn -&gt; IO.puts("Hello World") end)
+pid = spawn(fn -> IO.puts("Hello World") end)
 
 IO.inspect pid
 
 # Hello World
-# PID<0.109.0>;
+# PID<0.109.0>
 ```
 
 ```elixir
 iex(1)> h spawn/3
 
-                          def spawn(module, fun, args)
+def spawn(module, fun, args)
 
   @spec spawn(module(), atom(), list()) :: pid()
 
@@ -75,7 +75,7 @@ Inlined by the compiler.
 
 ## Examples
 
-    spawn(SomeModule, :function, &#91;1, 2, 3])
+    spawn(SomeModule, :function, [1, 2, 3])
 ```
 
 ```elixir
@@ -85,7 +85,7 @@ defmodule Example do
   end
 end
 
-pid = spawn(Example, :sum, &#91;1, 2])
+pid = spawn(Example, :sum, [1, 2])
 
 IO.inspect pid
 ```
@@ -97,7 +97,7 @@ Processes communicate by sending and receiving messages using the `send/2` and `
 ```elixir
 iex(1)> h send/2
 
-                            def send(dest, message)
+def send(dest, message)
 
   @spec send(dest :: Process.dest(), message) :: message when message: any()
 
@@ -183,18 +183,18 @@ defmodule Example do
   end
 end
 
-pid = spawn(Example, :listen, &#91;])
+pid = spawn(Example, :listen, [])
 
-spawn(fn -> send pid, {:error, "&#91;ERROR] log item"} end)
-spawn(fn -> send pid, {:info, "&#91;INFO] log item"} end)
-spawn(fn -> send pid, {:debug, "&#91;DEBUG] log item"} end)
-spawn(fn -> send pid, {:warn, "&#91;WARN] log item"} end)
+spawn(fn -> send pid, {:error, "[ERROR] log item"} end)
+spawn(fn -> send pid, {:info, "[INFO] log item"} end)
+spawn(fn -> send pid, {:debug, "[DEBUG] log item"} end)
+spawn(fn -> send pid, {:warn, "[WARN] log item"} end)
 ```
 
 ```elixir
 defmodule Worker do
   def start do
-    spawn(__MODULE__, :sum, &#91;])
+    spawn(__MODULE__, :sum, [])
   end
 
   def sum() do
@@ -217,15 +217,15 @@ defmodule Collection do
   end
 end
 
-IO.puts Collection.sum(&#91;2, 3, 5])
-IO.puts Collection.sum(&#91;21, 3, 7])
-IO.puts Collection.sum(&#91;2, 9, 5])
+IO.puts Collection.sum([2, 3, 5])
+IO.puts Collection.sum([21, 3, 7])
+IO.puts Collection.sum([2, 9, 5])
 ```
 
 ```elixir
 defmodule Worker do
   def start do
-    spawn_link(__MODULE__, :sum, &#91;])
+    spawn_link(__MODULE__, :sum, [])
   end
 
   def sum() do
@@ -248,9 +248,9 @@ defmodule Collection do
   end
 end
 
-IO.puts Collection.sum(&#91;2, 3, 5])
-IO.puts Collection.sum(&#91;21, 3, 7])
-IO.puts Collection.sum(&#91;2, 9, 5])
+IO.puts Collection.sum([2, 3, 5])
+IO.puts Collection.sum([21, 3, 7])
+IO.puts Collection.sum([2, 9, 5])
 ```
 
 **Concurrency Primitives**
@@ -267,7 +267,7 @@ defmodule Example do
   end
 end
 
-task = Task.async(Example, :double, &#91;2000])
+task = Task.async(Example, :double, [2000])
 
 Task.await(task) # 4000
 ```
@@ -299,9 +299,9 @@ defmodule Collection do
   end
 end
 
-IO.puts Collection.sum(&#91;3, 2, 1, 8]) # 14
-IO.puts Collection.sum(&#91;3, 8]) # 11
-IO.puts Collection.sum(&#91;10, 8]) # 18
+IO.puts Collection.sum([3, 2, 1, 8]) # 14
+IO.puts Collection.sum([3, 8]) # 11
+IO.puts Collection.sum([10, 8]) # 18
 ```
 
 `Agent`: The Agent module provides a simple shared state abstraction. It allows you to store and retrieve state in a process, providing atomic updates and synchronous access to the state.
