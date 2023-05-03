@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 void setup() {
+    Serial.begin(9600);
 }
 
 void loop() {
-  String uno_up = R"({"type": "gauge", "name": "uno_up", "help": "the arduino status.", "method": "set", "value": 1, "labels": {"country": "nl"}})";
-  Serial.write(uno_up.c_str());
+  Serial.write("{\"type\":\"gauge\",\"name\":\"uno_up\",\"help\":\"The arduino status.\",\"method\":\"set\",\"value\":1,\"labels\":{\"country\":\"nl\"}}");
   delay(3000);
 }
