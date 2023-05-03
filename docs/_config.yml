@@ -1,7 +1,7 @@
 site: Clivern
 
-url: 
-baseurl: 
+url: https://clivern.com
+baseurl: /
 
 collections:
   pages:
