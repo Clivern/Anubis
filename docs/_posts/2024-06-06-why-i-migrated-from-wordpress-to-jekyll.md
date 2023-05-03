@@ -1,6 +1,6 @@
 ---
 title: Finally moved clivern from WordPress to Jekyll
-date: 2013-11-07 00:00:00
+date: 2024-06-06 00:00:00
 featured_image: https://images.unsplash.com/photo-1446712146541-843e336d8154
 excerpt: Today I just finished migrating my personal website from WordPress to Jekyll after running it for over 10 years (since 2010). It was a long journey - first hosted on GoDaddy's shared hosting with PHP 5.3, then upgraded to PHP 5.6. I moved it to DigitalOcean to get on PHP 7, and about 3 years ago, shifted it to Google Cloud. Today, I updated the DNS to GitHub Pages and took down the google cloud server.
 ---
