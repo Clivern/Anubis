@@ -166,7 +166,8 @@ The `minReadySeconds` property specifies how long a newly created pod should be 
 
 The fact that the deployment will stuck is a good thing, because if it had continued replacing the old pods with the new ones, you’d end up with a completely non-working service
 
----yaml
+```yaml
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
