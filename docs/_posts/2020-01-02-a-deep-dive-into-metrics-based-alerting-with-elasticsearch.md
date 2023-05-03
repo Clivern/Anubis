@@ -36,7 +36,7 @@ from hond.hond import Hond
 from hond.trigger import Trigger
 
 
-driver = ElasticSearch(&#91;"http://localhost:9200"], "metrics")
+driver = ElasticSearch(["http://localhost:9200"], "metrics")
 hond = Hond(driver)
 
 # Migrate elasticsearch index
@@ -51,7 +51,7 @@ from hond.metric import Metric
 from hond.hond import Hond
 from hond.trigger import Trigger
 
-driver = ElasticSearch(&#91;"http://localhost:9200"], "metrics")
+driver = ElasticSearch(["http://localhost:9200"], "metrics")
 hond = Hond(driver)
 
 # Insert a metric
