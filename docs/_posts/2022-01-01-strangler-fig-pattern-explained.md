@@ -27,7 +27,7 @@ Even there is a lot of **benefits** in adopting the **strangler pattern**, It is
 
 There are some guides that worth reading about **monolith refactoring** and **microservices migration** using **strangler pattern**:
 
-- The End of the Public API Strangler.](https://developers.soundcloud.com/blog/end-of-the-strangler)
+- [The End of the Public API Strangler.](https://developers.soundcloud.com/blog/end-of-the-strangler)
 - [Refactoring Legacy Code with the Strangler Fig Pattern.](https://shopify.engineering/refactoring-legacy-code-strangler-fig-pattern)
 - [Strangler Fig Application.](https://martinfowler.com/bliki/StranglerFigApplication.html)
 - [Strangler Fig Pattern.](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig)
