@@ -152,8 +152,9 @@ font_settings:
 advanced_settings:
   ajax_loading: true
   analytics_code: |
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7G0HKSRRQ" type="89d81ff289493f96dc0442d4-text/javascript"></script>
-    <script type="89d81ff289493f96dc0442d4-text/javascript">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7G0HKSRRQ"></script>
+    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
