@@ -19,7 +19,7 @@ In a nutshell, the **Strangler Fig Pattern** offers an incremental, reliable pro
 
 The great thing about this approach is that changes can be incremental, monitored at all times, and the chances of something breaking unexpectedly are fairly low. The old system remains in place until we’re confident that the new system is operating as expected, and then it’s a simple matter of removing all the legacy code.
 
-On the other hand the **waterfall pattern **requires you to commit to a long development and deployment cycle, which increases the risk of bugs and lowers your velocity.
+On the other hand the **waterfall pattern** requires you to commit to a long development and deployment cycle, which increases the risk of bugs and lowers your velocity.
 
 The **waterfall method** can take well over a year to deliver results, but you can make progress in bursts of six months or less by using the more agile **strangler methodology**. It naturally divides work into attainable targets, which means developers are motivated to complete tasks that deliver visible results.
 
