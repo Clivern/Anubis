@@ -22,7 +22,7 @@
 
 
 tasks:
-  - name: installing mysql@5.7 package
+  - name: installing mysql@8.1 package
     homebrew:
       name: "{{ item }}"
       state: present
