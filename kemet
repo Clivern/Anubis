@@ -27,6 +27,7 @@ commands=(
     "opswork recipe run clivern/kemet/lua -h localhost"
     "opswork recipe run clivern/kemet/elixir -h localhost"
     "opswork recipe run clivern/kemet/mysql -h localhost"
+    "opswork recipe run clivern/kemet/mysql-client -h localhost"
     "opswork recipe run clivern/kemet/postgresql -h localhost"
     "opswork recipe run clivern/kemet/nmap -h localhost"
     "opswork recipe run clivern/kemet/netcat -h localhost"

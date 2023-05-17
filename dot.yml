@@ -107,6 +107,10 @@ recipes:
     path: mysql
     tags: kemet,must_have,db
 
+  - name: clivern/kemet/mysql-client
+    path: mysql-client
+    tags: kemet,must_have,db
+
   - name: clivern/kemet/postgresql
     path: postgresql
     tags: kemet,must_have,db
