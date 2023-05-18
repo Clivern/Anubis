@@ -65,7 +65,19 @@ e.Use(echoprometheus.NewMiddleware(/**application name**/))
 e.GET("/metrics", echoprometheus.NewHandler())
 ```
 
-Let's do few curl requests to our application `/metrics` and `/_heath` endpoints with and without basic auth credentials. You should get `Www-Authenticate: basic realm=Restricted` from `/metrics` if credentials are missing or wrong
+In the above example, I used `subtle.ConstantTimeCompare` instead of a simple comparison operator `==`. While you could use the `==` operator, it's better to use `subtle.ConstantTimeCompare` when protecting sensitive routes to avoid [a timing attack](https://en.wikipedia.org/wiki/Timing_attack).
+
+Here is the timing attack in a nutshell. Imaging the following code
+
+```golang
+if username == provided_username && secret == provided_secret {
+    /** allow access */
+}
+```
+
+The system will perform a `byte-by-byte` comparison, stopping at the first mismatch. The comparison takes longer when more initial bytes match between the provided inputs and the correct ones. In timing attacks, the attacker can guess the correct value, one byte at a time, by measuring the response time.
+
+Anyways Let's do few curl requests to our application `/metrics` and `/_heath` endpoints with and without basic auth credentials. You should get `Www-Authenticate: basic realm=Restricted` from `/metrics` if credentials are missing or wrong
 
 ```bash
 $ curl http://localhost:8000/metrics -v
@@ -123,19 +135,7 @@ $ curl http://localhost:8000/_heath -v
 < Content-Length: 0
 ```
 
-In the above example, I used `subtle.ConstantTimeCompare` instead of a simple comparison operator `==`. While you could use the `==` operator, it's better to use `subtle.ConstantTimeCompare` when protecting sensitive routes to avoid [a timing attack](https://en.wikipedia.org/wiki/Timing_attack).
-
-Here is the timing attack in a nutshell. Imaging the following code
-
-```golang
-if username == provided_username && secret == provided_secret {
-    /** allow access */
-}
-```
-
-The system will perform a `byte-by-byte` comparison, stopping at the first mismatch. The comparison takes longer when more initial bytes match between the provided inputs and the correct ones. In timing attacks, the attacker can guess the correct value, one byte at a time, by measuring the response time.
-
-Anyways In [prometheus](https://prometheus.io/), you can set the `Authorization` header on every scrape request with the configured username and password. Check the [scrape_configs](https://prometheus.io/docs/prometheus/latest/configuration/configuration/#scrape_config) configuration
+Finally In [prometheus](https://prometheus.io/), you can set the `Authorization` header on every scrape request with the configured username and password. Check the [scrape_configs](https://prometheus.io/docs/prometheus/latest/configuration/configuration/#scrape_config) configuration
 
 ```yaml
 scrape_configs:
