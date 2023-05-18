@@ -77,7 +77,7 @@ if username == provided_username && secret == provided_secret {
 
 The system will perform a `byte-by-byte` comparison, stopping at the first mismatch. The comparison takes longer when more initial bytes match between the provided inputs and the correct ones. In timing attacks, the attacker can guess the correct value, one byte at a time, by measuring the response time.
 
-Anyways In [prometheus](https://prometheus.io/), you can set the `Authorization` header on every scrape request with the configured username and password. Check the [`scrape_configs`](https://prometheus.io/docs/prometheus/latest/configuration/configuration/#scrape_config)
+Anyways In [prometheus](https://prometheus.io/), you can set the `Authorization` header on every scrape request with the configured username and password. Check the [scrape_configs](https://prometheus.io/docs/prometheus/latest/configuration/configuration/#scrape_config) configuration
 
 ```yaml
 scrape_configs:
