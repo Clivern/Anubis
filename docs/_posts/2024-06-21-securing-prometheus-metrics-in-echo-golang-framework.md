@@ -65,7 +65,7 @@ e.Use(echoprometheus.NewMiddleware(/**application name**/))
 e.GET("/metrics", echoprometheus.NewHandler())
 ```
 
-In the above example, I used `subtle.ConstantTimeCompare` instead of a simple comparison operator `==``. While you could use the `==` operator, it's better to use `subtle.ConstantTimeCompare` when protecting sensitive routes to avoid [a timing attack](https://en.wikipedia.org/wiki/Timing_attack).
+In the above example, I used `subtle.ConstantTimeCompare` instead of a simple comparison operator `==`. While you could use the `==` operator, it's better to use `subtle.ConstantTimeCompare` when protecting sensitive routes to avoid [a timing attack](https://en.wikipedia.org/wiki/Timing_attack).
 
 Here is the timing attack in a nutshell. Imaging the following code
 
