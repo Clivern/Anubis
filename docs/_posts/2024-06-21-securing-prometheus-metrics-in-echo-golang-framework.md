@@ -9,7 +9,10 @@ excerpt: Echo golang framework supports Prometheus Metrics middleware, but the m
 
 [Echo](https://echo.labstack.com/) golang framework supports Prometheus Metrics middleware, but the middleware itself doesn't support authentication. We can use the basic authentication middleware to secure the metrics endpoint.
 
-In your application, you should enable the basic auth middleware only for the `/metrics` endpoint. `BasicAuthConfig` takes two functions: `Skipper` to define when to skip the middleware, and `Validator` to validate the credentials, as follows:
+In your application, you should enable the basic auth middleware only for the `/metrics` endpoint. `BasicAuthConfig` takes two functions:
+
+- `Skipper` to define when to skip the middleware
+- `Validator` to validate the credentials, as follows:
 
 ```golang
 BasicAuthConfig struct {
@@ -30,45 +33,45 @@ Here is how you can implement it
 
 ```golang
 import (
-	"crypto/subtle"
+    "crypto/subtle"
 
-	"github.com/labstack/echo-contrib/echoprometheus"
-	"github.com/labstack/echo/v4"
-	"github.com/labstack/echo/v4/middleware"
+    "github.com/labstack/echo-contrib/echoprometheus"
+    "github.com/labstack/echo/v4"
+    "github.com/labstack/echo/v4/middleware"
 )
 
 e := echo.New()
 
 e.Use(middleware.BasicAuthWithConfig(middleware.BasicAuthConfig{
-	Skipper: func(c echo.Context) bool {
-		// Skip basic auth for other routes
-		if c.Path() != "/metrics" {
-			return true
-		}
+    Skipper: func(c echo.Context) bool {
+        // Skip basic auth for other routes
+        if c.Path() != "/metrics" {
+            return true
+        }
 
-		return false
-	},
-	Validator: func(username, password string, c echo.Context) (bool, error) {
-		if subtle.ConstantTimeCompare([]byte(username), []byte(/** configured username goes here **/)) == 1 &&
-			subtle.ConstantTimeCompare([]byte(password), []byte(/** configured secret goes here **/)) == 1 {
-			return true, nil
-		}
+        return false
+    },
+    Validator: func(username, password string, c echo.Context) (bool, error) {
+        if subtle.ConstantTimeCompare([]byte(username), []byte(/** configured username goes here **/)) == 1 &&
+            subtle.ConstantTimeCompare([]byte(password), []byte(/** configured secret goes here **/)) == 1 {
+            return true, nil
+        }
 
-		return false, nil
-	},
+        return false, nil
+    },
 }))
 e.Use(echoprometheus.NewMiddleware(/**application name**/))
 
 e.GET("/metrics", echoprometheus.NewHandler())
 ```
 
-In the above example, I used `subtle.ConstantTimeCompare` instead of a simple comparison operator `==``. While you could use the `==`` operator, it's better to use `subtle.ConstantTimeCompare` when protecting sensitive routes to avoid [a timing attack](https://en.wikipedia.org/wiki/Timing_attack).
+In the above example, I used `subtle.ConstantTimeCompare` instead of a simple comparison operator `==``. While you could use the `==` operator, it's better to use `subtle.ConstantTimeCompare` when protecting sensitive routes to avoid [a timing attack](https://en.wikipedia.org/wiki/Timing_attack).
 
 Here is the timing attack in a nutshell. Imaging the following code
 
 ```golang
 if username == provided_username && secret == provided_secret {
-	/** allow access */
+    /** allow access */
 }
 ```
 
@@ -79,10 +82,10 @@ Anyways In [prometheus](https://prometheus.io/), you can set the `Authorization`
 ```yaml
 scrape_configs:
   - job_name: prometheus
-	basic_auth:
-	  username: admin!
-	  password: secret!
+    basic_auth:
+        username: admin!
+        password: secret!
     static_configs:
-      - targets:
-          - 'localhost:9090'
+        - targets:
+            - 'localhost:9090'
 ```
