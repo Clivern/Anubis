@@ -65,6 +65,64 @@ e.Use(echoprometheus.NewMiddleware(/**application name**/))
 e.GET("/metrics", echoprometheus.NewHandler())
 ```
 
+Let's do few curl requests to our application `/metrics` and `/_heath` endpoints with and without basic auth credentials. You should get `Www-Authenticate: basic realm=Restricted` from `/metrics` if credentials are missing or wrong
+
+```bash
+$ curl http://localhost:8000/metrics -v
+* Host localhost:8000 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+*   Trying [::1]:8000...
+* Connected to localhost (::1) port 8000
+> GET /metrics HTTP/1.1
+> Host: localhost:8000
+> User-Agent: curl/8.6.0
+> Accept: */*
+>
+< HTTP/1.1 200 OK
+< Content-Type: application/json
+< Www-Authenticate: basic realm=Restricted
+< X-Request-Id: QWTVOFCAThpfbOyyniVyYEXUIQHKjGwP
+< Date: Fri, 21 Jun 2024 13:08:45 GMT
+< Content-Length: 0
+
+$ curl -u admin:secret http://localhost:8000/metrics -v
+* Host localhost:8000 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+*   Trying [::1]:8000...
+* Connected to localhost (::1) port 8000
+* Server auth using Basic with user 'admin'
+> GET /metrics HTTP/1.1
+> Host: localhost:8000
+> Authorization: Basic YWRtaW46c2VjcmV0
+> User-Agent: curl/8.6.0
+> Accept: */*
+>
+< HTTP/1.1 200 OK
+< Content-Type: text/plain; version=0.0.4; charset=utf-8; escaping=values
+< X-Request-Id: twBumHzpwjeQQrAJJffEcZdWbCDmmJRC
+< Date: Fri, 21 Jun 2024 13:09:55 GMT
+< Transfer-Encoding: chunked
+
+$ curl http://localhost:8000/_heath -v
+* Host localhost:8000 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+*   Trying [::1]:8000...
+* Connected to localhost (::1) port 8000
+> GET /_heath HTTP/1.1
+> Host: localhost:8000
+> User-Agent: curl/8.6.0
+> Accept: */*
+>
+< HTTP/1.1 200 OK
+< Content-Type: application/json
+< X-Request-Id: mbWzmzsFxWAyfYIPVmThqHIsdGxCHmTt
+< Date: Fri, 21 Jun 2024 13:09:33 GMT
+< Content-Length: 0
+```
+
 In the above example, I used `subtle.ConstantTimeCompare` instead of a simple comparison operator `==`. While you could use the `==` operator, it's better to use `subtle.ConstantTimeCompare` when protecting sensitive routes to avoid [a timing attack](https://en.wikipedia.org/wiki/Timing_attack).
 
 Here is the timing attack in a nutshell. Imaging the following code
@@ -81,11 +139,11 @@ Anyways In [prometheus](https://prometheus.io/), you can set the `Authorization`
 
 ```yaml
 scrape_configs:
-  - job_name: prometheus
+  - job_name: my_app
     basic_auth:
         username: admin!
         password: secret!
     static_configs:
         - targets:
-            - 'localhost:9090'
+            - 'localhost:8000'
 ```
