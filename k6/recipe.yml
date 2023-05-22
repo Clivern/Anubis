@@ -22,20 +22,20 @@
 
 
 tasks:
-  - name: download k6
+  - name: Download k6
     unarchive:
-      src: https://github.com/grafana/k6/releases/download/v0.45.0/k6-v0.45.0-macos-amd64.zip
+      src: https://github.com/grafana/k6/releases/download/v0.52.0/k6-v0.52.0-macos-amd64.zip
       dest: /tmp
       remote_src: yes
 
-  - name: copy k6
+  - name: Copy k6
     copy:
-      src: /tmp/k6-v0.45.0-macos-amd64/k6
+      src: /tmp/k6-v0.52.0-macos-amd64/k6
       dest: ~/bin/k6
       mode: a+x
       force: true
 
-  - name: get version
+  - name: Get version
     command: k6 version
     register: output
 
