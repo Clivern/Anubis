@@ -6,7 +6,7 @@
         <a href="https://github.com/Clivern/Kemet/actions/workflows/ci.yml">
            <img src="https://github.com/Clivern/Kemet/actions/workflows/ci.yml/badge.svg?branch=main"/>
         </a>
-        <a href="https://uptime.betterstack.com/?utm_source=status_badge">
+        <a href="https://clivern.betteruptime.com/">
            <img src="https://uptime.betterstack.com/status-badges/v2/monitor/1evgt.svg"/>
         </a>
         <a href="https://pypi.org/project/opswork/">
