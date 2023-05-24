@@ -19,3 +19,24 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
+
+tasks:
+  - name: Download ngrok
+    unarchive:
+      src: https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-darwin-amd64.zip
+      dest: /tmp
+      remote_src: yes
+
+  - name: Copy ngrok
+    copy:
+      src: /tmp/ngrok
+      dest: ~/bin/ngrok
+      mode: a+x
+      force: true
+
+  - name: Get version
+    command: ngrok version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"

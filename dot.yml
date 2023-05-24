@@ -377,6 +377,9 @@ recipes:
     path: linux/cmd
     tags: automation,ubuntu,linux
 
+  - name: clivern/kemet/ngrok
+    path: ngrok
+    tags: kemet,firewall
 
 # recipes to install
 run:
@@ -445,4 +448,5 @@ run:
   - name: clivern/kemet/pgcli
   - name: clivern/kemet/cheat
   - name: clivern/kemet/gum
+  - name: clivern/kemet/ngrok
   - name: clivern/kemet/configs

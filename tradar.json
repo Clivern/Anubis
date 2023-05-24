@@ -483,6 +483,13 @@
         "description":"Boundary is an intelligent proxy that creates granular, identity-based access controls for dynamic infrastructure."
     },
     {
+        "name":"ngrok",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"ngrok is a powerful and versatile tool that provides secure access to local servers behind NATs and firewalls."
+    },
+    {
         "name":"GitHub",
         "ring":"adopt",
         "quadrant":"platforms",
