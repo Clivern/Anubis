@@ -2,10 +2,10 @@
 title: Sponsor
 description:
 subtitle:
-featured_image: https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f
+featured_image: https://images.unsplash.com/photo-1599663253423-7cad6e5fae1e
 ---
 
-![](https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f)
+![](https://images.unsplash.com/photo-1599663253423-7cad6e5fae1e)
 
 You can support this website and open source projects by direct money donations or using our referral links.
 
