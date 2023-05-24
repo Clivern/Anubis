@@ -89,6 +89,7 @@ commands=(
     "opswork recipe run clivern/kemet/pgcli -h localhost"
     "opswork recipe run clivern/kemet/ngrok -h localhost"
     "opswork recipe run clivern/kemet/helm -h localhost"
+    "opswork recipe run clivern/kemet/pet -h localhost"
 )
 
 # Use fzf to select a command from the list
