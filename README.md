@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/clivern/kemet/main/static/header.jpeg" width="100%" />
+    <img src="https://raw.githubusercontent.com/clivern/kemet/main/static/header.png" width="100%" />
     <h3 align="center">Kemet</h3>
     <p align="center">My Personal dotfiles</p>
     <p align="center">
