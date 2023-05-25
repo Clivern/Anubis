@@ -7,19 +7,19 @@ CLOSE_WAIT_METRIC="tcp_connections_close_wait"
 ESTABLISHED_METRIC="tcp_connections_established"
 TIME_WAIT_METRIC="tcp_connections_time_wait"
 
-# The Port Number
+# The Service & Port Number
 SERVICE="nginx"
 PORT=80
 
-# Get different connection types
+# Get connections count
 CLOSE_WAIT_COUNT=$(netstat -ant | grep :$PORT | grep CLOSE_WAIT | wc -l)
 ESTABLISHED_COUNT=$(netstat -ant | grep :$PORT | grep ESTABLISHED | wc -l)
 TIME_WAIT_COUNT=$(netstat -ant | grep :$PORT | grep TIME_WAIT | wc -l)
 
-# Current timestamp in milliseconds
+# Current timestamp
 TIMESTAMP=$(date +%s%3N)
 
-# Output the metric in Prometheus format
+# Output the metrics in prometheus format
 echo "# HELP ${CLOSE_WAIT_METRIC} Number of TCP connections in CLOSE_WAIT state on port ${PORT}"
 echo "# TYPE ${CLOSE_WAIT_METRIC} gauge"
 echo "${CLOSE_WAIT_METRIC}{service=\"${SERVICE}\",port=\"${PORT}\"} ${CLOSE_WAIT_COUNT} ${TIMESTAMP}"
