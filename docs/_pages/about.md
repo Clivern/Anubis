@@ -2,10 +2,10 @@
 title: About
 description:
 subtitle:
-featured_image: https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0
+featured_image: https://images.unsplash.com/photo-1500674425229-f692875b0ab7
 ---
 
-![](https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0)
+![](https://images.unsplash.com/photo-1500674425229-f692875b0ab7)
 
 <em>Hi, I am Ahmed, a software developer interested specifically in development using PHP, Python, Go, Java, MySQL, Javascript, Rust &amp; Elixir Newbie!</em>
 
