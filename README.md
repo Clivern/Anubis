@@ -22,10 +22,6 @@
             <img src="https://img.shields.io/badge/LICENSE-MIT-blue.svg">
         </a>
     </p>
-    <br/>
-    <p align="center">
-	     <img src="https://raw.githubusercontent.com/clivern/anubis/main/static/shot_01.png" width="95%" />
-	</p>
 </p>
 <br/>
 
