@@ -316,6 +316,10 @@ recipes:
     path: poetry
     tags: anubis,must_have,pypkg
 
+  - name: clivern/anubis/pyscaffold
+    path: pyscaffold
+    tags: anubis,must_have,pypkg
+
   - name: clivern/anubis/jupyterlab
     path: jupyterlab
     tags: anubis,must_have,pypkg
