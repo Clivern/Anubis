@@ -42,8 +42,7 @@ $ git clone git@github.com:clivern/anubis.git ~/space/anubis
 ```zsh
 $ brew install yq
 
-$ pip install ansible
-$ pip install opswork
+$ pip install -r requirements.txt
 $ alias op=opswork
 ```
 
