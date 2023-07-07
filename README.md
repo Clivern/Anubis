@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/clivern/anubis/main/static/header.png" width="100%" />
+    <img src="https://raw.githubusercontent.com/clivern/anubis/main/static/cover.jpeg" width="100%" />
     <h3 align="center">Anubis</h3>
     <p align="center">My Personal dotfiles</p>
     <p align="center">
@@ -42,7 +42,7 @@ $ git clone git@github.com:clivern/anubis.git ~/space/anubis
 ```zsh
 $ brew install yq
 
-$ pip install -r requirements.txt
+$ pip install -r requirements.freeze.txt
 $ alias op=opswork
 ```
 
