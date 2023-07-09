@@ -434,6 +434,13 @@
         "description":"Vagrant is a tool for building and managing virtual machine environments in a single workflow. It allows developers to create and configure portable development environments, making it easier to ensure consistency across different systems."
     },
     {
+        "name":"Multipass",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"TRUE",
+        "description":"Multipass is a CLI to launch and manage VMs on Windows, Mac and Linux that simulates a cloud environment with support for cloud-init"
+    },
+    {
         "name":"HCL",
         "ring":"adopt",
         "quadrant":"tools",
