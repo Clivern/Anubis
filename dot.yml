@@ -102,6 +102,10 @@ recipes:
     path: ruby
     tags: anubis,must_have,programming
 
+  - name: clivern/anubis/rbenv
+    path: ruby
+    tags: anubis,must_have,programming
+
   - name: clivern/anubis/kotlin
     path: kotlin
     tags: anubis,must_have,programming
