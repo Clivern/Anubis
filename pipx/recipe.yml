@@ -22,6 +22,6 @@
 
 
 tasks:
-  - name: Install pipx python package on version 1.2.0
+  - name: Install pipx python package on version 1.6.0
     pip:
-      name: pipx==1.2.0
+      name: pipx==1.6.0
