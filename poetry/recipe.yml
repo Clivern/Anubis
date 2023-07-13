@@ -22,5 +22,5 @@
 
 
 tasks:
-  - name: Install poetry python package on version 1.6.1
-    command: pipx install poetry==1.6.1
+  - name: Install poetry python package on version 1.8.3
+    command: pipx install poetry==1.8.3
