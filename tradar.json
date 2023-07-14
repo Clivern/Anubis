@@ -280,6 +280,13 @@
         "description":"Cassandra is a distributed, wide-column store NoSQL database management system that is designed to handle large amounts of data across many servers, providing high availability with no single point of failure."
     },
     {
+        "name":"Qdrant",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"TRUE",
+        "description":"Qdrant is a high-performance vector similarity search engine designed to manage and search large-scale vector data efficiently."
+    },
+    {
         "name":"VCS",
         "ring":"hold",
         "quadrant":"tools",
