@@ -102,6 +102,10 @@ recipes:
     path: ruby
     tags: anubis,must_have,programming
 
+  - name: clivern/anubis/kotlin
+    path: kotlin
+    tags: anubis,must_have,programming
+
   # Databases
   - name: clivern/anubis/mysql
     path: mysql
