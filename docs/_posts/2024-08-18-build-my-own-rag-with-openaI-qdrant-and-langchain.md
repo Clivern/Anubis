@@ -32,15 +32,26 @@ Imagine I have three random stories about three men who each had a unique experi
 
 ```
 Joe Doe's Musical Revelation:
-On a Friday evening, Joe Doe, a passionate guitarist, decided to visit a local music shop known for its unique instruments. While browsing, he stumbled upon a vintage guitar that had an intriguing backstory. The shopkeeper shared how the guitar was once owned by a famous musician who had played it during a legendary concert. Inspired by the guitar's history, Joe decided to purchase it, believing it would bring a new depth to his music. That night, he spent hours playing and composing, feeling a deep connection to the instrument and its past.
+On a Friday evening, Joe Doe, a passionate guitarist, decided to visit a local music shop known for its unique instruments.
+While browsing, he stumbled upon a vintage guitar that had an intriguing backstory. The shopkeeper shared how the guitar was
+once owned by a famous musician who had played it during a legendary concert. Inspired by the guitar's history,
+Joe decided to purchase it, believing it would bring a new depth to his music. That night, he spent hours playing and composing,
+feeling a deep connection to the instrument and its past.
 
 
 Rashid Brown's Community Service:
-Rashid Brown, a dedicated volunteer, spent his Friday at a local community center, organizing a food drive for families in need. He rallied a group of friends to help him sort through donations and prepare care packages. As they worked, Rashid shared stories of the families they were helping, emphasizing the importance of community support. By the end of the day, they had assembled over a hundred packages, and Rashid felt a profound sense of fulfillment, knowing they were making a tangible difference in their community.
+Rashid Brown, a dedicated volunteer, spent his Friday at a local community center, organizing a food drive for families in need.
+He rallied a group of friends to help him sort through donations and prepare care packages. As they worked, Rashid shared stories
+of the families they were helping, emphasizing the importance of community support. By the end of the day, they had assembled over
+a hundred packages, and Rashid felt a profound sense of fulfillment, knowing they were making a tangible difference in their community.
 
 
 Mark Felix's Unexpected Adventure:
-On a seemingly ordinary Friday, Mark Felix, an office worker, decided to take a different route home from work. As he walked, he discovered a small art gallery hosting an opening night for local artists. Intrigued, he stepped inside and was captivated by the vibrant artwork. He struck up a conversation with one of the artists, who invited him to join a community art class. Mark, who had always enjoyed painting but never pursued it seriously, took the leap and signed up. This spontaneous decision led to a new passion that transformed his weekends into creative explorations.
+On a seemingly ordinary Friday, Mark Felix, an office worker, decided to take a different route home from work.
+As he walked, he discovered a small art gallery hosting an opening night for local artists. Intrigued, he stepped inside and was
+captivated by the vibrant artwork. He struck up a conversation with one of the artists, who invited him to join a community art class.
+Mark, who had always enjoyed painting but never pursued it seriously, took the leap and signed up. This spontaneous decision led to a
+new passion that transformed his weekends into creative explorations.
 ```
 
 Lets create a [python virtual environment](https://docs.python.org/3/library/venv.html).
@@ -124,7 +135,7 @@ $ export QDRANT_API_KEY=...
 $ python3 script1.py
 ```
 
-Now lets query the vector database for the relevant data for this question `Who helped some families on his Friday?`
+Now lets query the vector database for the relevant data for this question `Who helped some families on his Friday? Give me his name only..`
 
 ```python
 import os
@@ -137,7 +148,7 @@ collection_name = "rag"
 oclient = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 query_vector = oclient.embeddings.create(
-    input="Who helped some families on his Friday?",
+    input="Who helped some families on his Friday? Give me his name only..",
     model="text-embedding-3-small"
 ).data[0].embedding
 
@@ -200,7 +211,7 @@ collection_name = "rag"
 oclient = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 query_vector = oclient.embeddings.create(
-    input="How helped some families on his Friday?",
+    input="Who helped some families on his Friday? Give me his name only..",
     model="text-embedding-3-small"
 ).data[0].embedding
 
