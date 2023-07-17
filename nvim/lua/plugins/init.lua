@@ -53,9 +53,6 @@ return {
     "clivern/teacup.neovim",
   },
   {
-    "nvim-lua/plenary.nvim",
-  },
-  {
     "clivern/jira.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
   },
