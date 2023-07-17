@@ -54,7 +54,7 @@ Mark, who had always enjoyed painting but never pursued it seriously, took the l
 new passion that transformed his weekends into creative explorations.
 ```
 
-Lets create a [python virtual environment](https://docs.python.org/3/library/venv.html).
+Lets create a [python virtual environment](https://docs.python.org/3/library/venv.html). The following code is to explain the approach not for copy/paste & production use.
 
 ```zsh
 $ python3 -m venv venv
@@ -125,7 +125,7 @@ qclient.create_collection(
 qclient.upsert(collection_name, points)
 ```
 
-The define `OPENAI_API_KEY`, `QDRANT_URL` and `QDRANT_API_KEY` and run the script
+Then define `OPENAI_API_KEY`, `QDRANT_URL` and `QDRANT_API_KEY` and run the script
 
 ```zsh
 $ export OPENAI_API_KEY=....
