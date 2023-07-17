@@ -45,7 +45,7 @@ On a seemingly ordinary Friday, Mark Felix, an office worker, decided to take a 
 
 Lets create a [python virtual environment](https://docs.python.org/3/library/venv.html).
 
-```
+```zsh
 $ python3 -m venv venv
 $ source venv/bin/activate
 ```
@@ -169,6 +169,14 @@ for result in search_results:
     print(f"ID: {result.id}, Score: {result.score}, Text: {result.payload['text']}")
 ```
 
+```zsh
+$ export OPENAI_API_KEY=....
+$ export QDRANT_URL=.....
+$ export QDRANT_API_KEY=...
+
+$ python3 script2.py
+```
+
 Well i got this response
 
 ```
@@ -240,6 +248,14 @@ for result in search_results:
     chain = prompt | llm | StrOutputParser()
 
     print(chain.invoke({}))
+```
+
+```zsh
+$ export OPENAI_API_KEY=....
+$ export QDRANT_URL=.....
+$ export QDRANT_API_KEY=...
+
+$ python3 script3.py
 ```
 
 You will get his name like this
