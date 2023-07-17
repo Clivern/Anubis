@@ -28,7 +28,7 @@ There is two ways to fetch the relevant data, there is the traditional search an
 
 ### How to Build a RAG?
 
-Imagine I have three random stories about three men who each had a unique experience on their Fridays. LLMs know nothing about them and we need to feed the relevant data to the LLM whenever a user asks for one of them.
+Imagine I have three random stories about three men who each had a unique experience on their Fridays. LLMs know nothing about them and we need to feed the relevant data to the LLM whenever a user asks for one of them. This article cover only the vector searching part and LLM prompt. It doesn't cover `Data Splitting` and `Chunking` but i will cover these later.
 
 ```
 Joe Doe's Musical Revelation:
