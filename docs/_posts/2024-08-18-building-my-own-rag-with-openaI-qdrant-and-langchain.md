@@ -17,7 +17,7 @@ RAG stands for Retrieval Augmented Generation. It enhances the large language mo
 - RAG can can provide LLMs with real-data context such as financial changes.
 
 
-### How Rag Works?
+### How RAG Works?
 
 The image below shows how a basic RAG system works. Before forwarding the question to the LLM, we have a layer that searches our knowledge base for some relevant data to answer the user query. Specifically, in this case, the spending data from the last month. Our LLM can now generate a relevant response about our budget.
 
