@@ -40,6 +40,11 @@ end
 
 map("n", "<leader>v", print_version, { desc = "Get Version" })
 
+-- Add the new command for 'make fmt'
+vim.cmd([[command! MF :!make fmt]])
+-- Add a mapping for the new command
+map("n", "<leader>mf", ":MF<CR>", { desc = "Run make fmt" })
+
 local function run_command()
     -- Prompt user for input
     local cmd = vim.fn.input("Enter command: ")
