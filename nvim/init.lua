@@ -59,6 +59,11 @@ require("lazy").setup({
   { import = "plugins" },
 }, lazy_config)
 
+-- Enable tuk.nvim plugin modules
+require("tspace").setup({
+    config = "~/.tuk.json"
+})
+
 -- load theme
 dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
