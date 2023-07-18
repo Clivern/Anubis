@@ -50,7 +50,7 @@ return {
   	},
   },
   {
-    "clivern/teacup.neovim",
+    "clivern/teacup.nvim",
   },
   {
     "clivern/tuk.nvim",

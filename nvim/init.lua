@@ -59,9 +59,14 @@ require("lazy").setup({
   { import = "plugins" },
 }, lazy_config)
 
--- Enable tuk.nvim plugin modules
+-- enable clivern/tuk.nvim plugin
 require("tspace").setup({
     config = "~/.tuk.json"
+})
+
+-- enable clivern/teacup.nvim plugin
+require("teacup").setup({
+  msg = "Hey there!",
 })
 
 -- load theme
