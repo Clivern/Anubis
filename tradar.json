@@ -448,6 +448,13 @@
         "description":"Multipass is a CLI to launch and manage VMs on Windows, Mac and Linux that simulates a cloud environment with support for cloud-init"
     },
     {
+        "name":"k6",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"False",
+        "description":"K6 is an open-source load testing tool developed by Grafana Labs that helps teams assess system performance and identify issues before they reach production."
+    },
+    {
         "name":"HCL",
         "ring":"adopt",
         "quadrant":"tools",
