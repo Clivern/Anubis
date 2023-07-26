@@ -10,17 +10,17 @@ keywords: vllm, llama, llama-8B
 
 In this guide, I'll show you how to run Llama-3.1 8B locally on a Mac using vLLM. This is just for testing, not for a production setup.
 
-#### Requirements
+### Requirements
 
 Before you begin, please ensure you have the following:
 
-- A Hugging Face account.
-- Access to the Meta Llama 3 models on Hugging Face (https://huggingface.co/meta-llama/Llama-3.1-8B). You'll need to agree to their license terms and share contact information to gain access.
-- Python 3.8 or higher installed. I will be using Python 3.11
-- pip package installer.
-- A Hugging Face Account Token, You can generate a new one from [token settings page](https://huggingface.co/settings/tokens)
+- A `Hugging Face` account.
+- Access to the `Meta Llama 3` models on [Hugging Face](https://huggingface.co/meta-llama/Llama-3.1-8B). You'll need to agree to their license terms and share contact information to gain access.
+- `Python` 3.8 or higher installed. I will be using `Python` 3.11
+- `pip` package installer.
+- A `Hugging Face` account token, You can generate a new one from [token settings page](https://huggingface.co/settings/tokens)
 
-#### Setting Up Your Local Environment
+### Setting Up Your Local Environment
 
 Create a new python virtual environment
 
