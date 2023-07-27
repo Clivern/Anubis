@@ -352,6 +352,10 @@ recipes:
     path: streamlit
     tags: anubis,must_have,pypkg
 
+  - name: clivern/anubis/mlx
+    path: mlx
+    tags: mlx,ai
+
   - name: clivern/anubis/lsp
     path: lsp
     tags: anubis,must_have,neovim
