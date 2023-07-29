@@ -4,6 +4,7 @@ date: 2025-03-20 00:00:00
 featured_image: https://images.unsplash.com/photo-1431440869543-efaf3388c585?q=75&fm=jpg&w=1000&fit=max
 excerpt: It took me a while to figure out why i need `LangGraph` if I can use `Langchain` to build the agents. From the documentation `Langchain` provides integrations and composable components to streamline `LLM` application development while `LangGraph` library enables agent orchestration — offering customizable architectures, long-term memory, and human-in-the-loop to reliably handle complex tasks.
 keywords: langchain, langgraph, ai, agentic-systems
+render_with_liquid: false
 ---
 
 ![](https://images.unsplash.com/photo-1431440869543-efaf3388c585?q=75&fm=jpg&w=1000&fit=max)
@@ -138,7 +139,7 @@ def get_weather_data(latitude, longitude):
     return data
 ```
 
-```python
+{% raw %}
 # graph/langchain.py
 import json
 import langchain
@@ -267,7 +268,7 @@ if __name__ == "__main__":
     langchain.verbose = False
     langchain.debug = False
     langchain.llm_cache = False
-```
+{% endraw %}
 
 Then we build a graph to handle wind queries:
 
