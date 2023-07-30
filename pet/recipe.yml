@@ -24,7 +24,7 @@
 tasks:
   - name: download pet
     unarchive:
-      src: https://github.com/knqyf263/pet/releases/download/v0.8.4/pet_0.8.4_darwin_amd64.tar.gz
+      src: https://github.com/knqyf263/pet/releases/download/v1.0.1/pet_1.0.1_darwin_amd64.tar.gz
       dest: /tmp
       remote_src: yes
 

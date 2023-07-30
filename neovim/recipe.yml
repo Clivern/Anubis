@@ -33,6 +33,7 @@ tasks:
       state: present
     with_items:
       - neovim
+      - ripgrep
 
   - name: get version
     command: nvim --version
