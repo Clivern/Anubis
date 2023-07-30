@@ -2,14 +2,16 @@
 title: LangGraph In Action
 date: 2025-03-20 00:00:00
 featured_image: https://images.unsplash.com/photo-1431440869543-efaf3388c585?q=75&fm=jpg&w=1000&fit=max
-excerpt: It took me a while to figure out why i need `LangGraph` if I can use `Langchain` to build the agents. From the documentation `Langchain` provides integrations and composable components to streamline `LLM` application development while `LangGraph` library enables agent orchestration — offering customizable architectures, long-term memory, and human-in-the-loop to reliably handle complex tasks.
+excerpt: LangGraph library enables agent orchestration — offering customizable architectures, long-term memory, and human-in-the-loop to reliably handle complex tasks.
 keywords: langchain, langgraph, ai, agentic-systems
 render_with_liquid: false
 ---
 
 ![](https://images.unsplash.com/photo-1431440869543-efaf3388c585?q=75&fm=jpg&w=1000&fit=max)
 
-It took me a while to understand why I need `LangGraph` when I can use `LangChain` to build agents. According to the documentation, `LangChain` provides integrations and composable components to streamline Large Language Model (LLM) application development, while the `LangGraph` library enables agent orchestration—offering customizable architectures, long-term memory, and human-in-the-loop capabilities to reliably handle complex tasks.
+It took me a while to understand why I need `LangGraph` when I can use `LangChain` to build agents. According to the documentation, `LangChain` provides integrations and composable components to streamline Large Language Model (LLM) application development.
+
+while the `LangGraph` library enables agent orchestration—offering customizable architectures, long-term memory, and human-in-the-loop capabilities to reliably handle complex tasks.
 
 `LangChain` focuses on `LLM` interactions and provides tools for building simple workflows, such as content generation or customer support. On the other hand, `LangGraph` is used to build complex workflows using a `graph-based` approach, suitable for managing multiple `agents` and conditional logic.
 
@@ -140,6 +142,7 @@ def get_weather_data(latitude, longitude):
 ```
 
 {% raw %}
+```python
 # graph/langchain.py
 import json
 import langchain
@@ -268,6 +271,7 @@ if __name__ == "__main__":
     langchain.verbose = False
     langchain.debug = False
     langchain.llm_cache = False
+```
 {% endraw %}
 
 Then we build a graph to handle wind queries:
