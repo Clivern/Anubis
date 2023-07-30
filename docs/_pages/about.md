@@ -13,7 +13,7 @@ I don't believe on a specific language or a framework but on software principles
 
 I love challenges, Never settle for less, Always looking to improve and play nice with both humans and machines. Also I like gaming, photography. I been into Arduino and Electronics for a while no.
 
-<em><u>Specialties:</u> PHP, Python, Golang, Rust, Elixir, Java, Javascript, MySQL, NoSQL, MongoDB, Cassandra, HTML, CSS, Laravel, Symfony, Angular, CodeIgniter, Flask, Django, Vert.x, BackboneJs, jQuery, Ajax, Slim, Wordpress Plugin and Themes Development, LAMP, OOP, VCS, GIT, Continuous Integration, Chef, Jenkins, ElasticSearch, RabbitMQ, Kafka, HAProxy, Vagrant, Consul, Grafana, Prometheus, Nomad, Terraform, Docker, Kubernetes, MVC, Composer, Bower, VueJs, Typescript, TDD, Linux, Cloud Computing, DevOps, Bash, Apache, Nginx, Scrum.</em>
+<em><u>Specialties:</u> PHP, Python, Golang, Rust, Elixir, Java, Javascript, MySQL, NoSQL, MongoDB, Cassandra, HTML, CSS, Laravel, Symfony, Angular, CodeIgniter, Flask, Django, FastAPI, Langchain, Langgraph, LLMs, Prompt Engineering, Vert.x, BackboneJs, jQuery, Ajax, Slim, Wordpress Plugin and Themes Development, LAMP, OOP, VCS, GIT, Continuous Integration, Chef, Jenkins, ElasticSearch, RabbitMQ, Kafka, HAProxy, Vagrant, Consul, Grafana, Prometheus, Nomad, Terraform, Docker, Kubernetes, MVC, Composer, Bower, VueJs, Typescript, TDD, Linux, Cloud Computing, DevOps, Bash, Apache, Nginx, Scrum.</em>
 
 <em><u>Current Interests:</u> Scaling Web Applications, Microservices Architecture, Cloud Native Architecture, High Availability, Automation and AI-Powered Systems.</em>
 
