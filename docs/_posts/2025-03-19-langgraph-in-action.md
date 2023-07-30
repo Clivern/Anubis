@@ -1,6 +1,6 @@
 ---
 title: LangGraph In Action
-date: 2025-03-20 00:00:00
+date: 2025-03-19 00:00:00
 featured_image: https://images.unsplash.com/photo-1431440869543-efaf3388c585?q=75&fm=jpg&w=1000&fit=max
 excerpt: LangGraph library enables agent orchestration — offering customizable architectures, long-term memory, and human-in-the-loop to reliably handle complex tasks.
 keywords: langchain, langgraph, ai, agentic-systems
@@ -546,6 +546,8 @@ while True:
 Now we can run the agent from the command line
 
 ```
+$ export OPENAI_API_KEY=XXXXXXX
+
 $ python main.py
 
 How can I help you today? Would you like information about temperature or wind? wind
@@ -556,6 +558,8 @@ I hope you're having a lovely day! Just a quick update on the wind conditions: c
 ```
 
 ```
+$ export OPENAI_API_KEY=XXXXXXX
+
 $ python main.py
 
 How can I help you today? Would you like information about temperature or wind? temperature
