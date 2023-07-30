@@ -10,7 +10,7 @@ keywords: langchain, langgraph, ai, agentic-systems
 
 It took me a while to understand why I need [LangGraph](https://langchain-ai.github.io/langgraph/) when I can use [LangChain](https://python.langchain.com/docs/introduction/) to build agents.
 
-According to the documentation, `LangChain` provides integrations and composable components to streamline Large Language Model (LLM) application development.
+According to the documentation, [LangChain]](https://python.langchain.com/docs/introduction/) provides integrations and composable components to streamline Large Language Model (LLM) application development.
 
 While the [LangGraph](https://langchain-ai.github.io/langgraph/) library enables agent orchestration—offering customizable architectures, long-term memory, and human-in-the-loop capabilities to reliably handle complex tasks.
 
@@ -67,19 +67,19 @@ From these conversations, you can see that the bot needs to handle different wor
 - A flow to answer general questions, such as providing a support number.
 - A flow to check the flight status.
 
-Both `LangChain` and `LangGraph` are necessary for this setup. `LangGraph` will be used to build all the required workflows, while `LangChain` can handle `LLM` interactions. There will be many `LLM` interactions, such as determining user intent and formatting user inputs.
+Both [LangChain](https://python.langchain.com/docs/introduction/) and [LangGraph](https://langchain-ai.github.io/langgraph/) are necessary for this setup. [LangGraph](https://langchain-ai.github.io/langgraph/) will be used to build all the required workflows, while [LangChain](https://python.langchain.com/docs/introduction/) can handle `LLM` interactions. There will be many `LLM` interactions, such as determining user intent and formatting user inputs.
 
 Now i will be building a smaller agent that shall answer questions about the wind and termperature. The same things we do can be applied to a bigger chat agent. Here is a graph of what i want to achieve.
 
 ![](/images/blog/langgraph_graph01.png)
 
-As you can see, we need to build two graphs with `LangGraph`:
+As you can see, we need to build two graphs with [LangGraph](https://langchain-ai.github.io/langgraph/):
 - `Wind` graph to handle wind queries.
 - `Termperature` graph to handle termperature queries.
 
 Then we build a `router` that sends the user to the appropriate graph based on their `intent`.
 
-Before we build our first graph, let's explain some key `LangGraph` concepts:
+Before we build our first graph, let's explain some key [LangGraph](https://langchain-ai.github.io/langgraph/) concepts:
 
 - `State`: A shared data structure that represents the current snapshot of your application.
 - `Nodes`: Python functions that encode the logic of your agents. They receive the current state as input, perform some computation or side-effect, and return an updated state.
