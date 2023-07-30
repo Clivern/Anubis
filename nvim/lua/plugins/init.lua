@@ -41,11 +41,11 @@ return {
   	opts = {
   		ensure_installed = {
   			"vim", "lua", "vimdoc",
-  			"html", "css", "java",
-				"elixir", "php", "python",
-				"rust", "go", "markdown",
-				"javascript", "json", "yaml",
-				"kotlin", "heex"
+        "html", "css", "java",
+        "elixir", "php", "python",
+        "rust", "go", "markdown",
+        "javascript", "json", "yaml",
+        "kotlin", "heex", "hcl", "terraform"
   		},
   	},
   },
