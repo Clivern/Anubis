@@ -64,9 +64,9 @@ Bot: Most welcome!
 ```
 
 From these conversations, you can see that the bot needs to handle different workflows:
-- a flow to cancel flights.
+- A flow to cancel flights.
 - A flow to answer general questions, such as providing a support number.
-- a flow to check the flight status.
+- A flow to check the flight status.
 
 Both `LangChain` and `LangGraph` are necessary for this setup. `LangGraph` will be used to build all the required workflows, while `LangChain` can handle `LLM` interactions. There will be many `LLM` interactions, such as determining user intent and formatting user inputs.
 
