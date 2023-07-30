@@ -4,20 +4,19 @@ date: 2025-03-19 00:00:00
 featured_image: https://images.unsplash.com/photo-1431440869543-efaf3388c585?q=75&fm=jpg&w=1000&fit=max
 excerpt: LangGraph library enables agent orchestration — offering customizable architectures, long-term memory, and human-in-the-loop to reliably handle complex tasks.
 keywords: langchain, langgraph, ai, agentic-systems
-render_with_liquid: false
 ---
 
 ![](https://images.unsplash.com/photo-1431440869543-efaf3388c585?q=75&fm=jpg&w=1000&fit=max)
 
-It took me a while to understand why I need `LangGraph` when I can use `LangChain` to build agents.
+It took me a while to understand why I need [LangGraph](https://langchain-ai.github.io/langgraph/) when I can use [LangChain](https://python.langchain.com/docs/introduction/) to build agents.
 
 According to the documentation, `LangChain` provides integrations and composable components to streamline Large Language Model (LLM) application development.
 
-While the `LangGraph` library enables agent orchestration—offering customizable architectures, long-term memory, and human-in-the-loop capabilities to reliably handle complex tasks.
+While the [LangGraph](https://langchain-ai.github.io/langgraph/) library enables agent orchestration—offering customizable architectures, long-term memory, and human-in-the-loop capabilities to reliably handle complex tasks.
 
-`LangChain` focuses on `LLM` interactions and provides tools for building simple workflows, such as content generation or customer support.
+[LangChain](https://python.langchain.com/docs/introduction/) focuses on `LLM` interactions and provides tools for building simple workflows, such as content generation or customer support.
 
-On the other hand, `LangGraph` is used to build complex workflows using a `graph-based` approach, suitable for managing multiple `agents` and conditional logic.
+On the other hand, [LangGraph](https://langchain-ai.github.io/langgraph/) is used to build complex workflows using a `graph-based` approach, suitable for managing multiple `agents` and conditional logic.
 
 Imagine we are building a chatbot for a travel company. Here are a few examples of the types of conversations we expect to receive:
 
