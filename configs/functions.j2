@@ -55,6 +55,9 @@ Description: Clear ansible cache
 ------------------------------
 Description: Run ngrok
     $ run_ngrok <port>
+------------------------------
+Description: Run AI prompt
+    $ ai <prompt>
 ";
 }
 
@@ -161,4 +164,8 @@ run_ngrok() {
     export NGROK_KEY=$(opswork secret get clivern/ngrok_key -o json | jq -r '.[0].value')
     export NGROK_DOMAIN=$(opswork secret get clivern/ngrok_domain -o json | jq -r '.[0].value')
     ngrok http --domain=$NGROK_DOMAIN $1
+}
+
+ai(){
+  mlx_lm.generate --model mlx-community/Qwen2.5-Coder-3B-Instruct-bf16 --max-tokens 2000 --prompt $1
 }
