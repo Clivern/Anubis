@@ -1,5 +1,5 @@
 ---
-title: LangGraph In Action
+title: Langgraph In Action
 date: 2025-03-19 00:00:00
 featured_image: https://images.unsplash.com/photo-1431440869543-efaf3388c585?q=75&fm=jpg&w=1000&fit=max
 excerpt: LangGraph library enables agent orchestration — offering customizable architectures, long-term memory, and human-in-the-loop to reliably handle complex tasks.
