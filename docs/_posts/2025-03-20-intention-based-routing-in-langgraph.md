@@ -12,6 +12,8 @@ Intention-based routing in `langgraph` involves using conditional logic to direc
 
 As usual, here is a graph of what we are going to build. It is super simple but it shows the routing capabilities in `langgraph`
 
+![](/images/blog/langgraph-chat-01.png)
+
 I am going to use the following packages.
 
 ```
