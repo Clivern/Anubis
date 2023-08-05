@@ -102,7 +102,7 @@ def answer_general_user_question(
         [
             (
                 "system",
-                "You are a helpful assistant that provides general user questions.",
+                "You are a helpful assistant that answers general user questions.",
             ),
             (
                 "user",
