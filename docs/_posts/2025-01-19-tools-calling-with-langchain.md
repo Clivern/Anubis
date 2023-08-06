@@ -1,5 +1,5 @@
 ---
-title: Tool Calling with Langchain
+title: Tools Calling with Langchain
 date: 2025-01-19 00:00:00
 featured_image: https://images.unsplash.com/photo-1595066988978-c2686505d56f?q=75&fm=jpg&w=1000&fit=max
 excerpt: When constructing a langchain agent, you can provide tools to allow the agent to access up-to-date information and tailor its answers based on the latest data.
@@ -125,4 +125,4 @@ $ python main.py
 The current UTC date is January 19, 2025.
 ```
 
-You can see the [full source code here on github](https://github.com/Clivern/Anubis/tree/main/docs/_code/tool-calling-with-langchain) and very [detailed reference at langchain blog](https://blog.langchain.dev/tool-calling-with-langchain/)
+You can see the [full source code here on github]https://github.com/Clivern/Anubis/tree/main/docs/_code/tools-calling-with-langchain) and very [detailed reference at langchain blog](https://blog.langchain.dev/tool-calling-with-langchain/)
