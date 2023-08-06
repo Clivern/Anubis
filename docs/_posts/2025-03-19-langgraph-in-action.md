@@ -1,12 +1,12 @@
 ---
 title: Langgraph In Action
 date: 2025-03-19 00:00:00
-featured_image: https://images.unsplash.com/photo-1431440869543-efaf3388c585?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1609156796374-2be0c55f2442?q=75&fm=jpg&w=1000&fit=max
 excerpt: LangGraph library enables agent orchestration — offering customizable architectures, long-term memory, and human-in-the-loop to reliably handle complex tasks.
 keywords: langchain, langgraph, ai, agentic-systems
 ---
 
-![](https://images.unsplash.com/photo-1431440869543-efaf3388c585?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1609156796374-2be0c55f2442?q=75&fm=jpg&w=1000&fit=max)
 
 It took me a while to understand why I need [LangGraph](https://langchain-ai.github.io/langgraph/) when I can use [LangChain](https://python.langchain.com/docs/introduction/) to build agents.
 
