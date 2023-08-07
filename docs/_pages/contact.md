@@ -1,6 +1,6 @@
 ---
 title: Contact
-description:
+description: We love to providing all of our users with the best service we can. If you feel you have received unsatisfactory service or unfair treatment, please send us an email.
 subtitle:
 featured_image: https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0?q=75&fm=jpg&w=1000&fit=max
 ---
