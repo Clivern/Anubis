@@ -52,6 +52,9 @@ export GO111MODULE=on
 # export MYSQLCLIENT_CFLAGS="$(mysql_config --cflags)"
 # export MYSQLCLIENT_LDFLAGS="$(mysql_config --libs)"
 
+# MYSQL Client
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
 # Load all kubeconfigs for kubectx
 # export KUBECONFIG=$(find ~/configs/*kubeconfig.yaml -type f | tr "\n" ":")
 
