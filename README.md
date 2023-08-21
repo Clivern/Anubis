@@ -204,6 +204,23 @@ My Technology Radar is stored in `tradar.json`
 ]
 ```
 
+### Sublime Text Theme
+
+Locate the Sublime Text packages directory by navigating to `Preferences → Browse Packages`.
+
+Create a folder named daylerees-themes within this directory.
+
+Either:
+
+- Copy the contents of the Dayle Rees repository into this folder, or
+- Clone the repository directly using Git:
+
+```zsh
+$ git clone https://github.com/daylerees/colour-schemes.git daylerees-themes
+```
+
+- Select the theme via Preferences → Color Scheme → daylerees-themes.
+
 
 ### License
 
