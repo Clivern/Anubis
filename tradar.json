@@ -559,7 +559,6 @@
         "isNew": "FALSE",
         "description": "Visual Studio Code is a source-code editor developed by Microsoft. It includes support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. It is highly customizable and supports a wide range of extensions."
     },
-
     {
         "name": "Sublime Text",
         "ring": "adopt",
@@ -567,7 +566,13 @@
         "isNew": "FALSE",
         "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It offers a distraction-free writing mode, split editing, and instant project switch. Its powerful API and package ecosystem make it highly extensible."
     },
-
+    {
+        "name": "Trae AI",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Trae is an adaptive AI IDE that transforms how you work, collaborating with you to run faster."
+    },
     {
         "name": "Neovim",
         "ring": "adopt",
