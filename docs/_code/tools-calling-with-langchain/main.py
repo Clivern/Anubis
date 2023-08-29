@@ -106,7 +106,11 @@ if __name__ == "__main__":
             ),
             ("placeholder", "{agent_scratchpad}"),
         ],
-        [Langchain.get_current_utc_date, Langchain.get_current_utc_time, Langchain.get_city_weather],
+        [
+            Langchain.get_current_utc_date,
+            Langchain.get_current_utc_time,
+            Langchain.get_city_weather,
+        ],
     )
 
     print(chain.invoke({"input": input}).get("output"))

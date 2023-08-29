@@ -46,33 +46,39 @@ def get_intent(state: MainState) -> MainState:
     intent = get_user_intent(
         os.environ.get("OPENAI_API_KEY"),
         state.get("messages")[-1].get("content"),
-        ["get_company_phone", "get_company_email"]
+        ["get_company_phone", "get_company_email"],
     )
     state["messages"].append({"role": "system", "content": intent})
     return state
 
 
 def decide(state: MainState) -> MainState:
-    if state.get("messages")[-1].get("content") not in ["get_company_email", "get_company_phone"]:
+    if state.get("messages")[-1].get("content") not in [
+        "get_company_email",
+        "get_company_phone",
+    ]:
         return "unknown"
 
     return state.get("messages")[-1].get("content")
 
 
 def get_company_phone(state: MainState) -> MainState:
-    state["messages"].append({"role": "assistant", "content": "The company phone is +2352553423"})
+    state["messages"].append(
+        {"role": "assistant", "content": "The company phone is +2352553423"}
+    )
     return state
 
 
 def get_company_email(state: MainState) -> MainState:
-    state["messages"].append({"role": "assistant", "content": "The company email is support@langgraph.com"})
+    state["messages"].append(
+        {"role": "assistant", "content": "The company email is support@langgraph.com"}
+    )
     return state
 
 
 def unknown(state: MainState) -> MainState:
     answer = answer_general_user_question(
-        os.environ.get("OPENAI_API_KEY"),
-        state.get("messages")[-1].get("content")
+        os.environ.get("OPENAI_API_KEY"), state.get("messages")[-1].get("content")
     )
     state["messages"].append({"role": "assistant", "content": answer})
     return state
@@ -97,7 +103,6 @@ main_graph.set_entry_point("ask")
 app = main_graph.compile()
 
 while True:
-
     for event in app.stream(
         {
             "messages": [],
