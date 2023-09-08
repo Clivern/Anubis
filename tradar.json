@@ -574,6 +574,13 @@
         "description": "Trae is an adaptive AI IDE that transforms how you work, collaborating with you to run faster."
     },
     {
+        "name": "Cursor AI",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Cursor is an adaptive AI IDE that transforms how you work, collaborating with you to run faster."
+    },
+    {
         "name": "Neovim",
         "ring": "adopt",
         "quadrant": "tools",
