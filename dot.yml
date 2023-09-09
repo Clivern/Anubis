@@ -368,6 +368,10 @@ recipes:
     path: ngrok
     tags: anubis,firewall
 
+  - name: clivern/anubis/sqlite_ide
+    path: sqlite_ide
+    tags: anubis,sqlite
+
   # Remote Linux Server
   - name: clivern/linux/motd
     path: linux/motd
@@ -463,4 +467,5 @@ run:
   - name: clivern/anubis/cheat
   - name: clivern/anubis/gum
   - name: clivern/anubis/ngrok
+  - name: clivern/anubis/sqlite_ide
   - name: clivern/anubis/configs
