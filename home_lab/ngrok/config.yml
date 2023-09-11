@@ -1,0 +1,9 @@
+version: "2"
+authtoken: xxxxxxxxxxxxxxxxx
+tunnels:
+  lgtm:
+    proto: http
+    addr: 80
+    domain: xxxxxxxxxxxxxxxxx.ngrok-free.app
+    basic_auth:
+      - xxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxx
