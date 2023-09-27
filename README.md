@@ -1,10 +1,10 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/clivern/anubis/main/static/header.png" width="100%" />
-    <h3 align="center">Kemet</h3>
+    <h3 align="center">Anubis</h3>
     <p align="center">My Personal dotfiles</p>
     <p align="center">
-        <a href="https://github.com/Clivern/Kemet/actions/workflows/ci.yml">
-           <img src="https://github.com/Clivern/Kemet/actions/workflows/ci.yml/badge.svg?branch=main"/>
+        <a href="https://github.com/Clivern/Anubis/actions/workflows/ci.yml">
+           <img src="https://github.com/Clivern/Anubis/actions/workflows/ci.yml/badge.svg?branch=main"/>
         </a>
         <a href="https://clivern.betteruptime.com/">
            <img src="https://uptime.betterstack.com/status-badges/v2/monitor/1evgt.svg"/>
@@ -12,13 +12,13 @@
         <a href="https://pypi.org/project/opswork/">
             <img src="https://img.shields.io/badge/Built_with-OpsWork-blue"/>
         </a>
-        <a href="https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FKemet%2Fmain%2Ftradar.json">
+        <a href="https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FAnubis%2Fmain%2Ftradar.json">
             <img src="https://img.shields.io/badge/Technology-Radar-green.svg">
         </a>
-        <a href="https://github.com/Clivern/Kemet/releases">
+        <a href="https://github.com/Clivern/Anubis/releases">
             <img src="https://img.shields.io/badge/Version-5.2.0-1abc9c.svg">
         </a>
-        <a href="https://github.com/Clivern/Kemet/blob/master/LICENSE">
+        <a href="https://github.com/Clivern/Anubis/blob/master/LICENSE">
             <img src="https://img.shields.io/badge/LICENSE-MIT-blue.svg">
         </a>
     </p>
@@ -184,4 +184,4 @@ My Technology Radar is stored in `tradar.json`
 
 © 2010, Clivern. Released under [MIT License](https://opensource.org/licenses/mit-license.php).
 
-**Kemet** is authored and maintained by [@clivern](http://github.com/clivern).
+**Anubis** is authored and maintained by [@clivern](http://github.com/clivern).
