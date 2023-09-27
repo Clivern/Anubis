@@ -5,7 +5,7 @@ subtitle:
 featured_image: https://images.unsplash.com/photo-1578301977886-43be7b983104
 ---
 
-![](https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f)
+![](https://images.unsplash.com/photo-1578301977886-43be7b983104)
 
 <em>Hi, I am Ahmed, a software developer interested specifically in development using PHP, Python, Go, Java, MySQL, Javascript, Rust &amp; Elixir Newbie!</em>
 

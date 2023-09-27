@@ -5,7 +5,7 @@ subtitle:
 featured_image: https://images.unsplash.com/photo-1578301977886-43be7b983104
 ---
 
-![](https://images.unsplash.com/photo-1599663253423-7cad6e5fae1e)
+![](https://images.unsplash.com/photo-1578301977886-43be7b983104)
 
 You can support this website and open source projects by direct money donations or using our referral links.
 
