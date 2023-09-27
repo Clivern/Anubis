@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/clivern/kemet/main/static/header.png" width="100%" />
+    <img src="https://raw.githubusercontent.com/clivern/anubis/main/static/header.png" width="100%" />
     <h3 align="center">Kemet</h3>
     <p align="center">My Personal dotfiles</p>
     <p align="center">
@@ -34,7 +34,7 @@
 # Create space directory
 $ mkdir -p ~/space
 
-$ git clone git@github.com:clivern/kemet.git ~/space/kemet
+$ git clone git@github.com:clivern/anubis.git ~/space/anubis
 ```
 
 2. Install [opswork](https://pypi.org/project/opswork/) and `pip` globally.
@@ -137,7 +137,7 @@ $ op recipe list -o json | jq -r '.[].name'
 To install `ngrok`
 
 ```zsh
-$ op recipe run clivern/kemet/ngrok -h localhost
+$ op recipe run clivern/anubis/ngrok -h localhost
 ```
 
 To add `ngrok` secrets like the `key` and `domain`

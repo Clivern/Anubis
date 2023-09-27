@@ -48,7 +48,7 @@ templates:
   vimrc.j2: vimrc.j2
   zshrc.j2: zshrc.j2
   config_global.json.j2: config_global.json.j2
-  kemet.j2: kemet.j2
+  anubis.j2: anubis.j2
   secrets.j2: secrets.j2
 
 tasks:
@@ -94,5 +94,5 @@ tasks:
       - { src: "zshrc.j2", dest: "~/.zshrc", mode: "0600" }
       - { src: "secrets.j2", dest: "~/.secrets", mode: "0600" }
       - { src: "config_global.json.j2", dest: "~/.dolt/config_global.json", mode: "0600" }
-      - { src: "kemet.j2", dest: "~/bin/kemet", mode: "a+x" }
+      - { src: "anubis.j2", dest: "~/bin/anubis", mode: "a+x" }
 

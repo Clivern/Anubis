@@ -23,306 +23,306 @@
 
 # recipes to load
 recipes:
-  - name: clivern/kemet/update
+  - name: clivern/anubis/update
     path: brew/update
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/upgrade
+  - name: clivern/anubis/upgrade
     path: brew/upgrade
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/base
+  - name: clivern/anubis/base
     path: base
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/gnu-tar
+  - name: clivern/anubis/gnu-tar
     path: gnu-tar
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/jq
+  - name: clivern/anubis/jq
     path: jq
-    tags: kemet,must_have
+    tags: anubis,must_have
 
   # Web Servers
-  - name: clivern/kemet/caddy
+  - name: clivern/anubis/caddy
     path: caddy
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/ack
+  - name: clivern/anubis/ack
     path: ack
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/curl
+  - name: clivern/anubis/curl
     path: curl
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/bat
+  - name: clivern/anubis/bat
     path: bat
-    tags: kemet,must_have
+    tags: anubis,must_have
 
   # IDE
-  - name: clivern/kemet/neovim
+  - name: clivern/anubis/neovim
     path: neovim
-    tags: kemet,must_have,ide
+    tags: anubis,must_have,ide
 
-  - name: clivern/kemet/vim
+  - name: clivern/anubis/vim
     path: vim
-    tags: kemet,must_have,ide
+    tags: anubis,must_have,ide
 
   # Programming Languages
-  - name: clivern/kemet/python
+  - name: clivern/anubis/python
     path: python
-    tags: kemet,must_have,programming
+    tags: anubis,must_have,programming
 
-  - name: clivern/kemet/php
+  - name: clivern/anubis/php
     path: php
-    tags: kemet,must_have,programming
+    tags: anubis,must_have,programming
 
-  - name: clivern/kemet/node
+  - name: clivern/anubis/node
     path: node
-    tags: kemet,must_have,programming
+    tags: anubis,must_have,programming
 
-  - name: clivern/kemet/rust
+  - name: clivern/anubis/rust
     path: rust
-    tags: kemet,must_have,programming
+    tags: anubis,must_have,programming
 
-  - name: clivern/kemet/goenv
+  - name: clivern/anubis/goenv
     path: goenv
-    tags: kemet,must_have,programming
+    tags: anubis,must_have,programming
 
-  - name: clivern/kemet/lua
+  - name: clivern/anubis/lua
     path: lua
-    tags: kemet,must_have,programming
+    tags: anubis,must_have,programming
 
-  - name: clivern/kemet/elixir
+  - name: clivern/anubis/elixir
     path: elixir
-    tags: kemet,must_have,programming
+    tags: anubis,must_have,programming
 
-  - name: clivern/kemet/ruby
+  - name: clivern/anubis/ruby
     path: ruby
-    tags: kemet,must_have,programming
+    tags: anubis,must_have,programming
 
   # Databases
-  - name: clivern/kemet/mysql
+  - name: clivern/anubis/mysql
     path: mysql
-    tags: kemet,must_have,db
+    tags: anubis,must_have,db
 
-  - name: clivern/kemet/mysql-client
+  - name: clivern/anubis/mysql-client
     path: mysql-client
-    tags: kemet,must_have,db
+    tags: anubis,must_have,db
 
-  - name: clivern/kemet/postgresql
+  - name: clivern/anubis/postgresql
     path: postgresql
-    tags: kemet,must_have,db
+    tags: anubis,must_have,db
 
-  - name: clivern/kemet/sq
+  - name: clivern/anubis/sq
     path: sq
-    tags: kemet,must_have,db
+    tags: anubis,must_have,db
 
   # Networking
-  - name: clivern/kemet/nmap
+  - name: clivern/anubis/nmap
     path: nmap
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/netcat
+  - name: clivern/anubis/netcat
     path: netcat
-    tags: kemet,must_have
+    tags: anubis,must_have
 
   # Kubernetes
-  - name: clivern/kemet/kubectx
+  - name: clivern/anubis/kubectx
     path: kubectx
-    tags: kemet,must_have,k8s
+    tags: anubis,must_have,k8s
 
-  - name: clivern/kemet/kubectl
+  - name: clivern/anubis/kubectl
     path: kubectl
-    tags: kemet,must_have,k8s
+    tags: anubis,must_have,k8s
 
-  - name: clivern/kemet/kops
+  - name: clivern/anubis/kops
     path: kops
-    tags: kemet,must_have,k8s
+    tags: anubis,must_have,k8s
 
-  - name: clivern/kemet/helm
+  - name: clivern/anubis/helm
     path: helm
-    tags: kemet,must_have,k8s
+    tags: anubis,must_have,k8s
 
   # Grafana Products
-  - name: clivern/kemet/k6
+  - name: clivern/anubis/k6
     path: k6
-    tags: kemet,must_have,load-testing
+    tags: anubis,must_have,load-testing
 
   # Misc
-  - name: clivern/kemet/iterm2
+  - name: clivern/anubis/iterm2
     path: iterm2
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/httpie
+  - name: clivern/anubis/httpie
     path: httpie
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/pet
+  - name: clivern/anubis/pet
     path: pet
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/screen
+  - name: clivern/anubis/screen
     path: screen
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/watch
+  - name: clivern/anubis/watch
     path: watch
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/wget
+  - name: clivern/anubis/wget
     path: wget
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/ytt
+  - name: clivern/anubis/ytt
     path: ytt
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/task
+  - name: clivern/anubis/task
     path: task
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/tmux
+  - name: clivern/anubis/tmux
     path: tmux
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/tree
+  - name: clivern/anubis/tree
     path: tree
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/ttyrec
+  - name: clivern/anubis/ttyrec
     path: ttyrec
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/github
+  - name: clivern/anubis/github
     path: github
-    tags: kemet,must_have,github
+    tags: anubis,must_have,github
 
-  - name: clivern/kemet/zsh
+  - name: clivern/anubis/zsh
     path: zsh
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/doctl
+  - name: clivern/anubis/doctl
     path: doctl
-    tags: kemet,must_have,digitalocean
+    tags: anubis,must_have,digitalocean
 
-  - name: clivern/kemet/aws
+  - name: clivern/anubis/aws
     path: aws
-    tags: kemet,must_have,aws
+    tags: anubis,must_have,aws
 
-  - name: clivern/kemet/dolt
+  - name: clivern/anubis/dolt
     path: dolt
-    tags: kemet,must_have,git
+    tags: anubis,must_have,git
 
-  - name: clivern/kemet/podman
+  - name: clivern/anubis/podman
     path: podman
-    tags: kemet,must_have,podman
+    tags: anubis,must_have,podman
 
-  - name: clivern/kemet/jump
+  - name: clivern/anubis/jump
     path: jump
-    tags: kemet,must_have,rust_pkgs
+    tags: anubis,must_have,rust_pkgs
 
-  - name: clivern/kemet/zoxide
+  - name: clivern/anubis/zoxide
     path: zoxide
-    tags: kemet,must_have,rust_pkgs
+    tags: anubis,must_have,rust_pkgs
 
-  - name: clivern/kemet/hyperfine
+  - name: clivern/anubis/hyperfine
     path: hyperfiney
-    tags: kemet,must_have,rust_pkgs
+    tags: anubis,must_have,rust_pkgs
 
-  - name: clivern/kemet/hurl
+  - name: clivern/anubis/hurl
     path: hurl
-    tags: kemet,must_have,rust_pkgs
+    tags: anubis,must_have,rust_pkgs
 
-  - name: clivern/kemet/rhino
+  - name: clivern/anubis/rhino
     path: rhino
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/bazel
+  - name: clivern/anubis/bazel
     path: bazel
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/symfony
+  - name: clivern/anubis/symfony
     path: symfony
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/cheat
+  - name: clivern/anubis/cheat
     path: cheat
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/gum
+  - name: clivern/anubis/gum
     path: gum
-    tags: kemet,must_have
+    tags: anubis,must_have
 
-  - name: clivern/kemet/pgcli
+  - name: clivern/anubis/pgcli
     path: pgcli
-    tags: kemet,must_have
+    tags: anubis,must_have
 
   # Hashicorp products
-  - name: clivern/kemet/consul
+  - name: clivern/anubis/consul
     path: consul
-    tags: kemet,must_have,hashicorp
+    tags: anubis,must_have,hashicorp
 
-  - name: clivern/kemet/packer
+  - name: clivern/anubis/packer
     path: packer
-    tags: kemet,must_have,hashicorp
+    tags: anubis,must_have,hashicorp
 
-  - name: clivern/kemet/nomad
+  - name: clivern/anubis/nomad
     path: nomad
-    tags: kemet,must_have,hashicorp
+    tags: anubis,must_have,hashicorp
 
-  - name: clivern/kemet/vault
+  - name: clivern/anubis/vault
     path: vault
-    tags: kemet,must_have,hashicorp
+    tags: anubis,must_have,hashicorp
 
-  - name: clivern/kemet/tfswitch
+  - name: clivern/anubis/tfswitch
     path: tfswitch
-    tags: kemet,must_have,hashicorp
+    tags: anubis,must_have,hashicorp
 
   # requires virtualbox (install manually)
-  - name: clivern/kemet/vagrant
+  - name: clivern/anubis/vagrant
     path: vagrant
-    tags: kemet,hashicorp
+    tags: anubis,hashicorp
 
-  - name: clivern/kemet/jekyll
+  - name: clivern/anubis/jekyll
     path: jekyll
-    tags: kemet,must_have
+    tags: anubis,must_have
 
   # Python packages running under pipx
   # To list them
   # $ pipx list
-  - name: clivern/kemet/pipx
+  - name: clivern/anubis/pipx
     path: pipx
-    tags: kemet,must_have,pypkg
+    tags: anubis,must_have,pypkg
 
-  - name: clivern/kemet/cowsay
+  - name: clivern/anubis/cowsay
     path: cowsay
-    tags: kemet,must_have,pypkg
+    tags: anubis,must_have,pypkg
 
-  - name: clivern/kemet/copier
+  - name: clivern/anubis/copier
     path: copier
-    tags: kemet,must_have,pypkg
+    tags: anubis,must_have,pypkg
 
-  - name: clivern/kemet/poetry
+  - name: clivern/anubis/poetry
     path: poetry
-    tags: kemet,must_have,pypkg
+    tags: anubis,must_have,pypkg
 
-  - name: clivern/kemet/jupyterlab
+  - name: clivern/anubis/jupyterlab
     path: jupyterlab
-    tags: kemet,must_have,pypkg
+    tags: anubis,must_have,pypkg
 
-  - name: clivern/kemet/pyinfra
+  - name: clivern/anubis/pyinfra
     path: pyinfra
-    tags: kemet,must_have,pypkg
+    tags: anubis,must_have,pypkg
 
-  - name: clivern/kemet/streamlit
+  - name: clivern/anubis/streamlit
     path: streamlit
-    tags: kemet,must_have,pypkg
+    tags: anubis,must_have,pypkg
 
-  - name: clivern/kemet/configs
+  - name: clivern/anubis/configs
     path: configs
-    tags: kemet,must_have,configs
+    tags: anubis,must_have,configs
 
   # Remote Linux Server
   - name: clivern/linux/consul/client
@@ -377,76 +377,76 @@ recipes:
     path: linux/cmd
     tags: automation,ubuntu,linux
 
-  - name: clivern/kemet/ngrok
+  - name: clivern/anubis/ngrok
     path: ngrok
-    tags: kemet,firewall
+    tags: anubis,firewall
 
 # recipes to install
 run:
-  - name: clivern/kemet/update
-  - name: clivern/kemet/upgrade
-  - name: clivern/kemet/base
-  - name: clivern/kemet/gnu-tar
-  - name: clivern/kemet/jq
-  - name: clivern/kemet/caddy
-  - name: clivern/kemet/consul
-  - name: clivern/kemet/packer
-  - name: clivern/kemet/nomad
-  - name: clivern/kemet/vault
-  - name: clivern/kemet/ack
-  - name: clivern/kemet/curl
-  - name: clivern/kemet/bat
-  - name: clivern/kemet/neovim
-  - name: clivern/kemet/vim
-  - name: clivern/kemet/python
-  - name: clivern/kemet/php
-  - name: clivern/kemet/goenv
-  - name: clivern/kemet/lua
-  - name: clivern/kemet/elixir
-  - name: clivern/kemet/rust
-  - name: clivern/kemet/nmap
-  - name: clivern/kemet/netcat
-  - name: clivern/kemet/mysql
-  - name: clivern/kemet/postgresql
-  - name: clivern/kemet/sq
-  - name: clivern/kemet/kubectx
-  - name: clivern/kemet/kubectl
-  - name: clivern/kemet/helm
-  - name: clivern/kemet/kops
-  - name: clivern/kemet/k6
-  - name: clivern/kemet/httpie
-  - name: clivern/kemet/pet
-  - name: clivern/kemet/screen
-  - name: clivern/kemet/tfswitch
-  - name: clivern/kemet/watch
-  - name: clivern/kemet/wget
-  - name: clivern/kemet/ytt
-  - name: clivern/kemet/task
-  - name: clivern/kemet/tmux
-  - name: clivern/kemet/tree
-  - name: clivern/kemet/ttyrec
-  - name: clivern/kemet/pipx
-  - name: clivern/kemet/cowsay
-  - name: clivern/kemet/copier
-  - name: clivern/kemet/poetry
-  - name: clivern/kemet/jupyterlab
-  - name: clivern/kemet/pyinfra
-  - name: clivern/kemet/streamlit
-  - name: clivern/kemet/github
-  - name: clivern/kemet/zsh
-  - name: clivern/kemet/doctl
-  - name: clivern/kemet/aws
-  - name: clivern/kemet/dolt
-  - name: clivern/kemet/podman
-  - name: clivern/kemet/jump
-  - name: clivern/kemet/zoxide
-  - name: clivern/kemet/hyperfine
-  - name: clivern/kemet/hurl
-  - name: clivern/kemet/rhino
-  - name: clivern/kemet/bazel
-  - name: clivern/kemet/symfony
-  - name: clivern/kemet/pgcli
-  - name: clivern/kemet/cheat
-  - name: clivern/kemet/gum
-  - name: clivern/kemet/ngrok
-  - name: clivern/kemet/configs
+  - name: clivern/anubis/update
+  - name: clivern/anubis/upgrade
+  - name: clivern/anubis/base
+  - name: clivern/anubis/gnu-tar
+  - name: clivern/anubis/jq
+  - name: clivern/anubis/caddy
+  - name: clivern/anubis/consul
+  - name: clivern/anubis/packer
+  - name: clivern/anubis/nomad
+  - name: clivern/anubis/vault
+  - name: clivern/anubis/ack
+  - name: clivern/anubis/curl
+  - name: clivern/anubis/bat
+  - name: clivern/anubis/neovim
+  - name: clivern/anubis/vim
+  - name: clivern/anubis/python
+  - name: clivern/anubis/php
+  - name: clivern/anubis/goenv
+  - name: clivern/anubis/lua
+  - name: clivern/anubis/elixir
+  - name: clivern/anubis/rust
+  - name: clivern/anubis/nmap
+  - name: clivern/anubis/netcat
+  - name: clivern/anubis/mysql
+  - name: clivern/anubis/postgresql
+  - name: clivern/anubis/sq
+  - name: clivern/anubis/kubectx
+  - name: clivern/anubis/kubectl
+  - name: clivern/anubis/helm
+  - name: clivern/anubis/kops
+  - name: clivern/anubis/k6
+  - name: clivern/anubis/httpie
+  - name: clivern/anubis/pet
+  - name: clivern/anubis/screen
+  - name: clivern/anubis/tfswitch
+  - name: clivern/anubis/watch
+  - name: clivern/anubis/wget
+  - name: clivern/anubis/ytt
+  - name: clivern/anubis/task
+  - name: clivern/anubis/tmux
+  - name: clivern/anubis/tree
+  - name: clivern/anubis/ttyrec
+  - name: clivern/anubis/pipx
+  - name: clivern/anubis/cowsay
+  - name: clivern/anubis/copier
+  - name: clivern/anubis/poetry
+  - name: clivern/anubis/jupyterlab
+  - name: clivern/anubis/pyinfra
+  - name: clivern/anubis/streamlit
+  - name: clivern/anubis/github
+  - name: clivern/anubis/zsh
+  - name: clivern/anubis/doctl
+  - name: clivern/anubis/aws
+  - name: clivern/anubis/dolt
+  - name: clivern/anubis/podman
+  - name: clivern/anubis/jump
+  - name: clivern/anubis/zoxide
+  - name: clivern/anubis/hyperfine
+  - name: clivern/anubis/hurl
+  - name: clivern/anubis/rhino
+  - name: clivern/anubis/bazel
+  - name: clivern/anubis/symfony
+  - name: clivern/anubis/pgcli
+  - name: clivern/anubis/cheat
+  - name: clivern/anubis/gum
+  - name: clivern/anubis/ngrok
+  - name: clivern/anubis/configs

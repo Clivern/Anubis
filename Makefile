@@ -27,8 +27,8 @@ recipes:
 
 ## config: Reload and sync configs
 config:
-	opswork recipe add clivern/kemet/configs -p configs -t kemet,must_have,configs -f
-	opswork recipe run clivern/kemet/configs -h localhost
+	opswork recipe add clivern/anubis/configs -p configs -t anubis,must_have,configs -f
+	opswork recipe run clivern/anubis/configs -h localhost
 
 
 ## run: Run Recipes.
