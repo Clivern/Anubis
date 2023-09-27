@@ -2,10 +2,10 @@
 title: Privacy Policy
 description:
 subtitle:
-featured_image: https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f
+featured_image: https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0
 ---
 
-![](https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f)
+![](https://images.unsplash.com/photo-1462040700793-fcd2dbc0edf0)
 
 Clivern respects your privacy. We are aware of the trust you place in us and our responsibility to protect your privacy. Whenever you request a page through your browser, the following data requested:
 
