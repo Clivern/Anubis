@@ -91,6 +91,7 @@ commands=(
     "opswork recipe run clivern/anubis/helm -h localhost"
     "opswork recipe run clivern/anubis/pet -h localhost"
     "opswork recipe run clivern/anubis/multipass -h localhost"
+    "opswork recipe run clivern/anubis/symfony -h localhost"
 )
 
 # Use fzf to select a command from the list
