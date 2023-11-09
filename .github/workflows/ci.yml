@@ -17,15 +17,16 @@ jobs:
 
           brew reinstall yq
 
+          git submodule update --init --recursive
+
+          python3 -m venv venv
+          source venv/bin/activate
           python3 -m pip --version
           python3 -m pip install opswork
           python3 -m pip install ansible
           ansible --version
           opswork config init
 
-          git submodule update --init --recursive
-
           make hosts
           make recipes
           make run
-
