@@ -15,7 +15,7 @@ jobs:
         run: |
           sw_vers
 
-          brew install yq
+          brew reinstall yq
 
           python3 -m pip --version
           python3 -m pip install opswork
