@@ -32,7 +32,7 @@
 # Create space directory
 $ mkdir -p ~/space
 
-$ git clone git@github.com:Clivern/Kemet.git ~/space/kemet
+$ git clone git@github.com:clivern/kemet.git ~/space/kemet
 ```
 
 2. Install [opswork](https://pypi.org/project/opswork/) and `pip` globally.
@@ -152,4 +152,3 @@ My technology radar is stored in `tradar.json`
 © 2010, Clivern. Released under [MIT License](https://opensource.org/licenses/mit-license.php).
 
 **Kemet** is authored and maintained by [@clivern](http://github.com/clivern).
-

@@ -105,46 +105,46 @@
         "description":"Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It provides a comprehensive set of tools and features for building complex, scalable web applications."
     },
     {
-        "name": "Gin",
-        "ring": "adopt",
-        "quadrant": "languages-and-frameworks",
-        "isNew": "FALSE",
-        "description": "A high-performance, minimalist Go web framework that focuses on simplicity and speed."
+        "name":"Gin",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A high-performance, minimalist Go web framework that focuses on simplicity and speed."
     },
     {
-        "name": "Echo",
-        "ring": "adopt",
-        "quadrant": "languages-and-frameworks",
-        "isNew": "FALSE",
-        "description": "A high-performance, extensible, minimalist Go web framework."
+        "name":"Echo",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A high-performance, extensible, minimalist Go web framework."
     },
     {
-        "name": "Spring",
-        "ring": "adopt",
-        "quadrant": "languages-and-frameworks",
-        "isNew": "FALSE",
-        "description": "A popular application development framework for building Java enterprise applications."
+        "name":"Spring",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A popular application development framework for building Java enterprise applications."
     },
     {
-        "name": "Phoenix",
-        "ring": "adopt",
-        "quadrant": "languages-and-frameworks",
-        "isNew": "FALSE",
-        "description": "A web framework for Elixir that emphasizes developer productivity and application scalability."
+        "name":"Phoenix",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A web framework for Elixir that emphasizes developer productivity and application scalability."
     },
     {
-        "name": "Hyper",
-        "ring": "adopt",
-        "quadrant": "languages-and-frameworks",
-        "isNew": "FALSE",
-        "description": "A fast, safe and correct low-level HTTP library for Rust."
+        "name":"Hyper",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A fast, safe and correct low-level HTTP library for Rust."
     },
     {
-        "name": "Rocket",
-        "ring": "assess",
-        "quadrant": "languages-and-frameworks",
-        "isNew": "FALSE",
-        "description": "A web framework for Rust with a focus on ease of use and performance."
+        "name":"Rocket",
+        "ring":"assess",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A web framework for Rust with a focus on ease of use and performance."
     },
     {
         "name":"Vert.x",
@@ -182,21 +182,19 @@
         "description":"Vue.js is an open-source, progressive JavaScript framework for building user interfaces and single-page applications."
     },
     {
-        "name": "Langchain",
-        "ring": "adopt",
-        "quadrant": "languages-and-frameworks",
-        "isNew": "FALSE",
-        "description": "A framework for building applications with large language models (LLMs)."
+        "name":"Langchain",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A framework for building applications with large language models (LLMs)."
     },
     {
-        "name": "LlamaIndex",
-        "ring": "adopt",
-        "quadrant": "languages-and-frameworks",
-        "isNew": "FALSE",
-        "description": "A framework for building applications that leverage large language models and data structures."
+        "name":"LlamaIndex",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"FALSE",
+        "description":"A framework for building applications that leverage large language models and data structures."
     },
-
-
     {
         "name":"Composer",
         "ring":"adopt",
@@ -281,7 +279,6 @@
         "isNew":"FALSE",
         "description":"Cassandra is a distributed, wide-column store NoSQL database management system that is designed to handle large amounts of data across many servers, providing high availability with no single point of failure."
     },
-
     {
         "name":"VCS",
         "ring":"hold",
@@ -296,7 +293,6 @@
         "isNew":"FALSE",
         "description":"Git is a distributed version control system for tracking changes in source code during software development. It is widely used for collaborative software development and is known for its speed, efficiency, and flexibility."
     },
-
     {
         "name":"Jenkins",
         "ring":"adopt",
@@ -340,95 +336,95 @@
         "description":"Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications."
     },
     {
-        "name": "Elasticsearch",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Elasticsearch is a distributed search and analytics engine that acts as the core of the ELK stack. It excels at managing and analyzing large volumes of data."
+        "name":"Elasticsearch",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Elasticsearch is a distributed search and analytics engine that acts as the core of the ELK stack. It excels at managing and analyzing large volumes of data."
     },
     {
-        "name": "Logstash",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Logstash is the data processing component of the ELK stack. It specializes in collecting, enriching, and transporting data, making it ready for analysis."
+        "name":"Logstash",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Logstash is the data processing component of the ELK stack. It specializes in collecting, enriching, and transporting data, making it ready for analysis."
     },
     {
-        "name": "Kibana",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Kibana is the user interface of the ELK stack, allowing users to create and manage dashboards and visualizations, turning data into easily understandable formats."
+        "name":"Kibana",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Kibana is the user interface of the ELK stack, allowing users to create and manage dashboards and visualizations, turning data into easily understandable formats."
     },
     {
-        "name": "Filebeat",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Filebeat is a Beat that collects log files and sends them to Logstash or Elasticsearch for processing and analysis."
+        "name":"Filebeat",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Filebeat is a Beat that collects log files and sends them to Logstash or Elasticsearch for processing and analysis."
     },
     {
-        "name": "Metricbeat",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Metricbeat is a Beat that collects system and service metrics and sends them to Logstash or Elasticsearch for processing and analysis."
+        "name":"Metricbeat",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Metricbeat is a Beat that collects system and service metrics and sends them to Logstash or Elasticsearch for processing and analysis."
     },
     {
-        "name": "Packetbeat",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Packetbeat is a Beat that collects network traffic data and sends it to Logstash or Elasticsearch for processing and analysis."
+        "name":"Packetbeat",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Packetbeat is a Beat that collects network traffic data and sends it to Logstash or Elasticsearch for processing and analysis."
     },
     {
-        "name": "Tempo",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Tempo is a high-performance, open-source, and easy-to-use distributed tracing system. It is part of the LGTM observability stack and is used for collecting and storing traces."
+        "name":"Tempo",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Tempo is a high-performance, open-source, and easy-to-use distributed tracing system. It is part of the LGTM observability stack and is used for collecting and storing traces."
     },
     {
-        "name": "Prometheus",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Prometheus is a powerful open-source monitoring and alerting system. It collects and stores time-series data and provides a flexible query language for analyzing the data."
+        "name":"Prometheus",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Prometheus is a powerful open-source monitoring and alerting system. It collects and stores time-series data and provides a flexible query language for analyzing the data."
     },
     {
-        "name": "Grafana",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Grafana is a popular open-source data visualization and monitoring platform. It provides a flexible and customizable interface for creating dashboards and visualizations from various data sources, including Prometheus and Loki."
+        "name":"Grafana",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Grafana is a popular open-source data visualization and monitoring platform. It provides a flexible and customizable interface for creating dashboards and visualizations from various data sources, including Prometheus and Loki."
     },
     {
-        "name": "Loki",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is part of the LGTM observability stack and is used for collecting and storing logs."
+        "name":"Loki",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is part of the LGTM observability stack and is used for collecting and storing logs."
     },
     {
-        "name": "Promtail",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Promtail is a log agent that collects logs and pushes them to Loki. It is designed to be highly scalable and efficient, making it a key component of the LGTM observability stack."
+        "name":"Promtail",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Promtail is a log agent that collects logs and pushes them to Loki. It is designed to be highly scalable and efficient, making it a key component of the LGTM observability stack."
     },
     {
-        "name": "Pyroscope",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Pyroscope is an open-source continuous profiling platform that helps developers understand the performance characteristics of their applications. It provides detailed insights into CPU and memory usage, as well as other performance metrics."
+        "name":"Pyroscope",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Pyroscope is an open-source continuous profiling platform that helps developers understand the performance characteristics of their applications. It provides detailed insights into CPU and memory usage, as well as other performance metrics."
     },
     {
-        "name": "Alertmanager",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Alertmanager is a component of the Prometheus monitoring system that handles alerts sent by client applications or other Prometheus servers. It provides a flexible and powerful way to manage and route alerts, including the ability to group, silence, and inhibit alerts."
+        "name":"Alertmanager",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Alertmanager is a component of the Prometheus monitoring system that handles alerts sent by client applications or other Prometheus servers. It provides a flexible and powerful way to manage and route alerts, including the ability to group, silence, and inhibit alerts."
     },
     {
         "name":"Vagrant",
@@ -438,53 +434,53 @@
         "description":"Vagrant is a tool for building and managing virtual machine environments in a single workflow. It allows developers to create and configure portable development environments, making it easier to ensure consistency across different systems."
     },
     {
-        "name": "HCL",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "HCL is the HashiCorp configuration language, a toolkit for creating structured configuration languages that are both human- and machine-friendly, for use with command-line tools."
+        "name":"HCL",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"HCL is the HashiCorp configuration language, a toolkit for creating structured configuration languages that are both human- and machine-friendly, for use with command-line tools."
     },
     {
-        "name": "Packer",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration."
+        "name":"Packer",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Packer is a tool for creating identical machine images for multiple platforms from a single source configuration."
     },
     {
-        "name": "Terraform",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. It can be used to provision and manage any cloud, infrastructure, or service."
+        "name":"Terraform",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. It can be used to provision and manage any cloud, infrastructure, or service."
     },
     {
-        "name": "Nomad",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Nomad is a distributed, highly-available, data-center aware scheduler. It can be used to deploy a wide variety of workloads including batch, microservices, and stateful services."
+        "name":"Nomad",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Nomad is a distributed, highly-available, data-center aware scheduler. It can be used to deploy a wide variety of workloads including batch, microservices, and stateful services."
     },
     {
-        "name": "Vault",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Vault is a tool for securely managing sensitive data, such as passwords, API keys, and certificates."
+        "name":"Vault",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Vault is a tool for securely managing sensitive data, such as passwords, API keys, and certificates."
     },
     {
-        "name": "Consul",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Consul is a service mesh solution that provides a full featured control plane with service discovery, configuration, and segmentation functionality. It is used for building and managing distributed systems, ensuring high availability and reliability."
+        "name":"Consul",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Consul is a service mesh solution that provides a full featured control plane with service discovery, configuration, and segmentation functionality. It is used for building and managing distributed systems, ensuring high availability and reliability."
     },
     {
-        "name": "Boundary",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Boundary is an intelligent proxy that creates granular, identity-based access controls for dynamic infrastructure."
+        "name":"Boundary",
+        "ring":"assess",
+        "quadrant":"tools",
+        "isNew":"FALSE",
+        "description":"Boundary is an intelligent proxy that creates granular, identity-based access controls for dynamic infrastructure."
     },
     {
         "name":"GitHub",
@@ -515,39 +511,39 @@
         "description":"Jira is a proprietary project management and issue tracking software developed by Atlassian. It is widely used by software development teams and other organizations to plan, track, and manage their work, including bug tracking, agile project management, and more."
     },
     {
-        "name": "OpenAI",
-        "ring": "adopt",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "A suite of AI models and tools developed by OpenAI, including GPT-3, DALL-E, and Whisper."
+        "name":"OpenAI",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"A suite of AI models and tools developed by OpenAI, including GPT-3, DALL-E, and Whisper."
     },
     {
-        "name": "Google Gemini",
-        "ring": "assess",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "A framework for building conversational AI applications using large language models."
+        "name":"Google Gemini",
+        "ring":"assess",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"A framework for building conversational AI applications using large language models."
     },
     {
-        "name": "AWS",
-        "ring": "adopt",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "Amazon Web Services (AWS) is a comprehensive, evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure as a service (IaaS), platform as a service (PaaS), and packaged software as a service (SaaS) offerings. AWS provides a suite of cloud computing services that include computing, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools, and tools for the Internet of Things."
+        "name":"AWS",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"Amazon Web Services (AWS) is a comprehensive, evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure as a service (IaaS), platform as a service (PaaS), and packaged software as a service (SaaS) offerings. AWS provides a suite of cloud computing services that include computing, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools, and tools for the Internet of Things."
     },
     {
-        "name": "DigitalOcean",
-        "ring": "adopt",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "DigitalOcean is a cloud computing platform that provides virtual private servers (VPS), also known as Droplets, for developers and businesses. It offers a simple and intuitive interface, along with a range of cloud computing services including compute, storage, networking, and managed databases, making it a popular choice for startups, small and medium-sized businesses, and individual developers."
+        "name":"DigitalOcean",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"DigitalOcean is a cloud computing platform that provides virtual private servers (VPS), also known as Droplets, for developers and businesses. It offers a simple and intuitive interface, along with a range of cloud computing services including compute, storage, networking, and managed databases, making it a popular choice for startups, small and medium-sized businesses, and individual developers."
     },
     {
-        "name": "Google Cloud",
-        "ring": "adopt",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "Google Cloud Platform (GCP) is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube. GCP provides a wide range of services, including computing, storage, networking, big data, machine learning, and management tools, making it a comprehensive cloud platform for enterprises, startups, and developers."
+        "name":"Google Cloud",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"FALSE",
+        "description":"Google Cloud Platform (GCP) is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube. GCP provides a wide range of services, including computing, storage, networking, big data, machine learning, and management tools, making it a comprehensive cloud platform for enterprises, startups, and developers."
     },
     {
         "name":"NoSQL",
