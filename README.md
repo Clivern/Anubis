@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Clivern/Kemet/main/screenshot01.png?v=3.1.3" width="600" />
+    <img src="https://raw.githubusercontent.com/clivern/kemet/main/static/header.jpeg" width="100%" />
     <h3 align="center">Kemet</h3>
     <p align="center">
         <a href="https://github.com/Clivern/Kemet/actions/workflows/ci.yml">
