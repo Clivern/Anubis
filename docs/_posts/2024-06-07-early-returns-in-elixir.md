@@ -115,21 +115,50 @@ IO.puts Example.create_entity(%{}) # Output: Entity with id 1 created
 The `with` statement is used for chaining multiple operations that may fail, I used this one alot in input validation within phoenix framework. When i started doing elixir i was using `throw` and `catch` statement alot for input validation but then I switched fully to use with statement. Here is an example.
 
 ```elixir
-
-defmodule ExampleController do
+defmodule Example do
   def validate_inputs(inputs) do
-    with true <- is_binary(inputs.name),
-         true <- String.length(inputs.name) > 0,
-         true <- String.length(inputs.name) <= 60 do
+    with {:ok, _} <- is_string?("Username", inputs.name),
+         {:ok, _} <- is_not_empty?("Username", inputs.name),
+         {:ok, _} <- is_between?("Username", inputs.name, 3, 60) do
       {:ok, inputs}
     else
-      false -> {:error, "Name must not be empty"}
-      _ -> {:error, "Name must not exceed 60 characters"}
+      {:error, reason} -> {:error, reason}
+    end
+  end
+
+  defp is_string?(name, value) do
+    if is_binary(value) do
+      {:ok, value}
+    else
+      {:error, "#{name} is not a valid string"}
+    end
+  end
+
+  defp is_not_empty?(name, value) do
+    value = String.trim(value)
+
+    if String.length(value) == 0 do
+      {:error, "#{name} can't be empty"}
+    else
+      {:ok, value}
+    end
+  end
+
+  defp is_between?(name, value, min, max) do
+    value = String.trim(value)
+
+    if String.length(value) >= min and String.length(value) <= max do
+      {:ok, value}
+    else
+      {:error, "#{name} must be between #{min} and #{max}"}
     end
   end
 end
 
-IO.inspect ExampleController.validate_inputs(%{name: "Joe"}) # {:ok, %{name: "Joe"}}
+IO.inspect Example.validate_inputs(%{name: "Joe"}) // {:ok, %{name: "Joe"}}
+IO.inspect Example.validate_inputs(%{name: ""})    // {:error, "Username can't be empty"}
+IO.inspect Example.validate_inputs(%{name: "  J"}) // {:error, "Username must be between 3 and 60"}
+
 ```
 
 
@@ -138,7 +167,7 @@ IO.inspect ExampleController.validate_inputs(%{name: "Joe"}) # {:ok, %{name: "Jo
 Elixir supports also throw and catch for early exits, which can be used to implement early return-like behavior. I used to do the above example like the following to get the return-like behavior.
 
 ```elixir
-defmodule ExampleController do
+defmodule Example do
   def validate_inputs(inputs) do
     try do
       if not is_binary(inputs.name) do
@@ -160,8 +189,8 @@ defmodule ExampleController do
   end
 end
 
-IO.inspect ExampleController.validate_inputs(%{name: "Joe"}) # {:ok, %{name: "Joe"}}
-IO.inspect ExampleController.validate_inputs(%{name: ""}) # {:error, "Name must not be empty"}
+IO.inspect Example.validate_inputs(%{name: "Joe"}) # {:ok, %{name: "Joe"}}
+IO.inspect Example.validate_inputs(%{name: ""}) # {:error, "Name must not be empty"}
 ```
 
 I figured out that it's not idiomatic in Elixir to use `throw` and `catch` for this kind of validation. Typically, pattern matching and guard clauses are preferred. However, if you want to stick with throw and catch, the implementation is mostly correct.
