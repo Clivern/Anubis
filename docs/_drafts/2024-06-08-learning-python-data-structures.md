@@ -40,11 +40,11 @@ print(x)           # Output: [1, 2, 3, 4, 5, 6, 7, 8]
 
 # Remove element at certain index
 pe = x.pop(2)
-print(x)  	       # Output: [1, 2, 4, 5, 6, 7, 8]
-print(pe) 	       # Output: 3
+print(x)           # Output: [1, 2, 4, 5, 6, 7, 8]
+print(pe)          # Output: 3
 
 del x[2:4]
-print(x)  	       # Output: [1, 2, 6, 7, 8]
+print(x)           # Output: [1, 2, 6, 7, 8]
 
 # Searching and Counting
 print(2 in x)      # Output: True
