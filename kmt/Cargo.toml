@@ -11,7 +11,7 @@ repository = "https://github.com/Clivern/kmt"
 
 [dependencies]
 clap = "4.4.11"
-home = "0.5.5"
+home = "0.5.9"
 inquire = "0.6.2"
 serde = "1.0.193"
 serde_json = "1.0.108"
