@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+
+import os
+import time
+import argparse
+
+
+def set_icmp_echo(ignore):
+    # ignore=1 to drop, ignore=0 to allow
+    os.system(f"sysctl -w net.ipv4.icmp_echo_ignore_all={ignore} > /dev/null")
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Toggle ICMP echo replies on/off at specified intervals."
+    )
+
+    parser.add_argument(
+        "-d",
+        "--duration",
+        type=int,
+        default=3600,
+        help="Total duration in seconds (default: 3600 = 1 hour)",
+    )
+
+    parser.add_argument(
+        "-i",
+        "--interval",
+        type=int,
+        default=30,
+        help="Interval between toggles in seconds (default: 30)",
+    )
+
+    args = parser.parse_args()
+
+    total_duration = args.duration
+    interval = args.interval
+    start_time = time.time()
+    icmp_state = 0  # Start with ICMP replies enabled
+
+    try:
+        while (time.time() - start_time) < total_duration:
+            set_icmp_echo(icmp_state)
+            print(
+                f"{'Allowing' if icmp_state == 0 else 'Dropping'} ICMP for next {interval} seconds..."
+            )
+            icmp_state = 1 - icmp_state  # Toggle between 0 and 1
+            time.sleep(interval)
+    finally:
+        # Ensure ICMP is re-enabled at the end
+        set_icmp_echo(0)
+        print("ICMP echo replies restored (enabled).")
+
+
+if __name__ == "__main__":
+    if os.geteuid() != 0:
+        print("Please run this script as root.")
+    else:
+        main()
