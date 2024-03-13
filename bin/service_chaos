@@ -1,0 +1,73 @@
+#!/usr/bin/env python3
+
+import os
+import time
+import argparse
+import subprocess
+
+
+def toggle_service(service_name, start=True):
+    action = "start" if start else "stop"
+    try:
+        subprocess.run(
+            ["systemctl", action, service_name],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"Error {action}ing service {service_name}: {e.stderr}")
+        return False
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Toggle systemd service on/off at specified intervals."
+    )
+
+    parser.add_argument("service", help="Name of the systemd service to toggle")
+
+    parser.add_argument(
+        "-d",
+        "--duration",
+        type=int,
+        default=3600,
+        help="Total duration in seconds (default: 3600 = 1 hour)",
+    )
+
+    parser.add_argument(
+        "-i",
+        "--interval",
+        type=int,
+        default=30,
+        help="Interval between toggles in seconds (default: 30)",
+    )
+
+    args = parser.parse_args()
+
+    total_duration = args.duration
+    interval = args.interval
+    service_name = args.service
+    start_time = time.time()
+    service_state = True  # Start with service running
+
+    try:
+        while (time.time() - start_time) < total_duration:
+            if toggle_service(service_name, service_state):
+                print(
+                    f"{'Starting' if service_state else 'Stopping'} {service_name} for next {interval} seconds..."
+                )
+                service_state = not service_state  # Toggle between True and False
+            time.sleep(interval)
+    finally:
+        # Ensure service is running at the end
+        toggle_service(service_name, True)
+        print(f"{service_name} service restored (running).")
+
+
+if __name__ == "__main__":
+    if os.geteuid() != 0:
+        print("Please run this script as root.")
+    else:
+        main()
