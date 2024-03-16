@@ -1,0 +1,151 @@
+#!/usr/bin/env python3
+
+import os
+import time
+import argparse
+import random
+import sys
+import subprocess
+
+
+def set_icmp_echo(ignore):
+    """Set ICMP echo ignore setting via sysctl"""
+    try:
+        # ignore=1 to drop, ignore=0 to allow
+        result = subprocess.run(
+            ["sysctl", "-w", f"net.ipv4.icmp_echo_ignore_all={ignore}"],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"Error setting ICMP echo ignore: {e}")
+        return False
+    except FileNotFoundError:
+        print("Error: sysctl command not found. This script requires Linux.")
+        return False
+
+
+def validate_range(range_str):
+    """Validate and parse range string like '60-120'"""
+    try:
+        if '-' in range_str:
+            min_val, max_val = map(int, range_str.split('-', 1))
+            if min_val > max_val:
+                raise ValueError("Minimum value cannot be greater than maximum value")
+            if min_val < 0 or max_val < 0:
+                raise ValueError("Values must be non-negative")
+            return min_val, max_val
+        else:
+            val = int(range_str)
+            if val < 0:
+                raise ValueError("Value must be non-negative")
+            return val, val
+    except ValueError as e:
+        print(f"Error parsing range '{range_str}': {e}")
+        sys.exit(1)
+
+
+def get_interval_for_state(icmp_state, drop_range, up_range):
+    """Get the appropriate interval based on current ICMP state"""
+    if icmp_state == 1:  # ICMP is currently disabled (dropping)
+        if isinstance(drop_range, tuple):
+            return random.randint(drop_range[0], drop_range[1])
+        else:
+            return drop_range
+    else:  # ICMP is currently enabled (allowing)
+        if isinstance(up_range, tuple):
+            return random.randint(up_range[0], up_range[1])
+        else:
+            return up_range
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Toggle ICMP echo replies on/off at specified intervals."
+    )
+
+    parser.add_argument(
+        "-d",
+        "--duration",
+        type=int,
+        default=3600,
+        help="Total duration in seconds (default: 3600 = 1 hour)",
+    )
+
+    parser.add_argument(
+        "-di",
+        "--drop-interval",
+        type=str,
+        default="30",
+        help="Interval between toggles in seconds, or a range like 60-70 (default: 30) when ICMP is dropped",
+    )
+
+    parser.add_argument(
+        "-ui",
+        "--up-interval",
+        type=str,
+        default="30",
+        help="Interval between toggles in seconds, or a range like 120-240 (default: 30) when ICMP is allowed",
+    )
+
+    args = parser.parse_args()
+
+    # Validate arguments
+    if args.duration <= 0:
+        print("Error: Duration must be positive")
+        sys.exit(1)
+
+    # Parse and validate intervals
+    drop_range = validate_range(args.drop_interval)
+    up_range = validate_range(args.up_interval)
+
+    # Check if we can access the ICMP sysctl parameter
+    try:
+        subprocess.run(["sysctl", "net.ipv4.icmp_echo_ignore_all"],
+                      capture_output=True, check=True)
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        print("Error: Cannot access ICMP echo ignore sysctl parameter.")
+        print("This script requires Linux with appropriate permissions.")
+        sys.exit(1)
+
+    start_time = time.time()
+    icmp_state = 0  # Start with ICMP replies enabled
+
+    print(f"Starting ICMP chaos for {args.duration} seconds")
+    print(f"Drop intervals: {args.drop_interval}, Up intervals: {args.up_interval}")
+
+    try:
+        while (time.time() - start_time) < args.duration:
+            # Set the current ICMP state
+            if not set_icmp_echo(icmp_state):
+                print("Failed to set ICMP state, exiting...")
+                break
+
+            interval = get_interval_for_state(icmp_state, drop_range, up_range)
+
+            print(
+                f"{'Allowing' if icmp_state == 0 else 'Dropping'} ICMP for next {interval} seconds..."
+            )
+
+            time.sleep(interval)
+
+            # Toggle state for next iteration
+            icmp_state = 1 - icmp_state  # Toggle between 0 and 1
+    except KeyboardInterrupt:
+        print("\nInterrupted by user")
+    finally:
+        # Ensure ICMP is re-enabled at the end
+        if set_icmp_echo(0):
+            print("ICMP echo replies restored (enabled).")
+        else:
+            print("Warning: Failed to restore ICMP echo replies.")
+
+
+if __name__ == "__main__":
+    if os.geteuid() != 0:
+        print("Please run this script as root.")
+        sys.exit(1)
+    else:
+        main()
