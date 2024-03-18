@@ -12,11 +12,11 @@ def set_icmp_echo(ignore):
     """Set ICMP echo ignore setting via sysctl"""
     try:
         # ignore=1 to drop, ignore=0 to allow
-        result = subprocess.run(
+        subprocess.run(
             ["sysctl", "-w", f"net.ipv4.icmp_echo_ignore_all={ignore}"],
             capture_output=True,
             text=True,
-            check=True
+            check=True,
         )
         return True
     except subprocess.CalledProcessError as e:
@@ -30,8 +30,8 @@ def set_icmp_echo(ignore):
 def validate_range(range_str):
     """Validate and parse range string like '60-120'"""
     try:
-        if '-' in range_str:
-            min_val, max_val = map(int, range_str.split('-', 1))
+        if "-" in range_str:
+            min_val, max_val = map(int, range_str.split("-", 1))
             if min_val > max_val:
                 raise ValueError("Minimum value cannot be greater than maximum value")
             if min_val < 0 or max_val < 0:
@@ -103,8 +103,9 @@ def main():
 
     # Check if we can access the ICMP sysctl parameter
     try:
-        subprocess.run(["sysctl", "net.ipv4.icmp_echo_ignore_all"],
-                      capture_output=True, check=True)
+        subprocess.run(
+            ["sysctl", "net.ipv4.icmp_echo_ignore_all"], capture_output=True, check=True
+        )
     except (subprocess.CalledProcessError, FileNotFoundError):
         print("Error: Cannot access ICMP echo ignore sysctl parameter.")
         print("This script requires Linux with appropriate permissions.")
