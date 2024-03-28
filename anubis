@@ -95,6 +95,7 @@ commands=(
     "opswork recipe run clivern/anubis/kotlin -h localhost"
     "opswork recipe run clivern/anubis/lsp -h localhost"
     "opswork recipe run clivern/anubis/txy -h localhost"
+    "opswork recipe run clivern/anubis/opentofu -h localhost"
 )
 
 # Use fzf to select a command from the list

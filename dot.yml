@@ -288,6 +288,10 @@ recipes:
     path: tfswitch
     tags: anubis,must_have,hashicorp
 
+  - name: clivern/anubis/opentofu
+    path: opentofu
+    tags: anubis,must_have,hashicorp
+
   # requires virtualbox (install manually)
   - name: clivern/anubis/vagrant
     path: vagrant
@@ -430,6 +434,7 @@ run:
   - name: clivern/anubis/pet
   - name: clivern/anubis/screen
   - name: clivern/anubis/tfswitch
+  - name: clivern/anubis/opentofu
   - name: clivern/anubis/watch
   - name: clivern/anubis/wget
   - name: clivern/anubis/ytt
