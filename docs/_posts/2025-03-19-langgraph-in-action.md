@@ -10,7 +10,7 @@ keywords: langchain, langgraph, ai, agentic-systems
 
 It took me a while to understand why I need [LangGraph](https://langchain-ai.github.io/langgraph/) when I can use [LangChain](https://python.langchain.com/docs/introduction/) to build agents.
 
-According to the documentation, [LangChain]](https://python.langchain.com/docs/introduction/) provides integrations and composable components to streamline Large Language Model (LLM) application development.
+According to the documentation, [LangChain](https://python.langchain.com/docs/introduction/) provides integrations and composable components to streamline Large Language Model (LLM) application development.
 
 While the [LangGraph](https://langchain-ai.github.io/langgraph/) library enables agent orchestration—offering customizable architectures, long-term memory, and human-in-the-loop capabilities to reliably handle complex tasks.
 
