@@ -21,5 +21,5 @@
 # SOFTWARE.
 
 tasks:
-  - name: Install uv python package on version 0.4.29
-    command: pipx install uv==0.4.29
+  - name: Install uv python package on version 0.7.19
+    command: pipx install uv==0.7.19
