@@ -2,6 +2,7 @@
 % To Convert to PDF:
 %
 % https://cloudconvert.com/tex-to-pdf
+% https://www.overleaf.com/
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
@@ -15,6 +16,13 @@
 \usepackage{geometry}
 	\textheight=700px                    % Saving trees ;-)
 \usepackage{url}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black
+}
 
 \frenchspacing              % Better looking spacings after periods
 \pagestyle{empty}           % No pagenumbers/headers/footers
@@ -125,16 +133,9 @@ In 2012, I created clivern.com to share my projects and some tutorials about web
 \sepspace
 
 
-%%% Education
-%%% ------------------------------------------------------------
-\NewPart{Education}{}
-
-\EducationEntry{Bachelor's degree}{2009-2014}{Suez University, Suez Egypt}{Petroleum and Mining Engineering, Petroleum Department. Grade: Very Good}
-
-
 %%% Work experience
 %%% ------------------------------------------------------------
-\NewPart{Work experience}{}
+\NewPart{Experience}{}
 
 \WorkEntry{Software Engineer}{May 2022 - Present}{Cisco, Amsterdam, Netherlands}{\begin{itemize}
 \item Responsible for the design and operation of the Monitoring and Observability Platform for Cisco OpenDNS resolvers globally (Cisco Umbrella DNS)
@@ -196,17 +197,6 @@ In 2012, I created clivern.com to share my projects and some tutorials about web
 \end{itemize}}
 
 
-%%% Skills
-%%% ------------------------------------------------------------
-\NewPart{Languages}{}
-
-\begin{itemize}
-\item \textbf{English}: Full professional proficiency
-\item \textbf{Arabic}: Native or bilingual proficiency
-\item \textbf{Dutch}: Elementary proficiency
-\end{itemize}
-
-
 %%% Projects
 %%% ------------------------------------------------------------
 \NewPart{Projects}{}
@@ -214,54 +204,61 @@ In 2012, I created clivern.com to share my projects and some tutorials about web
 These are some of my open source projects. The open source projects changes frequently so please check the full list on github.
 
 \begin{itemize}
-\item \textbf{Cattle} \url{https://github.com/Clivern/Cattle} - Platform to Run and Share Code. It Supports PHP, Python, Ruby, Java, Go, Rust, C and C++.
-\item \textbf{Beetle} \url{https://github.com/Clivern/Beetle} - Kubernetes multi-cluster deployment automation service.
-\item \textbf{Walrus} \url{https://github.com/Clivern/Walrus} - Fast, Secure and Reliable System Backup, Set up in Minutes.
-\item \textbf{Beaver} \url{https://github.com/Clivern/Beaver} - A real time messaging system to build a scalable in-app notifications, multiplayer games, chat apps in web and mobile apps.
-\item \textbf{Racter} \url{https://github.com/Clivern/Racter} - A Java Framework for Building Bots on Facebook's Messenger Platform.
-\item \textbf{Silverback} \url{https://github.com/silverbackhq} - A Status and Incident Communication Tool.
-\item \textbf{Gauntlet} \url{https://github.com/Clivern/Gauntlet} - Guides, Articles, Podcasts, Videos and Notes to Build Reliable Large-Scale Distributed Systems.
-\item \textbf{Peanut} \url{https://github.com/Clivern/Peanut} - Deploy Databases and Services Easily for Development and Testing Pipelines.
-\item \textbf{Rhino} \url{https://github.com/Clivern/Rhino} - HTTP Mocking \& Debugging Service.
-\item \textbf{Minion} \url{https://github.com/Clivern/Minion} - Single Page Application Boilerplate.
-\item \textbf{Monkey} \url{https://github.com/Clivern/Monkey} - Apache CloudStack SDK in PHP that supports sync calls, async calls and multiple dependent calls.
-\item \textbf{Glove} \url{https://github.com/Clivern/Glove} - Prometheus Exporter Boilerplate.
-\item \textbf{generator-gopkg} \url{https://github.com/Clivern/generator-gopkg} - Yeoman Generator for Golang Packages.
-\item \textbf{generator-goapi} \url{https://github.com/Clivern/generator-goapi} - Yeoman Generator for Golang Microservices.
-\item \textbf{Bazooka} \url{https://github.com/Clivern/Bazooka} - Command Line Tool for Database Backup.
-\item \textbf{kafka-sdk} \url{https://github.com/Clivern/kafka-sdk} - Java SDK for Apache Kafka.
-\item \textbf{Rabbit} \url{https://github.com/Clivern/Rabbit} - A lightweight service that will build and store your go projects binaries, Integrated with Github, Gitlab, Bitbucket and Bitbucket Server.
-\item \textbf{Mammal} \url{https://github.com/Clivern/Mammal} - A Sample Microservice.
-\item \textbf{Poodle} \url{https://github.com/Clivern/Poodle} - A fast and beautiful command line tool to build API requests.
-\item \textbf{rabbitmq-hole} \url{https://github.com/Clivern/rabbitmq-hole} - RabbitMQ HTTP API Client In PHP.
-\item \textbf{wit-java} \url{https://github.com/Clivern/wit-java} - A Java Library For Wit.ai
-\item \textbf{arduino\_exporter} \url{https://github.com/Clivern/arduino_exporter} - Arduino Prometheus Exporter.
-\item \textbf{Cluster} \url{https://github.com/Clivern/Cluster} - Golang Package for System Clustering.
-\item \textbf{Hamster} \url{https://github.com/Clivern/Hamster} - A Bot toolkit for github that supports OAuth, Events, API, Custom Commands and Check Runs.
-\item \textbf{Hippo} \url{https://github.com/Clivern/Hippo} - A well crafted go packages that help you build robust, reliable, maintainable microservices.
-\item \textbf{Chunk} \url{https://github.com/Clivern/Chunk} - Asynchronous Task Queue Based on Distributed Message Passing for PHP.
-\item \textbf{Decoy} \url{https://github.com/Clivern/Decoy} - A JSON Schema Validation Package for Java.
-\item \textbf{Memcached} \url{https://github.com/Clivern/Memcached} - A Memcached Client for PHP.
-\item \textbf{Observability-php-sdk} \url{https://github.com/Clivern/Observability-php-sdk} - Observability SDK for PHP Applications.
-\item \textbf{Imap} \url{https://github.com/Clivern/Imap} - Access Mailbox Using PHP IMAP.
-\item \textbf{Bucket} \url{https://github.com/Clivern/Bucket} - Consistent Hashing Algorithm Package for Scalable Data Distribution
-\item \textbf{Apes} \url{https://github.com/Clivern/Apes} - Chaos and Resiliency Testing Service.
-\item \textbf{Unixsig} \url{https://github.com/Clivern/Unixsig} - Python Package to Handle Unix Signals.
-\item \textbf{Laravel-CSV-Export} \url{https://github.com/Clivern/Laravel-CSV-Export} - Export a Large Dataset in CSV Format.
-\item \textbf{file_uploader} \url{https://github.com/Clivern/file_uploader} - PHP File Uploader Package
-\item \textbf{Bear} \url{https://github.com/Clivern/Bear} - A WordPress Themes Boilerplate.
-\item \textbf{Helium} \url{https://github.com/Clivernio/Helium} - A Fast, Secure and Reliable Newsletter System, Set up in Minutes.
-\item \textbf{Oxygen} \url{https://github.com/Clivern/Oxygen} - Ansible Collection to Deploy A Reliable PHP Services.
-\item \textbf{Gorilla} \url{https://github.com/Norwik/Gorilla} - A Distributed Lock Service, Set up in Minutes.
-\item \textbf{Goenv} \url{https://github.com/Clivern/Goenv} - Manage Your Applications Go Environment.
-\item \textbf{Helmet} \url{https://github.com/Norwik/Helmet} - A Lightweight Cloud Native API Gateway.
-\item \textbf{Garment} \url{https://github.com/Norwik/Garment} - A Thread Safe Connection Pooling.
-\item \textbf{Jump} \url{https://github.com/Clivern/Jump} - A Command Line Tool for Fast System Navigation in Rust.
-\item \textbf{Chaos} \url{https://github.com/Clivern/Chaos} - A Server Chaos Maker, Set up in Minutes.
-\item \textbf{Lynx} \url{https://github.com/Clivern/Lynx} - A Fast, Secure and Reliable Terraform Backend, Set up in Minutes.
-\item \textbf{Gulper} \url{https://github.com/Clivern/Gulper} - A Command Line Tool to Backup and Restore SQLite, MySQL and PostgreSQL.
-\item \textbf{Meez} \url{https://github.com/Clivern/Meez} - AI Assistant and Copilot SDK for SaaS Applications.
+\item \textbf{\href{https://github.com/Clivern/Cattle}{Cattle}} - Platform to Run and Share Code. It Supports PHP, Python, Ruby, Java, Go, Rust, C and C++.
+\item \textbf{\href{https://github.com/Clivern/Beetle}{Beetle}} - Kubernetes multi-cluster deployment automation service.
+\item \textbf{\href{https://github.com/Clivern/Walrus}{Walrus}} - Fast, Secure and Reliable System Backup, Set up in Minutes.
+\item \textbf{\href{https://github.com/Clivern/Beaver}{Beaver}} - A real time messaging system to build a scalable in-app notifications, multiplayer games, chat apps in web and mobile apps.
+\item \textbf{\href{https://github.com/Clivern/Racter}{Racter}} - A Java Framework for Building Bots on Facebook's Messenger Platform.
+\item \textbf{\href{https://github.com/silverbackhq}{Silverback}} - A Status and Incident Communication Tool.
+\item \textbf{\href{https://github.com/Clivern/Gauntlet}{Gauntlet}} - Guides, Articles, Podcasts, Videos and Notes to Build Reliable Large-Scale Distributed Systems.
+\item \textbf{\href{https://github.com/Clivern/Peanut}{Peanut}} - Deploy Databases and Services Easily for Development and Testing Pipelines.
+\item \textbf{\href{https://github.com/Clivern/Rhino}{Rhino}} - HTTP Mocking \& Debugging Service.
+\item \textbf{\href{https://github.com/Clivern/Minion}{Minion}} - Single Page Application Boilerplate.
+\item \textbf{\href{https://github.com/Clivern/Monkey}{Monkey}} - Apache CloudStack SDK in PHP that supports sync calls, async calls and multiple dependent calls.
+\item \textbf{\href{https://github.com/Clivern/Glove}{Glove}} - Prometheus Exporter Boilerplate.
+\item \textbf{\href{https://github.com/Clivern/generator-gopkg}{generator-gopkg}} - Yeoman Generator for Golang Packages.
+\item \textbf{\href{https://github.com/Clivern/generator-goapi}{generator-goapi}} - Yeoman Generator for Golang Microservices.
+\item \textbf{\href{https://github.com/Clivern/Bazooka}{Bazooka}} - Command Line Tool for Database Backup.
+\item \textbf{\href{https://github.com/Clivern/kafka-sdk}{kafka-sdk}} - Java SDK for Apache Kafka.
+\item \textbf{\href{https://github.com/Clivern/Rabbit}{Rabbit}} - A lightweight service that will build and store your go projects binaries, Integrated with Github, Gitlab, Bitbucket and Bitbucket Server.
+\item \textbf{\href{https://github.com/Clivern/Mammal}{Mammal}} - A Sample Microservice.
+\item \textbf{\href{https://github.com/Clivern/Poodle}{Poodle}} - A fast and beautiful command line tool to build API requests.
+\item \textbf{\href{https://github.com/Clivern/rabbitmq-hole}{rabbitmq-hole}} - RabbitMQ HTTP API Client In PHP.
+\item \textbf{\href{https://github.com/Clivern/wit-java}{wit-java}} - A Java Library For Wit.ai
+\item \textbf{\href{https://github.com/Clivern/arduino_exporter}{arduino-exporter}} - Arduino Prometheus Exporter.
+\item \textbf{\href{https://github.com/Clivern/Cluster}{Cluster}} - Golang Package for System Clustering.
+\item \textbf{\href{https://github.com/Clivern/Hamster}{Hamster}} - A Bot toolkit for github that supports OAuth, Events, API, Custom Commands and Check Runs.
+\item \textbf{\href{https://github.com/Clivern/Hippo}{Hippo}} - A well crafted go packages that help you build robust, reliable, maintainable microservices.
+\item \textbf{\href{https://github.com/Clivern/Chunk}{Chunk}} - Asynchronous Task Queue Based on Distributed Message Passing for PHP.
+\item \textbf{\href{https://github.com/Clivern/Decoy}{Decoy}} - A JSON Schema Validation Package for Java.
+\item \textbf{\href{https://github.com/Clivern/Memcached}{Memcached}} - A Memcached Client for PHP.
+\item \textbf{\href{https://github.com/Clivern/Observability-php-sdk}{Observability-php-sdk}} - Observability SDK for PHP Applications.
+\item \textbf{\href{https://github.com/Clivern/Imap}{Imap}} - Access Mailbox Using PHP IMAP.
+\item \textbf{\href{https://github.com/Clivern/Bucket}{Bucket}} - Consistent Hashing Algorithm Package for Scalable Data Distribution
+\item \textbf{\href{https://github.com/Clivern/Apes}{Apes}} - Chaos and Resiliency Testing Service.
+\item \textbf{\href{https://github.com/Clivern/Unixsig}{Unixsig}} - Python Package to Handle Unix Signals.
+\item \textbf{\href{https://github.com/Clivern/Laravel-CSV-Export}{Laravel-CSV-Export}} - Export a Large Dataset in CSV Format.
+\item \textbf{\href{https://github.com/Clivern/file_uploader}{file-uploader}} - PHP File Uploader Package
+\item \textbf{\href{https://github.com/Clivern/Bear}{Bear}} - A WordPress Themes Boilerplate.
+\item \textbf{\href{https://github.com/Clivernio/Helium}{Helium}} - A Fast, Secure and Reliable Newsletter System, Set up in Minutes.
+\item \textbf{\href{https://github.com/Clivern/Oxygen}{Oxygen}} - Ansible Collection to Deploy A Reliable PHP Services.
+\item \textbf{\href{https://github.com/Norwik/Gorilla}{Gorilla}} - A Distributed Lock Service, Set up in Minutes.
+\item \textbf{\href{https://github.com/Clivern/Goenv}{Goenv}} - Manage Your Applications Go Environment.
+\item \textbf{\href{https://github.com/Norwik/Helmet}{Helmet}} - A Lightweight Cloud Native API Gateway.
+\item \textbf{\href{https://github.com/Norwik/Garment}{Garment}} - A Thread Safe Connection Pooling.
+\item \textbf{\href{https://github.com/Clivern/Jump}{Jump}} - A Command Line Tool for Fast System Navigation in Rust.
+\item \textbf{\href{https://github.com/Clivern/Chaos}{Chaos}} - A Server Chaos Maker, Set up in Minutes.
+\item \textbf{\href{https://github.com/Clivern/Lynx}{Lynx}} - A Fast, Secure and Reliable Terraform Backend, Set up in Minutes.
+\item \textbf{\href{https://github.com/Clivern/Gulper}{Gulper}} - A Command Line Tool to Backup and Restore SQLite, MySQL and PostgreSQL.
+\item \textbf{\href{https://github.com/Clivern/Meez}{Meez}} - AI Assistant and Copilot SDK for SaaS Applications.
 \end{itemize}
+
+
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Education}{}
+
+\EducationEntry{Bachelor's degree}{2009-2014}{Suez University, Suez Egypt}{Petroleum and Mining Engineering, Petroleum Department. Grade: Very Good}
 
 
 %%% Volunteering
@@ -283,24 +280,35 @@ For extra info \url{https://www.digitalocean.com/blog/meet-the-navigators-2021}}
 
 %%% Certifications
 %%% ------------------------------------------------------------
-\NewPart{Certifications}{}xw
+\NewPart{Certifications}{}
 
 \begin{itemize}
-\item \textbf{Develop LLM powered AI agents with LangGraph} - Mar 2025 \url{https://www.udemy.com/certificate/UC-df02e75c-5a40-48f9-ad82-11be237f55cf/}
-\item \textbf{Getting Data into Splunk Observability Cloud} - Jul 2024 (Splunk)
-\item \textbf{Introduction to Splunk Application Performance Monitoring} - Jul 2024 (Splunk)
-\item \textbf{Introduction to Splunk Log Observer Connect} - Jul 2024 (Splunk)
-\item \textbf{Network Performance Monitoring with Splunk Network Explorer} - Jul 2024 (Splunk)
-\item \textbf{Introduction to Splunk Observability Cloud} - Jun 2024 (Splunk)
-\item \textbf{Kotlin for Java Developers} - Sept 2024 \url{https://www.udemy.com/certificate/UC-8780645d-99db-4604-a437-f24afa34a3eb/}
-\item \textbf{Develop LLM powered applications with LangChain} - Nov 2023 \url{https://www.udemy.com/certificate/UC-6e2f024d-1716-4252-94ae-e4ed6b375ceb/}
-\item \textbf{The Complete Elixir and Phoenix Bootcamp} - Nov 2022 \url{https://www.udemy.com/certificate/UC-fc7a4b3b-14f7-448a-93fc-c795bcc3dc05/}
-\item \textbf{Grafana} - Sep 2022 \url{https://www.udemy.com/certificate/UC-15d5186d-6069-48d0-adb2-7e3d54a7c5ad/}
-\item \textbf{Prometheus Alerting and Monitoring} - Aug 2022 \url{https://www.udemy.com/certificate/UC-3c8beedc-a946-4a96-8f72-a871e98ba025/}
-\item \textbf{The Rust Programming Language} - Jul 2022 \url{https://www.udemy.com/certificate/UC-21307ab6-9d1b-4119-a546-c95f931bf92f/}
-\item \textbf{Cassandra for Developers} - Feb 2021 (Pluralsight) \url{https://drive.google.com/file/d/1w4emc7PHAq5YQt70xippnAuZmQSZx7tR/view}
-\item \textbf{Linux Administration Bootcamp} - Dec 2019 \url{https://www.udemy.com/certificate/UC-TPZXFYXZ/}
-\item \textbf{Learn and Understand AngularJS} - Jan 2016 \url{https://www.udemy.com/certificate/UC-3KQ4IOU8/}
+\item \textbf{\href{https://www.udemy.com/certificate/UC-3KQ4IOU8/}{Learn and Understand AngularJS}} - Jan 2016
+\item \textbf{\href{https://www.udemy.com/certificate/UC-TPZXFYXZ/}{Linux Administration Bootcamp}} - Dec 2019
+\item \textbf{\href{https://drive.google.com/file/d/1w4emc7PHAq5YQt70xippnAuZmQSZx7tR/view}{Cassandra for Developers}} - Feb 2021 (Pluralsight)
+\item \textbf{\href{https://www.udemy.com/certificate/UC-21307ab6-9d1b-4119-a546-c95f931bf92f/}{The Rust Programming Language}} - Jul 2022
+\item \textbf{\href{https://www.udemy.com/certificate/UC-3c8beedc-a946-4a96-8f72-a871e98ba025/}{Prometheus Alerting and Monitoring}} - Aug 2022
+\item \textbf{\href{https://www.udemy.com/certificate/UC-15d5186d-6069-48d0-adb2-7e3d54a7c5ad/}{Grafana}} - Sep 2022
+\item \textbf{\href{https://www.udemy.com/certificate/UC-fc7a4b3b-14f7-448a-93fc-c795bcc3dc05/}{The Complete Elixir and Phoenix Bootcamp}} - Nov 2022
+\item \textbf{\href{https://www.udemy.com/certificate/UC-6e2f024d-1716-4252-94ae-e4ed6b375ceb/}{Develop LLM powered applications with LangChain}} - Nov 2023
+\item \textbf{\href{https://www.udemy.com/certificate/UC-8780645d-99db-4604-a437-f24afa34a3eb/}{Kotlin for Java Developers}} - Sept 2024
+\item \textbf{\href{https://www.splunk.com/}{Introduction to Splunk Observability Cloud}} - Jun 2024 (Splunk)
+\item \textbf{\href{https://www.splunk.com/}{Network Performance Monitoring with Splunk Network Explorer}} - Jul 2024 (Splunk)
+\item \textbf{\href{https://www.splunk.com/}{Introduction to Splunk Log Observer Connect}} - Jul 2024 (Splunk)
+\item \textbf{\href{https://www.splunk.com/}{Introduction to Splunk Application Performance Monitoring}} - Jul 2024 (Splunk)
+\item \textbf{\href{https://www.splunk.com/}{Getting Data into Splunk Observability Cloud}} - Jul 2024 (Splunk)
+\item \textbf{\href{https://www.udemy.com/certificate/UC-df02e75c-5a40-48f9-ad82-11be237f55cf/}{Develop LLM powered AI agents with LangGraph}} - Mar 2025
+\end{itemize}
+
+
+%%% Languages
+%%% ------------------------------------------------------------
+\NewPart{Languages}{}
+
+\begin{itemize}
+\item \textbf{Arabic}: Native or bilingual proficiency
+\item \textbf{English}: Full professional proficiency
+\item \textbf{Dutch}: Elementary proficiency
 \end{itemize}
 
 
