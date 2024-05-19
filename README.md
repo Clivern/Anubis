@@ -132,7 +132,7 @@ $ op recipe list -o json | jq -r '.[].name'
 ```
 
 
-### `ngrok` Usage
+### Ngrok Usage
 
 To install `ngrok`
 
