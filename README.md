@@ -131,6 +131,19 @@ $ source ~/.secrets
 $ op recipe list -o json | jq '.[].name'
 ```
 
+13. To use `ngrok`
+
+```zsh
+$ op recipe run clivern/kemet/ngrok -h localhost
+
+# Define ngrok key and domain
+$ op secret add clivern/ngrok_domain "x.x.x.ngrok-free.app" -t ngrok
+$ op secret add clivern/ngrok_key "xxxxxxxxx" -t ngrok
+
+$ source ~/.secrets
+$ ngrok config add-authtoken $NGROK_KEY
+$ ngrok http --domain=$NGROK_DOMAIN 8000
+```
 
 ### Technology Radar
 
