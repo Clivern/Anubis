@@ -116,7 +116,7 @@ $ op secret add clivern/ai/openai_api_key "~~" -t ai
 9. Secret can be loaded as environmental variable by adding it to `configs/secrets.j2` like the following.
 
 ```zsh
-$ export OPENAI_API_KEY="$(op secret get clivern/ai/openai_api_key -o json | jq '.[0].value')"
+$ export OPENAI_API_KEY="$(op secret get clivern/ai/openai_api_key -o json | jq -r '.[0].value')"
 ```
 
 10. To load secrets from terminal.
@@ -128,26 +128,44 @@ $ source ~/.secrets
 11. To list all recipes
 
 ```
-$ op recipe list -o json | jq '.[].name'
+$ op recipe list -o json | jq -r '.[].name'
 ```
 
-13. To use `ngrok`
+
+### `ngrok` Usage
+
+To install `ngrok`
 
 ```zsh
 $ op recipe run clivern/kemet/ngrok -h localhost
+```
 
+To add `ngrok` secrets like the `key` and `domain`
+
+```zsh
 # Define ngrok key and domain
 $ op secret add clivern/ngrok_domain "x.x.x.ngrok-free.app" -t ngrok
 $ op secret add clivern/ngrok_key "xxxxxxxxx" -t ngrok
 
 $ source ~/.secrets
+```
+
+To configure `ngrok` auth token
+
+```zsh
 $ ngrok config add-authtoken $NGROK_KEY
+```
+
+To proxy to local port `8000`
+
+```zsh
 $ ngrok http --domain=$NGROK_DOMAIN 8000
 ```
 
+
 ### Technology Radar
 
-My technology radar is stored in `tradar.json`
+My Technology Radar is stored in `tradar.json`
 
 ```json
 [
