@@ -52,6 +52,9 @@ Description: Load SSH Keys
 ------------------------------
 Description: Clear ansible cache
     $ ansible_cc
+------------------------------
+Description: Run ngrok
+    $ run_ngrok <port>
 ";
 }
 
@@ -152,4 +155,10 @@ ansible_cc() {
 
 jut () {
     cd $(ju to $1)
+}
+
+run_ngrok() {
+    export NGROK_KEY=$(opswork secret get clivern/ngrok_key -o json | jq -r '.[0].value')
+    export NGROK_DOMAIN=$(opswork secret get clivern/ngrok_domain -o json | jq -r '.[0].value')
+    ngrok http --domain=$NGROK_DOMAIN $1
 }

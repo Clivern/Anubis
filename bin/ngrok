@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export NGROK_KEY=$(opswork secret get clivern/ngrok_key -o json | jq -r '.[0].value')
+export NGROK_DOMAIN=$(opswork secret get clivern/ngrok_domain -o json | jq -r '.[0].value')
+ngrok http --domain=$NGROK_DOMAIN $1
