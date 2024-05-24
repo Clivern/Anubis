@@ -86,18 +86,18 @@ GenServer.cast(pid, {:delete, "gender"})
 
 In the above example we have `handle_call/3` and `handle_cast/2`. The difference between them is as follows:
 
-### Synchronous Calls (`GenServer.call/3`)
+#### Synchronous Calls (`GenServer.call/3`)
 - Client waits for response
 - Use `handle_call/3` to handle
 - Good for: getting data, calculations, validation
 
-### Asynchronous Calls (`GenServer.cast/2`)
+#### Asynchronous Calls (`GenServer.cast/2`)
 - Client doesn't wait
 - Use `handle_cast/2` to handle
 - Good for: updates, notifications, fire-and-forget operations
 
 
-### How to supervise in Phoenix Application
+### How to Supervise in Phoenix Application
 
 This section demonstrates how to create a `supervised` `GenServer` service in a `Phoenix` application. The service acts as an in-memory key-value store that persists for the lifetime of the application.
 
