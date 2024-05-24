@@ -1,12 +1,12 @@
 ---
 title: Understanding Elixir GenServer
 date: 2025-08-17 00:00:00
-featured_image: https://images.unsplash.com/photo-1494122353634-c310f45a6d3c?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1497216429614-5bd7dbd9fc48?q=75&fm=jpg&w=1000&fit=max
 excerpt: A GenServer is a process like any other Elixir process and it can be used to store state, execute code asynchronously and so on. Think of it as having many tiny workers, each with their own mailbox and private desk.
 keywords: elixir, genserver, phoenix
 ---
 
-![](https://images.unsplash.com/photo-1494122353634-c310f45a6d3c?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1497216429614-5bd7dbd9fc48?q=75&fm=jpg&w=1000&fit=max)
 
 A `GenServer` is a process like any other `Elixir` process and it can be used to store state, execute code `asynchronously` and so on. Think of it as having many tiny workers, each with their own mailbox and private desk.
 
