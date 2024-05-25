@@ -1,12 +1,12 @@
 ---
 title: Understanding Elixir Supervisor
 date: 2025-08-17 00:00:00
-featured_image: https://images.unsplash.com/photo-1731446268243-52f860eba55d?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1560497459-0bcdf9c15c16?q=75&fm=jpg&w=1000&fit=max
 excerpt: A Supervisor is a process that supervises other processes (child processes). Supervisors are used to build a hierarchical process structure called a supervision tree.
 keywords: elixir, supervisor, phoenix
 ---
 
-![](https://images.unsplash.com/photo-1731446268243-52f860eba55d?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1560497459-0bcdf9c15c16?q=75&fm=jpg&w=1000&fit=max)
 
 A Supervisor is a process that supervises other processes (child processes). Supervisors are used to build a hierarchical process structure called a supervision tree.
 
