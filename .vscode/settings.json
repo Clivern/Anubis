@@ -1,0 +1,12 @@
+{
+  "elixirLS.dialyzerEnabled": false,
+  "elixirLS.fetchDeps": false,
+  "elixirLS.suggestSpecs": false,
+  "elixirLS.signatureAfterComplete": false,
+  "elixirLS.showSpecs": false,
+  "elixirLS.mixEnv": "dev",
+  "elixirLS.autoInsertRequiredAlias": false,
+  "elixirLS.enableTestLenses": false,
+  "elixirLS.enableDebugger": false,
+  "elixirLS.enableTelemetry": false
+}
