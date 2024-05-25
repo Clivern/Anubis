@@ -8,9 +8,9 @@ keywords: elixir, genserver, phoenix
 
 ![](https://images.unsplash.com/photo-1497216429614-5bd7dbd9fc48?q=75&fm=jpg&w=1000&fit=max)
 
-A `GenServer` is a process like any other `Elixir` process and it can be used to store state, execute code `asynchronously` and so on. Think of it as having many tiny workers, each with their own mailbox and private desk.
+A `GenServer` is just a process like any other `Elixir` process - you can use it to store state, run code `asynchronously`, and much more. Think of it as having lots of tiny workers, each with their own mailbox and private desk.
 
-Let's start with a code example and then explore the available callbacks. Imagine we want to implement a service with a `GenServer` that works like a hashmap,
+Let's jump right into a code example and then look at the available callbacks. Say we want to build a service with a `GenServer` that acts like a hashmap:
 
 ```elixir
 defmodule Hashmap do
@@ -62,7 +62,7 @@ defmodule Hashmap do
 end
 ```
 
-Let's use this from `elixir`
+Now let's try it out in `elixir`:
 
 ```elixir
 # Create a new hashmap
@@ -84,7 +84,7 @@ GenServer.call(pid, {:get_all})
 GenServer.cast(pid, {:delete, "gender"})
 ```
 
-In the above example we have `handle_call/3` and `handle_cast/2`. The difference between them is as follows:
+In our example above, we're using both `handle_call/3` and `handle_cast/2`. Here's what makes them different:
 
 #### Synchronous Calls (`GenServer.call/3`)
 - Client waits for response
@@ -99,7 +99,7 @@ In the above example we have `handle_call/3` and `handle_cast/2`. The difference
 
 ### How to Supervise in Phoenix Application
 
-This section demonstrates how to create a `supervised` `GenServer` service in a `Phoenix` application. The service acts as an in-memory key-value store that persists for the lifetime of the application.
+This section shows you how to create a `supervised` `GenServer` service in a `Phoenix` application. The service works as an in-memory key-value store that sticks around for the entire lifetime of your app.
 
 ```elixir
 defmodule ScutiWeb.Service.Hashmap do
@@ -151,7 +151,7 @@ defmodule ScutiWeb.Service.Hashmap do
 end
 ```
 
-This service is added to the supervision tree in the `Application` module. The supervision tree ensures that if the service crashes, it will be automatically restarted. The initial state is set with some application metadata:
+This service gets added to the supervision tree in the `Application` module. The supervision tree makes sure that if your service ever crashes, it'll automatically restart itself. We're setting the initial state with some basic app metadata:
 
 ```elixir
 defmodule Scuti.Application do
@@ -202,7 +202,7 @@ defmodule Scuti.Application do
 end
 ```
 
-To use the Hashmap GenServer from other parts of your `Phoenix` application, you can interact with it directly since it's registered under the module name. Here's how:
+To use the Hashmap GenServer from anywhere else in your `Phoenix` app, you can talk to it directly since it's registered under the module name. Here's how you'd do it:
 
 ```elixir
 pid = ScutiWeb.Service.Hashmap
