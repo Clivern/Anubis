@@ -1,11 +1,11 @@
 ---
 title: Laravel Requests and Inputs Part1
 date: 2014-03-08 00:00:00
-featured_image: https://images.unsplash.com/photo-1544411047-c491e34a24e0?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1544411047-c491e34a24e0?q=90&fm=jpg&w=1000&fit=max
 excerpt: Laravel has awesome methods to retrieve, change, create and store request data. It allows you to handle both `$_GET` and `$_POST` data and store in session or cookies. Let's look at some methods of accessing request data.
 ---
 
-![](https://images.unsplash.com/photo-1544411047-c491e34a24e0?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1544411047-c491e34a24e0?q=90&fm=jpg&w=1000&fit=max)
 
 Laravel has awesome methods to retrieve, change, create and store request data. It allows you to handle both `$_GET` and `$_POST` data and store in session or cookies. Let's look at some methods of accessing request data.
 

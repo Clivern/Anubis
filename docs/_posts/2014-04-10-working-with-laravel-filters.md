@@ -1,11 +1,11 @@
 ---
 title: Working With Laravel Filters
 date: 2014-04-10 00:00:00
-featured_image: https://images.unsplash.com/photo-1520721080161-b4c6a6454306?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1520721080161-b4c6a6454306?q=90&fm=jpg&w=1000&fit=max
 excerpt: Laravel filters are a set of rules that can be applied before and after routes to change application actions. Also there is global filters that executed before and after every request. Let's explore laravel filters.
 ---
 
-![](https://images.unsplash.com/photo-1520721080161-b4c6a6454306?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1520721080161-b4c6a6454306?q=90&fm=jpg&w=1000&fit=max)
 
 Laravel filters are a set of rules that can be applied before and after routes to change application actions. Also there is global filters that executed before and after every request. Let's explore laravel filters.
 

@@ -1,11 +1,11 @@
 ---
 title: Leveraging Consul’s DNS Interface
 date: 2019-05-08 00:00:00
-featured_image: https://images.unsplash.com/photo-1505482109018-88cdc2e3d1bc?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1505482109018-88cdc2e3d1bc?q=90&fm=jpg&w=1000&fit=max
 excerpt: Consul DNS interface allows applications to make use of service discovery without any integration with Consul. For example, instead of making HTTP API requests to Consul, a host can use the DNS server directly via name lookups like clivern.service.us.consul.
 ---
 
-![](https://images.unsplash.com/photo-1505482109018-88cdc2e3d1bc?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1505482109018-88cdc2e3d1bc?q=90&fm=jpg&w=1000&fit=max)
 
 Consul DNS interface allows applications to make use of service discovery without any integration with Consul. For example, instead of making HTTP API requests to Consul, a host can use the DNS server directly via name lookups like clivern.service.us.consul.
 

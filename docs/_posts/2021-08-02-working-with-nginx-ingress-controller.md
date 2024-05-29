@@ -1,11 +1,11 @@
 ---
 title: Working with Nginx Ingress Controller
 date: 2021-08-02 00:00:00
-featured_image: https://images.unsplash.com/photo-1607505158943-d53d69b8e780?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1607505158943-d53d69b8e780?q=90&fm=jpg&w=1000&fit=max
 excerpt: A Kubernetes Ingress is a robust way to expose your services outside the cluster. It lets you consolidate your routing rules to a single resource, and gives you powerful options for configuring these rules.
 ---
 
-![](https://images.unsplash.com/photo-1607505158943-d53d69b8e780?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1607505158943-d53d69b8e780?q=90&fm=jpg&w=1000&fit=max)
 
 A Kubernetes Ingress is a robust way to expose your services outside the cluster. It lets you consolidate your routing rules to a single resource, and gives you powerful options for configuring these rules.
 

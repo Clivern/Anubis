@@ -1,11 +1,11 @@
 ---
 title: Working With WordPress Users Metadata
 date: 2014-03-24 00:00:00
-featured_image: https://images.unsplash.com/photo-1506344839391-08077dee8dae?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1506344839391-08077dee8dae?q=90&fm=jpg&w=1000&fit=max
 excerpt: Wordpress users metadata used to store additional data related to users. We will discuss how to set, retrieve, update and delete metadata.
 ---
 
-![](https://images.unsplash.com/photo-1506344839391-08077dee8dae?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1506344839391-08077dee8dae?q=90&fm=jpg&w=1000&fit=max)
 
 Wordpress users metadata used to store additional data related to users. We will discuss how to set, retrieve, update and delete metadata.
 

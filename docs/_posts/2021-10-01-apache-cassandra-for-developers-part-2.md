@@ -1,11 +1,11 @@
 ---
 title: Apache Cassandra for Developers Part 2
 date: 2021-10-01 00:00:00
-featured_image: https://images.unsplash.com/photo-1503961371391-3b99f64f0b0b?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1503961371391-3b99f64f0b0b?q=90&fm=jpg&w=1000&fit=max
 excerpt: In Cassandra for Developers Part 1, I explained how to run cassandra cluster with docker, replication and consistency strategies. Here i will explain CQL statements, data types and multi-row partitions
 ---
 
-![](https://images.unsplash.com/photo-1503961371391-3b99f64f0b0b?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1503961371391-3b99f64f0b0b?q=90&fm=jpg&w=1000&fit=max)
 
 In [Cassandra for Developers Part 1](https://clivern.com/apache-cassandra-for-developers-part-1/ "https://clivern.com/apache-cassandra-for-developers-part-1/"), I explained how to run cassandra cluster with docker, replication and consistency strategies. Here i will explain CQL statements, data types and multi-row partitions
 

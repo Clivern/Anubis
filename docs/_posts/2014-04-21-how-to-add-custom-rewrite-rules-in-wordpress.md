@@ -1,11 +1,11 @@
 ---
 title: How To Add Custom Rewrite Rules In WordPress
 date: 2014-04-21 00:00:00
-featured_image: https://images.unsplash.com/photo-1687952781085-4133ece5eafd?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1687952781085-4133ece5eafd?q=90&fm=jpg&w=1000&fit=max
 excerpt: Wordpress rewrite API used to convert URLs from something programmatically convenient to something user and search engine friendly. This article will give you some background information about wordpress URL rewriting principles and API.
 ---
 
-![](https://images.unsplash.com/photo-1687952781085-4133ece5eafd?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1687952781085-4133ece5eafd?q=90&fm=jpg&w=1000&fit=max)
 
 Wordpress rewrite API used to convert URLs from something programmatically convenient to something user and search engine friendly. This article will give you some background information about wordpress URL rewriting principles and API.
 

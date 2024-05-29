@@ -1,11 +1,11 @@
 ---
 title: Getting Started With Consul Service Discovery Tool
 date: 2018-01-11 00:00:00
-featured_image: https://images.unsplash.com/photo-1593177962005-042a7a503d10?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1593177962005-042a7a503d10?q=90&fm=jpg&w=1000&fit=max
 excerpt: Consul is a tool for discovering and configuring services in your infrastructure. It provides several key features like service discovery, health checking, KV store and multi datacenter support.
 ---
 
-![](https://images.unsplash.com/photo-1593177962005-042a7a503d10?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1593177962005-042a7a503d10?q=90&fm=jpg&w=1000&fit=max)
 
 Consul is a tool for discovering and configuring services in your infrastructure. It provides several key features like service discovery, health checking, KV store and multi datacenter support.
 

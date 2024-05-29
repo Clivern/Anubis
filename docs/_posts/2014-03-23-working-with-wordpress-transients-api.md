@@ -1,11 +1,11 @@
 ---
 title: Working With WordPress Transients API
 date: 2014-03-23 00:00:00
-featured_image: https://images.unsplash.com/photo-1499623838158-29acea518eaa?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1499623838158-29acea518eaa?q=90&fm=jpg&w=1000&fit=max
 excerpt: The wordpress transients API offers a simple and powerful way to store volatile data in database. It is similar to plugin options API but transients have an expiration time then it will expired and deleted.
 ---
 
-![](https://images.unsplash.com/photo-1499623838158-29acea518eaa?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1499623838158-29acea518eaa?q=90&fm=jpg&w=1000&fit=max)
 
 The wordpress transients API offers a simple and powerful way to store volatile data in database. It is similar to plugin options API but transients have an expiration time then it will expired and deleted.
 

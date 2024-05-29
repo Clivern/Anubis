@@ -1,11 +1,11 @@
 ---
 title: Learning Wordpress Users API
 date: 2014-04-03 00:00:00
-featured_image: https://images.unsplash.com/photo-1515933883823-cc5d063841b6?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1515933883823-cc5d063841b6?q=90&fm=jpg&w=1000&fit=max
 excerpt: Wordpress powers many large websites with thousands of users like blogs, applications, social networks and much more. You will deal with many cases in which you need to work with users and fortunately wordpress has many functions to handle users.
 ---
 
-![](https://images.unsplash.com/photo-1515933883823-cc5d063841b6?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1515933883823-cc5d063841b6?q=90&fm=jpg&w=1000&fit=max)
 
 Wordpress powers many large websites with thousands of users like blogs, applications, social networks and much more. You will deal with many cases in which you need to work with users and fortunately wordpress has many functions to handle users.
 

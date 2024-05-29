@@ -1,11 +1,11 @@
 ---
 title: How To Install Dependencies With  PHP Composer
 date: 2014-03-09 00:00:00
-featured_image: https://images.unsplash.com/photo-1525913085971-c8a7102bf82a?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1525913085971-c8a7102bf82a?q=90&fm=jpg&w=1000&fit=max
 excerpt: Composer is a dependency management tool for PHP developers. It allows you to define all libraries that your application depends on and automatically download these libraries with a simple command. Composer solve many problems, you know if your application depends on many libraries and these libraries depend on other libraries like frameworks ,It will be cumbersome to make all these libraries up to date.
 ---
 
-![](https://images.unsplash.com/photo-1525913085971-c8a7102bf82a?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1525913085971-c8a7102bf82a?q=90&fm=jpg&w=1000&fit=max)
 
 Composer is a dependency management tool for PHP developers. It allows you to define all libraries that your application depends on and automatically download these libraries with a simple command. Composer solve many problems, you know if your application depends on many libraries and these libraries depend on other libraries like frameworks ,It will be cumbersome to make all these libraries up to date.
 

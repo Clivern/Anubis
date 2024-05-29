@@ -1,11 +1,11 @@
 ---
 title: How To Internationalize Your Wordpress Plugin
 date: 2013-11-07 00:00:00
-featured_image: https://images.unsplash.com/photo-1615405988866-94a0a4b0eac1?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1615405988866-94a0a4b0eac1?q=90&fm=jpg&w=1000&fit=max
 excerpt: Internationalization is the process of preparing your wordpress plugins for use in many languages. although <a href="http://wordpress.org">wordpress</a> uses english as its default language, it is used all over the world and many of its users don't read or write in english. also as a developer, you may need to reach a large scale of users and provide a simple tool for users to add their languages.
 ---
 
-![](https://images.unsplash.com/photo-1615405988866-94a0a4b0eac1?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1615405988866-94a0a4b0eac1?q=90&fm=jpg&w=1000&fit=max)
 
 Internationalization is the process of preparing your wordpress plugins for use in many languages. although <a href="http://wordpress.org">wordpress</a> uses english as its default language, it is used all over the world and many of its users don't read or write in english. also as a developer, you may need to reach a large scale of users and provide a simple tool for users to add their languages.
 

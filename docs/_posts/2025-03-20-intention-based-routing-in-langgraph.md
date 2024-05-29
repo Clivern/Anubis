@@ -1,12 +1,12 @@
 ---
 title: Intention Based Routing in Langgraph
 date: 2025-03-20 00:00:00
-featured_image: https://images.unsplash.com/photo-1502584057373-6ad6c1373225?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1502584057373-6ad6c1373225?q=90&fm=jpg&w=1000&fit=max
 excerpt: Intention-based routing in langgraph involves using conditional logic to direct the flow within the graph based on user intention.
 keywords: langchain, langgraph, ai, agentic-systems
 ---
 
-![](https://images.unsplash.com/photo-1502584057373-6ad6c1373225?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1502584057373-6ad6c1373225?q=90&fm=jpg&w=1000&fit=max)
 
 Intention-based routing in `langgraph` involves using conditional logic to direct the flow within the graph based on user intention. We can use the `LLM` to capture the user intent and use `langgraph` routing features to send the request to the appropriate node or subgraph.
 

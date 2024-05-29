@@ -1,12 +1,12 @@
 ---
 title: Tools Calling with Langchain
 date: 2025-01-19 00:00:00
-featured_image: https://images.unsplash.com/photo-1595066988978-c2686505d56f?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1595066988978-c2686505d56f?q=90&fm=jpg&w=1000&fit=max
 excerpt: When constructing a langchain agent, you can provide tools to allow the agent to access up-to-date information and tailor its answers based on the latest data.
 keywords: langchain, langgraph, ai, agentic-systems
 ---
 
-![](https://images.unsplash.com/photo-1595066988978-c2686505d56f?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1595066988978-c2686505d56f?q=90&fm=jpg&w=1000&fit=max)
 
 When constructing a langchain agent, you can provide tools to allow the agent to access up-to-date information and tailor its answers based on the latest data.
 

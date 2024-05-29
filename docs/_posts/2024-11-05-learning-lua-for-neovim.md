@@ -1,12 +1,12 @@
 ---
 title: Learning Lua for Neovim Part 1
 date: 2024-11-04 00:00:00
-featured_image: https://images.unsplash.com/photo-1452979081267-f541411cb48e?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1452979081267-f541411cb48e?q=90&fm=jpg&w=1000&fit=max
 excerpt: Lua's syntax is relatively straightforward that why it has become the preferred language for Neovim configuration and plugin development. In this series i will go through Lua basics and the Neovim Lua API.
 keywords: lua, neovim, vim, neovim-plugins
 ---
 
-![](https://images.unsplash.com/photo-1452979081267-f541411cb48e?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1452979081267-f541411cb48e?q=90&fm=jpg&w=1000&fit=max)
 
 Lua's syntax is relatively straightforward that why it has become the preferred language for Neovim configuration and plugin development. In this series i will go through Lua basics and the Neovim Lua API.
 

@@ -1,11 +1,11 @@
 ---
 title: How To Test PHP Classes and Objects
 date: 2014-05-06 00:00:00
-featured_image: https://images.unsplash.com/photo-1642086878890-63300bbec916?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1642086878890-63300bbec916?q=90&fm=jpg&w=1000&fit=max
 excerpt: PHP provides a set of functions to test classes and objects. These functions allow you to know more information about classes and objects that you are using at runtime. All these functions provided by PHP reflection API but their simplicity make them the first choice.
 ---
 
-![](https://images.unsplash.com/photo-1642086878890-63300bbec916?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1642086878890-63300bbec916?q=90&fm=jpg&w=1000&fit=max)
 
 PHP provides a set of functions to test classes and objects. These functions allow you to know more information about classes and objects that you are using at runtime. All these functions provided by PHP reflection API but their simplicity make them the first choice.
 

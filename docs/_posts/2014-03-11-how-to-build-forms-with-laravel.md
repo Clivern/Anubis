@@ -1,11 +1,11 @@
 ---
 title: How To Build Forms With Laravel
 date: 2014-03-11 00:00:00
-featured_image: https://images.unsplash.com/photo-1511533910568-be3ffdc229bb?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1511533910568-be3ffdc229bb?q=90&fm=jpg&w=1000&fit=max
 excerpt: In fact, Laravel supports a bunch of handy methods that can handle form creation with ease. We are going to explore these methods.
 ---
 
-![](https://images.unsplash.com/photo-1511533910568-be3ffdc229bb?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1511533910568-be3ffdc229bb?q=90&fm=jpg&w=1000&fit=max)
 
 In fact, Laravel supports a bunch of handy methods that can handle form creation with ease. We are going to explore these methods.
 

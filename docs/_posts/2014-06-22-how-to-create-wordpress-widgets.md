@@ -1,11 +1,11 @@
 ---
 title: How To Create Wordpress Widgets
 date: 2014-06-22 00:00:00
-featured_image: https://images.unsplash.com/photo-1503925802536-c9451dcd87b5?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1503925802536-c9451dcd87b5?q=90&fm=jpg&w=1000&fit=max
 excerpt: Wordpress provides a great API to create and interact with widgets. Widgets are a great way to allow plugin users to build their blog sidebar easily. I will show you how to create widgets, add widget options and display it in the sidebar.
 ---
 
-![](https://images.unsplash.com/photo-1503925802536-c9451dcd87b5?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1503925802536-c9451dcd87b5?q=90&fm=jpg&w=1000&fit=max)
 
 Wordpress provides a great API to create and interact with widgets. Widgets are a great way to allow plugin users to build their blog sidebar easily. I will show you how to create widgets, add widget options and display it in the sidebar.
 

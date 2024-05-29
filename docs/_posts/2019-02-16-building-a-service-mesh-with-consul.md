@@ -1,11 +1,11 @@
 ---
 title: Building a Service Mesh with Consul
 date: 2019-02-16 00:00:00
-featured_image: https://images.unsplash.com/photo-1476164933423-150b771b627f?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1476164933423-150b771b627f?q=90&fm=jpg&w=1000&fit=max
 excerpt: Load balancers aren't efficient in a dynamic environment where we scale services up or down. Consul uses a registry to keep a real-time list of services, their location, and their health. Services query the registry to discover the location of upstream services and then connect directly. This allows services to scale up/down and gracefully handle failure
 ---
 
-![](https://images.unsplash.com/photo-1476164933423-150b771b627f?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1476164933423-150b771b627f?q=90&fm=jpg&w=1000&fit=max)
 
 Load balancers aren't efficient in a dynamic environment where we scale services up or down. Consul uses a registry to keep a real-time list of services, their location, and their health. Services query the registry to discover the location of upstream services and then connect directly. This allows services to scale up/down and gracefully handle failure
 ### Installation

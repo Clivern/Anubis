@@ -1,11 +1,11 @@
 ---
 title: How to Setup a HA Cassandra Cluster
 date: 2021-11-01 00:00:00
-featured_image: https://images.unsplash.com/photo-1588611845066-f56f220559e9?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1588611845066-f56f220559e9?q=90&fm=jpg&w=1000&fit=max
 excerpt: Apache Cassandra is a NoSQL database with flexible deployment options that's highly performant (especially for writes), scalable, fault-tolerant, and proven in production. Alternative NoSQL databases include Amazon DynamoDB, Apache HBase, and MongoDB.
 ---
 
-![](https://images.unsplash.com/photo-1588611845066-f56f220559e9?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1588611845066-f56f220559e9?q=90&fm=jpg&w=1000&fit=max)
 
 Apache Cassandra is a NoSQL database with flexible deployment options that's highly performant (especially for writes), scalable, fault-tolerant, and proven in production. Alternative NoSQL databases include Amazon DynamoDB, Apache HBase, and MongoDB.
 

@@ -1,11 +1,11 @@
 ---
 title: Custom Queries with WordPress WP_Query
 date: 2014-09-20 00:00:00
-featured_image: https://images.unsplash.com/photo-1568941132351-ee4fff172b42?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1568941132351-ee4fff172b42?q=90&fm=jpg&w=1000&fit=max
 excerpt: WP_Query is the heart of WordPress. It gives you a lot of control over the website content as well as holding important informations for debugging. It makes building complicated queries a lot easier by passing criteria as an associative array. Understanding WP_Query is a must for theme developers.
 ---
 
-![](https://images.unsplash.com/photo-1568941132351-ee4fff172b42?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1568941132351-ee4fff172b42?q=90&fm=jpg&w=1000&fit=max)
 
 `WP_Query` is the heart of WordPress. It gives you a lot of control over the website content as well as holding important informations for debugging. It makes building complicated queries a lot easier by passing criteria as an associative array. Understanding `WP_Query` is a must for theme developers.
 

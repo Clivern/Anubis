@@ -1,12 +1,12 @@
 ---
 title: Early Returns in Elixir
 date: 2024-06-07 00:00:00
-featured_image: https://images.unsplash.com/photo-1508497864986-88d94fe6c5fe?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1508497864986-88d94fe6c5fe?q=90&fm=jpg&w=1000&fit=max
 excerpt: Early returns is often employed to exit a function as soon as an exceptional or negative condition is met. It won't take much time when learning elixir to figure out that early returns are missing!
 keywords: elixir, elixir-early-returns
 ---
 
-![](https://images.unsplash.com/photo-1508497864986-88d94fe6c5fe?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1508497864986-88d94fe6c5fe?q=90&fm=jpg&w=1000&fit=max)
 
 Early returns is often employed to exit a function as soon as an exceptional or negative condition is met. It won't take much time when learning `elixir` to figure out that early returns are missing!
 

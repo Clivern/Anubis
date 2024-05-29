@@ -1,11 +1,11 @@
 ---
 title: WordPress HTTP API Best Practice
 date: 2014-02-18 00:00:00
-featured_image: https://images.unsplash.com/photo-1573713104157-0831ea0b10dc?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1573713104157-0831ea0b10dc?q=90&fm=jpg&w=1000&fit=max
 excerpt: After you fine tuned wordpress HTTP API ,it is the time to put your codes in a larger practice. I thick the best practice on HTTP API is wordpress plugin upgrades. Agreat trait of wordpress is that you can create plugins for public use and host them on wordpress servers. In this case you don't have to think about plugin upgrades because twice daily, wordpress sends requests to `api.wordpress.org` to check latest updates (visit <a href="http://codex.wordpress.org/WordPress.org_API">More Details</a>) .One of these requests a list of all plugins currently installed. The API server replies with a list of new versions and informations about them if available.
 ---
 
-![](https://images.unsplash.com/photo-1573713104157-0831ea0b10dc?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1573713104157-0831ea0b10dc?q=90&fm=jpg&w=1000&fit=max)
 
 After you fine tuned wordpress HTTP API ,it is the time to put your codes in a larger practice. I thick the best practice on HTTP API is wordpress plugin upgrades. Agreat trait of wordpress is that you can create plugins for public use and host them on wordpress servers. In this case you don't have to think about plugin upgrades because twice daily, wordpress sends requests to `api.wordpress.org` to check latest updates (visit [More Details](http://codex.wordpress.org/WordPress.org_API)) .One of these requests a list of all plugins currently installed. The API server replies with a list of new versions and informations about them if available.
 

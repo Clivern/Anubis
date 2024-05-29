@@ -1,12 +1,12 @@
 ---
 title: Running Llama-3.1-8B Locally With vLLM
 date: 2025-03-01 00:00:00
-featured_image: https://images.unsplash.com/photo-1417144527634-653e3dec77b2?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1417144527634-653e3dec77b2?q=90&fm=jpg&w=1000&fit=max
 excerpt: In this guide, I'll show you how to run Llama-3.1 8B locally on a Mac using vLLM. This is just for testing, not for a production setup.
 keywords: vllm, llama, llama-8B
 ---
 
-![](https://images.unsplash.com/photo-1417144527634-653e3dec77b2?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1417144527634-653e3dec77b2?q=90&fm=jpg&w=1000&fit=max)
 
 In this guide, I'll show you how to run Llama-3.1 8B locally on a Mac using vLLM. This is just for testing, not for a production setup.
 

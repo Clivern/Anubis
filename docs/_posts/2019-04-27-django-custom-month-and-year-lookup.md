@@ -1,11 +1,11 @@
 ---
 title: Django Custom Month and Year Lookup
 date: 2019-04-27 00:00:00
-featured_image: https://images.unsplash.com/photo-1546526418-6854feb81940?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1546526418-6854feb81940?q=90&fm=jpg&w=1000&fit=max
 excerpt: Everyone want to keep Django timezone support but sometimes you need to keep your SQL queries a way from timezone conversion especially if by default your application timezone is UTC. Django will do something like this `CONVERT_TZ(`app_incident`.`datetime`, 'UTC', 'UTC'))` and it will return `Null` if the timezone table is empty. Even that conversion is not even needed.
 ---
 
-![](https://images.unsplash.com/photo-1546526418-6854feb81940?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1546526418-6854feb81940?q=90&fm=jpg&w=1000&fit=max)
 
 Everyone want to keep Django timezone support but sometimes you need to keep your SQL queries a way from timezone conversion especially if by default your application timezone is UTC. Django will do something like this `CONVERT_TZ(`app_incident`.`datetime`, 'UTC', 'UTC'))` and it will return `Null` if the timezone table is empty. Even that conversion is not even needed.
 

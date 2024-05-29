@@ -1,12 +1,12 @@
 ---
 title: Building a Neovim Plugin
 date: 2025-03-07 00:00:00
-featured_image: https://images.unsplash.com/photo-1687788014430-b6a173561cd4?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1687788014430-b6a173561cd4?q=90&fm=jpg&w=1000&fit=max
 excerpt: Creating Neovim plugins with Lua can significantly enhance your development workflow. This guide will walk you through building a simple plugin that displays a daily quote.
 keywords: lua, neovim, vim, neovim-plugins
 ---
 
-![](https://images.unsplash.com/photo-1687788014430-b6a173561cd4?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1687788014430-b6a173561cd4?q=90&fm=jpg&w=1000&fit=max)
 
 Creating Neovim plugins with Lua can significantly enhance your development workflow. This guide will walk you through building a simple plugin that displays a daily quote using the `:Quote` command.
 

@@ -1,12 +1,12 @@
 ---
 title: Collecting Phoenix's Metrics with Prometheus
 date: 2025-08-15 00:00:00
-featured_image: https://images.unsplash.com/photo-1679089391720-dab2bca0ffc5?q=75&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1679089391720-dab2bca0ffc5?q=90&fm=jpg&w=1000&fit=max
 excerpt: This tutorial walks you through integrating Oak with your Phoenix application step by step. Oak is a high-performance metrics collection and aggregation library written in Elixir that provides Prometheus-compatible metrics.
 keywords: elixir, prometheus, phoenix, metrics, observability
 ---
 
-![](https://images.unsplash.com/photo-1679089391720-dab2bca0ffc5?q=75&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1679089391720-dab2bca0ffc5?q=90&fm=jpg&w=1000&fit=max)
 
 This tutorial walks you through integrating [Oak](https://github.com/Clivern/Oak) with your Phoenix application step by step. Oak is a high-performance metrics collection and aggregation library written in Elixir that provides Prometheus-compatible metrics.
 
