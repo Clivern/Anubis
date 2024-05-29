@@ -254,25 +254,24 @@ end
 
 Now let's test that everything is working:
 
-1. **Start your application:**
+Start your application:
 
 ```bash
 $ mix phx.server
 ```
 
-2. **Visit your home page** to generate some HTTP metrics
-
-3. **Check the metrics endpoint:**
+Visit your home page to generate some HTTP metrics. Then check the metrics endpoint
 
 ```bash
 $ curl http://localhost:4000/metrics
 ```
 
-4. **Look for your metrics** in the output. You should see:
-   - `http_requests_total` counters
-   - `request_duration` histograms
-   - Erlang VM metrics
-   - Your custom business metrics
+Look for your metrics** in the output. You should see:
+
+- `http_requests_total` counters
+- `request_duration` histograms
+- Erlang VM metrics
+- Your custom business metrics
 
 
 ### Production Considerations
