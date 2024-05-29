@@ -299,6 +299,7 @@ end
 ## Resources
 
 - [Oak GitHub Repository](https://github.com/Clivern/Oak)
+- [Integrating Oak with Phoenix Applications](https://github.com/Clivern/Oak/blob/main/Phoenix_Integration.md)
 - [Prometheus Documentation](https://prometheus.io/docs/)
 - [Phoenix Framework](https://phoenixframework.org/)
 - [Elixir Documentation](https://elixir-lang.org/docs.html)
