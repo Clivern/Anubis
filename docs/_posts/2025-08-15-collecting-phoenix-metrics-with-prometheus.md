@@ -212,7 +212,7 @@ end
 
 **Note**: The `/metrics` path is a common convention for Prometheus scraping, but you can use any path you prefer.
 
-## Step 7: Add Custom Business Metrics
+### Step 7: Add Custom Business Metrics
 
 Oak isn't just for HTTP metrics - you can track any business logic. Here's an example of tracking user registrations:
 
@@ -250,21 +250,23 @@ end
 - Add relevant labels for filtering and grouping
 - Handle errors gracefully
 
-## Step 8: Test Your Integration
+### Step 8: Test Your Integration
 
 Now let's test that everything is working:
 
 1. **Start your application:**
-   ```bash
-   mix phx.server
-   ```
+
+```bash
+$ mix phx.server
+```
 
 2. **Visit your home page** to generate some HTTP metrics
 
 3. **Check the metrics endpoint:**
-   ```bash
-   curl http://localhost:4000/metrics
-   ```
+
+```bash
+$ curl http://localhost:4000/metrics
+```
 
 4. **Look for your metrics** in the output. You should see:
    - `http_requests_total` counters
