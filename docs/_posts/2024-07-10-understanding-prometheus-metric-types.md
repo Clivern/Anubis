@@ -1,11 +1,11 @@
 ---
 title: Understanding Prometheus Metric Types
 date: 2024-07-10 00:00:00
-featured_image: https://images.unsplash.com/photo-1648822232933-95800d6faed4
+featured_image: https://images.unsplash.com/photo-1518504361720-82ccdc540022
 excerpt: Here is the four metrics supported by Prometheus, along with their use cases and functions that can be used to query these metric types.
 ---
 
-![](https://images.unsplash.com/photo-1648822232933-95800d6faed4)
+![](https://images.unsplash.com/photo-1518504361720-82ccdc540022)
 
 Here is the four metrics supported by Prometheus, along with their use cases and functions that can be used to query these metric types.
 
