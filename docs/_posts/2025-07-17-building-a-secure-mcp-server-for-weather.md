@@ -455,7 +455,7 @@ docker run -p 8000:8000 weather-mcp-server
 #### Resources
 
 - [Model Context Protocol Documentation](https://modelcontextprotocol.io/)
-- [FastMCP GitHub Repository](https://github.com/pydantic/fastmcp)
+- [FastMCP GitHub Repository](https://github.com/jlowin/fastmcp)
 - [Open-Meteo API Documentation](https://open-meteo.com/en/docs)
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - [Docker Documentation](https://docs.docker.com/)
