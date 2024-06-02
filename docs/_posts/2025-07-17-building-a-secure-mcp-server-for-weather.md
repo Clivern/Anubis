@@ -1,12 +1,12 @@
 ---
 title: Building a Secure MCP Server for Weather
 date: 2025-07-17 00:00:00
-featured_image: https://images.unsplash.com/photo-1731508257431-05eed6a6fc45?q=90&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1643755338284-0a5a8be76483?q=90&fm=jpg&w=1000&fit=max
 excerpt: Learn how to build a secure Model Context Protocol (MCP) server for weather data with authentication, geocoding, and production-ready deployment using FastMCP and Open-Meteo APIs.
 keywords: mcp, model-context-protocol, weather,fastapi
 ---
 
-![](https://images.unsplash.com/photo-1731508257431-05eed6a6fc45?q=90&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1643755338284-0a5a8be76483?q=90&fm=jpg&w=1000&fit=max)
 
 Ever wanted to build your own weather API that AI models can actually use? Today we're going to create a secure MCP (Model Context Protocol) server that gives AI assistants the power to check the weather anywhere in the world. We'll add proper authentication, geocoding (so you can just say "London" instead of coordinates), and make it production-ready with Docker.
 
@@ -349,7 +349,7 @@ if __name__ == "__main__":
 
 #### Making Development Easier
 
-Let's create a `Makefile` so we don't have to remember all these commands:
+Let's create a `Makefile` so we don't have to remember all these commands. You need to install [uv](https://docs.astral.sh/uv/getting-started/installation/)
 
 ```makefile
 .PHONY: help install run run-custom clean
@@ -360,15 +360,20 @@ help: ## Show this help message
 	@echo "  run         - Run the server on localhost:8000"
 	@echo "  run-custom  - Run the server with custom host and port"
 	@echo "  clean       - Clean up any temporary files"
+	@echo ""
+	@echo "Examples:"
+	@echo "  make install"
+	@echo "  make run"
+	@echo "  make run-custom HOST=0.0.0.0 PORT=9000"
 
 install: ## Install dependencies
-	pip install -e .
+	uv sync
 
 run: ## Run the server on localhost:8000
-	python app.py
+	uv run python app.py
 
-run-custom: ## Run the server with custom host and port
-	python app.py --host $(HOST) --port $(PORT)
+run-custom: ## Run the server with custom host and port (e.g., make run-custom HOST=0.0.0.0 PORT=9000)
+	uv run python app.py --host $(HOST) --port $(PORT)
 
 clean: ## Clean up temporary files
 	find . -type f -name "*.pyc" -delete
