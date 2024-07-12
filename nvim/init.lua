@@ -60,7 +60,7 @@ require('lazy').setup({
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
 
-  -- github copilot
+  -- github copilot (:Copilot setup for setup)
   'github/copilot.vim',
 
   -- NOTE: This is where your plugins related to LSP can be installed.
