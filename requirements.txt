@@ -1,2 +1,2 @@
 ansible==10.2.0
-opswork==0.8.13
+opswork==0.8.14
