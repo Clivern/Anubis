@@ -13,14 +13,14 @@ idna==3.7
 Jinja2==3.1.4
 lockfile==0.12.2
 MarkupSafe==2.1.5
-opswork==0.8.14
+opswork==0.8.13
 packaging==24.1
 pexpect==4.9.0
 prettytable==3.10.2
 ptyprocess==0.7.0
 pycparser==2.22
 python-daemon==3.0.1
-PyYAML==6.0.2
+PyYAML==6.0.1
 requests==2.32.3
 resolvelib==1.0.1
 smmap==5.0.1
