@@ -16,7 +16,7 @@ MarkupSafe==2.1.5
 opswork==0.8.14
 packaging==24.1
 pexpect==4.9.0
-prettytable==3.10.2
+prettytable==3.11.0
 ptyprocess==0.7.0
 pycparser==2.22
 python-daemon==3.0.1
