@@ -18,7 +18,7 @@ mdurl==0.1.2
 opswork==0.8.15
 packaging==24.1
 pexpect==4.9.0
-pexy==0.9.1
+pexy==0.9.2
 prettytable==3.11.0
 ptyprocess==0.7.0
 pycparser==2.22
