@@ -15,7 +15,7 @@ lockfile==0.12.2
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
-opswork==0.8.16
+opswork==0.8.17
 packaging==24.1
 pexpect==4.9.0
 pexy==0.9.4
