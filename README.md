@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/clivern/matrix/main/static/logo.png" width="20%" />
+    <img src="https://raw.githubusercontent.com/clivern/matrix/main/static/logo.png?v=021" width="400" />
     <h3 align="center">Matrix</h3>
     <p align="center">My Personal dotfiles</p>
     <p align="center">
