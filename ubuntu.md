@@ -79,6 +79,7 @@ $ op recipe add clivern/ubuntu/noble/uv -p mini/ubuntu/noble/uv -t ubuntu,must_h
 $ op recipe add clivern/ubuntu/noble/ruff -p mini/ubuntu/noble/ruff -t ubuntu,must_have,ruff -f
 $ op recipe add clivern/ubuntu/noble/terraform -p mini/ubuntu/noble/terraform -t ubuntu,must_have,terraform -f
 $ op recipe add clivern/ubuntu/noble/docker -p mini/ubuntu/noble/docker -t ubuntu,must_have,docker -f
+$ op recipe add clivern/ubuntu/noble/txy -p mini/ubuntu/noble/txy -t ubuntu,must_have,txy -f
 
 $ op recipe add clivern/ubuntu/noble/configs -p mini/ubuntu/noble/configs -t ubuntu,must_have,configs -f
 ```
@@ -100,5 +101,6 @@ $ op recipe run clivern/ubuntu/noble/uv -h localhost
 $ op recipe run clivern/ubuntu/noble/ruff -h localhost
 $ op recipe run clivern/ubuntu/noble/terraform -h localhost
 $ op recipe run clivern/ubuntu/noble/docker -h localhost
+$ op recipe run clivern/ubuntu/noble/txy -h localhost
 $ op recipe run clivern/ubuntu/noble/configs -h localhost
 ```
