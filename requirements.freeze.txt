@@ -27,7 +27,7 @@ python-daemon==3.0.1
 PyYAML==6.0.2
 requests==2.32.3
 resolvelib==1.0.1
-rich==13.8.0
+rich==13.7.1
 smmap==5.0.1
 urllib3==2.2.2
 wcwidth==0.2.13
