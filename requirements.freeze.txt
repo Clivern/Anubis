@@ -1,7 +1,7 @@
 ansible==10.3.0
 ansible-core==2.17.3
 ansible-runner==2.4.0
-certifi==2024.7.4
+certifi==2024.8.30
 cffi==1.17.0
 charset-normalizer==3.3.2
 click==8.1.7
