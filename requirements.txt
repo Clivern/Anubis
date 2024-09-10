@@ -1,4 +1,4 @@
-ansible==10.3.0
+ansible==10.4.0
 opswork==0.8.17
 pexy==0.9.4
 pynvim==0.5.0
