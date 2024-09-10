@@ -1,5 +1,5 @@
 ansible==10.3.0
-ansible-core==2.17.3
+ansible-core==2.17.4
 ansible-runner==2.4.0
 certifi==2024.8.30
 cffi==1.17.1
@@ -9,14 +9,14 @@ cryptography==43.0.0
 docutils==0.21.2
 gitdb==4.0.11
 GitPython==3.1.43
-greenlet==3.0.3
+greenlet==3.1.0
 idna==3.8
 Jinja2==3.1.4
 lockfile==0.12.2
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
-msgpack==1.0.8
+msgpack==1.1.0
 opswork==0.8.17
 packaging==24.1
 pexpect==4.9.0
