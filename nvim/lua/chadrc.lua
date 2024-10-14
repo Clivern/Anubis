@@ -24,7 +24,7 @@ SOFTWARE.
 
 --]]
 
--- This file needs to have same structure as nvconfig.lua 
+-- This file needs to have same structure as nvconfig.lua
 -- https://github.com/NvChad/ui/blob/v3.0/lua/nvconfig.lua
 
 ---@type ChadrcConfig
@@ -32,7 +32,63 @@ SOFTWARE.
 local M = {}
 
 M.base46 = {
-	theme = "tomorrow_night",
+	-- NvChad Theme IDs
+	-- 1. aquarium
+	-- 2. ashes
+	-- 3. ayu_dark
+	-- 4. ayu_light
+	-- 5. bearded-arc
+	-- 6. blossom_light
+	-- 7. catppuccin
+	-- 8. chadracula-evondev
+	-- 9. chadracula
+	-- 10. chadtain
+	-- 11. chocolate
+	-- 12. dark_horizon
+	-- 13. decay
+	-- 14. doomchad
+	-- 15. everblush
+	-- 16. everforest
+	-- 17. everforest_light
+	-- 18. falcon
+	-- 19. flex-light
+	-- 20. flexoki-light
+	-- 21. flexoki
+	-- 22. gatekeeper
+	-- 23. github_dark
+	-- 24. github_light
+	-- 25. gruvbox
+	-- 26. gruvbox_light
+	-- 27. gruvchad
+	-- 28. jabuti
+	-- 29. jellybeans
+	-- 30. kanagawa
+	-- 31. material-darker
+	-- 32. material-lighter
+	-- 33. melange
+	-- 34. mito-laser
+	-- 35. monekai
+	-- 36. monochrome
+	-- 37. mountain
+	-- 38. nano-light
+	-- 39. nightfox
+	-- 40. nightlamp
+	-- 41. nightowl
+	-- 42. nord
+	-- 43. oceanic-light
+	-- 44. oceanic-next
+	-- 45. one_light
+	-- 46. onedark
+	-- 47. onenord
+	-- 48. onenord_light
+	-- 49. oxocarbon
+	-- 50. palenight
+	-- 51. pastelDark
+	-- 52. pastelbeans
+	-- 53. penumbra_dark
+	-- 54. penumbra_light
+	-- 55. poimandres
+	theme = "ashes",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
