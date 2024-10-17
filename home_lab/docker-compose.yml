@@ -38,7 +38,7 @@ services:
 
     # Loki Container
     loki:
-        image: grafana/loki:3.1.1
+        image: grafana/loki:3.2.1
         command:
             - -config.file=/etc/loki/local-config.yaml
         ports:
