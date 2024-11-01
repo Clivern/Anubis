@@ -24,7 +24,7 @@
 tasks:
   - name: download goenv
     unarchive:
-      src: https://github.com/Clivern/Goenv/releases/download/v1.17.0/goenv_Darwin_x86_64.tar.gz
+      src: https://github.com/Clivern/Goenv/releases/download/v1.18.0/goenv_Darwin_x86_64.tar.gz
       dest: /tmp
       remote_src: yes
 
