@@ -3,7 +3,7 @@ version: '3.8'
 services:
     # Prometheus Container
     prometheus:
-        image: prom/prometheus:v2.55.1
+        image: prom/prometheus:v3.0.0
         command:
             - --config.file=/etc/prometheus/prometheus.yml
             - --web.enable-remote-write-receiver
