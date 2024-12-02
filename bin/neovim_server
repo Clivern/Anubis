@@ -1,9 +1,9 @@
 #!/bin/bash
 
 cd /root
-git clone https://github.com/Clivern/Anubis.git anubis
+git clone https://github.com/Clivern/Matrix.git matrix
 mkdir -p ~/.config
-ln -s /root/anubis/nvim ~/.config/nvim
+ln -s /root/matrix/nvim ~/.config/nvim
 
 wget https://github.com/neovim/neovim/releases/download/v0.10.1/nvim-linux64.tar.gz
 tar xzvf nvim-linux64.tar.gz

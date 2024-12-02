@@ -236,4 +236,4 @@ Hello, Lua Developer!
 Hello, Direct Access!
 ```
 
-The source [code is available here](https://github.com/Clivern/Anubis/tree/main/docs/_code/lua-basics-part1)
+The source [code is available here](https://github.com/Clivern/Matrix/tree/main/docs/_code/lua-basics-part1)

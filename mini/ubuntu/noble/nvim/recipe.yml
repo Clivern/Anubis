@@ -84,7 +84,7 @@ tasks:
   # To delete old configs $ rm -rf ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
   - name: symlink the configs
     file:
-      src: "/home/clivern/space/anubis/nvim"
+      src: "/home/clivern/space/matrix/nvim"
       dest: "~/.config/nvim"
       state: link
 

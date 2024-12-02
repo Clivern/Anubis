@@ -568,4 +568,4 @@ Hello there! 🌟
 Right now, the temperature is a cozy 10.6°C. Perfect for a light jacket if you're heading out! The winds are gently blowing at about 11.9 km/h from the east. Enjoy your evening! 😊
 ```
 
-You can see the [full source code here on github](https://github.com/Clivern/Anubis/tree/main/docs/_code/langgraph-in-action)
+You can see the [full source code here on github](https://github.com/Clivern/Matrix/tree/main/docs/_code/langgraph-in-action)

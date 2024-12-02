@@ -39,7 +39,7 @@ templates:
   gitconfig-work.j2: gitconfig-work.j2
   gitconfig.j2: gitconfig.j2
   gitignore.j2: gitignore.j2
-  anubis.j2: anubis.j2
+  matrix.j2: matrix.j2
 
 tasks:
   - name: create root config files
@@ -57,7 +57,7 @@ tasks:
       - { src: "aliases.j2", dest: "~/.aliases", mode: "0600" }
       - { src: "exports.j2", dest: "~/.exports", mode: "0600" }
       - { src: "functions.j2", dest: "~/.functions", mode: "0600" }
-      - { src: "anubis.j2", dest: "/usr/local/bin/anubis", mode: "a+x" }
+      - { src: "matrix.j2", dest: "/usr/local/bin/matrix", mode: "a+x" }
 
   - name: create clivern config files
     template:

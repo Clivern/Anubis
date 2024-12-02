@@ -27,8 +27,8 @@ recipes:
 
 ## config: Reload and sync configs
 config:
-	opswork recipe add clivern/anubis/configs -p configs -t anubis,must_have,configs -f
-	opswork recipe run clivern/anubis/configs -h localhost
+	opswork recipe add clivern/matrix/configs -p configs -t matrix,must_have,configs -f
+	opswork recipe run clivern/matrix/configs -h localhost
 
 
 ## run: Run Recipes.

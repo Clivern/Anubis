@@ -43,4 +43,4 @@ tasks:
 
   # To delete old configs $ rm -rf ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
   - name: symlink the configs
-    command: ln -s ~/space/anubis/nvim ~/.config/nvim
+    command: ln -s ~/space/matrix/nvim ~/.config/nvim

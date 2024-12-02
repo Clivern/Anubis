@@ -460,4 +460,4 @@ docker run -p 8000:8000 weather-mcp-server
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - [Docker Documentation](https://docs.docker.com/)
 
-You can see the [full source code here on github](https://github.com/Clivern/Anubis/tree/main/docs/_code/building-secure-mcp-server-for-weather)
+You can see the [full source code here on github](https://github.com/Clivern/Matrix/tree/main/docs/_code/building-secure-mcp-server-for-weather)

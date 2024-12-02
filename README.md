@@ -1,10 +1,10 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/clivern/anubis/main/static/logo.png" width="20%" />
-    <h3 align="center">Anubis</h3>
+    <img src="https://raw.githubusercontent.com/clivern/matrix/main/static/logo.png" width="20%" />
+    <h3 align="center">Matrix</h3>
     <p align="center">My Personal dotfiles</p>
     <p align="center">
-        <a href="https://github.com/Clivern/Anubis/actions/workflows/ci.yml">
-           <img src="https://github.com/Clivern/Anubis/actions/workflows/ci.yml/badge.svg?branch=main"/>
+        <a href="https://github.com/Clivern/Matrix/actions/workflows/ci.yml">
+           <img src="https://github.com/Clivern/Matrix/actions/workflows/ci.yml/badge.svg?branch=main"/>
         </a>
         <a href="https://clivern.betteruptime.com/">
            <img src="https://uptime.betterstack.com/status-badges/v2/monitor/1evgt.svg"/>
@@ -12,13 +12,13 @@
         <a href="https://pypi.org/project/opswork/">
             <img src="https://img.shields.io/badge/Built_with-OpsWork-blue"/>
         </a>
-        <a href="https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FAnubis%2Fmain%2Ftradar.json">
+        <a href="https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FMatrix%2Fmain%2Ftradar.json">
             <img src="https://img.shields.io/badge/Technology-Radar-green.svg">
         </a>
-        <a href="https://github.com/Clivern/Anubis/releases">
+        <a href="https://github.com/Clivern/Matrix/releases">
             <img src="https://img.shields.io/badge/Version-5.6.0-1abc9c.svg">
         </a>
-        <a href="https://github.com/Clivern/Anubis/blob/master/LICENSE">
+        <a href="https://github.com/Clivern/Matrix/blob/master/LICENSE">
             <img src="https://img.shields.io/badge/LICENSE-MIT-blue.svg">
         </a>
     </p>
@@ -34,7 +34,7 @@
 # Create space directory
 $ mkdir -p ~/space
 
-$ git clone git@github.com:clivern/anubis.git ~/space/anubis
+$ git clone git@github.com:clivern/matrix.git ~/space/matrix
 ```
 
 2. Install the following manually
@@ -147,7 +147,7 @@ $ op recipe list -o json | jq -r '.[].name'
 To install `ngrok`
 
 ```zsh
-$ op recipe run clivern/anubis/ngrok -h localhost
+$ op recipe run clivern/matrix/ngrok -h localhost
 ```
 
 To add `ngrok` secrets like the `key` and `domain`
@@ -184,7 +184,7 @@ $ make recipes
 Install LSP servers
 
 ```
-$ opswork recipe run clivern/anubis/lsp -h localhost
+$ opswork recipe run clivern/matrix/lsp -h localhost
 ```
 
 
@@ -226,4 +226,4 @@ $ git clone https://github.com/daylerees/colour-schemes.git daylerees-themes
 
 © 2010, Clivern. Released under [MIT License](https://opensource.org/licenses/mit-license.php).
 
-**Anubis** is authored and maintained by [@clivern](http://github.com/clivern).
+**Matrix** is authored and maintained by [@clivern](http://github.com/clivern).

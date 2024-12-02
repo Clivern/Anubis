@@ -125,4 +125,4 @@ $ python main.py
 The current UTC date is January 19, 2025.
 ```
 
-You can see the [full source code here on github]https://github.com/Clivern/Anubis/tree/main/docs/_code/tools-calling-with-langchain) and very [detailed reference at langchain blog](https://blog.langchain.dev/tool-calling-with-langchain/)
+You can see the [full source code here on github]https://github.com/Clivern/Matrix/tree/main/docs/_code/tools-calling-with-langchain) and very [detailed reference at langchain blog](https://blog.langchain.dev/tool-calling-with-langchain/)

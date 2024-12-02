@@ -23,358 +23,358 @@
 
 # recipes to load
 recipes:
-  - name: clivern/anubis/update
+  - name: clivern/matrix/update
     path: brew/update
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/upgrade
+  - name: clivern/matrix/upgrade
     path: brew/upgrade
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/base
+  - name: clivern/matrix/base
     path: base
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/gnu-tar
+  - name: clivern/matrix/gnu-tar
     path: gnu-tar
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/jq
+  - name: clivern/matrix/jq
     path: jq
-    tags: anubis,must_have
+    tags: matrix,must_have
 
   # Web Servers
-  - name: clivern/anubis/caddy
+  - name: clivern/matrix/caddy
     path: caddy
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/ack
+  - name: clivern/matrix/ack
     path: ack
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/curl
+  - name: clivern/matrix/curl
     path: curl
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/bat
+  - name: clivern/matrix/bat
     path: bat
-    tags: anubis,must_have
+    tags: matrix,must_have
 
   # IDE
-  - name: clivern/anubis/neovim
+  - name: clivern/matrix/neovim
     path: neovim
-    tags: anubis,must_have,ide
+    tags: matrix,must_have,ide
 
-  - name: clivern/anubis/vim
+  - name: clivern/matrix/vim
     path: vim
-    tags: anubis,must_have,ide
+    tags: matrix,must_have,ide
 
   # Programming Languages
-  - name: clivern/anubis/python
+  - name: clivern/matrix/python
     path: python
-    tags: anubis,must_have,programming
+    tags: matrix,must_have,programming
 
-  - name: clivern/anubis/php
+  - name: clivern/matrix/php
     path: php
-    tags: anubis,must_have,programming
+    tags: matrix,must_have,programming
 
-  - name: clivern/anubis/node
+  - name: clivern/matrix/node
     path: node
-    tags: anubis,must_have,programming
+    tags: matrix,must_have,programming
 
-  - name: clivern/anubis/rust
+  - name: clivern/matrix/rust
     path: rust
-    tags: anubis,must_have,programming
+    tags: matrix,must_have,programming
 
-  - name: clivern/anubis/goenv
+  - name: clivern/matrix/goenv
     path: goenv
-    tags: anubis,must_have,programming
+    tags: matrix,must_have,programming
 
-  - name: clivern/anubis/lua
+  - name: clivern/matrix/lua
     path: lua
-    tags: anubis,must_have,programming
+    tags: matrix,must_have,programming
 
-  - name: clivern/anubis/elixir
+  - name: clivern/matrix/elixir
     path: elixir
-    tags: anubis,must_have,programming
+    tags: matrix,must_have,programming
 
-  - name: clivern/anubis/ruby
+  - name: clivern/matrix/ruby
     path: ruby
-    tags: anubis,must_have,programming
+    tags: matrix,must_have,programming
 
-  - name: clivern/anubis/rbenv
+  - name: clivern/matrix/rbenv
     path: ruby
-    tags: anubis,must_have,programming
+    tags: matrix,must_have,programming
 
-  - name: clivern/anubis/kotlin
+  - name: clivern/matrix/kotlin
     path: kotlin
-    tags: anubis,must_have,programming
+    tags: matrix,must_have,programming
 
   # Databases
-  - name: clivern/anubis/mysql
+  - name: clivern/matrix/mysql
     path: mysql
-    tags: anubis,must_have,db
+    tags: matrix,must_have,db
 
-  - name: clivern/anubis/mysql-client
+  - name: clivern/matrix/mysql-client
     path: mysql-client
-    tags: anubis,must_have,db
+    tags: matrix,must_have,db
 
-  - name: clivern/anubis/postgresql
+  - name: clivern/matrix/postgresql
     path: postgresql
-    tags: anubis,must_have,db
+    tags: matrix,must_have,db
 
-  - name: clivern/anubis/sq
+  - name: clivern/matrix/sq
     path: sq
-    tags: anubis,must_have,db
+    tags: matrix,must_have,db
 
   # Networking
-  - name: clivern/anubis/nmap
+  - name: clivern/matrix/nmap
     path: nmap
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/netcat
+  - name: clivern/matrix/netcat
     path: netcat
-    tags: anubis,must_have
+    tags: matrix,must_have
 
   # Kubernetes
-  - name: clivern/anubis/kubectx
+  - name: clivern/matrix/kubectx
     path: kubectx
-    tags: anubis,must_have,k8s
+    tags: matrix,must_have,k8s
 
-  - name: clivern/anubis/kubectl
+  - name: clivern/matrix/kubectl
     path: kubectl
-    tags: anubis,must_have,k8s
+    tags: matrix,must_have,k8s
 
-  - name: clivern/anubis/kops
+  - name: clivern/matrix/kops
     path: kops
-    tags: anubis,must_have,k8s
+    tags: matrix,must_have,k8s
 
-  - name: clivern/anubis/helm
+  - name: clivern/matrix/helm
     path: helm
-    tags: anubis,must_have,k8s
+    tags: matrix,must_have,k8s
 
   # Grafana Products
-  - name: clivern/anubis/k6
+  - name: clivern/matrix/k6
     path: k6
-    tags: anubis,must_have,load-testing
+    tags: matrix,must_have,load-testing
 
   # Misc
-  - name: clivern/anubis/iterm2
+  - name: clivern/matrix/iterm2
     path: iterm2
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/httpie
+  - name: clivern/matrix/httpie
     path: httpie
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/pet
+  - name: clivern/matrix/pet
     path: pet
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/screen
+  - name: clivern/matrix/screen
     path: screen
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/watch
+  - name: clivern/matrix/watch
     path: watch
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/wget
+  - name: clivern/matrix/wget
     path: wget
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/ytt
+  - name: clivern/matrix/ytt
     path: ytt
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/task
+  - name: clivern/matrix/task
     path: task
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/tmux
+  - name: clivern/matrix/tmux
     path: tmux
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/tree
+  - name: clivern/matrix/tree
     path: tree
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/ttyrec
+  - name: clivern/matrix/ttyrec
     path: ttyrec
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/github
+  - name: clivern/matrix/github
     path: github
-    tags: anubis,must_have,github
+    tags: matrix,must_have,github
 
-  - name: clivern/anubis/zsh
+  - name: clivern/matrix/zsh
     path: zsh
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/doctl
+  - name: clivern/matrix/doctl
     path: doctl
-    tags: anubis,must_have,digitalocean
+    tags: matrix,must_have,digitalocean
 
-  - name: clivern/anubis/aws
+  - name: clivern/matrix/aws
     path: aws
-    tags: anubis,must_have,aws
+    tags: matrix,must_have,aws
 
-  - name: clivern/anubis/dolt
+  - name: clivern/matrix/dolt
     path: dolt
-    tags: anubis,must_have,git
+    tags: matrix,must_have,git
 
-  - name: clivern/anubis/podman
+  - name: clivern/matrix/podman
     path: podman
-    tags: anubis,must_have,podman
+    tags: matrix,must_have,podman
 
-  - name: clivern/anubis/jump
+  - name: clivern/matrix/jump
     path: jump
-    tags: anubis,must_have,rust_pkgs
+    tags: matrix,must_have,rust_pkgs
 
-  - name: clivern/anubis/zoxide
+  - name: clivern/matrix/zoxide
     path: zoxide
-    tags: anubis,must_have,rust_pkgs
+    tags: matrix,must_have,rust_pkgs
 
-  - name: clivern/anubis/hyperfine
+  - name: clivern/matrix/hyperfine
     path: hyperfiney
-    tags: anubis,must_have,rust_pkgs
+    tags: matrix,must_have,rust_pkgs
 
-  - name: clivern/anubis/hurl
+  - name: clivern/matrix/hurl
     path: hurl
-    tags: anubis,must_have,rust_pkgs
+    tags: matrix,must_have,rust_pkgs
 
-  - name: clivern/anubis/rhino
+  - name: clivern/matrix/rhino
     path: rhino
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/bazel
+  - name: clivern/matrix/bazel
     path: bazel
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/symfony
+  - name: clivern/matrix/symfony
     path: symfony
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/cheat
+  - name: clivern/matrix/cheat
     path: cheat
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/gum
+  - name: clivern/matrix/gum
     path: gum
-    tags: anubis,must_have
+    tags: matrix,must_have
 
-  - name: clivern/anubis/pgcli
+  - name: clivern/matrix/pgcli
     path: pgcli
-    tags: anubis,must_have
+    tags: matrix,must_have
 
   # Hashicorp products
-  - name: clivern/anubis/consul
+  - name: clivern/matrix/consul
     path: consul
-    tags: anubis,must_have,hashicorp
+    tags: matrix,must_have,hashicorp
 
-  - name: clivern/anubis/packer
+  - name: clivern/matrix/packer
     path: packer
-    tags: anubis,must_have,hashicorp
+    tags: matrix,must_have,hashicorp
 
-  - name: clivern/anubis/nomad
+  - name: clivern/matrix/nomad
     path: nomad
-    tags: anubis,must_have,hashicorp
+    tags: matrix,must_have,hashicorp
 
-  - name: clivern/anubis/vault
+  - name: clivern/matrix/vault
     path: vault
-    tags: anubis,must_have,hashicorp
+    tags: matrix,must_have,hashicorp
 
-  - name: clivern/anubis/tfswitch
+  - name: clivern/matrix/tfswitch
     path: tfswitch
-    tags: anubis,must_have,hashicorp
+    tags: matrix,must_have,hashicorp
 
-  - name: clivern/anubis/opentofu
+  - name: clivern/matrix/opentofu
     path: opentofu
-    tags: anubis,must_have,hashicorp
+    tags: matrix,must_have,hashicorp
 
   # requires virtualbox (install manually)
-  - name: clivern/anubis/vagrant
+  - name: clivern/matrix/vagrant
     path: vagrant
-    tags: anubis,hashicorp
+    tags: matrix,hashicorp
 
-  - name: clivern/anubis/multipass
+  - name: clivern/matrix/multipass
     path: multipass
-    tags: anubis,must_have,vms
+    tags: matrix,must_have,vms
 
-  - name: clivern/anubis/jekyll
+  - name: clivern/matrix/jekyll
     path: jekyll
-    tags: anubis,must_have
+    tags: matrix,must_have
 
   # Python packages running under pipx
   # To list them
   # $ pipx list
-  - name: clivern/anubis/pipx
+  - name: clivern/matrix/pipx
     path: pipx
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/cowsay
+  - name: clivern/matrix/cowsay
     path: cowsay
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/copier
+  - name: clivern/matrix/copier
     path: copier
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/poetry
+  - name: clivern/matrix/poetry
     path: poetry
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/pyscaffold
+  - name: clivern/matrix/pyscaffold
     path: pyscaffold
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/jupyterlab
+  - name: clivern/matrix/jupyterlab
     path: jupyterlab
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/pyinfra
+  - name: clivern/matrix/pyinfra
     path: pyinfra
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/txy
+  - name: clivern/matrix/txy
     path: txy
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/locust
+  - name: clivern/matrix/locust
     path: locust
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/uv
+  - name: clivern/matrix/uv
     path: uv
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/ruff
+  - name: clivern/matrix/ruff
     path: ruff
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/streamlit
+  - name: clivern/matrix/streamlit
     path: streamlit
-    tags: anubis,must_have,pypkg
+    tags: matrix,must_have,pypkg
 
-  - name: clivern/anubis/mlx
+  - name: clivern/matrix/mlx
     path: mlx
     tags: mlx,ai
 
-  - name: clivern/anubis/lsp
+  - name: clivern/matrix/lsp
     path: lsp
-    tags: anubis,must_have,neovim
+    tags: matrix,must_have,neovim
 
-  - name: clivern/anubis/configs
+  - name: clivern/matrix/configs
     path: configs
-    tags: anubis,must_have,configs
+    tags: matrix,must_have,configs
 
-  - name: clivern/anubis/ngrok
+  - name: clivern/matrix/ngrok
     path: ngrok
-    tags: anubis,firewall
+    tags: matrix,firewall
 
-  - name: clivern/anubis/sqlite_ide
+  - name: clivern/matrix/sqlite_ide
     path: sqlite_ide
-    tags: anubis,sqlite
+    tags: matrix,sqlite
 
   # Remote Linux Server
   - name: clivern/linux/motd
@@ -399,78 +399,78 @@ recipes:
 
 # recipes to install
 run:
-  - name: clivern/anubis/update
-  - name: clivern/anubis/upgrade
-  - name: clivern/anubis/base
-  - name: clivern/anubis/gnu-tar
-  - name: clivern/anubis/jq
-  - name: clivern/anubis/caddy
-  - name: clivern/anubis/consul
-  - name: clivern/anubis/packer
-  - name: clivern/anubis/nomad
-  - name: clivern/anubis/vault
-  - name: clivern/anubis/ack
-  - name: clivern/anubis/curl
-  - name: clivern/anubis/bat
-  - name: clivern/anubis/neovim
-  - name: clivern/anubis/vim
-  - name: clivern/anubis/python
-  - name: clivern/anubis/php
-  - name: clivern/anubis/goenv
-  - name: clivern/anubis/lua
-  - name: clivern/anubis/elixir
-  - name: clivern/anubis/rust
-  - name: clivern/anubis/nmap
-  - name: clivern/anubis/netcat
-  - name: clivern/anubis/mysql
-  - name: clivern/anubis/postgresql
-  - name: clivern/anubis/sq
-  - name: clivern/anubis/kubectx
-  - name: clivern/anubis/kubectl
-  - name: clivern/anubis/helm
-  - name: clivern/anubis/kops
-  - name: clivern/anubis/k6
-  - name: clivern/anubis/httpie
-  - name: clivern/anubis/pet
-  - name: clivern/anubis/screen
-  - name: clivern/anubis/tfswitch
-  - name: clivern/anubis/opentofu
-  - name: clivern/anubis/watch
-  - name: clivern/anubis/wget
-  - name: clivern/anubis/ytt
-  - name: clivern/anubis/task
-  - name: clivern/anubis/tmux
-  - name: clivern/anubis/tree
-  - name: clivern/anubis/ttyrec
-  - name: clivern/anubis/pipx
-  - name: clivern/anubis/cowsay
-  - name: clivern/anubis/multipass
-  - name: clivern/anubis/copier
-  - name: clivern/anubis/poetry
-  - name: clivern/anubis/lsp
-  - name: clivern/anubis/jupyterlab
-  - name: clivern/anubis/pyinfra
-  - name: clivern/anubis/txy
-  - name: clivern/anubis/ruff
-  - name: clivern/anubis/uv
-  - name: clivern/anubis/locust
-  - name: clivern/anubis/streamlit
-  - name: clivern/anubis/github
-  - name: clivern/anubis/zsh
-  - name: clivern/anubis/doctl
-  - name: clivern/anubis/aws
-  - name: clivern/anubis/dolt
-  - name: clivern/anubis/podman
-  - name: clivern/anubis/jump
-  - name: clivern/anubis/zoxide
-  - name: clivern/anubis/hyperfine
-  - name: clivern/anubis/hurl
-  - name: clivern/anubis/rhino
-  - name: clivern/anubis/bazel
-  - name: clivern/anubis/symfony
-  - name: clivern/anubis/pgcli
-  - name: clivern/anubis/cheat
-  - name: clivern/anubis/gum
-  - name: clivern/anubis/ngrok
-  - name: clivern/anubis/sqlite_ide
-  - name: clivern/anubis/configs
+  - name: clivern/matrix/update
+  - name: clivern/matrix/upgrade
+  - name: clivern/matrix/base
+  - name: clivern/matrix/gnu-tar
+  - name: clivern/matrix/jq
+  - name: clivern/matrix/caddy
+  - name: clivern/matrix/consul
+  - name: clivern/matrix/packer
+  - name: clivern/matrix/nomad
+  - name: clivern/matrix/vault
+  - name: clivern/matrix/ack
+  - name: clivern/matrix/curl
+  - name: clivern/matrix/bat
+  - name: clivern/matrix/neovim
+  - name: clivern/matrix/vim
+  - name: clivern/matrix/python
+  - name: clivern/matrix/php
+  - name: clivern/matrix/goenv
+  - name: clivern/matrix/lua
+  - name: clivern/matrix/elixir
+  - name: clivern/matrix/rust
+  - name: clivern/matrix/nmap
+  - name: clivern/matrix/netcat
+  - name: clivern/matrix/mysql
+  - name: clivern/matrix/postgresql
+  - name: clivern/matrix/sq
+  - name: clivern/matrix/kubectx
+  - name: clivern/matrix/kubectl
+  - name: clivern/matrix/helm
+  - name: clivern/matrix/kops
+  - name: clivern/matrix/k6
+  - name: clivern/matrix/httpie
+  - name: clivern/matrix/pet
+  - name: clivern/matrix/screen
+  - name: clivern/matrix/tfswitch
+  - name: clivern/matrix/opentofu
+  - name: clivern/matrix/watch
+  - name: clivern/matrix/wget
+  - name: clivern/matrix/ytt
+  - name: clivern/matrix/task
+  - name: clivern/matrix/tmux
+  - name: clivern/matrix/tree
+  - name: clivern/matrix/ttyrec
+  - name: clivern/matrix/pipx
+  - name: clivern/matrix/cowsay
+  - name: clivern/matrix/multipass
+  - name: clivern/matrix/copier
+  - name: clivern/matrix/poetry
+  - name: clivern/matrix/lsp
+  - name: clivern/matrix/jupyterlab
+  - name: clivern/matrix/pyinfra
+  - name: clivern/matrix/txy
+  - name: clivern/matrix/ruff
+  - name: clivern/matrix/uv
+  - name: clivern/matrix/locust
+  - name: clivern/matrix/streamlit
+  - name: clivern/matrix/github
+  - name: clivern/matrix/zsh
+  - name: clivern/matrix/doctl
+  - name: clivern/matrix/aws
+  - name: clivern/matrix/dolt
+  - name: clivern/matrix/podman
+  - name: clivern/matrix/jump
+  - name: clivern/matrix/zoxide
+  - name: clivern/matrix/hyperfine
+  - name: clivern/matrix/hurl
+  - name: clivern/matrix/rhino
+  - name: clivern/matrix/bazel
+  - name: clivern/matrix/symfony
+  - name: clivern/matrix/pgcli
+  - name: clivern/matrix/cheat
+  - name: clivern/matrix/gum
+  - name: clivern/matrix/ngrok
+  - name: clivern/matrix/sqlite_ide
+  - name: clivern/matrix/configs

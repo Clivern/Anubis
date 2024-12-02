@@ -17,7 +17,7 @@ I love challenges, Never settle for less, Always looking to improve and play nic
 
 ***Current Interests:*** Scaling Web Applications, Microservices Architecture, Cloud Native Architecture, High Availability, Automation and AI-Powered Systems.
 
-*I maintain a personal [Tech Radar](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FAnubis%2Fmain%2Ftradar.json) to visualize and track the technologies I use and evaluate.*
+*I maintain a personal [Tech Radar](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FMatrix%2Fmain%2Ftradar.json) to visualize and track the technologies I use and evaluate.*
 
 *I would love to hear from you, and what you think about clivern. All feedback is welcome and if you have any idea you'd like to share or what you think I should write about next, let me know!*
 
