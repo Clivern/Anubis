@@ -25,7 +25,7 @@ ptyprocess==0.7.0
 pycparser==2.22
 Pygments==2.18.0
 pynvim==0.5.2
-python-daemon==3.1.0
+python-daemon==3.1.1
 PyYAML==6.0.2
 requests==2.32.3
 resolvelib==1.0.1
