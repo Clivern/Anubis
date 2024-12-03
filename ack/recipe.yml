@@ -22,9 +22,10 @@
 
 
 tasks:
-  - name: installing ack package
+  - name: Installing ack package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - ack
+    when: ansible_os_family == "Darwin"

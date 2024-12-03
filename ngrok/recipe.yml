@@ -27,6 +27,7 @@ tasks:
       src: https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-darwin-amd64.zip
       dest: /tmp
       remote_src: yes
+    when: ansible_os_family == "Darwin"
 
   - name: Copy ngrok
     copy:
@@ -34,9 +35,12 @@ tasks:
       dest: ~/bin/ngrok
       mode: a+x
       force: true
+    when: ansible_os_family == "Darwin"
 
   - name: Get version
     command: ngrok version
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

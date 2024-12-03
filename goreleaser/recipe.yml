@@ -22,21 +22,25 @@
 
 
 tasks:
-  - name: download goreleaser
+  - name: Download goreleaser
     unarchive:
       src: https://github.com/goreleaser/goreleaser/releases/download/v1.21.2/goreleaser_Darwin_x86_64.tar.gz
       dest: /tmp
       remote_src: yes
+    when: ansible_os_family == "Darwin"
 
-  - name: copy goreleaser
+  - name: Copy goreleaser
     copy:
       src: /tmp/goreleaser
       dest: ~/bin/goreleaser
       mode: a+x
       force: true
+    when: ansible_os_family == "Darwin"
 
-  - name: get version
+  - name: Get version
     command: goreleaser --version
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

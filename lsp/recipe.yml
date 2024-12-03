@@ -22,6 +22,16 @@
 
 
 tasks:
+  - name: Check if pipx is installed
+    command: pipx --version
+    register: pipx_version
+    failed_when: pipx_version.rc != 0
+
+  - name: Check if go is installed
+    command: go --version
+    register: go_version
+    failed_when: go_version.rc != 0
+
   - name: Install  python-lsp-server
     command: pipx install "python-lsp-server[all]"
 

@@ -39,17 +39,22 @@ tasks:
           </array>
         </plist>
       dest: /tmp/choices.xml
+    when: ansible_os_family == "Darwin"
 
   - name: Download AWS CLI package
     get_url:
       url: https://awscli.amazonaws.com/AWSCLIV2.pkg
       dest: /tmp/AWSCLIV2.pkg
+    when: ansible_os_family == "Darwin"
 
   - name: Install AWS CLI package
     command: /usr/sbin/installer -pkg /tmp/AWSCLIV2.pkg -target CurrentUserHomeDirectory -applyChoiceChangesXML /tmp/choices.xml
+    when: ansible_os_family == "Darwin"
 
-  - name: get version
+  - name: Get version
     command: aws --version
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

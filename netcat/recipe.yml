@@ -22,9 +22,10 @@
 
 
 tasks:
-  - name: installing netcat package
+  - name: Installing netcat package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - netcat
+    when: ansible_os_family == "Darwin"

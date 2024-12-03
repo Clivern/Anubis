@@ -28,3 +28,4 @@ tasks:
       state: present
     with_items:
       - mysql@8.1
+    when: ansible_os_family == "Darwin"

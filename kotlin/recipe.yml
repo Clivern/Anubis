@@ -28,3 +28,4 @@ tasks:
       state: present
     with_items:
       - kotlin
+    when: ansible_os_family == "Darwin"

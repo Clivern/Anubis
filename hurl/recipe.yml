@@ -22,10 +22,15 @@
 
 
 tasks:
+  - name: Check if cargo is installed
+    command: cargo --version
+    register: cargo_version
+    failed_when: cargo_version.rc != 0
+
   - name: Install hurl rust package
     command: cargo install hurl
 
-  - name: get version
+  - name: Get version
     command: hurl --version
     register: output
 

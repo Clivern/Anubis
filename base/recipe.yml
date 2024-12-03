@@ -22,22 +22,26 @@
 
 
 tasks:
-  - name: create bin directory
+  - name: Create bin directory
     file:
       path: ~/bin
       state: directory
+    when: ansible_os_family == "Darwin"
 
-  - name: create configs directory
+  - name: Create configs directory
     file:
       path: ~/.configs
       state: directory
+    when: ansible_os_family == "Darwin"
 
-  - name: create Work directory
+  - name: Create Work directory
     file:
       path: ~/space/work
       state: directory
+    when: ansible_os_family == "Darwin"
 
-  - name: create Personal directory
+  - name: Create Personal directory
     file:
       path: ~/space/personal
       state: directory
+    when: ansible_os_family == "Darwin"

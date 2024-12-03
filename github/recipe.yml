@@ -22,21 +22,25 @@
 
 
 tasks:
-  - name: download github cli
+  - name: Download github cli
     unarchive:
       src: https://github.com/cli/cli/releases/download/v2.69.0/gh_2.69.0_macOS_arm64.zip
       dest: /tmp
       remote_src: yes
+    when: ansible_os_family == "Darwin"
 
-  - name: copy github cli
+  - name: Copy github cli
     copy:
       src: /tmp/gh_2.69.0_macOS_arm64/bin/gh
       dest: ~/bin/gh
       mode: a+x
       force: true
+    when: ansible_os_family == "Darwin"
 
-  - name: get version
+  - name: Get version
     command: gh version
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

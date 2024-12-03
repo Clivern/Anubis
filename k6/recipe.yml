@@ -27,6 +27,7 @@ tasks:
       src: https://github.com/grafana/k6/releases/download/v0.52.0/k6-v0.52.0-macos-amd64.zip
       dest: /tmp
       remote_src: yes
+    when: ansible_os_family == "Darwin"
 
   - name: Copy k6
     copy:
@@ -34,9 +35,12 @@ tasks:
       dest: ~/bin/k6
       mode: a+x
       force: true
+    when: ansible_os_family == "Darwin"
 
   - name: Get version
     command: k6 version
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

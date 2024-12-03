@@ -22,9 +22,19 @@
 
 
 tasks:
-  - name: installing go package
+  - name: Installing go package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - go
+    when: ansible_os_family == "Darwin"
+
+  - name: Installing go packages
+    apt:
+      name: "{{ item }}"
+      state: present
+    with_items:
+      - golang-go
+      - golang-golang-x-tools
+    when: ansible_os_family == "Debian"

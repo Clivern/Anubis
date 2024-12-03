@@ -22,6 +22,7 @@
 
 
 tasks:
-  - name: update homebrew packages
+  - name: Update homebrew packages
     homebrew:
       update_homebrew: true
+    when: ansible_os_family == "Darwin"

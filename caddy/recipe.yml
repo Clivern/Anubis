@@ -22,21 +22,25 @@
 
 
 tasks:
-  - name: download caddy
+  - name: Download caddy
     unarchive:
       src: https://github.com/caddyserver/caddy/releases/download/v2.7.5/caddy_2.7.5_mac_amd64.tar.gz
       dest: /tmp
       remote_src: yes
+    when: ansible_os_family == "Darwin"
 
-  - name: copy caddy
+  - name: Copy caddy
     copy:
       src: /tmp/caddy
       dest: ~/bin/caddy
       mode: a+x
       force: true
+    when: ansible_os_family == "Darwin"
 
-  - name: get version
+  - name: Get version
     command: caddy version
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

@@ -22,10 +22,15 @@
 
 
 tasks:
+  - name: Check if cargo is installed
+    command: cargo --version
+    register: cargo_version
+    failed_when: cargo_version.rc != 0
+
   - name: Install jump rust package
     command: cargo install ju
 
-  - name: get version
+  - name: Get version
     command: ju --version
     register: output
 

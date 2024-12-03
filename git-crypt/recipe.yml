@@ -22,9 +22,10 @@
 
 
 tasks:
-  - name: installing git-crypt package
+  - name: Installing git-crypt package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - git-crypt
+    when: ansible_os_family == "Darwin"

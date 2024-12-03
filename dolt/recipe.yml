@@ -22,21 +22,25 @@
 
 
 tasks:
-  - name: download dolt
+  - name: Download dolt
     unarchive:
       src: https://github.com/dolthub/dolt/releases/download/v1.24.1/dolt-darwin-amd64.tar.gz
       dest: /tmp
       remote_src: yes
+    when: ansible_os_family == "Darwin"
 
-  - name: copy dolt
+  - name: Copy dolt
     copy:
       src: /tmp/dolt-darwin-amd64/bin/dolt
       dest: ~/bin/dolt
       mode: a+x
       force: true
+    when: ansible_os_family == "Darwin"
 
-  - name: get version
+  - name: Get version
     command: dolt version
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

@@ -22,9 +22,20 @@
 
 
 tasks:
-  - name: installing elixir package
+  - name: Installing elixir package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - elixir
+    when: ansible_os_family == "Darwin"
+
+  - name: Installing elixir packages
+    apt:
+      name: "{{ item }}"
+      state: present
+    with_items:
+      - elixir
+      - erlang
+      - erlang-dev
+    when: ansible_os_family == "Debian"

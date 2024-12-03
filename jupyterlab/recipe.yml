@@ -25,7 +25,7 @@ tasks:
   - name: Install jupyterlab python package on version 4.0.8
     command: pipx install jupyterlab==4.0.8
 
-  - name: get version
+  - name: Get version
     command: jupyter-lab --version
     register: output
 

@@ -22,9 +22,10 @@
 
 
 tasks:
-  - name: installing bazel package
+  - name: Installing bazel package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - bazel
+    when: ansible_os_family == "Darwin"

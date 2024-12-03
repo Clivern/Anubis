@@ -22,7 +22,7 @@
 
 
 tasks:
-  - name: installing tmux package
+  - name: Installing tmux package
     homebrew:
       name: "{{ item }}"
       state: present

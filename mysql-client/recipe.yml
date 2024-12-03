@@ -23,10 +23,11 @@
 
 # export PKG_CONFIG_PATH="/opt/homebrew/opt/mysql-client/lib/pkgconfig"
 tasks:
-  - name: installing mysql-client and pkg-config package
+  - name: Installing mysql-client and pkg-config package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - mysql-client
       - pkg-config
+    when: ansible_os_family == "Darwin"

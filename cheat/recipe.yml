@@ -22,9 +22,10 @@
 
 
 tasks:
-  - name: installing cheat package
+  - name: Installing cheat package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - cheat
+    when: ansible_os_family == "Darwin"

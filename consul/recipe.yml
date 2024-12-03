@@ -22,21 +22,25 @@
 
 
 tasks:
-  - name: download consul
+  - name: Download consul
     unarchive:
       src: https://releases.hashicorp.com/consul/1.16.0/consul_1.16.0_darwin_amd64.zip
       dest: /tmp
       remote_src: yes
+    when: ansible_os_family == "Darwin"
 
-  - name: copy consul
+  - name: Copy consul
     copy:
       src: /tmp/consul
       dest: ~/bin/consul
       mode: a+x
       force: true
+    when: ansible_os_family == "Darwin"
 
-  - name: get version
+  - name: Get version
     command: consul version
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

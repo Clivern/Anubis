@@ -22,21 +22,25 @@
 
 
 tasks:
-  - name: download helm
+  - name: Download helm
     unarchive:
       src: https://get.helm.sh/helm-v3.15.1-darwin-amd64.tar.gz
       dest: /tmp
       remote_src: yes
+    when: ansible_os_family == "Darwin"
 
-  - name: copy helm
+  - name: Copy helm
     copy:
       src: /tmp/darwin-amd64/helm
       dest: ~/bin/helm
       mode: a+x
       force: true
+    when: ansible_os_family == "Darwin"
 
-  - name: get version
+  - name: Get version
     command: helm version
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

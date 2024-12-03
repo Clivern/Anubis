@@ -22,21 +22,25 @@
 
 
 tasks:
-  - name: download gum
+  - name: Download gum
     unarchive:
       src: https://github.com/charmbracelet/gum/releases/download/v0.13.0/gum_0.13.0_Darwin_x86_64.tar.gz
       dest: /tmp
       remote_src: yes
+    when: ansible_os_family == "Darwin"
 
-  - name: copy gum
+  - name: Copy gum
     copy:
       src: /tmp/gum
       dest: ~/bin/gum
       mode: a+x
       force: true
+    when: ansible_os_family == "Darwin"
 
-  - name: get version
+  - name: Get version
     command: gum -v
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

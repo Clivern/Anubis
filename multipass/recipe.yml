@@ -26,3 +26,5 @@ tasks:
     homebrew:
       name: homebrew/cask/multipass
       state: present
+    when: ansible_os_family == "Darwin"
+
