@@ -22,9 +22,18 @@
 
 
 tasks:
-  - name: installing curl package
+  - name: Installing curl package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - curl
+    when: ansible_os_family == "Darwin"
+
+  - name: Installing curl package
+    apt:
+      name: "{{ item }}"
+      state: present
+    with_items:
+      - curl
+    when: ansible_os_family == "Debian"

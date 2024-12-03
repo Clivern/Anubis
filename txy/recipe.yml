@@ -21,5 +21,10 @@
 # SOFTWARE.
 
 tasks:
+  - name: Check if pipx is installed
+    command: pipx --version
+    register: pipx_version
+    failed_when: pipx_version.rc != 0
+
   - name: Install txy python package on version 0.1.3
     command: pipx install txy==0.1.3

@@ -24,3 +24,4 @@
 tasks:
   - name: Install ytt
     command: wget -O- https://carvel.dev/install.sh > install.sh && bash install.sh
+    when: ansible_os_family == "Darwin"

@@ -22,9 +22,18 @@
 
 
 tasks:
-  - name: installing wget package
+  - name: Installing wget package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - wget
+    when: ansible_os_family == "Darwin"
+
+  - name: Installing wget package
+    apt:
+      name: "{{ item }}"
+      state: present
+    with_items:
+      - wget
+    when: ansible_os_family == "Debian"

@@ -22,5 +22,10 @@
 
 
 tasks:
+  - name: Check if pipx is installed
+    command: pipx --version
+    register: pipx_version
+    failed_when: pipx_version.rc != 0
+
   - name: Install cowsay python package on version 6.1
     command: pipx install cowsay==6.1

@@ -28,3 +28,5 @@ tasks:
       state: present
     with_items:
       - ttyrec
+    when: ansible_os_family == "Darwin"
+
