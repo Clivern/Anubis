@@ -22,7 +22,7 @@ $ curl https://zenquotes.io/api/today -s | jq '.[0].q'
 
 Neovim plugins typically follow a specific structure:
 
-```lua
+```
 plugin_name/
 ├── lua/
 │   └── module/
