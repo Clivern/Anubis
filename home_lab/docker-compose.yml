@@ -22,7 +22,7 @@ services:
 
     # Grafana Container
     grafana:
-        image: grafana/grafana:11.3.0
+        image: grafana/grafana:11.5.2
         environment:
             - GF_SECURITY_ADMIN_USER=${ADMIN_USER:-admin}
             - GF_SECURITY_ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin}
@@ -38,7 +38,7 @@ services:
 
     # Loki Container
     loki:
-        image: grafana/loki:3.2.1
+        image: grafana/loki:3.4.2
         command:
             - -config.file=/etc/loki/local-config.yaml
         ports:
