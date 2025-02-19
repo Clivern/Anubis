@@ -50,6 +50,7 @@ templates:
   config_global.json.j2: config_global.json.j2
   anubis.j2: anubis.j2
   secrets.j2: secrets.j2
+  zprofile.j2: zprofile.j2
 
 tasks:
   - name: ensures ~/.dolt dir exists
@@ -95,4 +96,5 @@ tasks:
       - { src: "secrets.j2", dest: "~/.secrets", mode: "0600" }
       - { src: "config_global.json.j2", dest: "~/.dolt/config_global.json", mode: "0600" }
       - { src: "anubis.j2", dest: "~/bin/anubis", mode: "a+x" }
+      - { src: "zprofile.j2", dest: "~/.zprofile", mode: "0600" }
 

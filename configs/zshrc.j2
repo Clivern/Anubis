@@ -2,7 +2,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 source ~/.bash_profile
-source ~/.kubectl_aliases
 
 export GOPATH=$HOME/go
 export GOBIN="$GOPATH/bin"
@@ -86,9 +85,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
  if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='nano'
+   export EDITOR='vi'
  else
-   export EDITOR='nano'
+   export EDITOR='vi'
  fi
 
 # Functions
@@ -137,7 +136,7 @@ export PATH="$PATH:$NPM_PACKAGES/bin"
 # Otherwise, fall back to `manpath` so we can inherit from `/etc/manpath`.
 export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 
-source $HOME/.cargo/env
+# source $HOME/.cargo/env
 
-eval "$(rbenv init - zsh)"
-eval "$(zoxide init zsh)"
+# eval "$(rbenv init - zsh)"
+# eval "$(zoxide init zsh)"

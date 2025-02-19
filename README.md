@@ -43,6 +43,7 @@ $ git clone git@github.com:clivern/anubis.git ~/space/anubis
 
 2. Install the following manually
 
+- [Homebrew](https://brew.sh/)
 - [Google Chrome](https://www.google.com/intl/en_uk/chrome/)
 - [Iterm2](https://iterm2.com/)
 - [omz](https://ohmyz.sh/)
@@ -54,6 +55,7 @@ $ git clone git@github.com:clivern/anubis.git ~/space/anubis
 
 ```zsh
 $ brew install yq
+$ brew install python@3.11
 
 $ pip install -r requirements.freeze.txt
 $ alias op=opswork
