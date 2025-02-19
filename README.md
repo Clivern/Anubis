@@ -43,11 +43,11 @@ $ git clone git@github.com:clivern/anubis.git ~/space/anubis
 
 2. Install the following manually
 
-- [chrome](https://www.google.com/intl/en_uk/chrome/)
+- [Google Chrome](https://www.google.com/intl/en_uk/chrome/)
 - [Iterm2](https://iterm2.com/)
 - [omz](https://ohmyz.sh/)
 - [Sublime](https://www.sublimetext.com/)
-- [Fonts](./fonts/)
+- [Fonts for Terminal & Neovim](./fonts/)
 
 
 3. Install [opswork](https://pypi.org/project/opswork/) and `pip` globally.
@@ -59,26 +59,26 @@ $ pip install -r requirements.freeze.txt
 $ alias op=opswork
 ```
 
-3. Init the configs
+4. Init the configs
 
 ```zsh
 $ op config init
 $ op config dump
 ```
 
-4. Add local as a host.
+5. Add local as a host.
 
 ```zsh
 $ make hosts
 ```
 
-5. Add dotfiles recipes.
+6. Add dotfiles recipes.
 
 ```zsh
 $ make recipes
 ```
 
-6. Run recipes one by one or the needed ones. for example to run `clivern/ping` towards host with name `localhost`.
+7. Run recipes one by one or the needed ones. for example to run `clivern/ping` towards host with name `localhost`.
 
 ```zsh
 $ op recipe run clivern/linux/ping -h localhost -v key=value
@@ -87,13 +87,13 @@ $ op recipe run clivern/linux/ping -h localhost -v key=value
 $ op recipe list -t must_have -o json | jq .
 ```
 
-6. To install dotfiles.
+8. To install dotfiles.
 
 ```zsh
 $ make run
 ```
 
-7. To run command either locally or remotely.
+9. To run command either locally or remotely.
 
 ```zsh
 # Add a Remote Linux Host
@@ -118,26 +118,26 @@ $ op recipe run clivern/linux/cmd -h clivern -v cmd="reboot"
 $ op host ssh clivern
 ```
 
-8. Store the secrets in `OpsWork` vault.
+10. Store the secrets in `OpsWork` vault.
 
 ```zsh
 $ op secret add clivern/ai/google_palm_api_key "~~" -t ai
 $ op secret add clivern/ai/openai_api_key "~~" -t ai
 ```
 
-9. Secret can be loaded as environmental variable by adding it to `configs/secrets.j2` like the following.
+11. Secret can be loaded as environmental variable by adding it to `configs/secrets.j2` like the following.
 
 ```zsh
 $ export OPENAI_API_KEY="$(op secret get clivern/ai/openai_api_key -o json | jq -r '.[0].value')"
 ```
 
-10. To load secrets from terminal.
+12. To load secrets from terminal.
 
 ```zsh
 $ source ~/.secrets
 ```
 
-11. To list all recipes
+13. To list all recipes
 
 ```
 $ op recipe list -o json | jq -r '.[].name'
