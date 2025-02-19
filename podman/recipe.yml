@@ -22,12 +22,11 @@
 
 
 tasks:
-  - name: installing qemu package
+  - name: installing podman package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
-      - qemu
       - podman
 
   - name: get version
