@@ -41,7 +41,16 @@ $ mkdir -p ~/space
 $ git clone git@github.com:clivern/anubis.git ~/space/anubis
 ```
 
-2. Install [opswork](https://pypi.org/project/opswork/) and `pip` globally.
+2. Install the following manually
+
+- [chrome](https://www.google.com/intl/en_uk/chrome/)
+- [Iterm2](https://iterm2.com/)
+- [omz](https://ohmyz.sh/)
+- [Sublime](https://www.sublimetext.com/)
+- [Fonts](./fonts/)
+
+
+3. Install [opswork](https://pypi.org/project/opswork/) and `pip` globally.
 
 ```zsh
 $ brew install yq
