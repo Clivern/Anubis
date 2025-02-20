@@ -61,7 +61,7 @@ lspconfig.pylsp.setup {
         autopep8 = { enabled = true }, -- Choose one formatter
         pycodestyle = {
           enabled = true,
-          ignore = { "E501" }, -- Exclude E501 warning
+          ignore = { "E501", "W503" }, -- Exclude E501 warning
         },
       },
     },
