@@ -16,7 +16,7 @@ markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 mdurl==0.1.2
 msgpack==1.1.0
-opswork==0.8.22
+opswork==0.8.23
 packaging==24.2
 pexpect==4.9.0
 pexy==0.9.4
