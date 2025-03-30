@@ -29,7 +29,7 @@ python-daemon==3.1.2
 PyYAML==6.0.2
 requests==2.32.3
 resolvelib==1.0.1
-rich==13.7.1
+rich==14.0.0
 smmap==5.0.2
 typing_extensions==4.13.0
 urllib3==2.3.0
