@@ -567,15 +567,8 @@
         "description": "Sublime Text is a sophisticated text editor for code, markup, and prose. It offers a distraction-free writing mode, split editing, and instant project switch. Its powerful API and package ecosystem make it highly extensible."
     },
     {
-        "name": "Trae AI",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Trae is an adaptive AI IDE that transforms how you work, collaborating with you to run faster."
-    },
-    {
         "name": "Cursor AI",
-        "ring": "assess",
+        "ring": "adopt",
         "quadrant": "tools",
         "isNew": "FALSE",
         "description": "Cursor is an adaptive AI IDE that transforms how you work, collaborating with you to run faster."
