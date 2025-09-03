@@ -77,6 +77,7 @@ $ op recipe add clivern/ubuntu/nvim -p ubuntu/nvim -t ubuntu,must_have,nvim -f
 $ op recipe add clivern/ubuntu/terminator -p ubuntu/terminator -t ubuntu,must_have,terminator -f
 $ op recipe add clivern/ubuntu/uv -p ubuntu/uv -t ubuntu,must_have,uv -f
 $ op recipe add clivern/ubuntu/ruff -p ubuntu/ruff -t ubuntu,must_have,ruff -f
+$ op recipe add clivern/ubuntu/docker -p ubuntu/docker -t ubuntu,must_have,docker -f
 ```
 
 2. Run recipes against localhost:
@@ -94,6 +95,7 @@ $ op recipe run clivern/ubuntu/nvim -h localhost
 $ op recipe run clivern/ubuntu/terminator -h localhost
 $ op recipe run clivern/ubuntu/uv -h localhost
 $ op recipe run clivern/ubuntu/ruff -h localhost
+$ op recipe run clivern/ubuntu/docker -h localhost
 ```
 
 #### Available Recipes
@@ -111,5 +113,6 @@ $ op recipe run clivern/ubuntu/ruff -h localhost
 - **terminator** - Advanced terminal emulator
 - **uv** - Fast Python package installer and resolver
 - **ruff** - Fast Python linter and formatter
+- **docker** - Container platform for developing, shipping, and running applications
 - **Chrome** - Manual Install.
 - **Cursor IDE** - Manual Install.
