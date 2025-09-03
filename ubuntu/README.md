@@ -75,6 +75,8 @@ $ op recipe add clivern/ubuntu/elixir -p ubuntu/elixir -t ubuntu,must_have,elixi
 $ op recipe add clivern/ubuntu/vim -p ubuntu/vim -t ubuntu,must_have,vim -f
 $ op recipe add clivern/ubuntu/nvim -p ubuntu/nvim -t ubuntu,must_have,nvim -f
 $ op recipe add clivern/ubuntu/terminator -p ubuntu/terminator -t ubuntu,must_have,terminator -f
+$ op recipe add clivern/ubuntu/uv -p ubuntu/uv -t ubuntu,must_have,uv -f
+$ op recipe add clivern/ubuntu/ruff -p ubuntu/ruff -t ubuntu,must_have,ruff -f
 ```
 
 2. Run recipes against localhost:
@@ -89,6 +91,9 @@ $ op recipe run clivern/ubuntu/rust -h localhost
 $ op recipe run clivern/ubuntu/elixir -h localhost
 $ op recipe run clivern/ubuntu/vim -h localhost
 $ op recipe run clivern/ubuntu/nvim -h localhost
+$ op recipe run clivern/ubuntu/terminator -h localhost
+$ op recipe run clivern/ubuntu/uv -h localhost
+$ op recipe run clivern/ubuntu/ruff -h localhost
 ```
 
 #### Available Recipes
@@ -104,5 +109,7 @@ $ op recipe run clivern/ubuntu/nvim -h localhost
 - **pipx** - Python package installer for isolated environments
 - **elixir** - Elixir programming language
 - **terminator** - Advanced terminal emulator
+- **uv** - Fast Python package installer and resolver
+- **ruff** - Fast Python linter and formatter
 - **Chrome** - Manual Install.
 - **Cursor IDE** - Manual Install.
