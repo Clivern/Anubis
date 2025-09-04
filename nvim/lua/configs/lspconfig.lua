@@ -28,6 +28,8 @@ SOFTWARE.
 -- https://github.com/NvChad/NvChad/blob/v2.5/lua/nvchad/configs/lspconfig.lua
 -- require("nvchad.configs.lspconfig").defaults()
 
+-- LSP DISABLED - Comment out or remove the code below to re-enable
+--[[
 local lspconfig = require "lspconfig"
 
 -- EXAMPLE
@@ -67,9 +69,11 @@ lspconfig.pylsp.setup {
     },
   },
 }
+--]]
 -- configuring single server, example: typescript
 -- lspconfig.ts_ls.setup {
 --   on_attach = nvlsp.on_attach,
 --   on_init = nvlsp.on_init,
 --   capabilities = nvlsp.capabilities,
 -- }
+--]]

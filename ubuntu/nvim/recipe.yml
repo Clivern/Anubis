@@ -81,3 +81,6 @@ tasks:
       src: "/home/clivern/space/anubis/nvim"
       dest: "~/.config/nvim"
       state: link
+
+  - name: install pylsp with pipx
+    command: pipx install python-lsp-server[all]
