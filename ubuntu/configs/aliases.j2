@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# Shortcuts
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias g="git"
+alias m="make"
+
+# Get Weather
+alias weather="curl http://wttr.in/"
+
+alias smtpserver="sudo python3 -m smtpd -n -c DebuggingServer localhost:25"
+
+# Rust aliases
+alias cargb="cargo build -j 1"
+
+alias tf="terraform"
+
+# OpsWork alias https://github.com/Clivern/OpsWork
+alias ow="opswork"
+alias op="opswork"
+
+# Neovim alias
+alias vi="nvim"
+alias v="nvim"

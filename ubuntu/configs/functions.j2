@@ -1,0 +1,48 @@
+#!/bin/bash
+
+help () {
+    echo "
+Description: Move to project dir
+    $ dgo
+------------------------------
+Description: If site is down
+    $ isdown <example.com>
+------------------------------
+Description: Go to Work Space
+    $ gow
+------------------------------
+Description: Go to Personal Space
+    $ gop
+------------------------------
+Description: URL Shortener
+    $ surl <URL>
+------------------------------
+Description: Check go modules checksum
+    $ go_lookup author/repo@version
+";
+}
+
+isdown () {
+    curl -X GET https://isitup.org/$1.json
+}
+
+dgo() {
+    cd /home/clivern/space/$ANUBIS_PATH
+}
+
+gow() {
+    cd /home/clivern/space/work
+}
+
+gop() {
+    cd /home/clivern/space/personal
+}
+
+surl() {
+    curl -s "http://tinyurl.com/api-create.php?url=$1"
+}
+
+go_lookup() {
+    curl --silent https://sum.golang.org/lookup/github.com/$1
+}
+

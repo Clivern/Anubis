@@ -1,0 +1,45 @@
+# EditorConfig is awesome: https://editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# 4 space indentation for Python and Go
+[*.{py,go}]
+indent_style = space
+indent_size = 4
+
+# 4 space indentation for Java and Kotlin
+[*.{java,kotlin}]
+indent_style = space
+indent_size = 4
+
+# 4 space indentation for PHP and Elixir
+[*.{php,ex}]
+indent_style = space
+indent_size = 4
+
+# 2 space indentation for YAML and JSON
+[*.{yaml,json}]
+indent_style = space
+indent_size = 2
+
+# Tab indentation for HTML and CSS
+[*.{html,css,js}]
+indent_style = space
+indent_size = 2
+
+# Tab indentation (no size specified) for Makefile
+[Makefile]
+indent_style = tab
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
