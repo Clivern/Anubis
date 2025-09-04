@@ -27,10 +27,57 @@ tasks:
       update_cache: yes
       cache_valid_time: 3600
 
-  - name: installing neovim packages
-    apt:
-      name: "{{ item }}"
-      state: present
-    with_items:
-      - neovim
+  - name: ensures ~/.config dir exists
+    file:
+      path: "~/.config"
+      state: directory
 
+  - name: installing ripgrep package
+    apt:
+      name: ripgrep
+      state: present
+
+  - name: download neovim to /tmp
+    get_url:
+      url: "https://github.com/neovim/neovim/releases/download/v0.10.1/nvim-linux64.tar.gz"
+      dest: "/tmp/nvim-linux64.tar.gz"
+      mode: "0644"
+
+  - name: extract neovim archive
+    unarchive:
+      src: "/tmp/nvim-linux64.tar.gz"
+      dest: "/tmp"
+      remote_src: yes
+
+  - name: create symlink for neovim
+    file:
+      src: "/tmp/nvim-linux64/bin/nvim"
+      dest: "/usr/local/bin/nvim"
+      state: link
+
+  - name: get version
+    command: nvim --version
+    register: output
+
+  - debug: msg="{{ output.stdout }}"
+
+  - name: clean up old neovim configs
+    file:
+      path: "{{ item }}"
+      state: absent
+    with_items:
+      - "~/.local/share/nvim"
+      - "~/.local/state/nvim"
+      - "~/.cache/nvim"
+
+  # To delete old configs $ rm -rf ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
+  - name: remove existing nvim config if exists
+    file:
+      path: "~/.config/nvim"
+      state: absent
+
+  - name: symlink the configs
+    file:
+      src: "/home/clivern/space/anubis/nvim"
+      dest: "~/.config/nvim"
+      state: link
