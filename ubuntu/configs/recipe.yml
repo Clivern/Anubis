@@ -29,9 +29,6 @@ vars:
 
 templates:
   aliases.j2: aliases.j2
-  bash_profile.j2: bash_profile.j2
-  bash_prompt.j2: bash_prompt.j2
-  bashrc.j2: bashrc.j2
   editorconfig.j2: editorconfig.j2
   exports.j2: exports.j2
   functions.j2: functions.j2
@@ -40,33 +37,74 @@ templates:
   gitconfig-work.j2: gitconfig-work.j2
   gitconfig.j2: gitconfig.j2
   gitignore.j2: gitignore.j2
-  macos.j2: macos.j2
-  my.cnf.j2: my.cnf.j2
-  profile.j2: profile.j2
-  ruby-version.j2: ruby-version.j2
-  screenrc.j2: screenrc.j2
-  vimrc.j2: vimrc.j2
-  zshrc.j2: zshrc.j2
-  config_global.json.j2: config_global.json.j2
   anubis.j2: anubis.j2
-  secrets.j2: secrets.j2
-  zprofile.j2: zprofile.j2
 
 tasks:
-  - name: create dot config file
+  - name: create root config files
     template:
       src: "{{ item.src }}"
       dest: "{{ item.dest }}"
       mode: "{{ item.mode }}"
     with_items:
-      - { src: "aliases.j2", dest: "~/.aliases", mode: "0600" }
       - { src: "editorconfig.j2", dest: "~/.editorconfig", mode: "0600" }
-      - { src: "exports.j2", dest: "~/.exports", mode: "0600" }
-      - { src: "functions.j2", dest: "~/.functions", mode: "0600" }
       - { src: "gitattributes.j2", dest: "~/.gitattributes", mode: "0600" }
       - { src: "gitconfig-personal.j2", dest: "~/.gitconfig-personal", mode: "0600" }
       - { src: "gitconfig-work.j2", dest: "~/.gitconfig-work", mode: "0600" }
       - { src: "gitconfig.j2", dest: "~/.gitconfig", mode: "0600" }
       - { src: "gitignore.j2", dest: "~/.gitignore", mode: "0600" }
-      - { src: "profile.j2", dest: "~/.profile", mode: "0600" }
+      - { src: "aliases.j2", dest: "~/.aliases", mode: "0600" }
+      - { src: "exports.j2", dest: "~/.exports", mode: "0600" }
+      - { src: "functions.j2", dest: "~/.functions", mode: "0600" }
       - { src: "anubis.j2", dest: "/usr/local/bin/anubis", mode: "a+x" }
+
+  - name: create clivern config files
+    template:
+      src: "{{ item.src }}"
+      dest: "{{ item.dest }}"
+      mode: "{{ item.mode }}"
+      owner: "clivern"
+      group: "clivern"
+    with_items:
+      - { src: "aliases.j2", dest: "/home/clivern/.aliases", mode: "0600" }
+      - { src: "exports.j2", dest: "/home/clivern/.exports", mode: "0600" }
+      - { src: "functions.j2", dest: "/home/clivern/.functions", mode: "0600" }
+
+  - name: append custom config loading to root bashrc
+    blockinfile:
+      path: "/root/.bashrc"
+      block: |
+        # Load custom configuration files
+        if [ -f ~/.aliases ]; then
+          . ~/.aliases
+        fi
+
+        if [ -f ~/.exports ]; then
+          . ~/.exports
+        fi
+
+        if [ -f ~/.functions ]; then
+          . ~/.functions
+        fi
+      marker: "# {mark} ANSIBLE MANAGED BLOCK - custom files"
+      mode: "0600"
+
+  - name: append custom config loading to clivern bashrc
+    blockinfile:
+      path: "/home/clivern/.bashrc"
+      block: |
+        # Load custom configuration files
+        if [ -f ~/.aliases ]; then
+          . ~/.aliases
+        fi
+
+        if [ -f ~/.exports ]; then
+          . ~/.exports
+        fi
+
+        if [ -f ~/.functions ]; then
+          . ~/.functions
+        fi
+      marker: "# {mark} ANSIBLE MANAGED BLOCK - custom files"
+      owner: "clivern"
+      group: "clivern"
+      mode: "0600"
