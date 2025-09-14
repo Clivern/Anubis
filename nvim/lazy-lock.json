@@ -26,6 +26,6 @@
   "telescope.nvim": { "branch": "master", "commit": "b4da76be54691e854d3e0e02c36b0245f945c2c7" },
   "tuk.nvim": { "branch": "main", "commit": "df0ff00a3de86d1ed4a387807daf9a0367b3431f" },
   "ui": { "branch": "v3.0", "commit": "4852e04faefbba3a18cb197b76ac00f4bc2e615f" },
-  "volt": { "branch": "main", "commit": "7b8c5e790120d9f08c8487dcb80692db6d2087a1" },
+  "volt": { "branch": "main", "commit": "620de1321f275ec9d80028c68d1b88b409c0c8b1" },
   "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" }
 }
