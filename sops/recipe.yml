@@ -32,7 +32,7 @@ tasks:
     when: ansible_os_family == "Debian"
 
   - name: Verify sops version
-    command: sops --version
+    command: sops --version --check-for-updates
     register: sops_version_output
     changed_when: false
     when: ansible_os_family == "Debian"
