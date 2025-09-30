@@ -22,10 +22,11 @@
 
 
 tasks:
-  - name: installing rbenv, ruby-build package
+  - name: Installing rbenv, ruby-build package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - rbenv
       - ruby-build
+    when: ansible_os_family == "Darwin"

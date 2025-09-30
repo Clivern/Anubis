@@ -22,9 +22,10 @@
 
 
 tasks:
-  - name: installing sq package
+  - name: Installing sq package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - neilotoole/sq/sq
+    when: ansible_os_family == "Darwin"

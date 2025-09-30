@@ -22,9 +22,10 @@
 
 
 tasks:
-  - name: installing ruby package
+  - name: Installing ruby package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - ruby
+    when: ansible_os_family == "Darwin"

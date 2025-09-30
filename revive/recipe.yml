@@ -22,21 +22,25 @@
 
 
 tasks:
-  - name: download revive
+  - name: Download revive
     unarchive:
       src: https://github.com/mgechev/revive/releases/download/v1.3.4/revive_darwin_amd64.tar.gz
       dest: /tmp
       remote_src: yes
+    when: ansible_os_family == "Darwin"
 
-  - name: copy revive
+  - name: Copy revive
     copy:
       src: /tmp/revive
       dest: ~/bin/revive
       mode: a+x
       force: true
+    when: ansible_os_family == "Darwin"
 
-  - name: get version
+  - name: Get version
     command: revive --version
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"

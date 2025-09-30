@@ -21,5 +21,10 @@
 # SOFTWARE.
 
 tasks:
+  - name: Check if pipx is installed
+    command: pipx --version
+    register: pipx_version
+    failed_when: pipx_version.rc != 0
+
   - name: Install pyinfra python package on version 2.8
     command: pipx install pyinfra==2.8

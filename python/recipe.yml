@@ -22,9 +22,25 @@
 
 
 tasks:
-  - name: installing python@3.11 package
+  - name: Installing python@3.11 package
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - python@3.11
+    when: ansible_os_family == "Darwin"
+
+  - name: installing python packages
+    apt:
+      name: "{{ item }}"
+      state: present
+    with_items:
+      - python3
+      - python3-pip
+      - python3-venv
+      - python3-dev
+      - build-essential
+      - python3-setuptools
+      - python3-wheel
+      - python-is-python3
+    when: ansible_os_family == "Debian"

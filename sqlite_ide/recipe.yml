@@ -22,10 +22,11 @@
 
 
 tasks:
-  - name: installing db-browser-for-sqlite https://sqlitebrowser.org/
+  - name: Installing db-browser-for-sqlite https://sqlitebrowser.org/
     homebrew:
       name: "{{ item }}"
       state: present
     with_items:
       - db-browser-for-sqlite
+    when: ansible_os_family == "Darwin"
 
