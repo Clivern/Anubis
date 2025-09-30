@@ -22,46 +22,46 @@
 
 
 tasks:
-  - name: Download vault
+  - name: Download bao
     unarchive:
-      src: https://releases.hashicorp.com/vault/1.20.4/vault_1.20.4_darwin_amd64.zip
+      src: https://github.com/openbao/openbao/releases/download/v2.4.1/bao_2.4.1_Darwin_x86_64.tar.gz
       dest: /tmp
       remote_src: yes
     when: ansible_os_family == "Darwin"
 
-  - name: Copy vault
+  - name: Copy bao
     copy:
-      src: /tmp/vault
-      dest: ~/bin/vault
+      src: /tmp/bao
+      dest: ~/bin/bao
       mode: a+x
       force: true
     when: ansible_os_family == "Darwin"
 
   - name: Get version
-    command: vault version
+    command: bao version
     register: output
     when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
     when: ansible_os_family == "Darwin"
 
-  - name: Download vault
+  - name: Download bao
     unarchive:
-      src: https://releases.hashicorp.com/vault/1.20.4/vault_1.20.4_linux_amd64.zip
+      src: https://github.com/openbao/openbao/releases/download/v2.4.1/bao_2.4.1_Linux_x86_64.tar.gz
       dest: /tmp
       remote_src: yes
     when: ansible_os_family == "Debian"
 
-  - name: Copy vault
+  - name: Copy bao
     copy:
-      src: /tmp/vault
-      dest: /usr/local/bin/vault
+      src: /tmp/bao
+      dest: /usr/local/bin/bao
       mode: a+x
       force: true
     when: ansible_os_family == "Debian"
 
   - name: Get version
-    command: vault version
+    command: bao version
     register: output
     when: ansible_os_family == "Debian"
 
