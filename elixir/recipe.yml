@@ -30,7 +30,7 @@ tasks:
       - elixir
     when: ansible_os_family == "Darwin"
 
-  - name: Installing elixir packages
+  - name: installing elixir packages
     apt:
       name: "{{ item }}"
       state: present

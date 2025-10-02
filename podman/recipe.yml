@@ -28,9 +28,28 @@ tasks:
       state: present
     with_items:
       - podman
+    when: ansible_os_family == "Darwin"
 
   - name: get version
     command: podman -v
     register: output
+    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Darwin"
+
+  - name: installing podman package
+    apt:
+      name: "{{ item }}"
+      state: present
+    with_items:
+      - podman
+    when: ansible_os_family == "Debian"
+
+  - name: get version
+    command: podman -v
+    register: output
+    when: ansible_os_family == "Debian"
+
+  - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Debian"

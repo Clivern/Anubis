@@ -24,3 +24,8 @@
 tasks:
   - name: Install rust and cargo
     command: curl https://sh.rustup.rs -sSf | sh
+    when: ansible_os_family == "Darwin"
+
+  - name: Install rust and cargo
+    command: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    when: ansible_os_family == "Debian"

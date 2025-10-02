@@ -22,9 +22,53 @@
 
 
 tasks:
-  - name: Installing podman packages
+  - name: Install required packages
     apt:
       name: "{{ item }}"
       state: present
     with_items:
-      - podman
+      - wget
+      - unzip
+      - curl
+    when: ansible_os_family == "Debian"
+
+  - name: Download Terraform
+    get_url:
+      url: https://releases.hashicorp.com/terraform/1.13.1/terraform_1.13.1_linux_amd64.zip
+      dest: /tmp/terraform.zip
+      mode: '0644'
+    when: ansible_os_family == "Debian"
+
+  - name: Extract Terraform
+    unarchive:
+      src: /tmp/terraform.zip
+      dest: /tmp
+      remote_src: yes
+    when: ansible_os_family == "Debian"
+
+  - name: Copy Terraform to bin directory
+    copy:
+      src: /tmp/terraform
+      dest: /usr/local/bin/terraform
+      mode: a+x
+      force: true
+    when: ansible_os_family == "Debian"
+
+  - name: Clean up temporary files
+    file:
+      path: "{{ item }}"
+      state: absent
+    with_items:
+      - /tmp/terraform.zip
+      - /tmp/terraform
+    when: ansible_os_family == "Debian"
+
+  - name: Get Terraform version
+    command: terraform version
+    register: output
+    environment:
+      PATH: "/usr/local/bin:{{ ansible_env.PATH }}"
+    when: ansible_os_family == "Debian"
+
+  - debug: msg="{{ output.stdout }}"
+    when: ansible_os_family == "Debian"

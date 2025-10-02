@@ -26,5 +26,5 @@ tasks:
     register: pipx_version
     failed_when: pipx_version.rc != 0
 
-  - name: Install ruff python package on version 0.7.1
-    command: pipx install ruff==0.7.1
+  - name: Install ruff python package on version 0.13.3
+    command: pipx install ruff==0.13.3

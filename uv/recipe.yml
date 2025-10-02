@@ -26,5 +26,5 @@ tasks:
     register: pipx_version
     failed_when: pipx_version.rc != 0
 
-  - name: Install uv python package on version 0.7.19
-    command: pipx install uv==0.7.19
+  - name: Install uv python package on version 0.8.22
+    command: pipx install uv==0.8.22

@@ -30,7 +30,7 @@ tasks:
       - python@3.11
     when: ansible_os_family == "Darwin"
 
-  - name: installing python packages
+  - name: Installing python packages
     apt:
       name: "{{ item }}"
       state: present
