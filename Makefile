@@ -1,6 +1,6 @@
 help: Makefile
 	@echo
-	@echo " Choose a command run in Kemet:"
+	@echo " Choose a command run in Matrix:"
 	@echo
 	@sed -n 's/^##//p' $< | column -t -s ':' |  sed -e 's/^/ /'
 	@echo
@@ -14,15 +14,7 @@ hosts:
 
 ## recipes: Load Recipes.
 recipes:
-	@COUNT=$$(yq -r '.recipes | length' dot.yml); \
-	i=0; \
-	while [[ $$i -lt $$COUNT ]]; do \
-		name=$$(yq -r ".recipes[$$i].name" dot.yml); \
-		path=$$(yq -r ".recipes[$$i].path" dot.yml); \
-		tags=$$(yq -r ".recipes[$$i].tags" dot.yml); \
-		opswork recipe add $$name -p $$path  -t $$tags -f; \
-		i=$$((i+1)); \
-	done
+	opswork batch load setup.yml --force
 
 
 ## config: Reload and sync configs
@@ -33,10 +25,7 @@ config:
 
 ## run: Run Recipes.
 run:
-	@echo ">> ============= Run Recipes ============= <<"
-	@for name in $$(yq -r '.run[].name' dot.yml); do \
-		opswork recipe run $$name -h localhost; \
-	done
+	opswork batch run setup.yml -h localhost
 
 
 ## rnvcache: Clean Neovim cache

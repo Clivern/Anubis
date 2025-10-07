@@ -22,7 +22,7 @@
 
 
 # recipes to load
-recipes:
+load:
   - name: clivern/matrix/update
     path: brew/update
     tags: matrix,must_have
@@ -399,78 +399,78 @@ recipes:
 
 # recipes to install
 run:
-  - name: clivern/matrix/update
-  - name: clivern/matrix/upgrade
-  - name: clivern/matrix/base
-  - name: clivern/matrix/gnu-tar
-  - name: clivern/matrix/jq
-  - name: clivern/matrix/caddy
-  - name: clivern/matrix/consul
-  - name: clivern/matrix/packer
-  - name: clivern/matrix/nomad
-  - name: clivern/matrix/vault
-  - name: clivern/matrix/ack
-  - name: clivern/matrix/curl
-  - name: clivern/matrix/bat
-  - name: clivern/matrix/neovim
-  - name: clivern/matrix/vim
-  - name: clivern/matrix/python
-  - name: clivern/matrix/php
-  - name: clivern/matrix/goenv
-  - name: clivern/matrix/lua
-  - name: clivern/matrix/elixir
-  - name: clivern/matrix/rust
-  - name: clivern/matrix/nmap
-  - name: clivern/matrix/netcat
-  - name: clivern/matrix/mysql
-  - name: clivern/matrix/postgresql
-  - name: clivern/matrix/sq
-  - name: clivern/matrix/kubectx
-  - name: clivern/matrix/kubectl
-  - name: clivern/matrix/helm
-  - name: clivern/matrix/kops
-  - name: clivern/matrix/k6
-  - name: clivern/matrix/httpie
-  - name: clivern/matrix/pet
-  - name: clivern/matrix/screen
-  - name: clivern/matrix/tfswitch
-  - name: clivern/matrix/opentofu
-  - name: clivern/matrix/watch
-  - name: clivern/matrix/wget
-  - name: clivern/matrix/ytt
-  - name: clivern/matrix/task
-  - name: clivern/matrix/tmux
-  - name: clivern/matrix/tree
-  - name: clivern/matrix/ttyrec
-  - name: clivern/matrix/pipx
-  - name: clivern/matrix/cowsay
-  - name: clivern/matrix/multipass
-  - name: clivern/matrix/copier
-  - name: clivern/matrix/poetry
-  - name: clivern/matrix/lsp
-  - name: clivern/matrix/jupyterlab
-  - name: clivern/matrix/pyinfra
-  - name: clivern/matrix/txy
-  - name: clivern/matrix/ruff
-  - name: clivern/matrix/uv
-  - name: clivern/matrix/locust
-  - name: clivern/matrix/streamlit
-  - name: clivern/matrix/github
-  - name: clivern/matrix/zsh
-  - name: clivern/matrix/doctl
-  - name: clivern/matrix/aws
-  - name: clivern/matrix/dolt
-  - name: clivern/matrix/podman
-  - name: clivern/matrix/jump
-  - name: clivern/matrix/zoxide
-  - name: clivern/matrix/hyperfine
-  - name: clivern/matrix/hurl
-  - name: clivern/matrix/rhino
-  - name: clivern/matrix/bazel
-  - name: clivern/matrix/symfony
-  - name: clivern/matrix/pgcli
-  - name: clivern/matrix/cheat
-  - name: clivern/matrix/gum
-  - name: clivern/matrix/ngrok
-  - name: clivern/matrix/sqlite_ide
-  - name: clivern/matrix/configs
+  - clivern/matrix/update
+  - clivern/matrix/upgrade
+  - clivern/matrix/base
+  - clivern/matrix/gnu-tar
+  - clivern/matrix/jq
+  - clivern/matrix/caddy
+  - clivern/matrix/consul
+  - clivern/matrix/packer
+  - clivern/matrix/nomad
+  - clivern/matrix/vault
+  - clivern/matrix/ack
+  - clivern/matrix/curl
+  - clivern/matrix/bat
+  - clivern/matrix/neovim
+  - clivern/matrix/vim
+  - clivern/matrix/python
+  - clivern/matrix/php
+  - clivern/matrix/goenv
+  - clivern/matrix/lua
+  - clivern/matrix/elixir
+  - clivern/matrix/rust
+  - clivern/matrix/nmap
+  - clivern/matrix/netcat
+  - clivern/matrix/mysql
+  - clivern/matrix/postgresql
+  - clivern/matrix/sq
+  - clivern/matrix/kubectx
+  - clivern/matrix/kubectl
+  - clivern/matrix/helm
+  - clivern/matrix/kops
+  - clivern/matrix/k6
+  - clivern/matrix/httpie
+  - clivern/matrix/pet
+  - clivern/matrix/screen
+  - clivern/matrix/tfswitch
+  - clivern/matrix/opentofu
+  - clivern/matrix/watch
+  - clivern/matrix/wget
+  - clivern/matrix/ytt
+  - clivern/matrix/task
+  - clivern/matrix/tmux
+  - clivern/matrix/tree
+  - clivern/matrix/ttyrec
+  - clivern/matrix/pipx
+  - clivern/matrix/cowsay
+  - clivern/matrix/multipass
+  - clivern/matrix/copier
+  - clivern/matrix/poetry
+  - clivern/matrix/lsp
+  - clivern/matrix/jupyterlab
+  - clivern/matrix/pyinfra
+  - clivern/matrix/txy
+  - clivern/matrix/ruff
+  - clivern/matrix/uv
+  - clivern/matrix/locust
+  - clivern/matrix/streamlit
+  - clivern/matrix/github
+  - clivern/matrix/zsh
+  - clivern/matrix/doctl
+  - clivern/matrix/aws
+  - clivern/matrix/dolt
+  - clivern/matrix/podman
+  - clivern/matrix/jump
+  - clivern/matrix/zoxide
+  - clivern/matrix/hyperfine
+  - clivern/matrix/hurl
+  - clivern/matrix/rhino
+  - clivern/matrix/bazel
+  - clivern/matrix/symfony
+  - clivern/matrix/pgcli
+  - clivern/matrix/cheat
+  - clivern/matrix/gum
+  - clivern/matrix/ngrok
+  - clivern/matrix/sqlite_ide
+  - clivern/matrix/configs
