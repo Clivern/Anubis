@@ -24,7 +24,7 @@
 tasks:
   - name: Download goenv
     unarchive:
-      src: https://github.com/Clivern/Goenv/releases/download/v1.20.0/goenv_Darwin_x86_64.tar.gz
+      src: https://github.com/Clivern/Goenv/releases/download/v1.22.0/goenv_Darwin_x86_64.tar.gz
       dest: /tmp
       remote_src: yes
     when: ansible_os_family == "Darwin"
@@ -47,7 +47,7 @@ tasks:
 
   - name: Download goenv
     unarchive:
-      src: https://github.com/Clivern/Goenv/releases/download/v1.20.0/goenv_Linux_x86_64.tar.gz
+      src: https://github.com/Clivern/Goenv/releases/download/v1.22.0/goenv_Linux_x86_64.tar.gz
       dest: /tmp
       remote_src: yes
     when: ansible_os_family == "Debian"
