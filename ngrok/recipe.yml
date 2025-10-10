@@ -20,11 +20,14 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+secrets:
+  # $ op secret add ngrok_auth_token xxxxxxxxxxxxxxxxxxxxx -t ngrok -f
+  ngrok_auth_token: ngrok_auth_token
 
 tasks:
   - name: Download ngrok
     unarchive:
-      src: https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-darwin-amd64.zip
+      src: https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-darwin-arm64.zip
       dest: /tmp
       remote_src: yes
     when: ansible_os_family == "Darwin"
@@ -37,10 +40,26 @@ tasks:
       force: true
     when: ansible_os_family == "Darwin"
 
+  - name: Download ngrok
+    unarchive:
+      src: https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
+      dest: /tmp
+      remote_src: yes
+    when: ansible_os_family == "Debian"
+
+  - name: Copy ngrok
+    copy:
+      src: /tmp/ngrok
+      dest: /usr/local/bin/ngrok
+      mode: a+x
+      force: true
+    when: ansible_os_family == "Debian"
+
+  - name: Add auth token
+    command: ngrok config add-authtoken {{ ngrok_auth_token }}
+
   - name: Get version
     command: ngrok version
     register: output
-    when: ansible_os_family == "Darwin"
 
   - debug: msg="{{ output.stdout }}"
-    when: ansible_os_family == "Darwin"
