@@ -4,7 +4,7 @@ ansible-runner==2.4.1
 certifi==2025.10.5
 cffi==2.0.0
 charset-normalizer==3.4.3
-click==8.1.8
+click==8.3.0
 cryptography==46.0.2
 gitdb==4.0.12
 GitPython==3.1.45
@@ -27,9 +27,9 @@ Pygments==2.19.2
 pynvim==0.5.2
 python-daemon==3.1.2
 PyYAML==6.0.3
-requests==2.32.3
+requests==2.32.5
 resolvelib==1.0.1
-rich==14.0.0
+rich==14.2.0
 smmap==5.0.2
 typing_extensions==4.15.0
 urllib3==2.5.0
