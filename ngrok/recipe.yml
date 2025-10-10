@@ -58,6 +58,12 @@ tasks:
   - name: Add auth token
     command: ngrok config add-authtoken {{ ngrok_auth_token }}
 
+  - name: Check configuration
+    command: ngrok config check
+
+  - name: Update ngrok
+    command: ngrok update
+
   - name: Get version
     command: ngrok version
     register: output

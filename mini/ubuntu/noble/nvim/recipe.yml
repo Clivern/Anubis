@@ -32,6 +32,11 @@ tasks:
       name: ripgrep
       state: present
 
+  - name: installing xclip package
+    apt:
+      name: xclip
+      state: present
+
   - name: download neovim to /tmp
     get_url:
       url: "https://github.com/neovim/neovim/releases/download/v0.11.4/nvim-linux-x86_64.tar.gz"
