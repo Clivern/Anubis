@@ -9,7 +9,7 @@ cryptography==46.0.2
 gitdb==4.0.12
 GitPython==3.1.45
 greenlet==3.2.4
-idna==3.10
+idna==3.11
 Jinja2==3.1.6
 lockfile==0.12.2
 markdown-it-py==4.0.0
